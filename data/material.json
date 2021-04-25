@@ -1,0 +1,64 @@
+﻿// 能量
+{id:1,name:"希特拉能量"}
+{id:2,name:"夫達拉能量"}
+{id:3,name:"米特羅能量"}
+{id:4,name:"尤克魯能量"}
+{id:5,name:"Idzuru能量"}
+{id:6,name:"Mubaru能量"}
+{id:7,name:"瓦姆斯能量"}
+{id:8,name:"希汀能量"}
+{id:9,name:"史利基能量"}
+{id:10,name:"法達能量"}
+
+// 晶片
+{id:11,name:"紅色晶片"}
+{id:12,name:"藍色晶片"}
+{id:13,name:"黃色晶片"}
+{id:14,name:"綠色晶片"}
+{id:15,name:"黑色晶片"}
+{id:16,name:"彩虹晶片"}
+
+// Other
+{id:17,name:"能量增幅器"}
+{id:18,name:"能量安定器"}
+{id:19,name:"引擎回轉軸"}
+{id:20,name:"渦輪增壓器"}
+{id:21,name:"制動器"}
+{id:22,name:"自然之石"}
+{id:23,name:"銳利金屬"}
+{id:24,name:"望遠鏡"}
+{id:25,name:"躍動水晶"}
+{id:26,name:"彈鼓"}
+{id:27,name:"脈衝鉛塊"}
+{id:28,name:"導航回路"}
+{id:29,name:"熾熱之灰"}
+{id:30,name:"緩慢液體"}
+{id:31,name:"立方玻璃"}
+{id:32,name:"酸性凝膠"}
+{id:33,name:"大鋼板"}
+{id:34,name:"隕石碎片"}
+
+// Boss Quest
+{id:35,name:"螺絲釘"}
+{id:36,name:"輪框"}
+{id:37,name:"菊石"}
+{id:38,name:"光輝羽毛"}
+
+// Tutorials
+{id:39,name:"Proto Cosmos"}
+
+{id:40,name:"Handa Cosmos"}
+
+//Ex tunes
+{id:41,name:"Generic Element"}
+{id:42,name:"Superior Element"}
+{id:43,name:"Tough Element"}
+{id:44,name:"Power Element"}
+{id:45,name:"Tech Element"}
+{id:46,name:"Run Element"}
+{id:47,name:"Boost Element"}
+
+//Composite
+{id:48,name:"[CA] Composite Cosmos"}
+{id:49,name:"[HC] Composite Cosmos"}
+{id:50,name:"[GC] Composite Cosmos"}

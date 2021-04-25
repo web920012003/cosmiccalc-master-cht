@@ -1,0 +1,70 @@
+﻿{group:"Tracking Melee",prefixID:"FP"}
+{id:1,name:"Dual Spike Bit",type:"ls"}
+{id:2,name:"Dual 3 way Bit",type:"ls"}
+{id:3,name:"Sword Bit"}
+{id:4,name:"Slayer Bit",cost:5}
+{id:5,name:"Dual Slayer Bit",type:"ls",cost:10}
+{id:6,name:"Dual Axe Bit",type:"ls"}
+{id:7,name:"Dual Lance Bit",type:"ls"}
+{id:8,name:"Axesword Bit",type:"ls"}
+{id:9,name:"Pepen Bit",cost:5}
+{id:10,name:"Dual Pepen Bit",cost:10}
+{id:11,name:"Berzelius Fly Bit",cost:5}
+{id:12,name:"Dead Arm Bit"}
+{id:13,name:"Dead Sect Arm Bit",type:"las"}
+
+
+{group:"Tracking Shot",prefixID:"FS"}
+{id:1,name:"Dual Missile Bit D",type:"cs",cost:5}
+{id:2,name:"Dual Beam Bit",type:"as"}
+{id:3,name:"Laser Bit"}
+{id:4,name:"Dual Laser Bit",type:"as",cost:10}
+{id:5,name:"Blaster Bit"}
+{id:6,name:"Dual Blaster Bit",type:"as",cost:10}
+{id:7,name:"Dual Auto Gun Bit",type:"lcs"}
+{id:8,name:"Dual Rifle Bit",type:"lcs",cost:5}
+{id:9,name:"Dual Machinegun Bit",type:"lcs"}
+{id:10,name:"Berzelius Laser Bit",cost:5}
+{id:11,name:"Haku Circle Bit",cost:10}
+{id:12,name:"Haku Dummy Bit",cost:10}
+{id:13,name:"Fractulus Laser Bit",type:"a",cost:5}
+{id:14,name:"Fractulus Pulse Bit ",type:"as",cost:10}
+{id:15,name:"Pumpkin Missile Bit"}
+{id:16,name:"Crowske Bit"}
+{id:17,name:"Burner Bit",type:"lcs"}
+{id:18,name:"Bazooka Bit",type:"lcs"}
+{id:19,name:"Chibi Lios Bit",cost:5}
+{id:20,name:"Eaglet B Bit",type:"a"}
+{id:21,name:"Water Flower PS Bit"}
+//{id:22,name:"Queen Garnet"}
+// {id:24,name:"Jamming Disk"}
+
+{id:1021,name:"Nemlim Bat Bit"}
+
+{group:"Placed Shot",prefixID:"SS"}
+{id:1,name:"Pillbox Unit",type:"lcs",cost:5}
+{id:2,name:"Vulcan Unit",cost:5}
+{id:3,name:"Sniping Unit",cost:5}
+{id:4,name:"Statue Unit",comment:"EPITOME OF MANLINESS"}
+{id:5,name:"Tomb Unit"}
+{id:6,name:"Chocolate Cake Unit"}
+// {id:7,name:"Guardian Pawn",type:"lacs",comment:"エレオノール、アンリエール専用WB"}
+
+
+
+{group:"Support",prefixID:"FA",commonStat:{type:"s"}}
+{id:1,name:"Propeller Bit",type:"a",cost:5}
+{id:2,name:"Burst Fire Bit",cost:5}
+{id:3,name:"Repair Bit",cost:5}
+{id:4,name:"Mini Repair Bit"}
+{id:5,name:"Mini Burst Fire Bit"}
+{id:6,name:"Anti Homing Bit",type:"l",cost:15}
+{id:7,name:"Camouflage Bit",cost:10}
+{id:8,name:"Chivalry Shield Bit",type:"lacs"}
+
+
+{group:"Placed Support",prefixID:"SA",commonStat:{type:"s"}}
+{id:1,name:"Long Range Unit",cost:5}
+{id:2,name:"Mini Long Range Unit"}
+{id:3,name:"Teleport Unit",cost:10}
+{id:4,name:"Undead Unit",cost:5}

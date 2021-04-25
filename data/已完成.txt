@@ -1,0 +1,8 @@
+tuneup.json 強化
+material.json 素材
+defaultwb WB裝置(半
+mainwp 武器(商店貨)
+cartridge 卡片名稱
+AMJ、BSJ、LGJ(商店貨)
+機體(商店貨、星幣、轉蛋(除飾品
+交換所 (渾沌幣

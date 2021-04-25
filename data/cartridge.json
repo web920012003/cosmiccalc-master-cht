@@ -1,0 +1,68 @@
+﻿{id:1,name:"提升戰力值上限 +75",comment:"Raises robot's cost capacity by 75 and HP by #hp."}
+{id:2,name:"提升戰力值上限 +80",comment:"Raises robot's cost capacity by 80 and HP by #hp."}
+{id:3,name:"提升戰力值上限 +85",comment:"Raises robot's cost capacity by 85 and HP by #hp."}
+{id:4,name:"提升戰力值上限 +90",comment:"Raises robot's cost capacity by 90 and HP by #hp."}
+{id:5,name:"提升戰力值上限 +95",comment:"Raises robot's cost capacity by 95 and HP by #hp."}
+{id:6,name:"強化武器",comment:"Enhances the core's built in weapon. Raises robot's cost capacity by 60 and HP by 15"}
+{id:7,name:"裝甲防護",comment:"Decreases damage from bullet type projectiles by 15%."}
+{id:8,name:"光束防護",comment:"Decreases damage from beam type projectiles by 30% (55% for ART bots)."}
+{id:9,name:"近戰防護",comment:"Decreases damage from melee attacks by 40% (50% for AIR bots)."}
+{id:10,name:"暴風防護",comment:"Decreases damage from explosive projectiles by 50% (55% for LND bots)."}
+{id:11,name:"燃燒抵抗",comment:"Allows robot to move normally even when on fire."}
+{id:12,name:"緩速抵抗",comment:"Effects of slow traps will be reduced."}
+{id:13,name:"狀態異常抵抗",comment:"Status effects will only last half as long as usual."}
+{id:14,name:"EX防護",comment:"Raises the HP of your Wonder Bit."}
+{id:15,name:"硬質回復",comment:"Restores a small amount of HP when stunned."}
+{id:16,name:"強硬突擊",comment:"Decreases chance of being stunned when attacked while running."}
+{id:17,name:"緊急迴避",comment:"Allows you to use the custom dash action 'Sway'."}
+{id:18,name:"短距跳躍",comment:"Allows you to use the custom dash action 'Short Boost'. Instead of dashing, you will jump a short distance."}
+{id:19,name:"浮游衝刺",comment:"Allows you to use the custom dash action 'Float Dash'. Instead of dashing, you will move by flying close to the ground."}
+{id:20,name:"高速移動",comment:"Allows you to use the custom running action 'Boost Run'. Uses boost gauge to increase running speed."}
+{id:21,name:"推進燃料",comment:"Boost gauge will recharge 30% faster."}
+{id:22,name:"高速爬升",comment:"Allows you to reach maximum altitude quicker."}
+{id:23,name:"安定降落",comment:"Allows you to make a quicker landing from the air."}
+{id:24,name:"水中步行",comment:"Allows you to move quickly through water."}
+{id:25,name:"復仇槍擊",comment:"Allows robot to occasionally attack without using up ammo when HP is below 50."}
+{id:26,name:"突擊移動",comment:"Allows you to move for a short period of time while firing all weapons."}
+{id:27,name:"HP吸收",comment:"Restores a small amount of HP whenever you destroy a robot in the Arena."}
+{id:28,name:"必殺值增加",comment:"WB gauge's increase rate will grow when robot is damaged."}
+{id:29,name:"緩衝撞擊",comment:"Robot will not move when bumped into by other robots."}
+{id:30,name:"狙擊精準器",comment:"Enemies will not be alerted when you have locked on to them."}
+{id:31,name:"反偵測系統",comment:"Makes robot invisible to enemy radar."}
+{id:32,name:"強化雷達",comment:"Allows robot to view all enemies on radar."}
+{id:33,name:"必殺回復",comment:"Your WB gauge will slowly increase automatically."}
+{id:34,name:"突擊墊步",comment:"Allows you to use the custom dash action 'Assault Step'. Steps quickly forward, and jumps left and right."}
+{id:35,name:"Zero Cartridge",comment:"Other special carts for 'Zero' type."}
+{id:36,name:"空中衝刺",comment:"Adds a Mid-air Dash Action called the [Accele Roll] to the robot."}
+{id:37,name:"空中翻轉",comment:"Adds a Mid-air Dash Action called the [Air Loop] to the robot."}
+{id:38,name:"Ninja Run",comment:"Allows you to use the custom running action [Ninja Run]. Uses boost gauge to hide while running. Note: Cannot be used with Boost Run."}
+{id:39,name:"滑翔噴射",comment:"Allows you to use the custom aerial dash action [Glide Boost]"}
+{id:42,name:"推進墊步",comment:"Allows you to use the custom dash action [Boost Step]. By flying just above the ground, allows for quick turns and rapid evasion."}
+{id:43,name:"Hyper Radiator",comment:"Reduces damage from Burning and Melt status, also reduces Slow from Melt status into Light Slow."}
+//{id:44,ex:1,name:"エクスラズ用ダミーカートリッジ",comment:"エクスラズフラム用ダミーカートッジ",cost:180}
+{id:47,name:"空中墊步",comment:"Adds a Mid-air Dash Action called the [Air Step] to the robot."}
+{id:48,name:"483",comment:"Increase Shell type attack by 15%."}
+{id:49,name:"484",comment:"Increase Blast type attack by 15%."}
+{id:50,name:"485",comment:"Increase Beam type attack by 15%."}
+{id:51,name:"486",comment:"Increase Physical type attack by 15%."}
+{id:52,name:"強化武器",comment:"Enhances the core's built in weapon. Raises robot's cost capacity by 65 and HP by 15"}
+{id:53,name:"強化武器",comment:"Enhances the core's built in weapon. Raises robot's cost capacity by 70 and HP by 15"}
+{id:54,name:"推進步伐",comment:"推進步伐"}
+{id:55,name:"終極翻滾",comment:"終極翻滾"}
+{id:56,name:"爬升之力",comment:"爬升之力"}
+{id:57,name:"突擊步伐",comment:"突擊步伐"}
+{id:58,name:"超效能散熱器",comment:"超效能散熱器"}
+{id:59,name:"落下充能",comment:"落下充能"}
+{id:60,name:"噴射步伐",comment:"噴射步伐"}
+{id:70,name:"提升戰力值上限 +70",comment:"Raises robot's cost capacity by 70 and HP by #hp."}
+//
+{id:"EX1",ex:1,name:"空中衝刺",comment:"Adds a Mid-air Dash Action called the [Accele Roll] to the robot.",cost:30}
+{id:"EX2",ex:1,name:"空中翻轉",comment:"Adds a Mid-air Dash Action called the [Air Loop] to the robot. AIR TYPE ONLY.",cost:30}
+{id:"EX3",ex:1,name:"突擊墊步",comment:"Allows you to use the custom dash action [Assault Step]. Steps quickly forward, and jumps left and right.",cost:30}
+{id:"EX4",ex:1,name:"滑翔噴射",comment:"Allows you to use the custom aerial dash action [Glide Boost]",cost:30}
+{id:"EX5",ex:1,name:"空中墊步",comment:"Adds a Mid-air Dash Action called the [Air Step] to the robot.",cost:30}
+{id:"EX6",ex:1,name:"推進墊步",comment:"Allows you to use the custom dash action [Boost Step].",cost:30}
+{id:"EX7",ex:1,name:"幻影迴避",comment:"Allows you to use the custom dash action [幻影迴避].",cost:30}
+{id:"EX8",ex:1,name:"短距跳躍",comment:"短距跳躍",cost:30}
+{id:"EX9",ex:1,name:"緊急迴避",comment:"緊急迴避",cost:30}
+{id:"EX10",ex:1,name:"浮游衝刺",comment:"浮游衝刺",cost:30}
