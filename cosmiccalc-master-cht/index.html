@@ -1,0 +1,370 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<meta name="description" content="CosmicBreak MMO Game helper tool - robot build calculator">
+<meta name="keywords" content="CosmicBreak, CB, CosmiCalc, koi-sama, koi, online game, mmo">
+<!-- CosmiCalc - JQuery-based web application for CosmicBreak. -->
+<html>
+
+<head>
+	<title>CosmiCalc (Not updated for CBUNI)</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="content-style-type" content="text/css" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript; charset=UTF-8" />
+	<link type="text/css" href="cosmicalc.css" rel="stylesheet" />
+	<link rel="shortcut icon" href="img/favicon.ico" />
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/lz-string.min.js"></script>
+	<script type="text/javascript" src="js/cosmicalc.js"></script>
+</head>
+
+<body>
+	<div id="HEADER">
+		<div id="VERSION">CosmiCalc (Not updated for CBUNI)</div>
+		<div id="LINK_CONTAINER">
+			<a href="http://www.cosmicbreakfanforum.com/t15375-" target="_blank">_CBFF Thread_</a>
+			<a href="https://cosmicbreak-universal.com/" target="_blank">_CBUNI Home Page_</a>
+		</div>
+	</div>
+
+	<table id="MAIN_CONTENT_CONTAINER" cellspacing="0" cellpadding="0">
+	<thead><tr><td colspan="5" class="frame"><div class="sprite s-mid"></div></td></tr></thead>
+	<tfoot><tr><td colspan="5" class="frame"><div class="sprite b-mid"></div></td></tr></tfoot>
+	<tbody>
+	<tr><td id="FRAME_LM" class="frame"></td>
+		<td id="LEFT_CONTENT_CONTAINER">
+
+		<div id="ROBO_NAME_CONTAINER">
+			<img class="sprite robo-top">
+			<div id="ROBO_NAME">ROBO NAME</div>
+			<img class="sprite robo-bottom">
+		</div>
+
+		<table id="JUDGE_SORTIE" class="ng" cellspacing="0" cellpadding="0" border="0">
+			<tbody>
+				<tr id="CHECK_COST"><th class="check_title">COST</th><td class="check_val">OK</td></tr>
+				<tr id="CHECK_BS"><th class="check_title">BS</th><td class="check_val ng">NG</td></tr>
+				<tr id="CHECK_LG"><th class="check_title">LG</th><td class="check_val ng">NG</td></tr>
+			<tbody>
+		</table>
+
+		<table class="res_item_container" cellspacing="0" cellpadding="0" border="0">
+			<caption>&nbsp;</caption>
+			<tbody>
+				<tr id="RES_COST"><td class="res_item_name t4">COST</td><td class="res_current_val">0</td><td class="res_add_val"></td></tr>
+				<tr id="RES_CAPA"><td class="res_item_name t4">CAPA</td><td class="res_current_val">0</td><td class="res_add_val"></td></tr>
+			</tbody>
+		</table>
+
+		<div id="RES_TYPE" class="res_item_container"><div class="res_item_name t4">TYPE</div><div class="res_current_val">-</div><div class="res_add_val"></div></div>
+		<div id="RES_SIZE" class="res_item_container"><div class="res_item_name t4">SIZE</div><div class="res_current_val">-</div><div class="res_add_val"></div></div>
+		<div id="RES_HP" class="res_item_container"><div class="res_item_name">HP</div><div class="res_current_val">0</div><div class="res_add_val"></div></div>
+		<div id="RES_EX" class="res_item_container"><div class="res_item_name t4">EX</div><div id="EX_displayCount" class="res_current_val">0</div><div class="res_add_val"></div></div>
+
+		<table id="RESULT_TABLE" class="res_item_container" cellspacing="0" cellpadding="0" border="0">
+			<tbody>
+				<tr id="RES_STR"><td class="res_item_name">STR</td><td class="res_current_val">0</td><td class="res_add_val">　</td><td class="res_graph">　</td></tr>
+				<tr id="RES_TEC"><td class="res_item_name">TEC</td><td class="res_current_val">0</td><td class="res_add_val"></td><td class="res_graph"></td></tr>
+				<tr id="RES_WLK"><td class="res_item_name">WLK</td><td class="res_current_val">0</td><td class="res_add_val"></td><td class="res_graph"></td></tr>
+				<tr id="RES_FLY"><td class="res_item_name">FLY</td><td class="res_current_val">0</td><td class="res_add_val"></td><td class="res_graph"></td></tr>
+				<tr id="RES_TGH"><td class="res_item_name">TGH</td><td class="res_current_val">0</td><td class="res_add_val"></td><td class="res_graph"></td></tr>
+			</tbody>
+		</table>
+
+		<hr class="line"/>
+
+		<div id="FUNCTION_CONTAINER">
+			<div id="TEXT_IO_BUTTON">
+				Text:				<span id="TIO_OUT" class="button">Copy</span>
+				<span id="TIO_COMP_OUT" class="button">Output</span>
+				<span id="TIO_IN" class="button">Input</span>
+			</div>
+
+			<dl id="SAVE_SLOT">
+				<dt id="SS_DOWN_IMG">\/</dt>
+				<dt id="SS_CURRENT_VAL">slot 0: no data</dt>
+				<dd id="SS_LIST"></dd>
+			</dl>
+			<div id="SS_BOTTON">
+				<span id="CHANGE_ROBO_NAME" class="button">Rename</span>
+				<span id="SS_SAVE" class="button">Save</span>
+				<span id="SS_READ" class="button">Load</span>
+				<span id="SS_CLEAR" class="button">Delete</span>
+			</div>
+		</div>
+		
+
+		<hr class="line"/>
+
+		<div id="MESSAGE"></div>
+
+		<div id="LAST_MODIFIED"></div>
+		<!-- <div>
+			<img class="qb sprite"/>
+		</div> -->
+	</td><td id="ASSEMBLE_CONTAINER">
+
+		<div id="PARTS_TEMPLATE">
+			<div class="branch">
+				<input type="text" class="select_box" value="-" /><div class="slot"></div><div class="slot"></div><div class="slot"></div>
+				<div class="branch_line"></div>
+			</div>
+		</div>
+
+		<div id="ASSEMBLE">
+			<div id="REDO" class="un_redo disabled">Redo</div><div id="UNDO" class="un_redo disabled">Undo</div>
+			<div class="part_bd">
+				<img class="bd_img sprite sprite_22"/><input type="text" class="select_box" value="-" /><input type="button" id="SET_ALL_PARTS" value="Def" title="Set all parts to default" />
+				<input type="button" id="EXEC_AURA_SYSTEM" value="Aura" title="Toggle AURA system" />
+				<div class="branch part_wb">
+					<img class="wb_img sprite sprite_22"/><input type="text" class="select_box bltin_wb" value="-" /><div class="branch_line"></div>
+				</div>
+			</div>
+		</div>
+
+		<div id="LIST_CONTAINER">
+		<div id="LIST_TOP" class="sprite"></div>
+			<div id="UNSET_PARTS">Unset</div>
+			<ul id="LIST_BD" class="parts_list"></ul>
+			<ul id="LIST_WB" class="parts_list"></ul>
+			<ul id="LIST_LG" class="parts_list"></ul>
+			<ul id="LIST_HD" class="parts_list"></ul>
+			<ul id="LIST_BS" class="parts_list"></ul>
+			<ul id="LIST_AM" class="parts_list"></ul>
+			<ul id="LIST_WP" class="parts_list"></ul>
+			<ul id="LIST_HDAC" class="parts_list"></ul>
+			<ul id="LIST_FCAC" class="parts_list"></ul>
+
+			<ul id="LIST_TUNE"></ul>
+			<div id="LIST_BOTTOM" class="sprite"></div>
+
+			<div id="NARROW_DOWN_CONTAINER">
+				<div id="ND_TITLE">Organize</div>
+				<table id="ND_BODY" cellspacing="0" cellpadding="0" border="0">
+				<colgroup id="ND_STATUS_COL"></colgroup>
+				<colgroup id="ND_CARTRIDGE_COL"></colgroup>
+				<thead>
+					<tr><th>By Stats</th><th>By Cartridge</th></tr>
+				</thead>
+				<tbody>
+					<tr><td valign="top">
+					<div id="ND_KEYS">
+						<div class="button_set">
+							<div class="nd_button status" value="str">STR</div>
+							<div class="nd_button status" value="tec">TEC</div>
+							<div class="nd_button status" value="wlk">WLK</div>
+							<div class="nd_button status" value="fly">FLY</div>
+							<div class="nd_button status" value="tgh">TGH</div>
+						</div>
+
+						<div class="button_set">
+							<div class="nd_button status" value="cost">COST</div>
+							<div class="nd_button status" value="capa">CAPA</div>
+						</div>
+
+						<div class="button_set">
+							<div class="nd_button status" value="type">TYPE</div>
+							<div class="nd_button status" value="size">SIZE</div>
+						</div>
+
+						<div class="button_set">
+							<div class="nd_button status" value="hp">HP</div>
+						</div>
+
+						<div class="button_set">
+							<div id="ND_MAIN" class="nd_button toggle on" value="m">MAIN</div>
+							<div id="ND_SUB" class="nd_button toggle" value="s">SUB</div>
+							<div class="nd_button performance" value="pwr">Force</div>
+							<div class="nd_button performance" value="shl">Ammo</div>
+							<div class="nd_button performance" value="rng">Range</div>
+							<div class="nd_button performance" value="spd">Speed</div>
+							<div class="nd_button performance" value="itv">Int</div>
+						</div>
+					</div>
+
+					<div id="ND_NUMLIC" class="button_set nd_vals nd_numlic">
+						<div class="nd_button" value="1">1</div>
+						<div class="nd_button" value="2">2</div>
+						<div class="nd_button" value="3">3</div>
+						<div class="nd_button" value="4">4</div>
+						<div class="nd_button" value="5">5</div>
+						<div style="clear:left;"></div>
+						<div class="nd_button" value="6">6</div>
+						<div class="nd_button" value="7">7</div>
+						<div class="nd_button" value="8">8</div>
+						<div class="nd_button" value="9">9</div>
+						<div class="nd_button" value="0">0</div>
+						<div id="ND_MINUS" class="nd_button" value="-">-</div>
+					</div>
+
+					<div id="ND_CURRENT_VAL" class="button_set nd_vals nd_numlic">
+						<div class="nd_button" value="@">Go</div>
+					</div>
+
+					<div id="ND_TYPE" class="button_set nd_vals">
+						<div class="nd_button toggle on" value="l">LND</div>
+						<div class="nd_button toggle" value="a">AIR</div>
+						<div class="nd_button toggle" value="c">ART</div>
+						<div class="nd_button toggle" value="s">SUP</div>
+					</div>
+
+					<div id="ND_SIZE" class="button_set nd_vals">
+						<div class="nd_button toggle" value="SS">SS</div>
+						<div class="nd_button toggle" value="S">S</div>
+						<div class="nd_button toggle on" value="M">M</div>
+						<div class="nd_button toggle" value="L">L</div>
+						<div class="nd_button toggle" value="LL">LL</div>
+					</div>
+
+					<div id="ND_OPERAND" class="button_set">
+						<div class="nd_button toggle on" value="0">>=</div>
+						<div class="nd_button toggle" value="1"><=</div>
+						<div class="nd_button toggle" value="2">></div>
+						<div class="nd_button toggle" value="3"><</div>
+						<div class="nd_button toggle" value="4">=</div>
+						<div class="nd_button toggle" value="5">!=</div>
+					</div>
+
+					<div id="ND_AND" class="button_set">
+						<div class="nd_button">AND</div>
+					</div>
+
+					<div id="ND_SYS" class="button_set">
+						<div class="nd_button" id="ND_PREV">Back</div>
+						<div class="nd_button" id="ND_ALLCLEAR">Clear</div>
+					</div>
+				</td>
+
+				<td>
+					<ul id="NDC_BODY"></ul>
+				</td></tr>
+				</tbody>
+				</table>
+			</div>
+
+		</div>
+
+	</td><td id="RIGHT_CONTENT_CONTAINER">
+
+		<div id="CARTRIDGE_CONTAINER">
+			<div id="CTRG_HEAD_CONTAINER">
+				Cartridge<span id="LV_DOWN_BTN">De-level</span>
+				<div id="LV_CONTAINER">LEVEL<div id="CURRENT_LV">0/10</div></div>
+			</div>
+			<div id="CRTG_COST_TEXT">COST</div>
+			<div id="CTRG_TEMPLATE">
+				<li class="cartridge"><div class="cost"></div><div class="ctrg_name"></div></li>
+			</div>
+			<ul id="CTRG_LIST_CONTAINER"></ul>
+			<div id="CTRG_TOOLTIP"></div>
+		</div>
+
+		<div id="PARTS_DATA_VIEW">
+			<div id="PDV_HEADER_CONTAINER">
+				<div id="PDV_NAME"></div>
+				<button id="DATA_EDIT_BUTTON" disabled="disabled">Edit</button>
+			</div>
+			
+			<div id="PDV_COMMENT"></div>
+
+			<div id="PDV_TYPE" class="pdv_item_container"><div class="pdv_item_name">TYPE</div><div class="pdv_val">-</div></div>
+			<div id="PDV_SIZE" class="pdv_item_container"><div class="pdv_item_name">SIZE</div><div class="pdv_val">-</div></div>
+
+			<table id="PDV_TABLE" class="pdv_item_container" cellspacing="0" cellpadding="0" border="0"><tbody>
+				<tr id="PDV_COST"><td class="pdv_item_name">COST</td><td class="pdv_val"></td><td class="pdv_add_val"></td></tr>
+				<tr id="PDV_HP"><td class="pdv_item_name">HP</td><td class="pdv_val"></td><td class="pdv_add_val"></td></tr>
+				<tr id="PDV_STR"><td class="pdv_item_name">STR</td><td class="pdv_val"></td><td class="pdv_add_val"></td></tr>
+				<tr id="PDV_TEC"><td class="pdv_item_name">TEC</td><td class="pdv_val"></td><td class="pdv_add_val"></td></tr>
+				<tr id="PDV_WLK"><td class="pdv_item_name">WLK</td><td class="pdv_val"></td><td class="pdv_add_val"></td></tr>
+				<tr id="PDV_FLY"><td class="pdv_item_name">FLY</td><td class="pdv_val"></td><td class="pdv_add_val"></td></tr>
+				<tr id="PDV_TGH"><td class="pdv_item_name">TGH</td><td class="pdv_val"></td><td class="pdv_add_val"></td></tr>
+				<tr id="PDV_CAPA"><td class="pdv_item_name">CAPA</td><td class="pdv_val"></td><td class="pdv_add_val"></td></tr>
+			</tbody></table>
+
+			<div id="MATERIALS" class="pdv_item_container"></div>
+
+			<table id="PDV_WP_MAIN" class="pdv_item_container" cellspacing="0" cellpadding="0" border="0"><tbody>
+				<tr><th colspan="2" id="PDV_MWP_HEAD">MAIN</th></tr>
+				<tr id="PDV_MAIN_PWR"><th class="pdv_wp_item_name">Force</th><td class="pdv_wp_val"></td></tr>
+				<tr id="PDV_MAIN_SHL"><th class="pdv_wp_item_name">Ammo</th><td class="pdv_wp_val"></td></tr>
+				<tr id="PDV_MAIN_RNG"><th class="pdv_wp_item_name">Range</th><td class="pdv_wp_val"></td></tr>
+				<tr id="PDV_MAIN_SPD"><th class="pdv_wp_item_name">Speed</th><td class="pdv_wp_val"></td></tr>
+				<tr id="PDV_MAIN_ITV"><th class="pdv_wp_item_name">Int</th><td class="pdv_wp_val"></td></tr>
+				<tr id="PDV_MAIN_DMG"><th class="pdv_wp_item_name">DMG</th><td class="pdv_wp_val"></td></tr>
+			</tbody></table>
+
+			<table id="PDV_WP_SUB" class="pdv_item_container" cellspacing="0" cellpadding="0" border="0"><tbody>
+				<tr><th colspan="2" id="PDV_SWP_HEAD">SUB</th></tr>
+				<tr id="PDV_SUB_PWR"><th class="pdv_wp_item_name">Force</th><td class="pdv_wp_val"></td></tr>
+				<tr id="PDV_SUB_SHL"><th class="pdv_wp_item_name">Ammo</th><td class="pdv_wp_val"></td></tr>
+				<tr id="PDV_SUB_RNG"><th class="pdv_wp_item_name">Range</th><td class="pdv_wp_val"></td></tr>
+				<tr id="PDV_SUB_SPD"><th class="pdv_wp_item_name">Speed</th><td class="pdv_wp_val"></td></tr>
+				<tr id="PDV_SUB_ITV"><th class="pdv_wp_item_name">Int</th><td class="pdv_wp_val"></td></tr>
+				<tr id="PDV_SUB_DMG"><th class="pdv_wp_item_name">DMG</th><td class="pdv_wp_val"></td></tr>
+			</tbody></table>
+		</div>
+
+	</td><td id="FRAME_RM" class="frame"></td></tr></tbody></table>
+
+	<div class="damage_map_container">
+		<table id="TEC_DAMAGE_MAP" class="damage_map" cellspacing="0" cellpadding="0"><thead></thead><tbody></tbody></table>
+	</div>
+	<div class="damage_map_container">
+		<table id="STR_DAMAGE_MAP" class="damage_map" cellspacing="0" cellpadding="0"><thead></thead><tbody></tbody></table>
+	</div>
+
+	<div class="transparent_field">
+		<div id="TEXT_IO_CONTAINER">
+			<div id="TIO_CLOSE">X</div><div id="TIO_TOP"></div>
+			<textarea id="TIO_TEXTAREA" title="Double click to select all"></textarea>
+			<div id="TIO_BOTTOM"><button id="TIO_READ" class="tio_button">Read</button> <button id="TIO_CLEAR" class="tio_button">Clear</button></div>
+		</div>
+	</div>
+	
+	<div class="transparent_field">
+		<div id="COMP_OUT_CONTAINER">
+			<div id="COMP_OUT_CLOSE">X</div><div id="COMP_OUT_TOP">Copy the code string from this window</div>
+			<div id="COMP_OUT_SUBTITLE_1">Compressed:</div>
+			<textarea id="COMP_OUT_TEXTAREA_1" title="Compressed:"></textarea>
+			<div id="TIO_BOTTOM"><button id="URL_TOGGLE_1" class="tio_button">Toggle URL</button></div>
+			<div id="COMP_OUT_SUBTITLE_2">Uncompressed:</div>
+			<textarea id="COMP_OUT_TEXTAREA_2" title="Uncompressed:"></textarea>
+			<div id="TIO_BOTTOM"><button id="URL_TOGGLE_2" class="tio_button">Toggle URL</button></div>
+		</div>
+	</div>
+
+
+	<div class="transparent_field">
+		<div id="RENAME_CONTAINER">
+			<div>Remember: 10 characters only in game</div>
+			<div>New Name:<input id="RENAME_INPUT" type="text" size="22" maxlength="20"/></div>
+			<div>
+				<button id="RENAME_CHANGE" class="rename_button">Change</button>
+				<button id="RENAME_CANCEL" class="rename_button">Cancel</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="transparent_field">
+		<div id="DATA_EDIT_CONTAINER">
+			<div id="DATA_EDIT_CLOSE">X</div><div id="DATA_EDIT_TOP"></div>
+			<textarea id="DATA_EDIT_TEXTAREA"></textarea>
+			<div id="DATA_EDIT_BOTTOM" disabled><button id="DATA_EDIT_APPLY">Apply</button> <button id="DATA_EDIT_RESET">Reset</button></div>
+		</div>
+	</div>
+
+	<div id="OVERLAY" class="loading">
+		<br><br><br>Now loading, please wait...<br>
+			If it loads forever, try to refresh the page.<br><br>
+			
+			Please note that CosmiCalc requires a modern browser to work.<br>
+			Don't try to load it with Internet Explorer unless you're using IE10 Platform Preview or anything higher. It won't work.<br><br>
+			<noscript>
+			<div style="opacity:1.0; filter:alpha(opacity:100); position:absolute; top:110px; left:20%; height:100px; width:60%; color:red; background-color:white; font-weight:bold; font-size:16px"><br>
+				CosmiCalc - the build calculator and manager for CB aka CosmicBreak (www.cosmicbreak.com, www.cosmicbreak.jp, www.cosmicbreak.com.tw)<br>
+				This page needs JavaScript in order to work. Please enable JS in your browser.<br><br><br><br>
+			</div>
+			</noscript>
+	</div>
+		
+</body>
+
+</html>
