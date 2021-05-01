@@ -157,7 +157,7 @@
 {id:17,name:"克莉姆蘿潔αLG",type:"a",cost:85,hp:50,str:1,tec:2,wlk:3,fly:3,tgh:1,builtin:{bs:1}}
 //{id:18,name:"Astro Mariah LG",type:"a",cost:65,hp:35,str:2,tec:1,wlk:1,fly:4,tgh:1,builtin:{bs:1}}
 //{id:19,name:"Bloom Mariah LG",type:"a",cost:65,hp:35,str:2,tec:1,wlk:1,fly:4,tgh:1,builtin:{bs:1}}
-//{id:26,name:"Seraph Crimrose LG",type:"a",cost:70,hp:40,str:1,tec:1,wlk:2,fly:4,tgh:1,builtin:{bs:1}}
+{id:26,name:"熾天使克莉姆蘿潔αLG",type:"a",cost:135,hp:50,str:1,tec:2,wlk:3,fly:4,sub:{tec:100,pwr:22,shl:100,rng:275,spd:350,itv:1000},builtin:{bs:1}}
 //{id:20,name:"Hound LG",cost:30,hp:20,tec:1,wlk:3}
 //{id:21,name:"Camel X LG",type:"lcs",cost:75,hp:60,str:1,tec:1,wlk:1,tgh:1,sub:{str:100,pwr:18,rng:35,spd:83,itv:740},tunable:{pwp:1}}
 {id:22,name:"力天使克雷斯多LG",cost:45,hp:30,wlk:3,fly:1,tgh:2}
