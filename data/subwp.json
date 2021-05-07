@@ -8,7 +8,7 @@
 {id:6,name:"Shock Knife",type:"ls",size:"M",cost:85,wlk:1,sub:{str:100,pwr:32,shl:25,rng:40,spd:150,itv:2000}}
 {id:8,name:"Shock Knife Mod",sub:{str:100,pwr:26,shl:50,rng:40,spd:150,itv:2000},type:"ls",size:"M",cost:85,wlk:1}
 {id:9,name:"Severity Knife",sub:{pwr:19,rng:60,spd:80,itv:1200,tec:100},type:"a",cost:75,size:"S"}
-{id:10,name:"Cydron Knife",type:"l",cost:50,size:"M",sub:{pwr:20,rng:40,spd:80,itv:600,str:100}}
+{id:10,name:"賽多洛小刀",type:"l",cost:80,size:"M",sub:{pwr:28,rng:84,spd:102,itv:2000,str:100}}
 {id:11,name:"園藝鏟",sub:{str:100,pwr:1,rng:10,spd:10,itv:400},size:"M",cost:10,str:1}
 {id:12,name:"Kaguya Memorial Banner",sub:{tec:100,pwr:1,rng:10,spd:10,itv:400},cost:10,size:"M",wlk:1}
 
@@ -87,6 +87,7 @@
 {id:12,name:"Dostrex Soul R",sub:{str:100,pwr:25,rng:60,spd:70,itv:1500},tunable:{pwp:1},type:"l",size:"LL",cost:120}
 {id:13,name:"Gozu Cleaver",size:"L",type:"l",cost:120,sub:{str:100,pwr:36,rng:70,spd:85,itv:500},tunable:{pwp:1}}
 {id:14,name:"迪戈之斧",size:"L",type:"a",cost:160,sub:{pwr:28,rng:100,spd:180,itv:1000}}
+{id:15,name:"滅絕戰斧",sub:{str:100,pwr:30,rng:49,spd:60,itv:2000},type:"l",size:"LL",cost:180,tunable:{pwp:1}}
 
 
 {group:"Maces",prefixID:"MC",commonStat:{tunable:{pwp:1}}}
@@ -115,7 +116,7 @@
 {id:11,name:"Haken Spear",type:"la",size:"M",cost:130,tec:-2,fly:-1,sub:{str:100,pwr:32,rng:47,spd:87,itv:1200}}
 {id:13,name:"Jumper Halberd",sub:{pwr:36,rng:70,spd:115,itv:2300,str:100},type:"a",size:"M",cost:150,tec:-1,fly:1}
 {id:8,name:"Stag Claw",size:"M",cost:30,sub:{str:100,pwr:23,rng:45,spd:100,itv:900}}
-{id:18,name:"Saber Stag Scissor",sub:{pwr:28,rng:70,spd:60,itv:900},size:"M",cost:140,str:2}
+{id:18,name:"利刃甲蟲爪",sub:{pwr:28,shl:100,rng:75,spd:90,itv:2000},size:"M",cost:160,type:"a"}
 {id:9,name:"長槍",type:"ls",size:"M",cost:100,sub:{str:100,pwr:32,rng:84,spd:102,itv:1000}}
 {id:10,name:"Cross Spear",type:"las",size:"M",cost:135,wlk:1,fly:1,sub:{str:100,pwr:29,rng:43,spd:95,itv:900}}
 {id:12,name:"Naginata",type:"la",size:"M",cost:120,str:1,wlk:1,fly:-2,sub:{str:100,pwr:31,rng:45,spd:126,itv:900}}
@@ -151,7 +152,7 @@
 
 
 {group:"盾",prefixID:"SL"}
-{id:1,name:"毒牙之盾",size:"L",cost:40,sub:{}}
+{id:1,name:"毒牙之盾",size:"L",cost:40}
 {id:2,name:"Viper Shield",size:"M",cost:60,sub:{}}
 {id:3,name:"棘刺之盾",type:"l",size:"LL",cost:90,sub:{str:100,pwr:28,rng:120,spd:400,itv:500},tunable:{pwp:1}}
 {id:4,name:"Pot Lid Shield",size:"M",cost:40,sub:{}}
@@ -168,7 +169,7 @@
 {id:15,name:"畫布盾",size:"M",cost:40}
 {id:16,name:"-",slot:0}
 {id:17,name:"擎天之盾",main:{pwr:14,shl:100,rng:225,spd:320,itv:500,str:100},sub:{pwr:28,rng:100,spd:250,itv:1000,str:100},tunable:{mwp:1,pwp:1},type:"l",size:"S",cost:70}
-{id:18,name:"Brink Shield",size:"M",type:"c",sub:{shl:5,itv:500},cost:30}
+{id:18,name:"布利克聖盾",size:"S",type:"c",sub:{shl:50,spd:10,itv:1000},cost:30}
 {id:19,name:"Vesper Shield",size:"M",cost:35}
 {id:20,name:"災難之盾α",size:"M",cost:35}
 {id:21,name:"災難之盾β",size:"M",cost:35}

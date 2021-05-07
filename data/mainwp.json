@@ -6,13 +6,13 @@
 {id:5,name:"+1 TGH",size:"M",cost:10,tgh:1}
 
 {group:"手槍",prefixID:"HG",commonStat:{tunable:{mwp:1}}}
-{id:1,name:"單手槍",type:"lcs",size:"M",cost:35,main:{pwr:10,shl:260,rng:250,spd:440,itv:400}}
-{id:2,name:"加速槍",type:"lcs",size:"M",cost:100,main:{pwr:15,shl:300,rng:250,spd:440,itv:400}}
+{id:1,name:"單手槍",type:"lcs",size:"M",cost:35,main:{pwr:14,shl:260,rng:250,spd:570,itv:400}}
+{id:2,name:"加速槍",type:"lcs",size:"M",cost:100,main:{pwr:17,shl:400,rng:250,spd:570,itv:400}}
 {id:3,name:"Accelerated Gun Mod",type:"lcs",size:"M",cost:85,tec:-1,main:{pwr:18,shl:250,rng:250,spd:480,itv:480}}
 {id:4,name:"Gun Striker",size:"M",cost:90,wlk:1,fly:1,main:{pwr:10,shl:300,rng:230,spd:430,itv:480},sub:{str:100,pwr:26,rng:60,spd:95,itv:1000},tunable:{pwp:1}}
-{id:5,name:"和平捍衛者",type:"ls",size:"M",cost:105,main:{pwr:10,shl:360,rng:250,spd:440,itv:280}}
-{id:57,name:"LL尺寸加速槍",main:{pwr:22,shl:220,rng:250,spd:440,itv:500,tec:100},size:"LL",type:"lc",cost:130}
-{id:6,name:"反重力槍",type:"l",size:"M",cost:160,main:{pwr:13,shl:460,rng:250,spd:440,itv:200}}
+{id:5,name:"和平捍衛者",type:"l",size:"M",cost:130,main:{pwr:13,shl:600,rng:250,spd:570,itv:280}}
+{id:57,name:"LL尺寸加速槍",main:{pwr:26,shl:360,rng:250,spd:570,itv:500,tec:100},size:"LL",type:"l",cost:180}
+{id:6,name:"反重力槍",type:"l",size:"M",cost:160,main:{pwr:13,shl:560,rng:250,spd:570,itv:200}}
 {id:90,name:"Boost Gun Mod",type:"lc",size:"M",cost:160,wlk:1,fly:3,main:{pwr:14,shl:240,rng:210,spd:500,itv:280}}
 {id:7,name:"手槍",size:"S",cost:15,main:{pwr:6,shl:500,rng:225,spd:570,itv:300}}
 {id:8,name:"Beta Hand Gun",size:"S",cost:15,main:{pwr:7,shl:560,rng:165,spd:270,itv:400}}
@@ -31,7 +31,7 @@
 {id:15,name:"電磁手槍",size:"S",cost:15,main:{pwr:10,shl:260,rng:225,spd:570,itv:460}}
 {id:16,name:"Handy Magnum Mod",size:"M",cost:15,main:{pwr:13,shl:280,rng:185,spd:300,itv:460}}
 {id:17,name:"Beet Gun",size:"M",cost:30,main:{pwr:13,shl:230,rng:185,spd:310,itv:500}}
-{id:96,name:"Heracles Beetlegun",main:{pwr:22,shl:240,rng:225,spd:380,itv:500},type:"lc",size:"M",cost:160,tec:2}
+{id:96,name:"剛硬甲蟲槍",main:{pwr:23,shl:340,rng:225,spd:440,itv:500},type:"lc",size:"M",cost:160}
 {id:18,name:"自動電磁槍",size:"S",cost:45,main:{pwr:14,shl:280,rng:225,spd:500,itv:460}}
 {id:19,name:"雙管電磁槍",type:"l",size:"M",cost:140,main:{pwr:14,shl:400,rng:225,spd:440,itv:460}}
 {id:20,name:"特製電磁槍",type:"lc",size:"M",cost:150,main:{pwr:21,shl:400,rng:225,spd:440,itv:460}}
@@ -147,10 +147,10 @@
 {id:8,name:"光束機關槍",type:"as",size:"S",cost:90,main:{pwr:8,shl:580,rng:200,spd:480,itv:140}}
 {id:9,name:"雙管雷射機槍",type:"a",size:"S",cost:130,main:{pwr:6,shl:1170,rng:200,spd:480,itv:140}}
 {id:28,name:"Double Beam Machinegun Mod",type:"a",size:"S",cost:130,main:{pwr:7,shl:450,rng:120,spd:360,itv:220}}
-{id:10,name:"軍用槍",size:"S",cost:60,main:{pwr:8,shl:400,rng:200,spd:400,itv:240}}
-{id:11,name:"重型衝鋒槍",type:"l",size:"M",cost:90,main:{pwr:10,shl:440,rng:175,spd:400,itv:240}}
+{id:10,name:"軍用槍",size:"S",cost:60,main:{pwr:12,shl:300,rng:225,spd:400,itv:240}}
+{id:11,name:"重型衝鋒槍",type:"l",size:"M",cost:90,main:{pwr:15,shl:260,rng:225,spd:400,itv:240}}
 {id:12,name:"Drum Gun Mod",type:"l",size:"M",cost:90,tec:-1,fly:-2,main:{pwr:15,shl:160,rng:130,spd:350,itv:220}}
-{id:13,name:"英格力斯連發槍",type:"l",size:"M",cost:130,main:{pwr:10,shl:530,rng:175,spd:400,itv:240}}
+{id:13,name:"英格力斯連發槍",type:"l",size:"M",cost:130,main:{pwr:12,shl:530,rng:225,spd:400,itv:240}}
 {id:14,name:"格林機關槍",type:"lcs",size:"L",cost:70,main:{pwr:10,shl:840,rng:110,spd:400,itv:200}}
 {id:15,name:"八管格林機槍",type:"lc",size:"LL",cost:130,main:{pwr:8,shl:1640,rng:110,spd:400,itv:220}}
 {id:23,name:"Eight Vulcan Mod",main:{pwr:12,shl:500,rng:110,spd:330,itv:20},tunable:{mwp:1},type:"lc",size:"LL",cost:130,str:-1,wlk:-4,fly:-3,tgh:-1}
@@ -284,7 +284,7 @@
 {id:43,name:"Gatling Bazooka Mod",type:"c",size:"L",cost:210,tgh:2,main:{pwr:18,shl:650,rng:270,spd:280,itv:200}}
 {id:41,name:"Pump Bazooka",main:{pwr:28,shl:160,rng:300,spd:270,itv:900},type:"c",size:"M",cost:100,wlk:1}
 {id:50,name:"Pump Bazooka Mod",main:{pwr:31,shl:110,rng:300,spd:270,itv:900},type:"c",size:"M",cost:100,wlk:1}
-{id:56,name:"光束壓縮火箭砲",main:{pwr:23,shl:190,rng:275,spd:400,itv:900},type:"a",size:"M",cost:100}
+{id:56,name:"光束壓縮火箭砲",main:{pwr:23,shl:240,rng:275,spd:360,itv:760},type:"a",size:"M",cost:100}
 {id:69,name:"Beam Pump Bazooka Mod",main:{pwr:28,shl:120,rng:280,spd:270,itv:900},type:"a",size:"M",cost:100,wlk:1}
 {id:14,name:"小型手榴彈",type:"cs",size:"M",cost:40,main:{pwr:9,shl:340,rng:300,spd:400,itv:500}}
 {id:15,name:"小型榴彈砲",type:"c",size:"L",cost:90,main:{pwr:25,shl:190,rng:300,spd:400,itv:700}}
@@ -426,7 +426,7 @@
 {id:1007,name:"Magical Gate",sub:{pwr:1,rng:10,spd:10,itv:1500},cost:10,wlk:1}
 {id:1025,name:"Pumpkin Pitcher",main:{pwr:1,shl:300,rng:210,spd:100,itv:800},cost:10,wlk:1}
 {id:1026,name:"Ghost Shooter",main:{pwr:1,shl:300,rng:210,spd:100,itv:800},cost:10,wlk:1}
-{id:1012,name:"Brink Mace",type:"c",size:"M",main:{pwr:20,shl:360,rng:330,spd:330,itv:1000},sub:{pwr:15,shl:15,rng:70,spd:85,itv:1000},tunable:{mwp:1},cost:200}
+{id:1012,name:"布利克聖鎚",type:"c",size:"M",main:{pwr:12,shl:390,rng:330,spd:330,itv:1000},sub:{pwr:30,rng:75,spd:100,itv:1000},tunable:{mwp:1},cost:190}
 {id:1013,name:"Pumpkin Rod",type:"c",size:"S",main:{pwr:19,shl:480,rng:340,spd:370,itv:500},tunable:{mwp:1},cost:125}
 // {id:220,name:"ホーミングボール",cost:60,main:{pwr:7,shl:200,rng:250,spd:320,itv:400},size:"S",type:"s",comment:"トライクレーサーのみ装備可能"}
 {id:224,name:"Liquid Burner",main:{pwr:12,shl:700,rng:70,spd:360,itv:100,tec:100},tunable:{mwp:1},type:"lc",size:"M",cost:170}

@@ -73,8 +73,8 @@
 {id:72,name:"Snow Flower",main:{pwr:[28,30,32],shl:[200,250,300],rng:300,spd:[300,315,330],itv:800},sub:{shl:1,rng:60,spd:60,itv:2000},type:"l",size:"S",cost:70,slot:0,conversion:"BDLS91 BDLS118 BDLS126",comment:"Attachable to 'Ion BD6/BD7/BD8/BD8#2/BD9/BD10' only"}
 {id:73,name:"Aqua Pot",main:{tec:100,pwr:1,shl:100,rng:300,spd:220,itv:1100},tunable:{mwp:1},type:"l",size:"S",cost:30,conversion:"BDLS126AM9",comment:"Attachable to 'Ion AM9' only"}
 {id:74,name:"Blue Wing@",main:{tec:100,pwr:6,shl:60,rng:300,spd:280,itv:300},sub:{str:100,pwr:20,shl:10,itv:1000},tunable:{mwp:1},conversion:"BSS1052 BSS126 BSS1053",comment:"Attachable to 'Kaltos Wing'/'Blue Wing' only",cost:90}
-{id:75,name:"Charge Delay Cassette",main:{pwr:22,shl:350,rng:320,spd:370,itv:300},type:"a",size:"S",cost:90,tunable:{mwp:1},conversion:"WPCS55",comment:"Attachable to 'Aurora Cannon' only"}
-{id:76,name:"Auto-Charge Cassette",main:{pwr:40,shl:30,rng:360,spd:520,itv:500},type:"a",size:"S",cost:50,slot:0,conversion:"WPCS55",comment:"Attachable to 'Aurora Cannon' only"}
+{id:75,name:"光束射擊彈匣",main:{pwr:18,shl:420,rng:275,spd:440,itv:300},type:"a",size:"S",cost:70,tunable:{mwp:1},conversion:"WPCS55",comment:"Attachable to 'Aurora Cannon' only"}
+{id:76,name:"自動充能裝置",main:{pwr:28,shl:60,rng:300,spd:480,itv:500},type:"a",size:"S",cost:30,slot:0,conversion:"WPCS55",comment:"Attachable to 'Aurora Cannon' only"}
 {id:77,name:"Beam Crystal",main:{pwr:15,shl:400,rng:330,spd:330,itv:1000},tunable:{mwp:1},type:"a",size:"S",cost:80,conversion:"BDAS77LG BDAS106LG",comment:"Attachable to 'Fractulus Girl LG/LG2' only"}
 {id:78,name:"Crystal Wall",main:{pwr:4,shl:800,rng:240,spd:300,itv:200},tunable:{mwp:1},type:"a",size:"M",cost:40,conversion:"BDAS77 BDAS106",comment:"Attachable to 'Fractulus Girl BD/BD2/BD3/BD4' only"}
 {id:79,name:"Berzel Bazooka",tunable:{mwp:1},cost:90,type:"c",size:"S",main:{pwr:22,shl:300,rng:320,spd:320,itv:500},conversion:"WPCS56",comment:"Attachable to 'Greed Weapon/Greed Weapon II' only"}
@@ -305,7 +305,7 @@
 {id:52,name:"Wing Attachment ALPHA",size:"M",cost:40,slot:0,sub:{shl:7,rng:100,spd:150,itv:2000},conversion:"BSM132",comment:"Attachable to 'Multiwing BS' only"}
 {id:53,name:"Wing Attachment BETA",sub:{shl:12,spd:150,itv:1000},size:"M",slot:0,conversion:"BSM132",comment:"Attachable to 'Multiwing BS' only",cost:40}
 {id:54,name:"Krieger Shield",main:{shl:30,spd:10,itv:700},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},joint:{wp:1},fixedParts:{wp:{name:"Krieger Shield@",sub:{pwr:34,rng:200,spd:280,itv:500},slot:0}},type:"l",size:"S",tunable:{pwp:1},cost:170,conversion:"BDLS130AM BDLS152AM",comment:"Attachable to 'Corona AM' only"}
-{id:55,name:"Aurora Cannon",joint:{wp:2},slot:0,sub:{itv:500},type:"a",size:"S",conversion:"BDAS76AM BDAS92AM",comment:["MkII has the same stats","Attachable to 'Stella AM/AM2' only"]}
+{id:55,name:"極光加農",joint:{wp:2},slot:0,sub:{itv:500},type:"a",size:"S",conversion:"BDAS76AM BDAS92AM",comment:["MkII has the same stats","Attachable to 'Stella AM/AM2' only"]}
 {id:56,name:"Greed Weapon",sub:{itv:500},joint:{wp:2},type:"c",size:"M",slot:0,comment:"Interchangeable with Greed Weapon II",conversion:"BDCS58AM BDCS84AM"}
 {id:57,name:"Wizdom Soul II",sub:{itv:500},joint:{wp:2},type:"c",size:"M",slot:0,conversion:"AMS152 BDCS1059AM",comment:"Attachable to 'Icy AM5/AM6' only"}
 {id:58,name:"Box Mine",sub:{pwr:1,shl:30,rng:100,spd:120,itv:500,tec:100},type:"c",size:"S",cost:30,conversion:"BDCS47AM4",comment:"Attachable to 'Rinka Lynx AM4' only"}
@@ -403,3 +403,4 @@
 {id:150,name:"Trike Blast",cost:30,sub:{str:100,pwr:12,shl:15,rng:75,spd:60,itv:500},type:"s",size:"S",conversion:"Tricyclaser",comment:"Attachable to 'Tricyclaser' parts only"}
 {id:151,name:"Alba Boost",sub:{pwr:0,shl:15,rng:300,spd:200,itv:1000},conversion:"BDAS1094WP",tunable:{pwp:0}}
 {id:152,name:"Alba Missile II",sub:{pwr:7,shl:720,rng:330,spd:280,itv:1000},conversion:"BDAS1094WP",tunable:{pwp:0}}
+{id:153,name:"克里剛之盾",main:{shl:50,spd:10,itv:1000},sub:{str:100,pwr:30,rng:70,spd:85,itv:500},joint:{wp:1},fixedParts:{wp:{name:"克里剛之盾@",sub:{str:100,pwr:28,rng:120,spd:250,itv:2500},cost:50,slot:0}},type:"l",size:"S",tunable:{pwp:1},cost:120,conversion:"BDLS130AM BDLS152AM",comment:"Attachable to 'Corona AM' only"}
