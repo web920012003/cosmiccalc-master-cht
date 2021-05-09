@@ -36,3 +36,6 @@
 //{id:2,name:"Angel Emblem"}
 {id:3,name:"Battle Whistle",size:"M",comment:"Conversion part for BF series",sub:{itv:4000},slot:0}
 {id:4,name:"Battle Recoder",sub:{itv:4000},type:"l",size:"M",comment:"Attachable to 'School Illumis BD'/'School Lily Rain BD'",slot:0}
+
+{group:"USB",prefixID:"U"}
+{id:1,name:"記憶體插槽",slot:3}

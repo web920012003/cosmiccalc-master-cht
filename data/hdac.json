@@ -1,5 +1,5 @@
 ﻿{group:"usb"}
-{id:3001,name:"記憶體插槽",slot:3}
+//{id:3001,name:"記憶體插槽",slot:3}
 {id:3002,name:"AC能力記憶體(str)",hp:5,str:1,capa:5,slot:0}
 {id:3003,name:"AC能力記憶體(tec)",hp:5,tec:1,capa:5,slot:0}
 {id:3004,name:"AC能力記憶體(wlk)",hp:5,wlk:1,capa:5,slot:0}
