@@ -48,7 +48,7 @@
 {id:15,name:"閃耀帕斯達AM",cost:40,hp:25,str:1,tec:2,wlk:1,fly:1}
 {id:16,name:"閃耀巴特拉AM",cost:40,hp:25,str:2,wlk:1,fly:1,tgh:1}
 {id:49,name:"零式鬥士AM",cost:35,hp:20,str:2,tec:1,wlk:1,tgh:1}
-{id:78,name:"零式鬥士NEXTAM",cost:40,hp:25,str:1,wlk:2,tgh:2}
+{id:78,name:"零式鬥士NEXTAM",cost:35,hp:20,str:1,tec:2,wlk:1,fly:-1,tgh:2}
 {id:19,name:"零式劍士AM",cost:35,hp:20,str:2,tec:1,wlk:1,fly:1}
 {id:21,name:"零式劍士AM2",cost:35,hp:20,tec:3,wlk:1,fly:1}
 //{id:20,name:"Zero Saber AM-G",cost:40,hp:25,str:2,tec:1,wlk:1,fly:1}

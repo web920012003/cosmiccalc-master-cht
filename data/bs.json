@@ -46,7 +46,7 @@
 //{id:151,name:"Nova Dikaros BS",sub:{shl:3,itv:1000},type:"a",cost:110,hp:20,wlk:-1,fly:4,tgh:2}
 {id:25,name:"恐懼米絲蒂αBS",type:"l",cost:40,hp:25,str:1,wlk:2,fly:2}
 {id:26,name:"零式鬥士BS",type:"l",cost:35,hp:20,str:1,fly:3,tgh:1}
-{id:64,name:"零式鬥士NEXTBS",type:"l",cost:70,hp:25,str:2,tec:1,wlk:-1,fly:3,sub:{shl:30,rng:10,spd:150,itv:1000,str:100},tunable:{pwp:0}}
+{id:64,name:"零式鬥士NEXTBS",type:"l",cost:70,hp:25,str:1,tec:-1,wlk:2,fly:3,sub:{shl:30,rng:10,spd:150,itv:1000,str:100},tunable:{pwp:0}}
 //{id:27,name:"Jack Gadget BS",type:"s",cost:90,hp:20,str:1,fly:1,tgh:3,sub:{str:100,pwr:23,rng:20,spd:46,itv:1200},tunable:{pwp:1}}
 //{id:28,name:"Jack Gadget BS2",type:"s",cost:100,hp:25,str:-1,tec:2,fly:3,tgh:1,main:{pwr:4,shl:450,rng:330,spd:150,itv:860},tunable:{mwp:1}}
 //{id:29,name:"Brickgale BS",type:"a",cost:65,hp:25,str:2,fly:3,sub:{shl:20,rng:100,spd:120,itv:1000}}

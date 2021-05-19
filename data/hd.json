@@ -117,7 +117,7 @@
 {id:29,name:"巴爾迪歐HD",cost:40,hp:25,str:1,tec:1,fly:1,tgh:2}
 //{id:32,name:"Cait Sith HD",cost:35,hp:25,str:1,tec:1,wlk:1,fly:1,tgh:1}
 {id:59,name:"零式鬥士HD",cost:35,hp:20,tec:2,wlk:2,tgh:1}
-{id:137,name:"零式鬥士NEXTHD",cost:40,hp:25,str:1,wlk:3,fly:-1,tgh:2}
+{id:137,name:"零式鬥士NEXTHD",cost:40,hp:25,str:2,wlk:2,fly:1}
 //{id:76,name:"Cetusion HD",cost:35,hp:20,str:1,tec:2,wlk:1,tgh:1}
 {id:79,name:"裝甲神槍HD",cost:40,hp:20,tec:1,wlk:2,tgh:2}
 {id:82,name:"電磁希凱多HD",cost:40,hp:20,str:-1,tec:3,wlk:1,fly:2}
