@@ -64,7 +64,7 @@
 //{id:110,name:"Patty Lop LG3",sub:{shl:15,rng:100,spd:150,itv:500},joint:{bs:1},type:"l",cost:80,hp:25,str:1,tec:-1,wlk:2,tgh:3}
 //{id:49,name:"Neon Neos LG",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2}
 {id:50,name:"零式鬥士LG",cost:40,hp:20,tec:1,wlk:3,tgh:1}
-{id:62,name:"零式鬥士NEXTLG",cost:45,hp:25,tec:2,wlk:3,fly:-1,tgh:2}
+{id:62,name:"零式鬥士NEXTLG",cost:45,hp:25,str:-1,tec:1,wlk:3,fly:-1,tgh:2}
 {id:107,name:"零式劍士NEXTLG",cost:45,hp:25,str:-1,tec:1,wlk:3,fly:1,tgh:2}
 //{id:51,name:"Tristar LG",cost:45,hp:25,str:2,tec:-1,wlk:1,fly:1,tgh:2}
 //{id:52,name:"Kagetama LG",cost:50,hp:30,str:2,tec:-1,wlk:3,fly:1,tgh:1}
@@ -139,7 +139,7 @@
 //{id:5,name:"Jaguar Arm LG",cost:30,hp:15,wlk:2,tgh:2}
 //{id:56,name:"Heavy Jaguar Arm LG",cost:45,hp:25,str:1,tec:1,wlk:2,fly:-1,tgh:2}
 //{id:6,name:"Locomotive X LG",cost:30,hp:20,tec:1,wlk:2,fly:-1,tgh:2}
-//{id:7,name:"Scorpton LG",cost:35,hp:20,str:1,wlk:3}
+{id:7,name:"史哥坦LG",cost:45,hp:25,str:1,tec:1,wlk:3}
 //{id:8,name:"Priestol LG",cost:35,hp:20,str:1,tec:-1,wlk:3,tgh:1}
 //{id:23,name:"High Priestol LG",cost:45,hp:25,wlk:3,fly:1,tgh:2}
 //{id:89,name:"High Priestol G LG",cost:40,hp:20,str:2,wlk:3,tgh:1,fly:-1}
@@ -147,7 +147,7 @@
 {id:10,name:"鋼鐵鬥士LG",cost:45,hp:25,str:1,wlk:3,fly:-1,tgh:2}
 {id:11,name:"神帝瑪克斯LG",cost:45,hp:25,tec:1,wlk:3,fly:1}
 {id:12,name:"伽希瑪LG",cost:45,hp:25,str:1,tec:1,wlk:3,tgh:1}
-//{id:13,name:"Cyberoid LG",cost:40,hp:25,str:2,wlk:2,tgh:1}
+{id:13,name:"電子領主LG",cost:45,hp:25,str:2,wlk:3,tgh:1}
 {id:14,name:"波巴利歐LG",cost:45,hp:30,str:-1,tec:1,wlk:3,fly:1,tgh:1}
 {id:15,name:"機甲傑達LG",cost:85,hp:25,str:2,tec:-1,wlk:2,fly:1,tgh:1,sub:{str:100,pwr:24,shl:60,rng:120,spd:220,itv:1000},tunable:{pwp:1}}
 //{id:74,name:"Mecha Jetter OMG LG",type:"a",sub:{pwr:29,rng:70,spd:115,itv:2500,str:100},tunable:{pwp:1},cost:85,hp:20,str:2,tec:1,wlk:1,fly:2,tgh:-1}
@@ -272,18 +272,19 @@
 //{id:1115,name:"Mirage Raid LG2",cost:85,hp:20,str:3,tec:-1,wlk:2,fly:1,sub:{str:100,pwr:20,rng:65,spd:95,itv:500},tunable:{pwp:1}}
 //{id:1116,name:"Toukimaru LG",cost:35,hp:20,str:1,tec:1,wlk:3,fly:-1,tgh:1}
 //{id:1117,name:"Dreiblitz LG",type:"c",cost:40,hp:25,str:0,tec:1,wlk:3,fly:2,tgh:-1}
-//last:1117
+{id:1118,name:"勝利號-1LG",cost:40,hp:20,str:1,wlk:3,tgh:1}
+//last:1118
 //
 //
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 //{id:1,name:"Tengu LG",cost:25,hp:30,str:-1,wlk:2,fly:1,tgh:1}
 //{id:2,name:"Ettion LG",cost:30,hp:25,wlk:3,tgh:1}
-//{id:3,name:"King Megaton LG",cost:35,hp:20,str:1,wlk:1,tgh:2}
+{id:3,name:"百萬巨頓LG",cost:40,hp:20,str:1,wlk:2,tgh:2}
 {id:4,name:"卡納哈烏特LG",cost:45,hp:50,str:1,wlk:3,tgh:1}
 //{id:5,name:"Hound Dog LG2",type:"l",cost:75,hp:70,str:2,wlk:2,tgh:2,sub:{str:100,pwr:26,rng:45,spd:61,itv:800},tunable:{pwp:1}}
 {id:6,name:"巴爾迪歐LG",cost:50,hp:80,str:-1,tec:1,wlk:2,fly:2,tgh:2}
 //{id:7,name:"Steel Rider LG",cost:40,hp:45,wlk:4,tgh:1}
-//{id:8,name:"King Gigaton LG",cost:40,hp:30,wlk:3,tgh:2}
+{id:8,name:"千兆托爾LG",cost:45,hp:25,str:2,wlk:3,fly:-1,tgh:2}
 {id:9,name:"宇宙凱薩LG",cost:45,hp:25,str:1,tec:1,wlk:3,tgh:1}
 {id:10,name:"重砲馬克西斯LG",cost:50,hp:60,tec:1,wlk:4,tgh:1}
 {id:11,name:"迪斯特拉克特LG",cost:45,hp:40,str:1,tec:1,wlk:2,tgh:2}
@@ -411,7 +412,9 @@
 //{id:128,name:"Joste Gunder LG",cost:50,hp:30,str:1,tec:0,wlk:3,fly:-1,tgh:2}
 //{id:129,name:"Teitarotes LG",type:"c",cost:70,hp:70,str:-1,tec:2,wlk:2,fly:0,tgh:3,sub:{pwr:4,shl:30,rng:360,spd:250,itv:500}}
 {id:130,name:"哈庫曼斯庫那LG",type:"a",cost:105,hp:50,wlk:2,fly:3,tgh:1,sub:{shl:40,spd:150,itv:1000}}
-//last:130
+{id:131,name:"鐵血騎士LG2",cost:45,hp:45,tec:1,wlk:5,fly:-1}
+{id:132,name:"巨漢馬汀斯LG2",cost:90,hp:70,tec:1,wlk:3,fly:2,sub:{str:100,shl:100,spd:60,itv:1000},type:"a"}
+//last:132
 //
 //
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}

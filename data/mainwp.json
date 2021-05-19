@@ -116,9 +116,9 @@
 {id:38,name:"電擊槍",type:"s",size:"S",cost:90,main:{pwr:15,shl:300,rng:250,spd:360,itv:600}}
 {id:39,name:"帕拉拉電磁手槍",type:"s",size:"S",cost:140,main:{pwr:22,shl:270,rng:250,spd:360,itv:600}}
 {id:40,name:"Paralyze Gun Mod",type:"as",size:"S",cost:120,tec:1,main:{pwr:17,shl:300,rng:210,spd:280,itv:600}}
-{id:45,name:"空間槍",size:"S",type:"s",cost:50,main:{pwr:2,shl:250,rng:200,spd:480,itv:500}}
+{id:45,name:"空間槍",size:"S",type:"s",cost:50,main:{pwr:8,shl:300,rng:250,spd:480,itv:500}}
 {id:62,name:"Drawgun Mod",size:"S",cost:110,wlk:-2,fly:-1,main:{pwr:2,shl:80,rng:200,spd:310,itv:600},tgh:-1}
-{id:88,name:"連鎖空間槍",type:"s",size:"S",cost:80,main:{pwr:2,shl:400,rng:200,spd:480,itv:200}}
+{id:88,name:"連鎖空間槍",type:"s",size:"S",cost:80,main:{pwr:5,shl:500,rng:250,spd:480,itv:200}}
 {id:50,name:"Reflect Pitcher",size:"M",cost:50,str:1,main:{pwr:13,shl:280,rng:250,spd:300,itv:480}}
 {id:51,name:"SB Pitcher",type:"lac",size:"M",cost:130,tec:1,main:{pwr:19,shl:400,rng:180,spd:70,itv:520}}
 {id:98,name:"片刃槍",main:{pwr:10,shl:460,rng:250,spd:320,itv:300},type:"l",size:"M",cost:150}

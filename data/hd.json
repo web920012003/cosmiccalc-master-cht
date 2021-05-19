@@ -57,14 +57,14 @@
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 //{id:1,name:"Steel Rider HD",cost:15,hp:5,str:1,wlk:1,tgh:1}
 //{id:2,name:"Paraboroid HD",cost:15,hp:5,tec:2}
-//{id:31,name:"Cyberoid HD",cost:35,hp:20,str:1,tec:1,wlk:1,tgh:1}
+{id:31,name:"電子領主HD",cost:40,hp:25,str:1,tec:1,wlk:1,fly:1,tgh:1}
 //{id:3,name:"Victory HD",cost:20,hp:10,tec:1,wlk:1,tgh:1}
 //{id:136,name:"Victory FB HD",cost:35,hp:20,tec:1,wlk:2,fly:2}
 //{id:4,name:"Locomotive X HD",cost:20,hp:10,tec:2,wlk:1}
 //{id:5,name:"Jaguar Arm HD",cost:20,hp:15,wlk:1,tgh:2}
 //{id:141,name:"Heavy Jaguar Arm HD",sub:{pwr:30,rng:45,spd:120,itv:1500,str:100},type:"l",cost:80,hp:20,str:2,tec:1,wlk:1,fly:-1,tgh:2,tunable:{pwp:1}}
-//{id:6,name:"King Megaton HD",cost:20,hp:15,str:1,tgh:1}
-//{id:30,name:"King Gigaton HD",cost:35,hp:20,str:1,wlk:1,fly:1,tgh:2}
+{id:6,name:"百萬巨頓HD",cost:35,hp:20,str:1,tec:1,wlk:1,tgh:2}
+{id:30,name:"千兆托爾HD",cost:40,hp:25,str:1,wlk:1,fly:1,tgh:2}
 //{id:91,name:"Armed Build Arm HD",cost:20,hp:15,str:1,tec:1,wlk:2,tgh:-1}
 {id:138,name:"托曼薩蜥蜴HD",cost:40,hp:25,tec:2,wlk:1,fly:1,tgh:1}
 //{id:139,name:"Tonosama Lander HD-G",cost:25,hp:15,tec:2,wlk:1,fly:-1,tgh:1}
@@ -117,7 +117,7 @@
 {id:29,name:"巴爾迪歐HD",cost:40,hp:25,str:1,tec:1,fly:1,tgh:2}
 //{id:32,name:"Cait Sith HD",cost:35,hp:25,str:1,tec:1,wlk:1,fly:1,tgh:1}
 {id:59,name:"零式鬥士HD",cost:35,hp:20,tec:2,wlk:2,tgh:1}
-{id:137,name:"零式鬥士NEXTHD",cost:40,hp:25,str:2,wlk:2,fly:1}
+{id:137,name:"零式鬥士NEXTHD",cost:40,hp:25,str:1,wlk:3,fly:-1,tgh:2}
 //{id:76,name:"Cetusion HD",cost:35,hp:20,str:1,tec:2,wlk:1,tgh:1}
 {id:79,name:"裝甲神槍HD",cost:40,hp:20,tec:1,wlk:2,tgh:2}
 {id:82,name:"電磁希凱多HD",cost:40,hp:20,str:-1,tec:3,wlk:1,fly:2}
@@ -311,7 +311,7 @@
 {id:226,name:"利刃戰鍬瑞斯HD",main:{pwr:6,shl:900,rng:275,spd:350,itv:1000},type:"a",cost:180,hp:25,str:-1,tec:3,fly:1,tgh:2,tunable:{mwp:1}}
 //{id:227,name:"Zarid HD",comment:"HD2 has the same stats",cost:45,hp:25,str:2,tec:1,wlk:2,tgh:1}
 //{id:228,name:"Grand Dugdriver HD",sub:{pwr:20,rng:40,spd:120,itv:1000,str:100},type:"lc",cost:60,hp:15,str:2,tec:-1,wlk:1,tgh:3,tunable:{pwp:1}}
-//{id:229,name:"Cataloss HD",cost:35,hp:20,wlk:1,fly:1,tgh:2}
+{id:229,name:"卡塔羅斯HD",cost:40,hp:25,str:1,wlk:1,fly:1,tgh:2}
 //{id:230,name:"Sledge Heim HD",main:{pwr:5,shl:30,rng:80,spd:350,itv:2000},tunable:{mwp:1},type:"cs",cost:60,hp:25,str:-1,tec:3,fly:1,tgh:1,wlk:1}
 {id:231,name:"沃塔斯HD2",cost:40,hp:25,tec:3,wlk:1,fly:-1,tgh:2}
 {id:232,name:"惡炮拜茲HD",cost:40,hp:20,str:1,tec:2,tgh:2}
@@ -430,7 +430,11 @@
 //{id:1300,name:"Hadelos HD2",cost:35,hp:20,str:2,tec:0,wlk:1,fly:-1,tgh:3}
 //{id:1301,name:"Dreiblitz HD",cost:30,hp:15,str:1,tec:2,wlk:2,fly:1,tgh:-1}
 //{id:1302,name:"Apollion HD",cost:30,hp:20,str:2,tec:0,wlk:0,fly:1,tgh:2}
-//last:1302
+{id:1303,name:"鐵血騎士HD2",cost:40,hp:25,tec:2,wlk:2,fly:-1,tgh:2}
+{id:1304,name:"巨漢馬汀斯HD2",cost:40,hp:25,tec:2,fly:2,tgh:1}
+{id:1305,name:"勝利號-1HD",cost:35,hp:20,tec:2,wlk:2,tgh:1}
+{id:1306,name:"史哥坦HD2",cost:35,hp:20,tec:2,wlk:2,tgh:1}
+//last:1306
 //
 //
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}

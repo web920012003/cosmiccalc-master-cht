@@ -46,7 +46,7 @@
 //{id:151,name:"Nova Dikaros BS",sub:{shl:3,itv:1000},type:"a",cost:110,hp:20,wlk:-1,fly:4,tgh:2}
 {id:25,name:"恐懼米絲蒂αBS",type:"l",cost:40,hp:25,str:1,wlk:2,fly:2}
 {id:26,name:"零式鬥士BS",type:"l",cost:35,hp:20,str:1,fly:3,tgh:1}
-{id:64,name:"零式鬥士NEXTBS",type:"l",cost:70,hp:25,str:1,tec:-1,wlk:2,fly:3,sub:{shl:30,rng:120,spd:250,itv:1000,str:100},tunable:{pwp:0},wlk:2}
+{id:64,name:"零式鬥士NEXTBS",type:"l",cost:70,hp:25,str:2,tec:1,wlk:-1,fly:3,sub:{shl:30,rng:10,spd:150,itv:1000,str:100},tunable:{pwp:0}}
 //{id:27,name:"Jack Gadget BS",type:"s",cost:90,hp:20,str:1,fly:1,tgh:3,sub:{str:100,pwr:23,rng:20,spd:46,itv:1200},tunable:{pwp:1}}
 //{id:28,name:"Jack Gadget BS2",type:"s",cost:100,hp:25,str:-1,tec:2,fly:3,tgh:1,main:{pwr:4,shl:450,rng:330,spd:150,itv:860},tunable:{mwp:1}}
 //{id:29,name:"Brickgale BS",type:"a",cost:65,hp:25,str:2,fly:3,sub:{shl:20,rng:100,spd:120,itv:1000}}
@@ -274,9 +274,9 @@
 {id:51,name:"玄武BS",type:"c",str:1,tec:1,wlk:-1,fly:2,tgh:2,cost:40,hp:25}
 {id:56,name:"四足砲擊手BS",type:"c",cost:40,hp:25,str:2,tec:1,wlk:1,fly:2,tgh:-1}
 //{id:68,name:"Kealmes BS",cost:35,hp:20,str:1,tec:1,wlk:-1,type:"c",fly:3}
-//{id:12,name:"Scorpton BS",type:"s",cost:30,hp:15,tec:2,fly:1}
+{id:12,name:"史哥坦BS",type:"s",cost:35,hp:20,tec:2,fly:3}
 //{id:13,name:"Paraboroid BS",type:"s",cost:20,hp:10,str:1,tec:1,fly:1}
-//{id:14,name:"Cyberoid BS",type:"s",cost:35,hp:20,tec:2,fly:2}
+{id:14,name:"電子領主BS",type:"s",cost:40,hp:25,tec:2,fly:3}
 {id:26,name:"悠久西格瑪BS",type:"s",cost:40,hp:20,str:2,tec:1,fly:2}
 {id:66,name:"神聖主教BS",cost:40,hp:25,type:"s",str:1,fly:3,tgh:1}
 {id:6,name:"巴爾迪歐BS",type:"a",cost:40,hp:25,str:-1,tec:1,fly:3,tgh:2}
@@ -478,10 +478,11 @@
 {id:2147,name:"雙重星之刃BS-R",size:"M",cost:35,hp:20,tec:1,wlk:1,fly:3}
 {id:2148,name:"維晶塵之翼BSβ",cost:35,hp:20,tec:2,fly:3}
 {id:2149,name:"小CHIMAKI旗幟BS",cost:30,hp:15,wlk:2,fly:2}
-//last:2150
+{id:2151,name:"勝利號-1BS",type:"c",cost:35,hp:20,tec:1,wlk:1,fly:2,tgh:1}
+//last:2151
 //
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
-//{id:1,name:"Steel Rider BS",type:"l",cost:25,hp:10,wlk:1,fly:2}
+{id:1,name:"鐵血騎士BS",type:"l",cost:40,hp:25,tec:1,wlk:1,fly:3}
 //{id:2,name:"Ettion BS",type:"l",cost:25,hp:20,fly:2,tgh:1}
 //{id:3,name:"Centaur X BS",type:"l",cost:30,hp:15,str:1,tec:1,fly:1,tgh:1}
 {id:4,name:"宇宙凱薩BS",type:"l",cost:35,hp:20,str:1,tec:-1,wlk:1,fly:3,tgh:1}
@@ -490,7 +491,7 @@
 {id:7,name:"閃焰巴洛BS",type:"l",cost:45,hp:25,str:2,tec:1,fly:3,tgh:-1}
 {id:8,name:"泰達利歐BS",type:"l",cost:40,hp:25,str:1,tec:1,fly:2,tgh:1}
 //{id:9,name:"Lobguyz BS",type:"l",cost:25,hp:20,str:1,tec:1,fly:2,tgh:-1}
-//{id:10,name:"Big Mountaiz BS",type:"a",cost:35,hp:20,tec:1,fly:2,tgh:2}
+{id:10,name:"巨漢馬汀斯BS",type:"a",cost:40,hp:25,tec:1,fly:2,tgh:2}
 {id:11,name:"索亞. 拉BS",type:"a",cost:40,hp:25,wlk:1,fly:2,tgh:2}
 //{id:59,name:"Thoarla BS2",type:"l",cost:45,hp:25,str:1,tec:-1,wlk:2,fly:3}
 //{id:93,name:"Thoarla BS4",type:"a",cost:35,hp:20,tec:2,fly:3}
@@ -498,10 +499,10 @@
 //{id:39,name:"Aquila Airs BS",type:"a",cost:45,hp:30,str:1,tec:-1,fly:3,tgh:2}
 //{id:40,name:"Aquila Airs BS2",type:"a",cost:45,hp:30,tec:1,fly:3,tgh:1}
 //{id:13,name:"Tengu BS",type:"a",cost:60,hp:15,str:2,tec:2,fly:3,tgh:-2,sub:{pwr:5,shl:30,rng:100,spd:160,itv:1000}}
-//{id:14,name:"King Megaton BS",type:"c",cost:30,hp:20,tec:1,fly:1,tgh:1}
+{id:14,name:"百萬巨頓BS",type:"c",cost:35,hp:20,tec:1,fly:3,tgh:1}
 {id:15,name:"迪斯特拉克特BS",type:"c",cost:40,hp:25,tec:1,wlk:1,fly:2,tgh:1}
 {id:41,name:"毀滅者拉克特MAXBS",type:"c",cost:40,hp:25,tec:1,fly:2,tgh:2}
-//{id:16,name:"King Gigaton BS",type:"c",cost:40,hp:20,str:1,tec:1,fly:3}
+{id:16,name:"千兆托爾BS",type:"c",cost:40,hp:25,str:-1,tec:1,fly:3,tgh:2}
 {id:17,name:"武裝玩具箱BS",type:"c",cost:40,hp:20,str:1,fly:3,tgh:1}
 {id:18,name:"重砲馬克西斯BS",type:"c",cost:40,hp:25,str:2,fly:3}
 //{id:19,name:"Boiledeck BS",type:"c",cost:35,hp:20,str:1,fly:2,tgh:2}
