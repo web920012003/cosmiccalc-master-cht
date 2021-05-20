@@ -30,7 +30,7 @@
 {id:119,name:"High Pierce Gun Mod",main:{tec:100,pwr:20,shl:270,rng:260,spd:340,itv:340},tunable:{mwp:1},type:"l",size:"M",cost:170,str:1,tec:1}
 {id:15,name:"電磁手槍",size:"S",cost:15,main:{pwr:10,shl:260,rng:225,spd:570,itv:460}}
 {id:16,name:"Handy Magnum Mod",size:"M",cost:15,main:{pwr:13,shl:280,rng:185,spd:300,itv:460}}
-{id:17,name:"Beet Gun",size:"M",cost:30,main:{pwr:13,shl:230,rng:185,spd:310,itv:500}}
+{id:17,name:"甲蟲槍",size:"M",cost:100,type:"lc",main:{pwr:19,shl:330,rng:225,spd:440,itv:500}}
 {id:96,name:"剛硬甲蟲槍",main:{pwr:23,shl:340,rng:225,spd:440,itv:500},type:"lc",size:"M",cost:160}
 {id:18,name:"自動電磁槍",size:"S",cost:45,main:{pwr:14,shl:280,rng:225,spd:500,itv:460}}
 {id:19,name:"雙管電磁槍",type:"l",size:"M",cost:140,main:{pwr:14,shl:400,rng:225,spd:440,itv:460}}

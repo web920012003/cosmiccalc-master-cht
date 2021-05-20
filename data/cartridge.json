@@ -14,7 +14,7 @@
 {id:14,name:"EX防護",comment:"Raises the HP of your Wonder Bit."}
 {id:15,name:"硬質回復",comment:"Restores a small amount of HP when stunned."}
 {id:16,name:"強硬突擊",comment:"Decreases chance of being stunned when attacked while running."}
-{id:17,name:"緊急迴避",comment:"Allows you to use the custom dash action 'Sway'."}
+{id:17,name:"緊急回避",comment:"Allows you to use the custom dash action 'Sway'."}
 {id:18,name:"短距跳躍",comment:"Allows you to use the custom dash action 'Short Boost'. Instead of dashing, you will jump a short distance."}
 {id:19,name:"浮游衝刺",comment:"Allows you to use the custom dash action 'Float Dash'. Instead of dashing, you will move by flying close to the ground."}
 {id:20,name:"高速移動",comment:"Allows you to use the custom running action 'Boost Run'. Uses boost gauge to increase running speed."}

@@ -247,7 +247,7 @@
 //{id:23,name:"Assault Ox BS",type:"l",cost:40,hp:20,tec:1,wlk:2,fly:2}
 //{id:84,name:"Assault Ox M2 BS",type:"l",cost:45,hp:25,str:1,tec:-1,fly:2,tgh:3}
 {id:24,name:"希諾.伊克斯騎士BS",type:"l",cost:40,hp:25,tec:2,fly:3}
-//{id:32,name:"Beet Lander BS",type:"l",cost:45,hp:25,str:1,tec:2,fly:2}
+{id:32,name:"甲蟲蘭達BS",type:"l",cost:40,hp:20,str:1,tec:2,fly:2}
 {id:104,name:"剛硬甲蟲蘭達BS",type:"l",cost:40,hp:25,tec:1,fly:3,tgh:1}
 //{id:42,name:"Sharhead BS",type:"l",cost:45,hp:25,tec:2,wlk:-1,fly:3,tgh:1}
 //{id:111,name:"Sharhead BS2",type:"l",cost:45,hp:25,str:1,fly:3,tgh:1}
@@ -600,7 +600,8 @@
 //{id:110,name:"Gozu BS2",type:"l",cost:35,hp:20,str:1,tec:0,wlk:-1,fly:3,tgh:2}
 //{id:111,name:"Joste Gunder BS",type:"l",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:3,tgh:0}
 //{id:112,name:"Teitarotes BS",type:"c",cost:90,hp:25,str:0,tec:2,wlk:0,fly:1,tgh:2,main:{pwr:15,shl:90,rng:320,spd:280,itv:1000},tunable:{mwp:1}}
-//last:112
+{id:113,name:"多拉肯BS",type:"l",cost:40,hp:25,str:1,tec:-1,fly:3,tgh:2}
+//last:113
 //
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"修汀BS",type:"a",cost:125,hp:25,fly:5,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}

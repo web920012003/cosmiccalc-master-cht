@@ -169,7 +169,7 @@
 {id:32,name:"神威伊知那αLG2",type:"a",cost:45,hp:25,tec:1,wlk:3,fly:1,tgh:1,joint:{bs:1}}
 //{id:30,name:"Squidol LG",type:"s",cost:75,hp:40,str:1,tec:2,wlk:3,fly:2,builtin:{bs:1}}
 //{id:33,name:"Hoverion Magna LG",cost:50,hp:30,tec:2,wlk:2,fly:1,tgh:1}
-//{id:34,name:"Beet Lander LG",cost:50,hp:30,str:2,tec:1,wlk:2,tgh:1}
+{id:34,name:"甲蟲蘭達LG",cost:45,hp:25,str:2,tec:1,wlk:2}
 {id:35,name:"戰鍬瑞斯LG",cost:45,hp:25,str:1,tec:2,wlk:2,fly:-1,tgh:1}
 {id:36,name:"原子分裂者LG",cost:45,hp:25,tec:2,wlk:2,tgh:2}
 {id:37,name:"裝甲神槍LG",cost:45,hp:25,str:2,wlk:3,tgh:1}
@@ -414,7 +414,8 @@
 {id:130,name:"哈庫曼斯庫那LG",type:"a",cost:105,hp:50,wlk:2,fly:3,tgh:1,sub:{shl:40,spd:150,itv:1000}}
 {id:131,name:"鐵血騎士LG2",cost:45,hp:45,tec:1,wlk:5,fly:-1}
 {id:132,name:"巨漢馬汀斯LG2",cost:90,hp:70,tec:1,wlk:3,fly:2,sub:{str:100,shl:100,spd:60,itv:1000},type:"a"}
-//last:132
+{id:133,name:"多拉肯LG",cost:45,hp:25,str:2,wlk:3,tgh:1}
+//last:133
 //
 //
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}

@@ -254,7 +254,7 @@
 {id:95,name:"超能巴利歐AM",joint:{wp:2},type:"c",cost:100,hp:25,tec:2,wlk:1,fly:1,tgh:2,fixedParts:{wp:{name:"超能巴利歐AM@",sub:{pwr:20,shl:130,rng:350,spd:290,itv:1000,tec:100},slot:0}}}
 //{id:1140,name:"Hiverion AM2",joint:{wp:2},fixedParts:{wp:{name:"Hiverion AM@",sub:{str:100,pwr:20,rng:60,spd:80,itv:1500},slot:0}},type:"c",cost:110,hp:30,str:2,tec:1,wlk:1,fly:-1,tgh:2}
 //{id:42,name:"Hoverion Magna AM",cost:40,hp:25,tec:2,fly:1,tgh:2}
-//{id:47,name:"Beet Lander AM",cost:35,hp:20,str:2,tec:-1,wlk:1,fly:1,tgh:2}
+{id:47,name:"甲蟲蘭達AM",cost:35,hp:20,str:2,tec:-1,wlk:1,fly:1,tgh:2}
 {id:48,name:"戰鍬瑞斯AM",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
 //{id:57,name:"Accel Saber AM",cost:35,hp:20,str:1,tec:3,tgh:1}
 {id:67,name:"青龍AM",cost:40,hp:25,str:2,tec:1,fly:1,tgh:1}
@@ -652,7 +652,8 @@
 {id:2137,name:"哈庫曼斯庫那AM",cost:40,hp:25,str:1,tec:1,fly:2,tgh:1}
 {id:2138,name:"卡塔羅斯AM",cost:40,hp:25,tec:3,fly:1,tgh:1}
 {id:2139,name:"鐵血騎士AM2",cost:135,hp:20,str:-1,tec:3,wlk:1,tgh:2,joint:{wp:0},main:{pwr:5,shl:1400,rng:225,spd:400,itv:180},tunable:{mwp:1}}
-//last:2139
+{id:2140,name:"多拉肯AM",cost:40,hp:25,str:3,wlk:1,fly:-1,tgh:2}
+//last:2140
 //
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:11,name:"巨盾巴隆AM",cost:40,hp:25,str:2,tec:-1,wlk:1,tgh:3}
