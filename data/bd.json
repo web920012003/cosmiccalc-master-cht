@@ -356,7 +356,7 @@
 {id:63,name:"宇宙凱薩BD3",cartridge:{hpup:10,lv1:"1*6@20|9@20|7@20|10@15|17@15|20@15|18@15|23@25|57@15|24@10|21@20|16@20|15@15|14@20|26@20|30@20|31@40|32@50|13@30|12@20|11@20|58@20|29@20|28@30"},cost:550,hp:305,str:5,tec:12,wlk:12,fly:8,tgh:14,capa:945,wbid:0,main:{pwr:6,shl:900,rng:225,spd:440,itv:200},comment:"Cosmo Kaiser IF"}
 //{id:64,name:"Hadelos BD2",cartridge:{hpup:9,lv1:"2*6@15|7@20|9@20|10@15|20@15|18@15|17@15|31@40",lv6:"16@20|23@25|13@30|27@40",lv9:"26@20|32@50|30@20"},cost:555,hp:295,str:12,tec:3,wlk:11,fly:6,tgh:15,capa:960,wbid:0,main:{str:100,pwr:18,shl:200,rng:230,spd:520,itv:300},sub:{shl:15,rng:200,spd:470,itv:500},comment:"El Hadelos"}
 //{id:65,name:"Joste Gunder BD",cartridge:{hpup:6,lv1:"2*6@15|7@20|9@20|10@15|20@15|18@15|17@15|21@20",lv6:"16@20|23@25|29@15|15@15",lv9:"27@40|13@30|32@50"},cost:560,capa:1055,hp:320,str:15,tec:4,wlk:8,fly:6,tgh:16,wbid:0,main:{shl:10,itv:1000}}
-{id:66,name:"多拉肯BD",cartridge:{hpup:18,lv1:"2*6@20|7@20|9@20}10@15|17@15|18@15|20@15|23@25|12@20|16@20|11@20|29@15|13@30|32@50|31@40"},wbid:6,cost:445,capa:870,hp:290,str:14,tec:4,wlk:10,fly:6,tgh:14}
+{id:66,name:"多拉肯BD",cartridge:{hpup:14,lv1:"2*6@20|7@20|9@20}10@15|17@15|18@15|20@15|23@25|12@20|16@20|11@20|29@15|13@30|32@50|31@40"},wbid:6,cost:445,capa:870,hp:290,str:14,tec:4,wlk:10,fly:6,tgh:14}
 //last:66
 //
 {group:"S空",prefixID:"AS",commonStat:{size:"S",type:"a"}}
