@@ -528,7 +528,7 @@
 {id:38,name:"矢量BS",type:"a",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:3}
 //{id:42,name:"Felchas BS",type:"l",cost:35,hp:20,str:1,wlk:1,fly:3,tgh:-1}
 //{id:43,name:"Galsteel BS",type:"c",cost:35,hp:15,str:-1,tec:1,wlk:1,fly:2,tgh:1}
-//{id:45,name:"Gaderoga BS",cost:30,hp:20,str:1,wlk:-1,fly:3,tgh:1,type:"c"}
+{id:45,name:"要塞洛加BS",cost:40,hp:25,str:1,wlk:-1,fly:3,tgh:2,type:"c"}
 //{id:1090,name:"Falx BS",cost:35,hp:20,str:1,wlk:1,fly:3,tgh:-1,type:"l"}
 //{id:1088,name:"Falx BS2",cost:35,hp:20,str:1,tec:-1,wlk:1,fly:3,type:"l"}
 {id:26,name:"零式破壞者BS",type:"l",cost:40,hp:25,wlk:2,fly:2,tgh:1}

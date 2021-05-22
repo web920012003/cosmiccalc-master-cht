@@ -16,6 +16,8 @@
 {id:2014,name:"Devil (WLK)",slot:2,capa:5,wlk:1,hp:5}
 {id:2015,name:"Devil (FLY)",slot:2,capa:5,fly:1,hp:5}
 {id:2016,name:"Devil (TGH)",slot:2,capa:5,tgh:1,hp:5}
+{id:2017,name:"+10 capa",capa:10}
+{id:2018,name:"+10 capa Exp+5%",capa:10,comment:"Exp+5%"}
 {id:1,name:"Papillion Mask"}
 {id:2,name:"13th Mask"}
 {id:3,name:"Bloody 13th Mask",str:1}

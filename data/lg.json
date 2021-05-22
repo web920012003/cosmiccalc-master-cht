@@ -425,7 +425,7 @@
 {id:5,name:"希諾.伊克斯騎士LG3",type:"l",cost:225,hp:55,str:2,tec:-1,wlk:3,tgh:2,sub:{str:100,pwr:32,rng:77,spd:94,itv:1000},tunable:{pwp:1},joint:{bs:1}}
 //{id:4,name:"Cyclotes LG",cost:45,hp:70,str:1,wlk:3,fly:-1,tgh:3}
 //{id:15,name:"Cyclotes LG2",sub:{str:100,pwr:34,rng:80,spd:150,itv:500},tunable:{pwp:1},type:"l",cost:180,hp:70,str:2,wlk:2,fly:-1,tgh:3}
-//{id:6,name:"Gaderoga LG",cost:65,hp:95,str:-1,tec:-1,wlk:5,fly:1,tgh:3,joint:{bs:1}}
+{id:6,name:"要塞洛加LG",cost:45,hp:65,str:-1,tec:-1,wlk:4,fly:1,tgh:3,joint:{bs:1}}
 //{id:11,name:"Gaderoga LG2",joint:{bs:1},cost:95,hp:95,str:1,tec:-1,wlk:5,fly:-1,tgh:3,sub:{pwr:15,rng:60,spd:90,itv:3000,str:100},tunable:{pwp:1},type:"lc"}
 {id:7,name:"黃昏制裁LG",cost:50,hp:60,wlk:4,tgh:2}
 {id:8,name:"深紅鬥士LG",cost:50,hp:70,str:2,wlk:3,fly:-1,tgh:2}
@@ -461,4 +461,5 @@
 //{id:20,name:"Assault Boost LGJ",size:"M",sub:{shl:7,rng:120,spd:180,itv:2000},cost:35,hp:5,fly:1,slot:1}
 //{id:21,name:"Super Star Belt LGJ",cost:5,hp:5,slot:1}
 //{id:22,name:"Swim Ring LGJ",size:"M",cost:5,hp:5,wlk:1,slot:1}
+{id:23,name:"結晶LGJ",size:"M",slot:1}
 //

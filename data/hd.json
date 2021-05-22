@@ -242,8 +242,8 @@
 {id:305,name:"賽多洛HD2",cost:40,hp:25,str:1,tec:-1,wlk:3,tgh:2}
 //{id:167,name:"Synoris HD",cost:35,hp:20,str:1,tec:1,wlk:1,tgh:2}
 //{id:274,name:"Synoris HD2",main:{pwr:10,shl:200,rng:350,spd:390,itv:900},tunable:{mwp:1},type:"lc",cost:60,hp:20,str:1,tec:1,wlk:1,tgh:2}
-//{id:168,name:"Gaderoga HD",cost:25,hp:10,str:-1,tec:3,wlk:1}
-//{id:169,name:"Gaderoga HD2",cost:25,hp:10,str:2,tec:-1,tgh:2}
+{id:168,name:"要塞洛加HD",cost:35,hp:20,tec:2,wlk:1,tgh:2}
+{id:169,name:"要塞洛加HD2",cost:35,hp:20,str:2,wlk:1,tgh:2}
 //{id:208,name:"Gaderoga HD3",cost:25,hp:10,str:-1,tec:1,tgh:2,fly:1}
 //{id:187,name:"Galsteel HD",cost:30,hp:15,str:2,wlk:-1,fly:2,tgh:1}
 //{id:1205,name:"Falx HD",cost:35,hp:20,tec:2,wlk:2,tgh:1}

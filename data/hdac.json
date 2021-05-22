@@ -25,6 +25,8 @@
 {id:2014,name:"Headband (WLK)",slot:2,capa:5,wlk:1,hp:5}
 {id:2015,name:"Headband (FLY)",slot:2,capa:5,fly:1,hp:5}
 {id:2016,name:"Headband (TGH)",slot:2,capa:5,tgh:1,hp:5}
+{id:2017,name:"+10 capa",capa:10}
+{id:2018,name:"+10 capa Exp+5%",capa:10,comment:"Exp+5%"}
 {id:1,name:"白色花朵",slot:1,capa:5,wlk:1,hp:5}
 {id:2,name:"Red Flower"}
 {id:3,name:"Blue Flower",str:1}
