@@ -1,6 +1,6 @@
 {group:"Conversion-MWP",prefixID:"CM",commonStat:{tunable:{mwp:1}}}
-{id:1,name:"Power Arrow",main:{tec:100,pwr:27,shl:74,rng:230,spd:380,itv:400},type:"l",size:"M",cost:45,conversion:"AMM151 AMM171",comment:"Attachable to 'Robin Hunter AM/AM2' only",slot:0}
-{id:2,name:"Charge Delay Arrow",main:{pwr:6,shl:150,rng:250,spd:380,itv:640},cost:25,type:"l",size:"M",conversion:"AMM151",comment:"Attachable to 'Robin Hunter AM' only",slot:0}
+{id:1,name:"衝擊弓",main:{tec:100,pwr:22,shl:230,rng:225,spd:480,itv:600},type:"l",size:"M",cost:30,conversion:"AMM151 AMM171",comment:"Attachable to 'Robin Hunter AM/AM2' only",slot:0}
+{id:2,name:"導向箭",main:{pwr:13,shl:180,rng:250,spd:320,itv:800},cost:50,type:"l",size:"M",conversion:"AMM151",comment:"Attachable to 'Robin Hunter AM' only",slot:0}
 {id:3,name:"Impact Arrow",main:{pwr:10,shl:20,rng:250,spd:500,itv:500},type:"l",size:"M",cost:25,conversion:"AMM151",comment:"Attachable to 'Robin Hunter AM' only",slot:0}
 {id:4,name:"Pretty Rabbit Bazooka",main:{tec:100,pwr:26,shl:200,rng:270,spd:350,itv:500},tunable:{mwp:1},conversion:"BDCS90AM BDCS90AM2",type:"c",size:"S",cost:80,comment:"Attachable to 'Ripley AM/AM' only"}
 {id:5,name:"Pretty Ninja Missile",main:{tec:100,pwr:13,shl:400,rng:320,spd:260,itv:300},tunable:{mwp:1},conversion:"BDCS90AM BDCS90AM2",type:"c",size:"S",cost:70,comment:"Attachable to 'Ripley AM/AM2' only"}
@@ -248,6 +248,7 @@
 {id:247,name:"Alba Cannon",main:{pwr:24,shl:200,rng:340,spd:480,itv:500},conversion:"BDAS1094WP"}
 {id:248,name:"Alba Missile",main:{pwr:12,shl:400,rng:300,spd:350,itv:500},conversion:"BDAS1094WP"}
 {id:249,name:"Love Ball",cost:60,main:{pwr:0,shl:50,rng:300,spd:300,itv:1000},conversion:"BDSS133 BDSS134 BDSS135 BDSS136 BDSS137 BDSS138 BDSS139 BDSS140 BDSS141 BDSS142 BDSS156 BDSS157"}
+{id:250,name:"K・諾娜BS@",slot:0,main:{pwr:15,shl:450,rng:350,spd:500,itv:400},sub:{pwr:28,shl:100,rng:350,spd:500,itv:1000},cost:160,conversion:"BSS1075"}
 
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
@@ -300,7 +301,7 @@
 {id:47,name:"Grave Paddle",sub:{str:100,pwr:30,rng:70,spd:85,itv:500},tunable:{pwp:1},cost:90,type:"l",size:"S",conversion:"BDLS124AM",comment:"Attachable to 'Kaede AM' only"}
 {id:48,name:"Blue Tail",sub:{str:100,pwr:32,shl:15,rng:200,spd:350,itv:1000},joint:{wp:1},jointPart:1,cost:30,size:"S",type:"a",conversion:"BDAS60LG BDAS73LG BDAS90LG",comment:"Attachable to 'Litia LG/LG2/LG3' only"}
 {id:49,name:"Blue Sarissa",sub:{str:100,pwr:32,rng:90,spd:90,itv:500},tunable:{pwp:1},type:"a",size:"S",cost:100,conversion:"BDAS60AM BDAS72AM BDAS90AM",comment:"Attachable to 'Litia AM2' only"}
-{id:50,name:"Labyrinthaxe",main:{pwr:17,shl:400,rng:280,spd:240,itv:340,tec:100},sub:{tec:100,pwr:20,shl:200,rng:340,spd:210,itv:1000},type:"c",size:"S",cost:225,conversion:"BDCS56AM BDCS69AM BDCS88AM",comment:"Attachable to 'Miruru Miu AM/AM3/AM4' only",tunable:{mwp:1}}
+{id:50,name:"戰牛斧",main:{pwr:13,shl:320,rng:330,spd:330,itv:340,tec:100},sub:{tec:100,pwr:30,shl:120,rng:350,spd:290,itv:1000},type:"c",size:"M",cost:225,conversion:"BDCS56AM BDCS69AM BDCS88AM",comment:"Attachable to 'Miruru Miu AM/AM3/AM4' only",tunable:{mwp:1}}
 {id:51,name:"Labyrinthaxe LJ",main:{pwr:23,shl:100,rng:340,spd:210,itv:400,tec:100},sub:{tec:100,pwr:20,shl:200,rng:340,spd:210,itv:1000},joint:{wp:1},type:"c",size:"S",cost:180,conversion:"BDCS56AM BDCS69AM BDCS88AM",comment:"Attachable to 'Miruru Miu AM/AM3/AM4' only",slot:0}
 {id:52,name:"Wing Attachment ALPHA",size:"M",cost:40,slot:0,sub:{shl:7,rng:100,spd:150,itv:2000},conversion:"BSM132",comment:"Attachable to 'Multiwing BS' only"}
 {id:53,name:"Wing Attachment BETA",sub:{shl:12,spd:150,itv:1000},size:"M",slot:0,conversion:"BSM132",comment:"Attachable to 'Multiwing BS' only",cost:40}
@@ -404,3 +405,4 @@
 {id:151,name:"Alba Boost",sub:{pwr:0,shl:15,rng:300,spd:200,itv:1000},conversion:"BDAS1094WP",tunable:{pwp:0}}
 {id:152,name:"Alba Missile II",sub:{pwr:7,shl:720,rng:330,spd:280,itv:1000},conversion:"BDAS1094WP",tunable:{pwp:0}}
 {id:153,name:"克里剛之盾",main:{shl:50,spd:10,itv:1000},sub:{str:100,pwr:30,rng:70,spd:85,itv:500},joint:{wp:1},fixedParts:{wp:{name:"克里剛之盾@",sub:{str:100,pwr:28,rng:120,spd:250,itv:2500},cost:50,slot:0}},type:"l",size:"S",tunable:{pwp:1},cost:120,conversion:"BDLS130AM BDLS152AM",comment:"Attachable to 'Corona AM' only"}
+{id:154,name:"變形",sub:{spd:150,itv:500},conversion:"BDAM27",slot:0,cost:50}
