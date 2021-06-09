@@ -465,6 +465,6 @@
 {id:1063,name:"Blaze Headcannon",size:"S",type:"c",cost:60,main:{pwr:19,shl:200,rng:320,spd:300,itv:940}}
 {id:1064,name:"蓋爾尼亞之杖",cost:100,size:"M",type:"c",main:{pwr:32,shl:160,rng:330,spd:440,itv:900}}
 {id:1065,name:"貝爾傑拉夫權能",cost:200,size:"M",type:"c",main:{pwr:21,shl:880,rng:330,spd:330,itv:500}}
-{id:1066,name:"夫拉克利斯權能",cost:200,size:"M",type:"a",main:{pwr:8,shl:880,rng:275,spd:400,itv:200}}
+{id:1066,name:"夫拉克利斯權能",cost:200,size:"M",type:"a",main:{pwr:7,shl:880,rng:275,spd:400,itv:200}}
 {id:1067,name:"龍天擊",cost:100,size:"M",type:"l",main:{str:100,pwr:13,shl:240,rng:225,spd:400,itv:500}}
 {id:1068,name:"威沙梅爾法杖",type:"a",size:"M",cost:150,main:{pwr:7,shl:840,rng:275,spd:340,itv:900},sub:{pwr:32,shl:50,rng:250,spd:400,itv:1000}}
