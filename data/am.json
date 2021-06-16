@@ -58,8 +58,8 @@
 {id:26,name:"迪卡洛斯AM",cost:35,hp:20,str:1,tec:2,fly:1,tgh:1}
 {id:27,name:"迪卡洛斯AM2",type:"a",cost:165,hp:20,str:-1,tec:3,fly:2,tgh:1,main:{pwr:7,shl:900,rng:275,spd:350,itv:600},sub:{pwr:7,shl:150,rng:275,spd:350,itv:1000},tunable:{mwp:1},joint:{wp:0}}
 //{id:1001,name:"Nova Dikaros AM",sub:{str:100,pwr:22,rng:70,spd:60,itv:1000},tunable:{pwp:1},cost:90,hp:15,str:2,tec:1,wlk:-1,fly:2}
-//{id:52,name:"Brickgale AM",cost:40,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
-//{id:53,name:"Brickgale AM2",type:"a",cost:70,hp:20,tec:3,wlk:1,tgh:1,main:{pwr:7,shl:240,rng:160,spd:300,itv:220},tunable:{mwp:1}}
+{id:52,name:"英雄凱爾AM",cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
+{id:53,name:"英雄凱爾AM2",type:"a",cost:140,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1,main:{pwr:8,shl:560,rng:250,spd:480,itv:140},tunable:{mwp:1}}
 //{id:70,name:"Brickgale AM4",type:"a",cost:65,hp:20,tec:2,wlk:-1,tgh:2,str:1,fly:1,main:{pwr:7,shl:200,rng:250,spd:220,itv:700},tunable:{mwp:1}}
 //{id:59,name:"Armed Build Arm AM",type:"c",cost:60,hp:20,tec:3,wlk:1,fly:-1,tgh:2,main:{pwr:7,shl:200,rng:300,spd:400,itv:600},tunable:{mwp:1}}
 //{id:60,name:"Armed Build Arm AM2",type:"lc",cost:60,hp:20,str:2,tec:2,fly:2,tgh:-1,sub:{pwr:18,rng:80,spd:190,itv:800}}
@@ -507,9 +507,9 @@
 {id:130,name:"火藥庫邦格AM2",type:"c",cost:100,hp:25,tec:3,wlk:1,fly:1,main:{pwr:17,shl:320,rng:330,spd:260,itv:500},tunable:{mwp:1}}
 //{id:1132,name:"Sturbanger AM3",type:"c",cost:170,hp:10,tec:3,wlk:1,tgh:-1,main:{pwr:13,shl:540,rng:270,spd:310,itv:200},tunable:{mwp:1},joint:{wp:0}}
 //{id:131,name:"Sturbanger AM4",type:"c",cost:20,hp:10,tec:2,wlk:1,fly:1,tgh:-1}
-//{id:30,name:"Boiledeck AM",type:"c",cost:115,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2,main:{pwr:5,shl:1500,rng:150,spd:350,itv:140},tunable:{mwp:1},joint:{wp:0}}
+{id:30,name:"波魯迪克AM",type:"c",cost:95,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2,main:{pwr:7,shl:1050,rng:330,spd:440,itv:140},tunable:{mwp:1},joint:{wp:0}}
 //{id:31,name:"Boiledeck AM2",type:"c",cost:130,hp:25,str:-1,tec:3,wlk:2,tgh:1,main:{pwr:9,shl:850,rng:70,spd:320,itv:100},tunable:{mwp:1}}
-//{id:37,name:"Domiclown AM",type:"l",cost:120,hp:20,str:3,tec:1,wlk:1,tgh:-1,main:{pwr:5,shl:600,rng:165,spd:310,itv:540},sub:{str:100,pwr:25,rng:65,spd:115,itv:1000},tunable:{mwp:1,pwp:1},joint:{wp:0}}
+{id:37,name:"瘋狂小丑AM",type:"l",cost:220,hp:25,str:4,tec:-1,wlk:1,tgh:1,main:{str:100,pwr:22,shl:150,rng:200,spd:400,itv:560},sub:{str:100,pwr:30,rng:70,spd:85,itv:2000},tunable:{mwp:1,pwp:1},joint:{wp:0}}
 {id:38,name:"瘋狂小丑AM2",cost:40,hp:25,tec:2,fly:1,tgh:2}
 {id:39,name:"瘋狂小丑AM3",type:"l",cost:240,hp:25,str:2,tec:-1,wlk:2,fly:1,tgh:1,main:{pwr:8,shl:800,rng:250,spd:400,itv:880,str:100},sub:{str:100,pwr:28,rng:70,spd:85,itv:500},tunable:{mwp:1,pwp:1},joint:{wp:0}}
 //{id:68,name:"Domiclown AM4",cost:35,hp:20,str:2,tec:1,wlk:1,fly:1,tgh:-1}
@@ -670,7 +670,7 @@
 //{id:6,name:"Red Squealer AM2",type:"l",cost:220,hp:40,str:3,tgh:2,sub:{str:100,pwr:32,rng:60,spd:40,itv:1500},tunable:{pwp:1},joint:{wp:0},wlk:1}
 //{id:5,name:"Gwyain AM2",type:"a",cost:220,hp:40,tec:3,fly:1,tgh:2,tunable:{mwp:1},main:{pwr:12,shl:1400,rng:260,spd:410,itv:300},joint:{wp:0}}
 {id:2,name:"千兆托爾AM2",type:"c",cost:200,hp:25,str:-1,tec:4,fly:-1,tgh:3,main:{pwr:37,shl:220,rng:330,spd:360,itv:800},sub:{pwr:30,shl:90,rng:350,spd:240,itv:1000},tunable:{mwp:1},joint:{wp:0}}
-{id:14,name:"要塞洛加AM",type:"c",cost:100,hp:25,str:-1,tec:3,wlk:-1,fly:1,tgh:3,main:{pwr:34,shl:100,rng:300,spd:320,itv:1000},tunable:{mwp:1},joint:{wp:0}}
+{id:14,name:"要塞洛加AM",type:"c",cost:100,hp:25,str:-1,tec:3,wlk:-1,fly:1,tgh:3,main:{pwr:36,shl:180,rng:300,spd:320,itv:1000},tunable:{mwp:1},joint:{wp:0}}
 {id:15,name:"要塞洛加AM2",type:"c",cost:125,hp:25,tec:2,wlk:2,fly:-1,tgh:2,main:{pwr:10,shl:760,rng:90,spd:480,itv:100},tunable:{mwp:1},joint:{wp:0}}
 //{id:19,name:"Gaderoga AM3",main:{tec:100,pwr:8,shl:500,rng:150,spd:380,itv:100},tunable:{mwp:1},type:"c",cost:100,hp:30,tec:3,wlk:1,fly:-1,tgh:3,joint:{wp:0},str:-1}
 {id:16,name:"深紅鬥士AM",sub:{str:100,pwr:31,rng:120,spd:250,itv:1000},tunable:{pwp:1},joint:{wp:0},type:"l",cost:150,hp:25,str:3,tec:-1,wlk:1,fly:-1,tgh:3}

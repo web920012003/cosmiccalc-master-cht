@@ -46,7 +46,7 @@
 //{id:33,name:"Medi Aide LG",cost:40,hp:20,wlk:2,fly:2,tgh:1}
 //{id:34,name:"Jack Gadget LG",cost:50,hp:35,str:-1,tec:1,wlk:2,fly:2,tgh:2}
 //{id:35,name:"Jack Gadget LG2",cost:50,hp:35,str:1,wlk:2,fly:3}
-//{id:36,name:"Brickgale LG",cost:50,hp:30,tec:2,wlk:1,fly:2,tgh:1}
+{id:36,name:"英雄凱爾LG",cost:45,hp:25,tec:2,wlk:2,fly:2}
 //{id:56,name:"Brickgale LG2",cost:50,hp:30,tec:2,wlk:2,fly:2}
 //{id:37,name:"Lucheer LG",cost:30,hp:15,tec:2,wlk:3,tgh:-1}
 {id:38,name:"櫻華LG",type:"l",cost:45,hp:25,str:1,wlk:3,tgh:2,joint:{bs:1}}
@@ -201,7 +201,7 @@
 //{id:62,name:"Wolfguy LG",cost:50,hp:30,str:2,tec:1,wlk:3,fly:-1}
 //{id:64,name:"Aero Raider LG",cost:40,hp:25,tec:1,wlk:3,fly:-1,tgh:2}
 {id:65,name:"賽多洛LG",cost:45,hp:25,str:2,wlk:2,fly:-1,tgh:2}
-//{id:66,name:"Synoris LG",cost:40,hp:25,wlk:3,tgh:2}
+{id:66,name:"風馳利司LG",cost:45,hp:25,str:-1,tec:1,wlk:4,tgh:2}
 {id:1105,name:"風馳利司LG2",sub:{str:100,pwr:28,rng:80,spd:180,itv:4000},tunable:{pwp:1},type:"l",cost:95,hp:25,str:1,wlk:4,fly:-1,tgh:2}
 //{id:68,name:"Persenachia LG",cost:50,hp:25,wlk:1,fly:1,tgh:3}
 //{id:105,name:"Persenachia LG2",cost:45,hp:25,str:-1,tec:2,wlk:1,fly:3}
@@ -308,7 +308,7 @@
 //{id:22,name:"Red Squealer LG",cost:40,hp:60,str:1,tec:-1,wlk:3,tgh:2}
 {id:23,name:"閃焰巴洛LG",cost:45,hp:65,str:1,tec:1,wlk:3,fly:1}
 {id:24,name:"泰達利歐LG",cost:50,hp:35,str:2,tec:-1,wlk:3,fly:1,tgh:1}
-//{id:25,name:"Boiledeck LG",cost:55,hp:30,str:2,wlk:3,fly:1}
+{id:25,name:"波魯迪克LG",cost:45,hp:25,str:2,wlk:3,fly:1}
 {id:26,name:"火藥庫邦格LG",cost:45,hp:45,tec:1,wlk:2,fly:1,tgh:2}
 {id:94,name:"火藥庫邦格LG2",type:"c",sub:{tec:100,pwr:15,shl:30,rng:350,spd:290,itv:1000},cost:135,hp:50,str:-1,tec:2,wlk:3,tgh:2}
 //{id:27,name:"Lobguyz LG",type:"l",cost:125,hp:45,str:1,wlk:3,tgh:2,sub:{str:100,pwr:20,rng:50,spd:115,itv:1000},tunable:{pwp:1}}

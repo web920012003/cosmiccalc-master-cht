@@ -49,7 +49,7 @@
 {id:64,name:"零式鬥士NEXTBS",type:"l",cost:70,hp:25,str:1,tec:-1,wlk:2,fly:3,sub:{shl:30,rng:10,spd:150,itv:1000,str:100},tunable:{pwp:0}}
 //{id:27,name:"Jack Gadget BS",type:"s",cost:90,hp:20,str:1,fly:1,tgh:3,sub:{str:100,pwr:23,rng:20,spd:46,itv:1200},tunable:{pwp:1}}
 //{id:28,name:"Jack Gadget BS2",type:"s",cost:100,hp:25,str:-1,tec:2,fly:3,tgh:1,main:{pwr:4,shl:450,rng:330,spd:150,itv:860},tunable:{mwp:1}}
-//{id:29,name:"Brickgale BS",type:"a",cost:65,hp:25,str:2,fly:3,sub:{shl:20,rng:100,spd:120,itv:1000}}
+{id:29,name:"英雄凱爾BS",type:"a",cost:60,hp:25,wlk:1,fly:4,sub:{shl:50,spd:150,itv:1000}}
 //{id:30,name:"Brickgale BS2",type:"a",cost:65,hp:25,str:2,wlk:1,fly:3,tgh:-1,sub:{shl:20,rng:100,spd:120,itv:1000}}
 //{id:52,name:"Brickgale BS3",type:"a",cost:65,hp:25,str:2,fly:3,tgh:-1,tec:1,sub:{shl:20,rng:100,spd:120,itv:1000}}
 //{id:91,name:"Brickgale BS4",cost:65,hp:25,str:2,wlk:-1,fly:4,sub:{shl:20,rng:100,spd:120,itv:1000},type:"a"}
@@ -259,7 +259,7 @@
 //{id:70,name:"Wolfguy BS",tunable:{pwp:1},auraStat:{sub:{str:100,pwr:25,rng:100,spd:150,itv:800}},type:"l",cost:60,hp:15,str:1,tec:-1,wlk:2,fly:2,sub:{pwr:1}}
 //{id:71,name:"Aero Raider BS",cost:35,hp:20,str:2,wlk:-1,fly:3,tgh:1,type:"l"}
 {id:74,name:"賽多洛BS",type:"l",cost:40,hp:25,tec:-1,wlk:2,fly:3,tgh:1}
-//{id:75,name:"Synoris BS",type:"l",cost:40,hp:25,str:2,wlk:1,fly:2}
+{id:75,name:"風馳利司BS",type:"l",cost:35,hp:20,str:2,tec:-1,wlk:1,fly:3}
 {id:135,name:"風馳利司BS2",sub:{pwr:13,shl:180,rng:250,spd:300,itv:1000},type:"l",cost:65,hp:20,str:-1,tec:1,wlk:2,fly:3}
 //{id:8,name:"Locomotive X BS",type:"c",cost:20,hp:10,str:1,fly:1,tgh:1}
 //{id:9,name:"Victory BS",type:"c",cost:20,hp:10,wlk:1,fly:1,tgh:1}
@@ -506,7 +506,7 @@
 {id:16,name:"千兆托爾BS",type:"c",cost:40,hp:25,str:-1,tec:1,fly:3,tgh:2}
 {id:17,name:"武裝玩具箱BS",type:"c",cost:40,hp:20,str:1,fly:3,tgh:1}
 {id:18,name:"重砲馬克西斯BS",type:"c",cost:40,hp:25,str:2,fly:3}
-//{id:19,name:"Boiledeck BS",type:"c",cost:35,hp:20,str:1,fly:2,tgh:2}
+{id:19,name:"波魯迪克BS",type:"c",cost:40,hp:25,tec:1,fly:2,tgh:2}
 {id:20,name:"火藥庫邦格BS",type:"c",cost:35,hp:20,str:2,wlk:1,fly:2}
 //{id:84,name:"Sturbanger BS2",joint:{wp:1},fixedParts:{wp:{name:"Sturbanger BS2@",main:{tec:100,pwr:12,shl:210,rng:290,spd:260,itv:800},slot:0}},type:"c",cost:100,hp:10,str:-1,wlk:1,fly:3}
 {id:21,name:"巴爾薩迪歐BS",type:"s",cost:40,hp:25,wlk:2,fly:2,tgh:1}
