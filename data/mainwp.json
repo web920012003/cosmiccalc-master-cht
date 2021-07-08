@@ -198,7 +198,7 @@
 {id:26,name:"破壞格林機槍",main:{pwr:123,shl:1000,rng:350,spd:480,itv:200},size:"L",type:"c",cost:210}
 {id:28,name:"Gatling Breaker Mod",main:{pwr:27,shl:550,rng:310,spd:420,itv:540},size:"L",type:"c",cost:210,wlk:2}
 {id:16,name:"光束步槍",type:"as",size:"M",cost:70,main:{pwr:25,shl:170,rng:275,spd:520,itv:800}}
-{id:18,name:"自動光束步槍",type:"a",size:"M",cost:120,main:{pwr:12,shl:450,rng:275,spd:520,itv:200}}
+{id:18,name:"自動光束步槍",type:"a",size:"M",cost:120,main:{pwr:14,shl:450,rng:275,spd:520,itv:200}}
 {id:19,name:"Auto Beam Rifle Mod",type:"a",size:"M",cost:110,wlk:-1,fly:1,main:{pwr:15,shl:300,rng:250,spd:380,itv:200}}
 {id:23,name:"Long Beam Rifle",type:"a",size:"L",cost:160,str:-1,fly:1,main:{pwr:30,shl:160,rng:320,spd:500,itv:400}}
 {id:17,name:"陽電子步槍",type:"a",size:"L",cost:180,main:{pwr:37,shl:190,rng:275,spd:520,itv:900}}
@@ -267,7 +267,7 @@
 {id:42,name:"Middle Bazooka Mod",main:{pwr:29,shl:180,rng:270,spd:270,itv:900},type:"c",size:"L",cost:100,str:-1,wlk:-1,fly:-2}
 {id:48,name:"毀滅火箭砲",main:{pwr:17,shl:340,rng:330,spd:530,itv:500},cost:100,size:"M",type:"c"}
 {id:57,name:"Blow Bazooka MOD",main:{pwr:23,shl:180,rng:245,spd:300,itv:500},cost:100,wlk:-1,fly:-1,size:"M",type:"c"}
-{id:6,name:"暴風火箭砲",type:"c",size:"M",cost:105,main:{pwr:37,shl:200,rng:330,spd:360,itv:900}}
+{id:6,name:"暴風火箭砲",type:"c",size:"M",cost:105,main:{pwr:29,shl:260,rng:330,spd:360,itv:700}}
 {id:31,name:"Blast Bazooka Mod",type:"c",size:"M",cost:105,str:1,wlk:1,main:{pwr:17,shl:180,rng:230,spd:290,itv:900}}
 {id:70,name:"迷你暴風火箭砲",main:{pwr:21,shl:280,rng:330,spd:400,itv:640},type:"c",size:"S",cost:60}
 {id:37,name:"LL Bulk Blast",main:{pwr:27,shl:120,rng:260,spd:290,itv:1000},type:"c",cost:150,wlk:-1,fly:-3,size:"LL"}
@@ -468,3 +468,5 @@
 {id:1066,name:"夫拉克利斯權能",cost:200,size:"M",type:"a",main:{pwr:7,shl:880,rng:275,spd:400,itv:200}}
 {id:1067,name:"龍天擊",cost:100,size:"M",type:"l",main:{str:100,pwr:13,shl:240,rng:225,spd:400,itv:500}}
 {id:1068,name:"威沙梅爾法杖",type:"a",size:"M",cost:150,main:{pwr:7,shl:840,rng:275,spd:340,itv:900},sub:{pwr:32,shl:50,rng:250,spd:400,itv:1000}}
+{id:1069,name:"雷射步槍",type:"a",size:"M",cost:130,main:{pwr:11,shl:420,rng:275,spd:480,itv:100}}
+{id:1070,name:"穿刺破壞槍",type:"c",size:"M",cost:170,main:{pwr:43,shl:140,rng:350,spd:480,itv:1000}}
