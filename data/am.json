@@ -531,7 +531,7 @@
 //{id:128,name:"Lancerlot AM6",type:"l",main:{tec:100,pwr:14,shl:170,rng:230,spd:360,itv:440},sub:{str:100,pwr:30,shl:20,rng:130,spd:200,itv:2500},tunable:{mwp:1,pwp:1},joint:{wp:0},cost:160,hp:25,str:3,tec:1,wlk:2,fly:-1}
 //{id:1126,name:"Lancerlot AM7",type:"l",sub:{str:100,rng:100,spd:50,itv:500},tunable:{pwp:1},joint:{wp:0},cost:120,hp:25,str:1,tec:1,wlk:1,fly:-1,tgh:3}
 //{id:25,name:"Red Squealer AM",type:"l",cost:95,hp:35,str:3,tgh:2,sub:{str:100,pwr:32,rng:110,spd:120,itv:1200},tunable:{pwp:1}}
-{id:10,name:"索亞. 拉AM",cost:40,hp:25,str:2,tec:1,fly:2}
+{id:10,name:"索亞.拉AM",cost:40,hp:25,str:2,tec:1,fly:2}
 //{id:97,name:"Thoarla AM5",cost:40,hp:25,str:1,tec:2,wlk:1,fly:2,tgh:-1}
 //{id:96,name:"Thoarla AM6",main:{pwr:15,shl:150,rng:300,spd:385,itv:300},sub:{str:100,pwr:35,rng:70,spd:90,itv:1500},tunable:{mwp:1,pwp:1},joint:{wp:0},type:"l",cost:200,hp:25,str:3,wlk:2,fly:-1,tgh:1}
 //{id:156,name:"Thoarla AM9",cost:35,hp:25,tec:1,wlk:-1,fly:2,tgh:3}
@@ -540,7 +540,7 @@
 {id:75,name:"零式破壞者AM",cost:35,hp:20,str:3,tec:-1,wlk:1,tgh:2}
 {id:76,name:"零式破壞者AM2",main:{tec:100,pwr:27,shl:220,rng:275,spd:480,itv:400},tunable:{mwp:1},type:"lc",cost:155,hp:20,str:-1,tec:3,wlk:1,tgh:2}
 {id:77,name:"黃昏制裁AM",joint:{am:1},fixedParts:{am:{name:"黃昏制裁AM@",cost:30,main:{tec:100,pwr:12,shl:200,rng:300,spd:400,itv:600},slot:0,joint:{wp:0}}},type:"c",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2}
-//{id:78,name:"Rotten Lemures AM",cost:35,hp:20,str:1,tec:-1,wlk:1,fly:1,tgh:3}
+{id:78,name:"超流體雷姆斯AM",cost:35,hp:20,str:1,tec:-1,wlk:1,fly:1,tgh:3}
 //{id:79,name:"Griest AM",main:{pwr:6,shl:160,rng:190,spd:220,itv:700,tec:100},tunable:{mwp:1},type:"a",cost:70,hp:15,str:1,tec:2,fly:2,tgh:-1}
 //{id:116,name:"Griest AM2",main:{pwr:8,shl:210,rng:280,spd:240,itv:1400},tunable:{mwp:1},type:"a",cost:95,hp:20,tec:3,wlk:1,fly:2,tgh:-1}
 //{id:162,name:"Griest AM3",main:{str:100,pwr:5,shl:50,rng:200,spd:570,itv:500},sub:{str:100,pwr:25,shl:20,rng:120,spd:250,itv:1000},tunable:{mwp:1,pwp:1},type:"a",cost:120,str:2,tec:-1,fly:1,hp:10}

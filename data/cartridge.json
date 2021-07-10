@@ -55,6 +55,9 @@
 {id:59,name:"落下充能",comment:"落下充能"}
 {id:60,name:"噴射步伐",comment:"噴射步伐"}
 {id:70,name:"提升戰力值上限 +70",comment:"Raises robot's cost capacity by 70 and HP by #hp."}
+{id:71,name:"月影流.葉隱縮地",comment:"月影流.葉隱縮地"}
+{id:72,name:"月影流.葉隱空腳",comment:"月影流.葉隱空腳"}
+{id:73,name:"月影流.葉隱進腳",comment:"月影流.葉隱進腳"}
 //
 {id:"EX1",ex:1,name:"空中衝刺",comment:"Adds a Mid-air Dash Action called the [Accele Roll] to the robot.",cost:30}
 {id:"EX2",ex:1,name:"空中翻轉",comment:"Adds a Mid-air Dash Action called the [Air Loop] to the robot. AIR TYPE ONLY.",cost:30}
