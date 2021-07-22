@@ -8,7 +8,7 @@
 //{id:7,name:"Renny Lop BS",type:"l",cost:20,hp:10,tec:1,fly:2,tgh:-1}
 //{id:9,name:"Renny Lop BS6",type:"l",cost:40,hp:25,str:1,tec:3,wlk:-1,fly:2}
 //{id:8,name:"P. Juana BS",type:"s",cost:30,hp:15,str:1,wlk:-1,fly:2,tgh:2}
-{id:9,name:"迪姆泰BS",type:"c",cost:140,hp:25,str:-1,tec:3,fly:2,tgh:1,man:{pwr:15,shl:280,rng:330,spd:380,itv:580}}
+{id:9,name:"迪姆泰BS",type:"c",cost:140,hp:25,str:-1,tec:3,fly:2,tgh:1,main:{pwr:15,shl:280,rng:330,spd:380,itv:580}}
 //
 //
 {group:"S Size",prefixID:"S",commonStat:{size:"S"}}
