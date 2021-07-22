@@ -8,6 +8,7 @@
 //{id:7,name:"Renny Lop BS",type:"l",cost:20,hp:10,tec:1,fly:2,tgh:-1}
 //{id:9,name:"Renny Lop BS6",type:"l",cost:40,hp:25,str:1,tec:3,wlk:-1,fly:2}
 //{id:8,name:"P. Juana BS",type:"s",cost:30,hp:15,str:1,wlk:-1,fly:2,tgh:2}
+{id:9,name:"迪姆泰BS",type:"c",cost:140,hp:25,str:-1,tec:3,fly:2,tgh:1,man:{pwr:15,shl:280,rng:330,spd:380,itv:580}}
 //
 //
 {group:"S Size",prefixID:"S",commonStat:{size:"S"}}
@@ -41,7 +42,6 @@
 {id:20,name:"閃耀帕斯達BS",type:"s",cost:40,hp:25,str:-1,tec:2,fly:3,tgh:1}
 {id:21,name:"米賽特BS",type:"c",cost:40,hp:25,tec:2,fly:3}
 {id:22,name:"精英勇士BS",cost:40,hp:25,wlk:1,fly:3,tgh:1}
-{id:23,name:"迪姆泰BS",type:"c",cost:140,hp:25,str:-1,tec:3,fly:2,tgh:1,sub:{pwr:15,shl:280,rng:330,spd:380,itv:580}}
 {id:24,name:"迪卡洛斯BS",type:"a",cost:40,hp:25,tec:1,fly:4}
 //{id:151,name:"Nova Dikaros BS",sub:{shl:3,itv:1000},type:"a",cost:110,hp:20,wlk:-1,fly:4,tgh:2}
 {id:25,name:"恐懼米絲蒂αBS",type:"l",cost:40,hp:25,str:1,wlk:2,fly:2}
@@ -91,7 +91,7 @@
 //{id:54,name:"Regina Winberrl BS2",cost:25,hp:10,fly:2,tgh:1,str:-1,wlk:1}
 //{id:176,name:"Regina Winberrl BS3",type:"s",cost:20,hp:15,str:1,tec:-1,fly:2,tgh:1}
 //{id:177,name:"Regina Winberrl BS4",size:"S",cost:15,hp:10,str:1,tec:1}
-//{id:55,name:"Ion BS",type:"l",cost:45,hp:25,str:2,tec:2,fly:2,tgh:-1}
+{id:55,name:"依歐αBS",type:"l",cost:40,hp:25,tec:2,wlk:1,fly:2}
 {id:56,name:"鳳梅αBS2",type:"a",cost:30,hp:15,wlk:1,fly:2,tgh:1}
 //{id:139,name:"Feng Mei BS6",sub:{pwr:6,shl:150,rng:250,spd:280,itv:1000},type:"a",cost:55,hp:15,tec:1,fly:2}
 //{id:147,name:"Feng Mei BS7",type:"a",cost:35,hp:20,str:1,tec:2,fly:2}
@@ -535,7 +535,7 @@
 {id:26,name:"零式破壞者BS",type:"l",cost:40,hp:25,wlk:2,fly:2,tgh:1}
 {id:46,name:"狂野戰車BS",type:"l",cost:40,hp:25,tec:1,wlk:1,fly:3}
 {id:47,name:"黃昏制裁BS",type:"c",cost:40,hp:25,fly:4,tgh:1}
-//{id:48,name:"Rotten Lemures BS",type:"s",cost:40,hp:20,tec:1,wlk:-1,fly:2,tgh:3}
+{id:48,name:"超流體雷姆斯BS",type:"s",cost:40,hp:25,str:-1,tec:1,fly:2,tgh:3}
 {id:49,name:"深紅鬥士BS",type:"l",cost:40,hp:25,str:1,tec:-1,wlk:1,fly:2,tgh:2}
 {id:50,name:"醫護球BS",type:"s",cost:40,hp:25,tec:1,fly:3,tgh:1}
 //{id:51,name:"Dagomure BS",comment:"Even though CS named it Dagomure BO",type:"c",fixedParts:{bs:{name:"Dagomure BS@",main:{tec:100,pwr:18,shl:200,rng:250,spd:320,itv:800},slot:0}},joint:{bs:1},cost:100,hp:20,tec:2,fly:1}

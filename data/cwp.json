@@ -85,7 +85,7 @@
 {id:84,name:"Icicle Attachment",main:{tec:100,pwr:10,shl:300,rng:280,spd:280,itv:300},type:"c",size:"S",cost:70,slot:0,conversion:"WPCS57",comment:"Attachable to 'Wizdom Soul II' only"}
 {id:85,name:"Bladyne Soul II@",main:{tec:100,pwr:21,shl:300,rng:260,spd:340,itv:400},tunable:{mwp:1},type:"l",size:"S",cost:90,conversion:"BDLM1039WP",comment:"Attachable to 'Bladyne Soul II' only"}
 {id:86,name:"Brave Shield @",main:{shl:30,spd:10,itv:1000},type:"l",size:"S",cost:20,conversion:"BDLM1039WP2",comment:"Attachable to 'Brave Shield' only",slot:0}
-{id:87,name:"Beginner Shuriken",main:{pwr:4,shl:800,rng:250,spd:430,itv:140},tunable:{mwp:1},type:"s",size:"S",cost:10,conversion:"BDSS107",comment:"Attachable to 'Momiji-chan BD' only"}
+{id:87,name:"見習手裡劍",main:{pwr:3,shl:800,rng:200,spd:400,itv:140},tunable:{mwp:1},type:"s",size:"S",cost:40,conversion:"BDSS107",comment:"Attachable to 'Momiji-chan BD' only"}
 {id:88,name:"Jik Reaver Knife",main:{pwr:14,shl:50,rng:290,spd:260,itv:800},sub:{pwr:31,rng:70,spd:75,itv:600,str:100},tunable:{mwp:1,pwp:1},joint:{wp:1},fixedParts:{wp:{name:"Jik Reaver＠",main:{shl:15,spd:10,itv:1000},slot:0}},type:"l",size:"S",conversion:"BDLS110BS BDLS131BS",comment:"Attachable to 'Elcott BSJ/BSJ2' only",cost:160}
 {id:89,name:"Hunt Gewehr",main:{pwr:14,shl:420,rng:260,spd:340,itv:300,str:100},type:"l",size:"S",cost:90,conversion:"BDLS132AM BDLS167AM",comment:"Attachable to 'Hanna Fritz AM' only"}
 {id:90,name:"Spitz Eizen",main:{pwr:25,shl:40,rng:250,spd:520,itv:500,str:100},sub:{str:100,pwr:30,rng:90,spd:80,itv:1300},tunable:{mwp:1,pwp:1},type:"l",size:"S",cost:100,conversion:"BDLS132AM BDLS167AM",comment:"Attachable to 'Hanna Fritz AM' only"}
@@ -147,7 +147,7 @@
 {id:146,name:"Jupitizer Buster",main:{tec:100,pwr:36,shl:15,rng:330,spd:400,itv:1000},type:"a",size:"LL",cost:50,slot:0,conversion:"BDAL51",comment:"Attachable to 'Thoarla BD11' only"}
 {id:147,name:"Fillnaught",type:"c",size:"S",main:{pwr:19,shl:300,rng:300,spd:300,itv:300},sub:{pwr:10,shl:50,rng:300,spd:150,itv:500},tunable:{mwp:1},cost:90,conversion:"AMS182",comment:"Attachable to 'Tristan AM2' only"}
 {id:148,name:"Harp Shield",type:"c",size:"S",main:{shl:30,spd:10,itv:1000},cost:40,conversion:"AMS181",comment:"Attachable to 'Tristan AM' only"}
-{id:149,name:"Aqua Splasher",main:{tec:100,pwr:30,shl:200,rng:300,spd:300,itv:800},tunable:{mwp:1},type:"l",size:"S",cost:65,conversion:"BDLS40AM BDLS40AM2 BDLS55AM BDLS55AM5 BDLS85AM3 BDLS85AM4 BDLS91AM6 BDLS118AM8 BDLS118AM7 BDLS126AM9 BDLS126AM7 BDLS156AM10",comment:"Attachable to 'Ion AM|2/3/4/5/6/7/8/9/10' only"}
+{id:149,name:"純水射手",main:{tec:100,pwr:19,shl:340,rng:250,spd:400,itv:500},tunable:{mwp:1},type:"l",size:"S",cost:70,conversion:"BDLS40AM BDLS40AM2 BDLS55AM BDLS55AM5 BDLS85AM3 BDLS85AM4 BDLS91AM6 BDLS118AM8 BDLS118AM7 BDLS126AM9 BDLS126AM7 BDLS156AM10",comment:"Attachable to 'Ion AM|2/3/4/5/6/7/8/9/10' only"}
 {id:150,name:"Water Flower Hy",main:{tec:100,pwr:6,shl:900,rng:200,spd:360,itv:200},sub:{tec:100,pwr:35,shl:50,rng:250,spd:400,itv:3000},tunable:{mwp:1},type:"l",size:"S",cost:100,conversion:"BDLS91 BDLS118 BDLS126 BDLS156",comment:"Attachable to 'Ion BD6/7/8/9/10/11' only"}
 {id:151,name:"Driver Cannon",main:{tec:100,pwr:13,shl:420,rng:330,spd:220,itv:340},tunable:{mwp:1,pwp:0},size:"M",type:"c",cost:100,conversion:"BDCS79 BDCS1067",comment:"Attachable to 'Asphe BD' only"}
 {id:152,name:"Denden Cam Pro",main:{tec:100,pwr:15,shl:360,rng:320,spd:330,itv:300},tunable:{mwp:1},type:"a",size:"S",cost:90,conversion:"BDAS98 BDAS1082",comment:"Attachable to 'Minaria BD' only"}
