@@ -179,7 +179,7 @@
 {id:25,name:"維晶塵之盾β",size:"M",cost:35}
 {id:26,name:"小盾",size:"SS",cost:40}
 
-{group:"Others",prefixID:"SO"}
+{group:"Others",prefixID:"SO",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"應援彩球",size:"M",cost:10,wlk:1,sub:{str:100,pwr:1,rng:51,spd:80,itv:400},tunable:{pwp:1}}
 {id:2,name:"Maihime Cheer Pom-pon",size:"M",cost:10,wlk:1,sub:{str:100,pwr:1,rng:51,spd:80,itv:400},tunable:{pwp:1}}
 {id:3,name:"Fireflower",sub:{str:100,pwr:1,rng:50,spd:80,itv:400},tunable:{pwp:1},cost:10,size:"M",wlk:1}
@@ -310,4 +310,5 @@
 {id:220,name:"布魯姆彎刀",sub:{tec:100,pwr:28,shl:100,rng:250,spd:150,itv:2000},size:"M",type:"a",cost:70}
 {id:221,name:"大型斧槍",sub:{str:100,pwr:31,rng:70,spd:85,itv:1000},size:"M",type:"l",cost:130}
 {id:222,name:"風神劍",sub:{str:100,pwr:30,rng:70,spd:85,itv:1000},size:"M",type:"a",cost:120}
-//last:222
+{id:223,name:"虎咆拳",sub:{str:100,pwr:30,rng:100,spd:350,itv:1500},size:"M",type:"l",cost:100}
+//last:223

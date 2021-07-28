@@ -409,3 +409,4 @@
 {id:153,name:"克里剛之盾",main:{shl:50,spd:10,itv:1000},sub:{str:100,pwr:30,rng:70,spd:85,itv:500},joint:{wp:1},fixedParts:{wp:{name:"克里剛之盾@",sub:{str:100,pwr:28,rng:120,spd:250,itv:2500},cost:50,slot:0}},type:"l",size:"S",tunable:{pwp:1},cost:120,conversion:"BDLS130AM BDLS152AM",comment:"Attachable to 'Corona AM' only"}
 {id:154,name:"變形",sub:{spd:150,itv:500},conversion:"BDAM27",slot:0,cost:50}
 {id:155,name:"感應砲架",conversion:"BDAS65",slot:0,joint:{wp:2}}
+{id:156,name:"藍巴尼爾LG@",sub:{rng:90,spd:200,itv:1000},slot:3,cost:70,hp:20,str:2,tec:-1,wlk:1,fly:2,tgh:1,conversion:"LGLL102"}

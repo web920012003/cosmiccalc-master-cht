@@ -381,7 +381,7 @@
 //{id:128,name:"Cupid BS",cost:30,hp:15,wlk:1,fly:3}
 {id:158,name:"涅克特補給者BS",type:"a",cost:35,hp:20,str:2,wlk:1,fly:3,tgh:-1}
 //{id:130,name:"Yngvi BS",type:"a",size:"M",cost:110,hp:20,wlk:1,fly:3,tgh:1,joint:{bs:1},fixedParts:{bs:{name:"Yngvi BS@",main:{pwr:11,shl:300,rng:280,spd:300,itv:1000},type:"a",size:"M",slot:0}}}
-//{id:131,name:"Hygerkun BS",fixedParts:{bs:{name:"Hygerkun BS@",main:{pwr:15,shl:300,rng:300,spd:300,itv:800},sub:{pwr:22,shl:100,rng:290,spd:300,itv:1000},slot:0}},joint:{bs:1},type:"c",cost:135,hp:15,str:-1,tec:2,fly:3,tgh:1}
+{id:131,name:"高性能加庫BS",fixedParts:{bs:{name:"高性能加庫BS@",main:{pwr:7,shl:300,rng:330,spd:290,itv:880},sub:{pwr:17,shl:140,rng:350,spd:300,itv:1000},slot:0}},joint:{bs:1},type:"c",cost:140,hp:25,str:-1,tec:2,fly:3,tgh:1}
 {id:145,name:"高性能加庫BS2",main:{tec:100,pwr:11,shl:340,rng:330,spd:290,itv:500},tunable:{mwp:1},type:"c",cost:90,hp:25,str:-1,tec:2,wlk:1,fly:3}
 //{id:132,name:"Multiwing BS",joint:{wp:1},cost:25,hp:15,str:1,tec:1,fly:2,tgh:-1}
 //{id:133,name:"Jetwing BS",sub:{str:100,shl:20,rng:100,spd:200,itv:2000},cost:60,hp:25,tec:1,wlk:1,fly:3}

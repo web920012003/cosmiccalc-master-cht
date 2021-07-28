@@ -343,7 +343,7 @@
 {id:57,name:"比克托爾LG",cost:45,hp:25,str:-1,tec:2,wlk:3,tgh:1}
 //{id:58,name:"Brigand Baron LG",cost:50,hp:25,str:1,tec:-1,wlk:3,tgh:3}
 {id:59,name:"零式破壞者LG",cost:45,hp:30,tec:-1,wlk:4,fly:1,tgh:2}
-//{id:60,name:"Rotten Lemures LG",cost:40,hp:25,str:2,tec:2,wlk:2,fly:-1}
+{id:60,name:"超流體雷姆斯LG",cost:45,hp:25,str:2,tec:2,wlk:2,fly:-1}
 //{id:61,name:"Griest LG",cost:30,hp:20,str:-1,tec:1,wlk:3,fly:1}
 //{id:111,name:"Griest LG2",sub:{pwr:20,rng:80,spd:100,itv:1400},tunable:{pwp:1},cost:60,hp:10,str:2,tec:-1,wlk:1}
 {id:62,name:"氣墊達哥LG",cost:45,hp:25,wlk:4,fly:-1,tgh:2}
@@ -436,7 +436,7 @@
 //{id:14,name:"Crystas LG",sub:{tec:100,pwr:5,shl:360,rng:270,spd:290,itv:1500},type:"a",cost:60,hp:25,str:-1,tec:1,wlk:2,fly:2,tgh:1}
 //{id:100,name:"Jet Falcon LG",sub:{pwr:9,shl:40,rng:350,spd:320,itv:400},type:"a",cost:55,hp:15,str:1,tec:1,wlk:1,fly:1}
 {id:101,name:"巨盾巴隆LG",cost:50,hp:70,str:1,tec:-1,wlk:3,tgh:3}
-{id:102,name:"藍巴尼爾LG",type:"l",sub:{pwr:32,rng:90,spd:85,itv:1000,str:100},tunable:{pwp:1},joint:{bs:1},fixedParts:{bs:{name:"藍巴尼爾LG@",sub:{rng:90,spd:200,itv:1000},slot:3,cost:70,hp:20,str:2,tec:-1,wlk:1,fly:2,tgh:1}},builtin:{bs:1},cost:160,hp:70,str:2,tec:-1,wlk:3,tgh:2}
+{id:102,name:"藍巴尼爾LG",type:"l",sub:{pwr:32,rng:90,spd:85,itv:1000,str:100},tunable:{pwp:1},joint:{wp:1},builtin:{bs:1},cost:160,hp:70,str:2,tec:-1,wlk:3,tgh:2}
 //
 //
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1}}
