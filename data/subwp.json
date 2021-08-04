@@ -94,7 +94,7 @@
 {id:1,name:"棍棒",type:"lcs",size:"M",cost:40,sub:{str:100,pwr:31,rng:49,spd:60,itv:1000}}
 {id:2,name:"大錘",type:"ls",size:"L",cost:70,sub:{str:100,pwr:33,rng:49,spd:60,itv:1000}}
 {id:3,name:"Morning Star",type:"l",size:"M",cost:85,wlk:-1,fly:-1,sub:{str:100,pwr:30,rng:52,spd:44,itv:700}}
-{id:7,name:"Daemon Mace",sub:{str:100,pwr:36,rng:55,spd:60,itv:700},type:"l",size:"LL",cost:100,wlk:-1,fly:-1,tgh:1}
+{id:7,name:"鑽石錘",sub:{str:100,pwr:34,rng:100,spd:85,itv:500},type:"l",size:"LL",cost:155}
 {id:4,name:"戰錘",type:"l",size:"L",cost:110,sub:{str:100,pwr:36,rng:49,spd:60,itv:1000}}
 {id:5,name:"Flame Mace",type:"lc",size:"L",cost:140,tgh:2,sub:{str:100,pwr:34,rng:25,spd:37,itv:1000},tunable:{pwp:0}}
 {id:6,name:"動力錘",type:"l",size:"L",cost:130,sub:{str:100,pwr:39,shl:30,rng:70,spd:85,itv:1000}}

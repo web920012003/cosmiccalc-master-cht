@@ -127,7 +127,7 @@
 //{id:1106,name:"Vermelho LG2",cost:35,hp:20,str:1,tec:0,wlk:2,fly:0,tgh:2}
 {id:1107,name:"艾希LG",cost:45,hp:25,tec:2,wlk:3,fly:2,tgh:-1}
 {id:1108,name:"K・諾娜LG",cost:40,hp:20,wlk:2,fly:2,tgh:1,type:"c"}
-//last:1108
+//last:1109
 //
 //
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
@@ -181,7 +181,7 @@
 //{id:41,name:"Heavy Felchas LG",cost:30,hp:20,str:-1,wlk:2,fly:1,tgh:2}
 //{id:42,name:"Date Max LG",cost:40,hp:20,str:1,tec:-1,wlk:3,fly:1,tgh:1}
 {id:43,name:"閃電路特LG",cost:45,hp:25,str:2,wlk:3,fly:1,tgh:-1}
-//{id:44,name:"Blitzelt LG2",cost:45,hp:25,str:1,tec:2,wlk:3,fly:1,tgh:-1}
+{id:44,name:"閃電路特LG2",cost:45,hp:25,tec:2,wlk:3,fly:-1,tgh:1}
 {id:45,name:"衝鋒者LG",cost:45,hp:25,str:2,tec:-1,wlk:3,tgh:2}
 {id:52,name:"衝鋒者LG2",cost:45,hp:25,str:1,wlk:3,fly:-1,tgh:3}
 //{id:31,name:"Air Raider LG",cost:45,hp:25,str:2,wlk:3,fly:1,tgh:-1,type:"a"}
@@ -215,7 +215,7 @@
 //{id:75,name:"Sieg LG",cost:35,hp:20,str:1,wlk:2,fly:-1,tgh:2}
 {id:76,name:"艾斯迪斯LG",type:"l",builtin:{bs:1},cost:45,hp:25,str:-1,tec:2,wlk:3,fly:1,tgh:1}
 //{id:77,name:"Vishra LG",cost:45,hp:30,wlk:3,fly:-1,tgh:3}
-//{id:78,name:"Theoreigne LG",joint:{bs:1},type:"c",cost:40,hp:25,tec:2,wlk:1,fly:2}
+{id:78,name:"萊涅奇襲者LG",joint:{bs:1},type:"c",cost:45,hp:25,str:-1,tec:2,wlk:2,fly:2,tgh:1}
 {id:79,name:"方陣機兵LG",cost:45,hp:25,str:1,tec:1,wlk:2,fly:1}
 {id:82,name:"激昂加斯塔LG",cost:45,hp:25,tec:2,wlk:3,fly:-1,tgh:2}
 //{id:83,name:"CAPTAIN X LG",sub:{str:100,pwr:16,rng:125,spd:75,itv:3500},tunable:{pwp:1},type:"l",cost:70,hp:25,str:3,wlk:2,fly:-1,tgh:1}
@@ -228,7 +228,7 @@
 {id:90,name:"奧卡希爾LG",joint:{bs:1},cost:45,hp:25,str:-1,wlk:2,fly:2,tgh:3}
 {id:91,name:"蘭德斯LG",cost:45,hp:30,tec:2,wlk:4,fly:-1,tgh:1}
 //{id:99,name:"Landoss LG2",type:"l",sub:{str:100,pwr:30,shl:30,rng:120,spd:180,itv:10000},tunable:{pwp:1},cost:80,hp:10,tec:-1,wlk:3,tgh:1}
-//{id:92,name:"Satyx LG",cost:30,hp:20,tec:1,wlk:3,fly:-1,tgh:1}
+{id:92,name:"賽迪斯LG",cost:45,hp:25,tec:1,wlk:3,fly:1,tgh:1}
 //{id:93,name:"Dartanis LG",cost:30,hp:20,str:1,tec:1,wlk:2,fly:1,tgh:-1}
 //{id:94,name:"Galaxy Commando LG",cost:45,hp:25,str:-1,tec:1,wlk:3,fly:1,tgh:2}
 //{id:95,name:"Garnerimp LG",sub:{pwr:20,shl:20,spd:100,itv:1500,str:100},tunable:{pwp:1},type:"l",cost:65,hp:20,str:1,tec:-1,wlk:2,fly:2,tgh:2}
@@ -274,7 +274,8 @@
 //{id:1116,name:"Toukimaru LG",cost:35,hp:20,str:1,tec:1,wlk:3,fly:-1,tgh:1}
 //{id:1117,name:"Dreiblitz LG",type:"c",cost:40,hp:25,str:0,tec:1,wlk:3,fly:2,tgh:-1}
 {id:1118,name:"勝利號-1LG",cost:40,hp:20,str:1,wlk:3,tgh:1}
-//last:1118
+{id:1119,name:"黑暗電鑽LG",type:"l",cost:175,hp:25,str:2,tec:-1,wlk:3,tgh:2,sub:{str:100,pwr:35,rng:100,spd:150,itv:2000},tunable:{pwp:1}}
+//last:1119
 //
 //
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
@@ -332,11 +333,11 @@
 {id:43,name:"空爆雷歐斯LG",cost:50,hp:30,str:1,tec:1,wlk:3,fly:2,tgh:-1}
 //{id:50,name:"Albatreos LG2",cost:40,hp:25,str:1,tec:1,wlk:2,fly:2,tgh:-1}
 //{id:44,name:"Poseidon LG",type:"a",cost:40,hp:75,str:-1,tec:1,wlk:3,fly:2}
-//{id:45,name:"Daemon LG",cost:50,hp:30,str:1,tec:1,wlk:3,fly:2,tgh:-1}
+{id:45,name:"惡鬼修汀LG",cost:45,hp:25,str:1,wlk:3,fly:2,tgh:-1}
 {id:47,name:"四足砲擊手LG",cost:45,hp:70,tec:1,wlk:5,fly:-2,tgh:1}
 {id:54,name:"四足砲擊手LG2",cost:45,hp:70,wlk:4,tgh:2}
 {id:48,name:"矢量LG",sub:{shl:60,rng:100,spd:160,itv:1000},type:"a",cost:85,hp:45,tec:2,wlk:3,fly:2,tgh:-1}
-//{id:49,name:"Vector LG2",sub:{shl:30,rng:100,spd:160,itv:1000},auraStat:{sub:{shl:30,rng:100,spd:160,itv:1000},tec:1,wlk:3,fly:3},type:"a",cost:80,hp:45,tec:1,wlk:3,fly:3,tgh:-1}
+{id:49,name:"矢量LG2",sub:{shl:60,rng:100,spd:160,itv:1000},auraStat:{sub:{shl:30,rng:100,spd:160,itv:1000}},type:"a",cost:85,hp:45,str:-1,tec:1,wlk:3,fly:2,tgh:1}
 {id:51,name:"馬特爆破者LG",builtin:{bs:1},cost:45,hp:25,str:2,tec:1,wlk:2,fly:1,tgh:-1,type:"a"}
 //{id:55,name:"Felchas LG",cost:45,hp:50,tec:-1,wlk:2,fly:1,tgh:3}
 //{id:56,name:"Galsteel LG",cost:45,hp:70,wlk:4,fly:-1,tgh:2}
@@ -360,7 +361,7 @@
 //{id:72,name:"Antlion LG",type:"lc",cost:55,hp:70,tec:1,wlk:4,fly:-1,tgh:3}
 {id:88,name:"安多利歐LG2",sub:{str:100,pwr:20,rng:100,spd:100,itv:1000},type:"lc",cost:95,hp:60,str:-1,wlk:4,fly:1,tgh:1}
 //{id:73,name:"Trizelion LG",auraStat:{hp:75,str:1,wlk:5,tgh:1},type:"l",cost:45,hp:35,str:1,wlk:5,tgh:1}
-//{id:74,name:"Wolf Rayet LG",cost:40,hp:35,str:1,tec:-1,wlk:2,fly:1,tgh:2}
+{id:74,name:"青狼萊耶LG",cost:45,hp:45,str:1,tec:-1,wlk:3,fly:1,tgh:2}
 //{id:75,name:"Combat Freed LG",type:"l",builtin:{bs:1},cost:40,hp:25,str:2,wlk:3,fly:-1,tgh:1}
 //{id:76,name:"Protos LG",cost:45,hp:25,tec:2,wlk:-1,fly:2,tgh:3}
 //{id:95,name:"Protos LG2",builtin:{bs:1},type:"c",cost:45,hp:25,tec:2,wlk:-1,fly:3,tgh:2}
@@ -385,7 +386,7 @@
 //{id:99,name:"Berylskid LG2",type:"l",cost:50,hp:30,str:1,wlk:4,fly:-2,tgh:2,comment:"Adds Anti Slow cartridge"}
 //{id:102,name:"Aeolius LG",cost:30,hp:40,tec:-1,wlk:3,fly:1,tgh:3}
 {id:103,name:"猛毒羅索LG",size:"LL",sub:{pwr:0,shl:60,rng:150,spd:150,itv:1000},builtin:{bs:1},type:"a",cost:115,hp:80,str:-1,tec:2,wlk:2,fly:6,tgh:2}
-//{id:104,name:"Heldtkaiser LG",type:"c",cost:45,hp:35,str:-1,tec:2,wlk:2,fly:1,tgh:1}
+{id:104,name:"勇者凱傑爾LG",type:"c",cost:45,hp:65,str:2,wlk:3,fly:-1,tgh:2}
 //{id:105,name:"Dismoke LG2",sub:{rng:43,shl:10,spd:63,itv:1000},cost:40,hp:10,wlk:2,tgh:1}
 {id:106,name:"貝爾賽希烏斯LG",sub:{shl:50,rng:100,spd:135,itv:1000},type:"a",cost:70,hp:65,wlk:2,fly:2,tgh:2}
 {id:116,name:"戈爾迪普斯LG",cost:45,hp:35,tec:2,wlk:2,tgh:2}
@@ -394,7 +395,7 @@
 //{id:113,name:"Katto Baldo LG",type:"l",sub:{str:100,pwr:22,rng:150,spd:350,itv:500},tunable:{pwp:1},cost:90,hp:30,str:2,tec:1,wlk:2,fly:-1,tgh:1}
 //{id:114,name:"Digaius LG",cost:50,hp:70,str:1,wlk:2,tgh:2}
 //{id:109,name:"Falx LG",cost:45,hp:50,tec:-1,wlk:2,fly:1,tgh:3}
-//{id:1000,name:"Crystas LG",sub:{tec:100,pwr:5,shl:360,rng:270,spd:290,itv:1500},type:"a",cost:60,hp:25,str:-1,tec:1,wlk:2,fly:2,tgh:1}
+{id:1000,name:"結晶達斯LG",sub:{tec:100,pwr:2,shl:420,rng:275,spd:570,itv:1000},type:"a",cost:75,hp:25,str:-1,tec:2,wlk:2,fly:2,tgh:1}
 //{id:1001,name:"Transonic LG",type:"a",cost:45,hp:25,tec:-1,wlk:2,fly:2,tgh:2}
 {id:1004,name:"黑影吉涅希斯LG",cost:45,hp:25,str:2,tec:1,wlk:2,fly:-1,tgh:2}
 //{id:1006,name:"C. Barossa LG",type:"a",sub:{str:100,pwr:19,rng:65,spd:95,itv:500},tunable:{pwp:1},cost:125,hp:40,str:-1,tec:2,wlk:3,tgh:1}
@@ -429,7 +430,7 @@
 //{id:11,name:"Gaderoga LG2",joint:{bs:1},cost:95,hp:95,str:1,tec:-1,wlk:5,fly:-1,tgh:3,sub:{pwr:15,rng:60,spd:90,itv:3000,str:100},tunable:{pwp:1},type:"lc"}
 {id:7,name:"黃昏制裁LG",cost:50,hp:60,wlk:4,tgh:2}
 {id:8,name:"深紅鬥士LG",cost:50,hp:70,str:2,wlk:3,fly:-1,tgh:2}
-//{id:9,name:"Ilgryps LG",type:"a",joint:{bs:1},cost:45,hp:35,tec:1,wlk:1,fly:2,tgh:1}
+{id:9,name:"破軍審判LG",type:"a",joint:{bs:1},cost:45,hp:50,str:-1,tec:2,wlk:2,fly:2,tgh:1}
 //{id:10,name:"Giganberg LG",cost:45,hp:70,str:-1,tec:1,wlk:3,tgh:3}
 //{id:13,name:"Giganberg LG2",cost:60,hp:70,str:1,tec:-1,wlk:3,tgh:3}
 {id:12,name:"夜霧凝視LG",type:"s",joint:{wp:1},fixedParts:{wp:{name:"夜霧凝視LG@",main:{pwr:15,shl:400,rng:250,spd:440,itv:500},sub:{pwr:27,rng:70,spd:85,itv:1000,str:100},slot:0}},cost:245,hp:60,str:2,tec:2,wlk:3,tgh:-1}

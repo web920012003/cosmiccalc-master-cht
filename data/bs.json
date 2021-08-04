@@ -113,7 +113,7 @@
 //{id:75,name:"Orin Fortissimo BS",cost:40,hp:25,str:1,tec:1,wlk:-1,fly:3,tgh:1,type:"s"}
 //{id:76,name:"A.G.-chan BS",cost:20,hp:10,tec:1,fly:1,tgh:1,type:"s"}
 //{id:77,name:"Sylvia BS",type:"l",cost:45,hp:25,str:2,tec:-1,wlk:2,fly:2}
-//{id:105,name:"Sylvia BS2",type:"l",cost:45,hp:25,str:2,tec:-1,wlk:1,fly:2,tgh:1}
+{id:105,name:"塞爾維亞BS2",type:"l",cost:40,hp:25,str:1,tec:-1,wlk:1,fly:3,tgh:1}
 //{id:150,name:"Sylvia BS3",type:"l",cost:45,hp:25,str:2,tec:-1,wlk:2,fly:2}
 //{id:179,name:"Sylvia BS4",cost:35,hp:20,str:2,wlk:1,fly:3,tgh:-1}
 //{id:79,name:"Sheeno BS",type:"l",cost:30,hp:15,str:-1,tec:-1,wlk:2,fly:4}
@@ -145,8 +145,8 @@
 {id:108,name:"娜塔莎BS",type:"c",cost:40,hp:25,wlk:-1,fly:3,tgh:3}
 {id:109,name:"騎士加亞BS",type:"l",cost:40,hp:25,str:2,tec:-1,fly:3,tgh:1}
 {id:110,name:"莉菲BS",main:{shl:80,rng:300,spd:300,itv:500},tunable:{mwp:1},type:"s",cost:110,hp:25,str:-1,wlk:1,fly:3,tgh:2}
-//{id:111,name:"Abyss Jikun Hu BS",cost:35,hp:20,str:3,tec:-1,fly:2,tgh:1}
-//{id:112,name:"Chloe BS",cost:35,hp:20,str:-1,tec:3,fly:2,tgh:1}
+{id:111,name:"Abyss‧奇克虎BS",cost:35,hp:20,str:3,tec:-1,fly:2,tgh:1}
+{id:112,name:"克羅伊BS",cost:35,hp:20,str:-1,tec:3,fly:2,tgh:1}
 //{id:146,name:"Chloe BS2",cost:35,hp:20,tec:2,wlk:1,fly:2}
 {id:113,name:"艾亞莉迪BS",sub:{shl:50,rng:100,spd:120,itv:1000},type:"a",cost:65,hp:20,tec:2,wlk:-1,fly:4}
 {id:114,name:"Wonders BS",type:"s",cost:40,hp:25,str:1,tec:1,wlk:1,fly:3,tgh:-1}
@@ -336,7 +336,7 @@
 {id:88,name:"艾斯迪斯BS",type:"l",cost:95,hp:25,wlk:-1,tec:3,wlk:2,fly:1}
 //{id:89,name:"Vishra BS",type:"l",cost:45,hp:25,str:2,wlk:1,fly:2,tgh:2}
 //{id:94,name:"Vishra BS2",comment:"WTF IS WITH YOU CS?",type:"l",cost:45,hp:25,str:2,wlk:1,fly:2,tgh:2}
-//{id:90,name:"Theoreigne BS",type:"c",cost:35,hp:20,tec:2,wlk:-1,fly:2,tgh:1}
+{id:90,name:"萊涅奇襲者BS",type:"c",cost:35,hp:20,tec:2,wlk:-1,fly:3,tgh:1}
 {id:91,name:"方陣機兵BS",type:"c",cost:40,hp:25,tec:2,wlk:-1,fly:3,tgh:1}
 //{id:96,name:"Gyallanbard BS",type:"l",cost:45,hp:25,wlk:1,fly:2,tgh:2}
 //{id:149,name:"Gyallanbard BS2",type:"l",tunable:{pwp:1},sub:{pwr:20,shl:30,rng:150,spd:250,itv:500},cost:125,hp:25,str:1,wlk:1,fly:1,tgh:2}
@@ -355,7 +355,7 @@
 {id:166,name:"奧卡希爾BS2",sub:{pwr:12,shl:300,rng:350,spd:400,itv:1000},type:"c",cost:120,hp:25,str:-1,tec:2,wlk:-1,fly:3,tgh:2}
 {id:110,name:"蘭德斯BS",sub:{pwr:7,shl:500,rng:350,spd:290,itv:2000},type:"c",cost:120,hp:25,str:-1,tec:2,wlk:2,fly:2}
 //{id:2125,name:"Landoss BS2",type:"l",cost:15,hp:10,wlk:1,fly:2,tgh:-1}
-//{id:112,name:"Satyx BS",sub:{shl:4,rng:100,spd:150,itv:1000},type:"a",cost:110,hp:30,tec:1,wlk:-1,fly:3,tgh:3}
+{id:112,name:"賽迪斯BS",sub:{shl:70,rng:140,spd:180,itv:2000},type:"a",cost:55,hp:20,tec:1,wlk:-1,fly:3,tgh:2}
 //{id:113,name:"Dartanis BS",type:"l",cost:50,hp:10,str:-1,fly:2,tgh:2}
 //{id:114,name:"Galaxy Commando BS",type:"c",cost:35,hp:20,str:-1,tec:1,wlk:1,fly:3,tgh:1}
 //{id:115,name:"Garnerimp BS",cost:35,hp:20,wlk:1,fly:2,tgh:1}
@@ -433,7 +433,7 @@
 //{id:184,name:"Wired Magnegun BS",main:{pwr:10,shl:300,rng:300,spd:220,itv:700},tunable:{mwp:1},type:"c",cost:85,hp:10,tec:1,fly:2}
 //{id:185,name:"SB Beam Missile BS",sub:{tec:100,pwr:3,shl:30,rng:250,spd:330,itv:100},type:"a",size:"M",cost:85,hp:25,str:1,tec:2,wlk:-1,fly:2,tgh:1}
 {id:187,name:"海洋龜甲迪斯BS",sub:{tec:100,pwr:5,shl:400,rng:250,spd:350,itv:1000},type:"a",cost:65,hp:25,tec:1,fly:2,tgh:2}
-{id:191,name:"鱷齒龜甲迪斯BS",sub:{tec:100,pwr:18,rng:300,spd:500,itv:1000},type:"c",cost:140,hp:25,str:-1,tec:2,wlk:1,fly:2,tgh:1}
+{id:191,name:"鱷齒龜甲迪斯BS",sub:{tec:100,pwr:24,rng:300,spd:500,itv:1000},type:"c",cost:140,hp:25,str:-1,tec:2,wlk:1,fly:2,tgh:1}
 //{id:188,name:"Flareleon BS",type:"l",size:"M",cost:40,hp:20,str:3,wlk:1,fly:2,tgh:1}
 //{id:189,name:"Margrethe BS",type:"l",cost:45,hp:25,tec:-1,fly:3,tgh:3}
 {id:190,name:"阿克西翁BS",type:"l",cost:45,hp:25,tec:2,wlk:1,fly:3,tgh:-1}
@@ -480,7 +480,8 @@
 {id:2148,name:"維晶塵之翼BSβ",cost:35,hp:20,tec:2,fly:3}
 {id:2149,name:"小CHIMAKI旗幟BS",cost:30,hp:15,wlk:2,fly:2}
 {id:2151,name:"勝利號-1BS",type:"c",cost:35,hp:20,tec:1,wlk:1,fly:2,tgh:1}
-//last:2151
+{id:2152,name:"黑暗電鑽BS",type:"l",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:2,tgh:1}
+//last:2152
 //
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"鐵血騎士BS",type:"l",cost:40,hp:25,tec:1,wlk:1,fly:3}
@@ -524,7 +525,7 @@
 {id:33,name:"閃電路特BS",type:"a",cost:55,hp:25,str:1,tec:1,fly:4,tgh:-1,auraStat:{sub:{rng:150,spd:200,itv:1000}},comment:"AURA system"}
 {id:34,name:"黃昏傭兵BS",cost:40,hp:25,fly:2,tgh:3,type:"l"}
 //{id:35,name:"Poseidon BS",type:"a",cost:45,hp:25,str:1,tec:-1,wlk:1,fly:3,tgh:1}
-//{id:36,name:"Daemon BS",type:"l",cost:40,hp:20,str:1,wlk:2,fly:2}
+{id:36,name:"惡鬼修汀BS",type:"l",cost:40,hp:25,str:1,wlk:1,fly:3}
 {id:37,name:"賽克龍迪斯BS",type:"l",cost:40,hp:25,str:-1,tec:1,wlk:1,fly:2,tgh:2}
 {id:38,name:"矢量BS",type:"a",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:3}
 //{id:42,name:"Felchas BS",type:"l",cost:35,hp:20,str:1,wlk:1,fly:3,tgh:-1}
@@ -538,10 +539,10 @@
 {id:48,name:"超流體雷姆斯BS",type:"s",cost:40,hp:25,str:-1,tec:1,fly:2,tgh:3}
 {id:49,name:"深紅鬥士BS",type:"l",cost:40,hp:25,str:1,tec:-1,wlk:1,fly:2,tgh:2}
 {id:50,name:"醫護球BS",type:"s",cost:40,hp:25,tec:1,fly:3,tgh:1}
-//{id:51,name:"Dagomure BS",comment:"Even though CS named it Dagomure BO",type:"c",fixedParts:{bs:{name:"Dagomure BS@",main:{tec:100,pwr:18,shl:200,rng:250,spd:320,itv:800},slot:0}},joint:{bs:1},cost:100,hp:20,tec:2,fly:1}
+{id:51,name:"氣墊達哥BS",comment:"Even though CS named it Dagomure BO",type:"c",fixedParts:{bs:{name:"氣墊達哥BS@",main:{tec:100,pwr:13,shl:300,rng:350,spd:500,itv:800},cost:80,slot:0}},joint:{bs:1},cost:40,hp:25,str:-1,tec:3,fly:3}
 {id:78,name:"氣墊達哥BS2",joint:{bs:2},fixedParts:{bs:[{main:{pwr:23,shl:120,rng:330,spd:350,itv:800},name:"氣墊達哥BS2@1",slot:0,cost:60},{name:"氣墊達哥BS2@2",main:{pwr:10,shl:300,rng:380,spd:580,itv:300},slot:0,cost:60}]},type:"c",cost:40,hp:25,str:-1,tec:3,fly:2,tgh:1}
 {id:52,name:"發煙者BS",type:"s",cost:40,hp:25,tec:-1,wlk:2,fly:2,tgh:2}
-//{id:89,name:"Dismoke BS2",main:{tec:100,pwr:7,shl:210,rng:290,spd:260,itv:800},sub:{shl:10,rng:43,spd:63,itv:1000,str:100},tunable:{mwp:1,pwp:1},type:"s",cost:155,hp:25,str:-1,wlk:2,fly:3,tgh:1}
+{id:89,name:"發煙者BS2",main:{tec:100,pwr:7,shl:400,rng:275,spd:290,itv:800},sub:{shl:25,rng:10,spd:10,itv:1000,str:100},tunable:{mwp:1,pwp:1},type:"s",cost:140,hp:25,str:-1,tec:1,wlk:1,fly:3,tgh:1}
 //{id:53,name:"Featoro BS",cost:70,hp:25,str:-1,tec:2,fly:2,tgh:2,sub:{shl:20,spd:150,itv:1500},type:"a"}
 //{id:54,name:"Exkeld BS",cost:35,hp:25,tec:-1,wlk:1,fly:2,tgh:2,type:"l"}
 //{id:55,name:"Giganberg BS",type:"l",cost:40,hp:25,tec:-1,wlk:2,fly:3,tgh:1}
@@ -553,7 +554,7 @@
 {id:61,name:"安多利歐BS",sub:{tec:100,pwr:7,shl:360,rng:350,spd:290,itv:1000},type:"c",cost:90,hp:25,str:-1,tec:2,fly:2,tgh:2}
 //{id:92,name:"Antlion BS2",type:"c",cost:40,hp:25,str:-1,tec:3,fly:2,tgh:1,fixedParts:{bs:{name:"Antlion BS2@",main:{pwr:23,shl:300,rng:340,spd:310,itv:400},sub:{pwr:8,shl:40,rng:100,spd:570,itv:1000},cost:120,slot:0}},joint:{bs:1}}
 //{id:62,name:"Trizelion BS",cost:20,hp:25,fly:3,tgh:2,type:"l"}
-//{id:63,name:"Wolf Rayet BS",joint:{bs:1},fixedParts:{bs:{name:"Wolf Rayet BS@",main:{pwr:5,shl:360,rng:240,spd:300,itv:1000},sub:{shl:15,rng:100,spd:120,itv:10000},slot:0}},type:"a",cost:170,hp:30,tec:2,wlk:1,fly:4,tgh:-1}
+{id:63,name:"青狼萊耶BS",joint:{bs:1},fixedParts:{bs:{name:"青狼萊耶BS@",main:{pwr:6,shl:600,rng:275,spd:350,itv:1000},sub:{shl:30,rng:100,spd:120,itv:1000},cost:120,slot:0}},type:"a",cost:40,hp:25,tec:2,fly:4,tgh:-1}
 //{id:90,name:"Wolf Rayet BS2",joint:{bs:1},fixedParts:{bs:{name:"Wolf Rayet BS2@",main:{pwr:4,shl:400,rng:230,spd:300,itv:740},sub:{pwr:1,shl:6,rng:10,spd:150,itv:1000},slot:0}},type:"a",cost:160,hp:30,tec:2,wlk:1,fly:4,tgh:-1}
 //{id:64,name:"Combat Freed BS",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:3,type:"l"}
 //{id:65,name:"Protos BS",type:"c",cost:65,hp:25,str:-1,fly:3,tgh:3}
@@ -563,7 +564,7 @@
 //{id:67,name:"Sledge Heim BS",type:"c",cost:40,hp:25,str:1,wlk:-1,fly:3,tgh:2}
 {id:70,name:"惡炮拜茲BS",type:"c",cost:40,hp:25,str:1,tec:1,tgh:3}
 //{id:72,name:"Dieranarcam BS",type:"a",cost:45,hp:25,tec:1,wlk:-1,fly:3,tgh:2}
-{id:73,name:"舞龍者BS",type:"l",cost:40,hp:20,str:2,tec:1,wlk:1,fly:2,tgh:-1}
+{id:73,name:"舞龍者BS",type:"l",cost:40,hp:25,str:2,tec:1,wlk:1,fly:2,tgh:-1}
 {id:74,name:"泰達哥爾BS",type:"s",cost:40,hp:25,str:-1,wlk:2,fly:3,tgh:1}
 //{id:76,name:"Steel Burn BS",type:"a",cost:35,hp:20,str:1,tec:-1,wlk:1,fly:2,tgh:2}
 {id:1087,name:"鋼鐵巴恩BS2",type:"a",cost:40,hp:25,wlk:1,fly:3,tgh:1}
@@ -574,7 +575,7 @@
 //{id:82,name:"Harrier Accel BS",type:"a",cost:40,hp:20,fly:3,tgh:2}
 //{id:1083,name:"Lancerlot BS2",type:"l",cost:40,hp:20,str:-1,tec:1,wlk:1,fly:3,tgh:1}
 //{id:83,name:"Shino Exline BS",type:"a",cost:35,hp:15,str:1,tec:1,wlk:-1,fly:2,tgh:2}
-//{id:86,name:"Crystas BS",main:{tec:100,pwr:20,shl:200,rng:310,spd:280,itv:1000},tunable:{mwp:1},type:"a",cost:100,hp:10,wlk:-1,fly:3,tgh:1}
+{id:86,name:"結晶達斯BS",main:{tec:100,pwr:14,shl:220,rng:275,spd:360,itv:1000},tunable:{mwp:1},type:"a",cost:105,hp:20,str:-1,tec:2,fly:3,tgh:1}
 //{id:87,name:"Nitro Booster U",sub:{shl:[2,4,6],itv:500},type:"l",cost:25,slot:0,conversion:"BDLL51",comment:"Attachable to 'Berylskid BD2' only"}
 {id:88,name:"藍巴尼爾BS",type:"l",cost:35,hp:20,str:-1,tec:1,wlk:1,fly:3,tgh:1}
 //{id:91,name:"Aeolius BS",type:"a",cost:45,hp:35,str:1,fly:4,tgh:1}

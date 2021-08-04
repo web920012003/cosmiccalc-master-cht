@@ -121,7 +121,7 @@
 {id:120,name:"Malice Blade",main:{pwr:8,shl:400,rng:340,spd:220,itv:600},tunable:{mwp:1},conversion:"AMS167",comment:"Attachable to 'Nicole Malice AM6' only",size:"S",type:"c",cost:110}
 {id:121,name:"Azraq Lamp",main:{pwr:7,shl:400,rng:320,spd:280,itv:500},sub:{rng:100,itv:500},tunable:{mwp:1},joint:{wp:1},fixedParts:{wp:{name:"Azraq Lamp@",main:{pwr:27,shl:50,rng:320,spd:450,itv:500},slot:0}},type:"a",size:"S",cost:220,conversion:"BDAS85AM",comment:"Attachable to 'Munya AM2' only"}
 {id:122,name:"Ogreil AM2@",main:{pwr:4,shl:150,rng:280,spd:230,itv:1000},conversion:"AMM175",comment:"Attachable to 'Ogreil AM2' only",slot:0,cost:60}
-{id:123,name:"Kaiser Gewitter",main:{pwr:18,shl:100,spd:400,rng:330,itv:500},sub:{tec:100,pwr:10,shl:25,rng:150,spd:570,itv:500},type:"c",size:"L",conversion:"AML149",comment:"Attachable to 'Heldtkaiser AM' only",cost:70}
+{id:123,name:"凱傑爾狂雷",main:{pwr:10,shl:390,spd:300,rng:480,itv:300},sub:{str:100,pwr:20,rng:75,spd:200,itv:1000},type:"c",size:"L",conversion:"AML149",comment:"Attachable to 'Heldtkaiser AM' only",cost:70}
 {id:124,name:"Nemlim BD8@",main:{pwr:18,shl:300,rng:220,spd:340,itv:440},tunable:{mwp:1},joint:{wp:1},type:"l",size:"S",cost:70,conversion:"BDLS144",comment:"Attachable to 'Nemlim BD8' only"}
 {id:125,name:"Nemlim BD8@2",main:{pwr:30,shl:30,rng:300,spd:450,itv:500},type:"l",size:"S",slot:0,cost:60,conversion:"WPCM124",comment:"Attachable to 'Nemlim BD8@' only"}
 {id:126,name:"Tri-bazooka",main:{tec:100,pwr:24,shl:250,rng:230,spd:275,itv:500},tunable:{mwp:1},cost:80,type:"l",size:"M",conversion:"AMM159",comment:"Attachable to 'Growldian AM' only"}
@@ -300,7 +300,7 @@
 {id:44,name:"Trintia Spear",sub:{str:100,pwr:27,shl:20,rng:70,spd:80,itv:500},tunable:{pwp:1},type:"s",size:"L",cost:100,conversion:"AMLL22",comment:"Attachable to 'Trintia AM' only"}
 {id:45,name:"Seraph Knight Shield",type:"a",size:"S",cost:35,conversion:"BDAS68AM5",comment:"Attachable to 'Seraph Crimrose AM5' only"}
 {id:46,name:"Chivalry Soul",builtin:{bs:1},sub:{shl:[1,2,3],itv:500},type:"l",size:"S",conversion:"BDLS120",comment:["Attachable to 'Elisalotte BD8' only","ALPHA/BETA have the same stats"]}
-{id:47,name:"Grave Paddle",sub:{str:100,pwr:30,rng:70,spd:85,itv:500},tunable:{pwp:1},cost:90,type:"l",size:"S",conversion:"BDLS124AM",comment:"Attachable to 'Kaede AM' only"}
+{id:47,name:"靈葬雙槳",sub:{str:100,pwr:32,rng:77,spd:94,itv:500},tunable:{pwp:1},cost:100,type:"l",size:"S",conversion:"BDLS124AM",comment:"Attachable to 'Kaede AM' only"}
 {id:48,name:"Blue Tail",sub:{str:100,pwr:32,shl:15,rng:200,spd:350,itv:1000},joint:{wp:1},jointPart:1,cost:30,size:"S",type:"a",conversion:"BDAS60LG BDAS73LG BDAS90LG",comment:"Attachable to 'Litia LG/LG2/LG3' only"}
 {id:49,name:"Blue Sarissa",sub:{str:100,pwr:32,rng:90,spd:90,itv:500},tunable:{pwp:1},type:"a",size:"S",cost:100,conversion:"BDAS60AM BDAS72AM BDAS90AM",comment:"Attachable to 'Litia AM2' only"}
 {id:50,name:"戰牛斧",main:{pwr:13,shl:320,rng:330,spd:330,itv:340,tec:100},sub:{tec:100,pwr:30,shl:120,rng:350,spd:290,itv:1000},type:"c",size:"M",cost:225,conversion:"BDCS56AM BDCS69AM BDCS88AM",comment:"Attachable to 'Miruru Miu AM/AM3/AM4' only",tunable:{mwp:1}}
@@ -410,3 +410,4 @@
 {id:154,name:"變形",sub:{spd:150,itv:500},conversion:"BDAM27",slot:0,cost:50}
 {id:155,name:"感應砲架",conversion:"BDAS65",slot:0,joint:{wp:2}}
 {id:156,name:"藍巴尼爾LG@",sub:{rng:90,spd:200,itv:1000},slot:3,cost:70,hp:20,str:2,tec:-1,wlk:1,fly:2,tgh:1,conversion:"LGLL102"}
+{id:157,name:"冥神之槍",main:{pwr:32,shl:280,rng:330,spd:440,itv:700},sub:{itv:1000},tunable:{mwp:1},type:"c",size:"S",cost:100,conversion:"BDCS49AM AMS127 AMS144 BDCS54AM AMS161",comment:"Attachable to 'Chloe AM/AM3/AM5/AM7' only"}
