@@ -35,7 +35,7 @@
 {id:97,name:"自走加農HLBS",type:"c",cost:40,hp:25,str:1,tec:-1,wlk:1,fly:3,tgh:1}
 //{id:16,name:"Mechled BS",type:"c",cost:25,hp:15,str:1,fly:2}
 {id:61,name:"精神統合者BS",type:"c",cost:40,hp:25,tec:1,fly:3,tgh:1}
-//{id:17,name:"Psycho Formula BS2",type:"c",cost:40,hp:20,fly:3,str:1,tec:2,tgh:-1}
+{id:17,name:"精神統合者BS2",type:"c",cost:35,hp:20,str:1,tec:2,fly:3,tgh:-1}
 //{id:107,name:"Psycho Formula BS3",type:"c",cost:40,hp:20,tec:2,wlk:-1,fly:2,tgh:2}
 {id:18,name:"塔拉多利克BS",type:"s",cost:35,hp:20,wlk:1,fly:3,tgh:1}
 {id:19,name:"不倒翁大王BS",type:"s",cost:35,hp:20,str:1,fly:3,tgh:1}
@@ -60,7 +60,7 @@
 //{id:34,name:"Butterflea BS2",type:"a",cost:100,hp:30,str:2,tec:1,fly:3,sub:{pwr:28,shl:40,rng:55,spd:70,itv:2700}}
 //{id:35,name:"Cybersonic BS",cost:30,hp:20,str:1,tec:1,wlk:1,fly:2,tgh:-1}
 //{id:36,name:"Armed Build Arm BS",type:"c",cost:70,hp:25,tec:2,wlk:1,fly:3,tgh:-1,sub:{pwr:12,shl:160,rng:250,spd:200,itv:1300}}
-//{id:37,name:"Armed Build Arm BS2",type:"c",cost:70,hp:25,tec:1,wlk:-1,fly:3,tgh:2,main:{pwr:7,shl:250,rng:330,spd:190,itv:940},tunable:{mwp:1}}
+{id:37,name:"裝甲迪姆泰BS2",type:"c",cost:65,hp:20,tec:2,wlk:-1,fly:2,tgh:2,main:{pwr:10,shl:450,rng:330,spd:190,itv:820},tunable:{mwp:1}}
 //{id:38,name:"Cyburning BS",type:"l",cost:40,hp:20,str:2,tec:1,wlk:-1,fly:2,tgh:1}
 //{id:39,name:"Nicole Malice BS",cost:35,hp:20,str:1,tec:-1,wlk:1,fly:2,type:"s",tgh:1}
 //{id:154,name:"Nicole Malice BS2",cost:35,hp:20,str:-1,wlk:2,fly:2,tgh:2,type:"c"}
@@ -161,7 +161,7 @@
 //{id:124,name:"Swift BS",sub:{str:100,pwr:22,shl:20,rng:100,spd:120,itv:2000},tunable:{pwp:1},type:"a",cost:85,hp:20,str:-1,tec:1,fly:3,tgh:1}
 //{id:180,name:"Swift BS2",sub:{pwr:9,shl:60,rng:300,spd:320,itv:400},type:"a",cost:95,hp:20,tec:2,fly:2}
 //{id:126,name:"Blue Wing",joint:{wp:1},cost:40,hp:20,str:1,tec:1,wlk:2,fly:1,type:"a",conversion:"BDAS60 BDAS73 BDAS90",comment:"Attachable to 'Litia BD/BD2/BD3' only"}
-//{id:128,name:"Recipro BS",main:{pwr:12,shl:330,rng:300,spd:220,itv:900},tunable:{mwp:1},type:"a",cost:70,hp:10,tec:1,wlk:1,fly:2,tgh:-1}
+{id:128,name:"螺旋槳恩特BS",main:{pwr:12,shl:580,rng:275,spd:320,itv:900},tunable:{mwp:1},type:"a",cost:135,hp:20,tec:2,fly:4,tgh:-1}
 {id:129,name:"史黛拉BS",type:"a",cost:40,hp:25,tec:3,wlk:1,fly:2,tgh:-1}
 {id:130,name:"貝爾傑拉夫女孩BS",type:"c",cost:35,hp:20,tec:1,wlk:1,fly:3}
 //{id:131,name:"Lios BS2",type:"l",cost:35,hp:25,str:1,wlk:2,fly:3,tgh:-1}
@@ -190,7 +190,7 @@
 //{id:162,name:"Serieux BS",type:"c",cost:35,hp:20,str:-1,tec:2,fly:3,tgh:1}
 //{id:163,name:"Medi Aide BS2",type:"s",cost:40,hp:20,str:1,tec:1,wlk:2,fly:2,tgh:-1}
 //{id:166,name:"Mialy BS4",type:"c",size:"S",cost:35,hp:20,tec:3,wlk:-1,fly:2,tgh:1}
-//{id:169,name:"Tristan BS",type:"c",cost:35,hp:20,str:-1,tec:2,wlk:2,fly:1,tgh:1}
+{id:169,name:"特莉絲汀BS",type:"c",cost:30,hp:15,tec:1,fly:2,tgh:1}
 //{id:170,name:"Ion BS2",type:"l",cost:40,hp:25,str:2,tec:1,fly:2}
 //{id:171,name:"Asphe BS",type:"c",size:"S",cost:30,hp:15,tec:2,fly:3,tgh:-1}
 //{id:172,name:"Magnell BS",type:"s",cost:35,hp:20,wlk:2,fly:3,tgh:-1}
@@ -203,7 +203,7 @@
 //{id:188,name:"Alice BS",sub:{pwr:5,shl:260,rng:360,spd:360,itv:400},type:"a",size:"S",cost:65,hp:20,str:-1,tec:1,fly:3,tgh:2,conversion:"BDAS107 BDAS1089",comment:"Attachable to 'Alice BD/BD2' only"}
 //{id:191,name:"Baphogridr Girl BS",type:"l",cost:40,hp:20,str:2,tec:1,wlk:-1,fly:3}
 //{id:192,name:"Magical C.S. BSR",size:"S",cost:40,hp:20,str:1,wlk:2,fly:3,tgh:-1}
-//{id:1051,name:"Oboromaru BS",type:"a",cost:40,hp:25,str:2,tec:2,wlk:-1,fly:2}
+{id:1051,name:"朧丸BS",type:"a",cost:35,hp:20,str:2,tec:2,wlk:-1,fly:2}
 //{id:193,name:"Oboromaru BS2",type:"a",cost:25,hp:20,str:2,tec:1,wlk:-1,fly:2}
 //{id:194,name:"Gathima Girl BS",type:"c",cost:40,hp:25,tec:2,wlk:-1,fly:3,tgh:1}
 //{id:195,name:"Lino Falcon BS",type:"a",cost:40,hp:25,str:2,tec:-1,wlk:1,fly:3}
@@ -389,7 +389,7 @@
 //{id:136,name:"Solfrost BS",type:"a",cost:35,hp:20,str:-1,wlk:2,fly:3,tgh:1}
 //{id:138,name:"Parasol Barrier BS",sub:{shl:10,spd:120,itv:1000},cost:60,hp:20,tec:1,wlk:2,fly:2}
 {id:141,name:"獵人羅賓BS",sub:{pwr:10,shl:20,rng:100,spd:340,itv:1000},cost:50,hp:20,str:-1,tec:2,wlk:1,fly:3,type:"l"}
-//{id:142,name:"Istina Bullet BS",type:"a",cost:35,hp:20,str:-1,tec:1,fly:2,tgh:3}
+{id:142,name:"伊斯奇娜・BULLETBS",type:"a",cost:35,hp:20,str:-1,tec:1,fly:2,tgh:3}
 //{id:2112,name:"Istina Bullet BS3",type:"a",cost:35,hp:20,str:2,tec:2,fly:2,tgh:-1}
 {id:143,name:"蘭姆潛行者BS",type:"a",sub:{itv:500},cost:70,hp:25,fly:4,tgh:1}
 {id:144,name:"瓦利安特BS",main:{tec:100,pwr:9,shl:480,rng:275,spd:350,itv:340},tunable:{mwp:1},type:"a",cost:35,hp:20,str:-1,tec:2,fly:3,tgh:1}
@@ -400,7 +400,7 @@
 //{id:151,name:"Gotrun BS2",type:"l",cost:40,hp:20,tec:1,wlk:3,fly:3,tgh:-1}
 //{id:152,name:"Shiny Wing BS",cost:30,hp:15,wlk:1,fly:3}
 //{id:153,name:"Growldian BS",main:{tec:100,pwr:4,shl:100,rng:200,spd:150,itv:1000},sub:{tec:100,pwr:26,shl:40,rng:180,spd:300,itv:5000},tunable:{mwp:1,pwp:0},type:"l",cost:120,hp:20,str:1,fly:2,tgh:1,size:"M"}
-//{id:156,name:"Growldian BS2",main:{tec:100,shl:3,rng:300,spd:500,itv:440},sub:{tec:100,pwr:1,shl:5,rng:10,spd:10,itv:8000},tunable:{mwp:1,pwp:0},type:"l",cost:90,hp:20,fly:2,tgh:-1,size:"M",tec:2,wlk:1}
+{id:156,name:"守護者BS2",main:{tec:100,shl:20,rng:300,spd:500,itv:1000},sub:{str:100,shl:10,rng:43,spd:63,itv:1000},tunable:{mwp:1,pwp:0},type:"s",cost:115,hp:20,tec:2,wlk:1,fly:2,size:"M"}
 //{id:154,name:"Grand Vernier BS",sub:{shl:20,rng:100,spd:200,itv:2000},cost:60,hp:25,wlk:2,fly:3}
 //{id:155,name:"Thrones Wing BS",sub:{shl:15,rng:100,spd:150,itv:2000},size:"M",cost:60,hp:25,wlk:2,fly:3}
 {id:159,name:"瑪尼莫之翼",joint:{wp:1},sub:{shl:60,spd:160,itv:1000},cost:70,hp:25,str:1,fly:2,tgh:2}
@@ -443,7 +443,7 @@
 {id:2101,name:"剛特拉BS",type:"l",cost:40,hp:25,tec:-1,wlk:2,fly:3,tgh:1}
 {id:2102,name:"噴射之翼BS",sub:{pwr:0,rng:100,spd:200,itv:1000},cost:60,hp:25,tec:1,wlk:1,fly:3}
 //{id:2103,name:"Iceraid BS Beta",joint:{wp:1},cost:35,hp:15,wlk:1,fly:3,tgh:1}
-//{id:2104,name:"F Ruhl BS",type:"a",joint:{wp:1},sub:{pwr:15,shl:50,rng:250,spd:200,itv:100},fixedParts:{wp:{name:"F Ruhl BS@",main:{pwr:5,shl:250,rng:250,spd:300,itv:300},slot:0}},cost:135,hp:25,str:1,tec:2,wlk:-1,fly:2,tgh:1}
+{id:2104,name:"F・琉兒BS",type:"a",joint:{wp:1},sub:{pwr:16,shl:150,rng:275,spd:300,itv:1000},fixedParts:{wp:{name:"F・琉兒BS@",main:{pwr:3,shl:1000,rng:275,spd:400,itv:300},cost:40,slot:0}},cost:85,hp:20,str:-1,tec:3,fly:3}
 //{id:2113,name:"F Ruhl BS2",type:"a",joint:{wp:1},sub:{pwr:1,shl:5,rng:10,spd:180,itv:500},fixedParts:{wp:{name:"F Ruhl BS2@",sub:{pwr:1,shl:16,rng:250,spd:200,itv:100},slot:0}},cost:85,hp:15,wlk:1,fly:2,tgh:1}
 //{id:2105,name:"Windlynx BS",type:"a",cost:45,hp:30,str:1,tec:2,wlk:-1,fly:2,tgh:1}
 {id:2106,name:"流水噴射BS",sub:{pwr:0,rng:150,spd:350,itv:1000},cost:60,hp:25,str:1,wlk:2,fly:2}
@@ -556,7 +556,7 @@
 //{id:62,name:"Trizelion BS",cost:20,hp:25,fly:3,tgh:2,type:"l"}
 {id:63,name:"青狼萊耶BS",joint:{bs:1},fixedParts:{bs:{name:"青狼萊耶BS@",main:{pwr:6,shl:600,rng:275,spd:350,itv:1000},sub:{shl:30,rng:100,spd:120,itv:1000},cost:120,slot:0}},type:"a",cost:40,hp:25,tec:2,fly:4,tgh:-1}
 //{id:90,name:"Wolf Rayet BS2",joint:{bs:1},fixedParts:{bs:{name:"Wolf Rayet BS2@",main:{pwr:4,shl:400,rng:230,spd:300,itv:740},sub:{pwr:1,shl:6,rng:10,spd:150,itv:1000},slot:0}},type:"a",cost:160,hp:30,tec:2,wlk:1,fly:4,tgh:-1}
-//{id:64,name:"Combat Freed BS",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:3,type:"l"}
+{id:64,name:"戰鬥佛利德BS",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:3,type:"l"}
 //{id:65,name:"Protos BS",type:"c",cost:65,hp:25,str:-1,fly:3,tgh:3}
 //{id:66,name:"Lucca Decho BS",type:"l",size:"M",cost:35,hp:20,str:1,tec:1,wlk:1,fly:3,tgh:-1}
 {id:69,name:"薩特BS",type:"l",cost:40,hp:25,tec:2,wlk:-1,fly:3,tgh:1}
@@ -602,7 +602,8 @@
 //{id:111,name:"Joste Gunder BS",type:"l",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:3,tgh:0}
 //{id:112,name:"Teitarotes BS",type:"c",cost:90,hp:25,str:0,tec:2,wlk:0,fly:1,tgh:2,main:{pwr:15,shl:90,rng:320,spd:280,itv:1000},tunable:{mwp:1}}
 {id:113,name:"多拉肯BS",type:"l",cost:40,hp:25,str:1,tec:-1,fly:3,tgh:2}
-//last:113
+{id:114,name:"大和武尊BS",type:"l",cost:35,hp:20,tec:1,wlk:1,fly:3}
+//last:114
 //
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:1,name:"修汀BS",type:"a",cost:125,hp:25,fly:5,sub:{pwr:1,shl:1,rng:200,spd:110,itv:2000}}

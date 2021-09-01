@@ -41,9 +41,9 @@
 //{id:37,name:"Rayminous HD2",cost:30,hp:15,str:1,tec:2,fly:2,tgh:-1}
 {id:33,name:"亞雷斯塔HD",cost:40,hp:25,str:-1,tec:2,wlk:2,fly:1,tgh:1}
 {id:100,name:"亞雷斯塔HD2",cost:40,hp:25,str:1,tec:3,wlk:-1,tgh:2}
-//{id:35,name:"F Ruhl HD",cost:40,hp:20,str:3,tec:1,wlk:-1,fly:1,tgh:1}
+{id:35,name:"F・琉兒HD",cost:35,hp:20,tec:1,fly:3,tgh:1}
 //{id:39,name:"F Ruhl HD2",type:"a",main:{pwr:4,shl:500,rng:200,spd:400,itv:220},tunable:{mwp:1},cost:65,hp:10,fly:2,tgh:1}
-//{id:36,name:"Tristan HD",type:"lcs",cost:45,hp:25,tec:3,tgh:2}
+{id:36,name:"特莉絲汀HD",cost:30,hp:15,tec:2,tgh:2}
 //{id:101,name:"Dark Revenant HD",type:"l",cost:40,hp:25,tec:-1,wlk:1,fly:2,tgh:3}
 //{id:102,name:"Vermelho HD",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:1,tgh:2}
 //{id:103,name:"M.Arch HD",cost:25,hp:20,str:-1,tec:1,wlk:1,fly:1,tgh:1}
@@ -65,7 +65,7 @@
 //{id:141,name:"Heavy Jaguar Arm HD",sub:{pwr:30,rng:45,spd:120,itv:1500,str:100},type:"l",cost:80,hp:20,str:2,tec:1,wlk:1,fly:-1,tgh:2,tunable:{pwp:1}}
 {id:6,name:"百萬巨頓HD",cost:35,hp:20,str:1,tec:1,wlk:1,tgh:2}
 {id:30,name:"千兆托爾HD",cost:40,hp:25,str:1,wlk:1,fly:1,tgh:2}
-//{id:91,name:"Armed Build Arm HD",cost:20,hp:15,str:1,tec:1,wlk:2,tgh:-1}
+{id:91,name:"裝甲迪姆泰HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
 {id:138,name:"托曼薩蜥蜴HD",cost:40,hp:25,tec:2,wlk:1,fly:1,tgh:1}
 //{id:139,name:"Tonosama Lander HD-G",cost:25,hp:15,tec:2,wlk:1,fly:-1,tgh:1}
 //{id:7,name:"Priestol HD",cost:25,hp:10,tec:1,wlk:1,fly:1}
@@ -192,7 +192,7 @@
 //{id:130,name:"Blazed Baron HD3",cost:90,hp:25,str:2,tec:2,wlk:2,fly:-1,sub:{tec:100,pwr:24,rng:310,spd:270,itv:800},type:"l"}
 {id:33,name:"精神統合者HD",cost:45,hp:25,str:1,tec:2,fly:1,tgh:1}
 {id:38,name:"精神統合者HD2",cost:100,hp:25,str:-1,tec:3,fly:1,tgh:2,main:{pwr:15,shl:280,rng:330,spd:290,itv:740},tunable:{mwp:1}}
-//{id:132,name:"Psycho Formula HD3",cost:100,hp:20,str:2,tec:1,tgh:1,main:{pwr:8,shl:180,rng:390,spd:210,itv:740},tunable:{mwp:1},type:"c",wlk:-1,fly:2}
+{id:132,name:"精神統合者HD3",cost:75,hp:20,tec:3,wlk:-1,fly:2,tgh:1,main:{pwr:14,shl:290,rng:330,spd:220,itv:600},tunable:{mwp:1},type:"c"}
 //{id:233,name:"Psycho Formula HD4",main:{pwr:17,shl:120,rng:350,spd:210,itv:600},tunable:{mwp:1},cost:70,hp:20,str:-1,tec:1,fly:2,tgh:3,type:"c"}
 {id:87,name:"戰鬥芙蕾雅HD",cost:40,hp:25,str:1,wlk:2,fly:1,tgh:1}
 //{id:88,name:"Butterflea HD2",type:"a",cost:70,hp:20,str:2,tec:2,wlk:-1,tgh:2,main:{pwr:7,shl:500,rng:180,spd:280,itv:240},tunable:{mwp:1}}
@@ -244,7 +244,7 @@
 {id:274,name:"風馳利司HD2",main:{pwr:10,shl:320,rng:330,spd:440,itv:500},tunable:{mwp:1},type:"lc",cost:75,hp:20,tec:1,wlk:1,fly:1,tgh:2}
 {id:168,name:"要塞洛加HD",cost:35,hp:20,tec:2,wlk:1,tgh:2}
 {id:169,name:"要塞洛加HD2",cost:35,hp:20,str:2,wlk:1,tgh:2}
-//{id:208,name:"Gaderoga HD3",cost:25,hp:10,str:-1,tec:1,tgh:2,fly:1}
+{id:208,name:"要塞洛加HD3",cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
 //{id:187,name:"Galsteel HD",cost:30,hp:15,str:2,wlk:-1,fly:2,tgh:1}
 //{id:1205,name:"Falx HD",cost:35,hp:20,tec:2,wlk:2,tgh:1}
 //{id:1276,name:"Falx HD2",main:{pwr:7,shl:30,rng:305,spd:325,itv:1000},tunable:{mwp:1},cost:65,hp:20,str:2,wlk:1,fly:1,tgh:1}
@@ -304,7 +304,7 @@
 //{id:219,name:"Mizuha HD",cost:30,hp:15,str:1,fly:1,tgh:2}
 {id:220,name:"青狼萊耶HD",cost:40,hp:20,str:1,tec:2,wlk:1,fly:2,tgh:-1}
 //{id:221,name:"Combat Freed HD",cost:40,hp:35,tec:3,wlk:-1,fly:1,tgh:2}
-//{id:325,name:"Combat Freed HD2",main:{pwr:5,shl:20,rng:160,spd:570,itv:500},tunable:{mwp:1},cost:50,hp:35,str:1,tec:2,wlk:-1,fly:1,tgh:2}
+{id:325,name:"戰鬥佛利德HD2",main:{pwr:10,shl:100,rng:200,spd:570,itv:500},tunable:{mwp:1},cost:65,hp:20,str:2,tec:-1,wlk:2,fly:1,tgh:1}
 //{id:222,name:"Protos HD",cost:35,hp:25,tec:3,tgh:1}
 //{id:223,name:"Pelena HD",sub:{shl:10,spd:63,itv:30000,rng:43},cost:75,hp:20,tec:2,wlk:1,fly:1,type:"s"}
 {id:224,name:"波魯卡尼克斯	HD",main:{pwr:5,shl:800,rng:110,spd:480,itv:100},tunable:{mwp:1},cost:120,hp:20,tec:2,fly:2,tgh:1}
@@ -366,7 +366,7 @@
 {id:286,name:"獵人羅賓HD",cost:35,hp:20,str:1,tec:3,wlk:1,fly:-1,tgh:1}
 {id:287,name:"蘭姆潛行者HD",cost:40,hp:20,str:1,tec:2,wlk:-1,fly:1,tgh:2}
 {id:288,name:"瓦利安特HD",cost:35,hp:20,str:1,tec:2,fly:2}
-//{id:290,name:"Recipro HD",cost:35,hp:20,tec:1,wlk:-1,fly:2,tgh:3}
+{id:290,name:"螺旋槳恩特HD",cost:35,hp:20,tec:1,wlk:-1,fly:2,tgh:3}
 //{id:1278,name:"Recipro HD2",main:{pwr:3,shl:30,rng:110,spd:570,itv:200},cost:50,hp:15,wlk:1,fly:1,tgh:2}
 //{id:291,name:"Aeolius HD",cost:30,hp:15,str:1,tec:1,fly:2}
 {id:292,name:"猛毒羅索HD",cost:40,hp:25,str:-1,tec:1,wlk:2,fly:1,tgh:2,size:"M"}
@@ -375,7 +375,7 @@
 //{id:296,name:"Kuschelb HD2",cost:40,hp:20,str:2,tgh:3}
 {id:297,name:"剛特拉HD",cost:40,hp:25,str:2,tec:2,wlk:-1,fly:1,tgh:1}
 //{id:298,name:"Growldian HD",cost:15,hp:15,fly:2,tgh:1}
-//{id:301,name:"Growldian HD2",cost:15,hp:15,wlk:2,tgh:1}
+{id:301,name:"守護者HD2",cost:35,hp:20,str:2,tec:-1,wlk:3,tgh:1}
 {id:299,name:"修汀HD3",cost:40,hp:25,str:-1,wlk:2,fly:2,tgh:2}
 //{id:300,name:"K Nonna HD2",size:"M",cost:30,hp:20,tec:1,wlk:-1,fly:1,tgh:3}
 {id:302,name:"貝爾賽希烏斯HD",cost:45,hp:25,tec:2,wlk:-1,fly:3,tgh:1}
@@ -393,7 +393,7 @@
 //{id:319,name:"Flash Bomber HD",cost:40,hp:25,str:2,tec:1,wlk:-1,tgh:3}
 {id:321,name:"靈魂布雷沙HD",cost:40,hp:25,str:1,tec:-1,wlk:2,fly:1,tgh:2}
 {id:323,name:"A.米拉爾HD",type:"l",size:"M",cost:115,hp:20,tec:3,wlk:2,fly:-1,tgh:1,main:{tec:100,pwr:3,shl:1200,rng:250,spd:440,itv:200},tunable:{mwp:1},tec:2}
-//{id:1263,name:"Oboromaru HD",cost:40,hp:25,str:3,tec:1,wlk:1,fly:1,tgh:-1}
+{id:1263,name:"朧丸HD",cost:35,hp:20,str:3,tec:1,wlk:1,fly:1,tgh:-1}
 // {name:"Oboromaru HD2JP",main:{pwr:25,shl:20,rng:300,spd:100,itv:500}}
 //{id:324,name:"Oboromaru HD2",main:{pwr:25,shl:15,rng:300,spd:100,itv:1000},tunable:{mwp:1},cost:70,hp:20,str:2,tec:1,fly:2}
 {id:327,name:"威沙梅爾HD",cost:35,hp:20,tec:2,wlk:2,fly:2,tgh:-1}
@@ -436,7 +436,8 @@
 {id:1306,name:"史哥坦HD2",cost:35,hp:20,tec:2,wlk:2,tgh:1}
 {id:1307,name:"K・諾娜HD",cost:35,hp:20,str:-1,tec:2,fly:2,tgh:2}
 {id:1308,name:"黑暗電鑽HD",cost:40,hp:25,str:-1,tec:2,wlk:2,fly:1,tgh:1,joint:{hdac:0,fcac:0}}
-//last:1308
+{id:1309,name:"薩特HD2",cost:40,hp:25,str:-1,tec:2,wlk:2,tgh:2}
+//last:1309
 //
 //
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
@@ -458,6 +459,7 @@
 //{id:16,name:"Teitarotes HD",cost:35,hp:20,str:0,tec:2,wlk:1,fly:-1,tgh:3}
 {id:17,name:"哈庫曼斯庫那HD",cost:40,hp:25,str:2,wlk:1,tgh:2}
 {id:18,name:"多拉肯HD",cost:35,hp:20,str:2,tec:-1,wlk:1,fly:1,tgh:2}
+{id:19,name:"大和武尊HD",cost:35,hp:20,str:2,tec:-1,wlk:2,tgh:2,type:"l"}
 //
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 //{id:1,name:"Joste Gunder HD",type:"l",cost:75,hp:20,str:3,tec:-1,wlk:2,fly:0,tgh:1,sub:{str:100,pwr:30,shl:20,rng:150,spd:350,itv:500}}

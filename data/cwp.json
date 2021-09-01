@@ -22,7 +22,7 @@
 {id:21,name:"E.V.E.Frontier Type (Air)",main:{pwr:30,shl:10,rng:60,spd:250,itv:1000},size:"S",type:"a",cost:130,sub:{pwr:26,shl:140,tec:100,rng:320,spd:400,itv:1000},tunable:{mwp:1},conversion:"BDAS57AM3",comment:["CALAMITY BURST/RUIN CANNON","Attachable to 'Eve AM3' only"]}
 {id:22,name:"E.V.E.Frontier Type (Land)",main:{pwr:30,shl:10,rng:60,spd:250,itv:1000},size:"S",type:"l",cost:130,sub:{pwr:23,rng:110,spd:85,itv:800,str:100},tunable:{mwp:1,pwp:1},conversion:"BDLS101AM3",comment:["CALAMITY BURST/RUIN BLADE","Attachable to 'Eve AM3' only"]}
 {id:23,name:"Shinki Null Moon Shuriken",main:{pwr:25,shl:100,rng:320,spd:270,itv:1000,tec:100},sub:{pwr:27,rng:60,spd:90,itv:500,str:100},tunable:{pwp:1},type:"l",size:"S",cost:120,conversion:"BDLS106AM",comment:"Attachable to 'Momiji AM5' only"}
-{id:24,name:"Relic Orbs",main:{pwr:7,shl:400,rng:250,spd:340,itv:500,tec:100},sub:{pwr:32,rng:70,spd:85,itv:500,str:100},tunable:{pwp:1},cost:120,hp:20,tec:-1,wlk:2,fly:2,tgh:1,type:"l",size:"S",conversion:"BDLS105",comment:["Attachable to 'Mikoto BD/BD2/BD3' only","Same as 'Snow Rabbit Relic'"]}
+{id:24,name:"寶具.双機珠",main:{pwr:10,shl:880,rng:250,spd:400,itv:500,tec:100},sub:{pwr:34,rng:70,spd:85,itv:500,tec:100},tunable:{pwp:1},cost:140,type:"l",size:"S",conversion:"BDLS105",comment:["Attachable to 'Mikoto BD/BD2/BD3' only","Same as 'Snow Rabbit Relic'"]}
 {id:25,name:"Relic Orbs (Crescent)",main:{pwr:11,shl:1000,rng:250,spd:340,itv:500,tec:100},sub:{pwr:15,rng:230,spd:340,itv:500,tec:100,shl:50},tunable:{pwp:1},cost:120,hp:20,tec:-1,wlk:2,fly:2,tgh:1,type:"l",size:"S",conversion:"BDLS105",comment:["Attachable to 'Mikoto BD/BD2/BD3' only","Stats from New Moon Lv.1","Same as 'Snow Rabbit Relic'"]}
 {id:26,name:"Seraphim Rune",main:{pwr:26,shl:50,rng:150,spd:210,itv:3000},sub:{pwr:30,shl:240,rng:120,spd:80,itv:1800,str:100},tunable:{pwp:1,mwp:1},type:"l",size:"M",cost:70,conversion:"BDLS108AM",comment:["Attachable to 'Bikini Seraph Crimrose AM' only","EIW data needed"]}
 {id:27,name:"Seraphim Rune BETA",main:{pwr:18,shl:50,rng:150,spd:210,itv:2000},sub:{pwr:22,shl:240,rng:120,spd:80,itv:1800,str:100},tunable:{pwp:1,mwp:1},type:"l",size:"M",cost:70,conversion:"BDLS108AM",comment:["Attachable to 'Bikini Seraph Crimrose AM' only","EIW data needed"]}
@@ -98,9 +98,9 @@
 {id:97,name:"Lantian@",main:{pwr:20,shl:15,rng:360,spd:520,itv:500},sub:{pwr:30,shl:20,rng:390,spd:400,itv:500},type:"a",size:"S",cost:120,slot:0,conversion:"WPCM97",comment:"Attachable to 'Lantian' only"}
 {id:98,name:"Sanae-chan's Mega Fireball",main:{pwr:35,shl:50,rng:300,spd:350,itv:600},type:"l",size:"S",cost:70,conversion:"BDLS135AM",comment:"Attachable to 'Sanae AM' only",slot:0}
 {id:99,name:"Sanae-chan's Mega Fireball ALPHA",main:{pwr:25,shl:50,rng:300,spd:350,itv:600},type:"l",size:"S",cost:55,conversion:"BDLS135AM",comment:"Attachable to 'Sanae AM' only",slot:0}
-{id:100,name:"Flare Tail",main:{tec:100,pwr:4,shl:600,rng:300,spd:300,itv:500},tunable:{mwp:1},type:"a",size:"M",cost:30,fixedParts:{wp:{name:"Flare Tail@1",sub:{pwr:1,shl:15,rng:150,spd:150,itv:1000},cost:40,slot:0}},joint:{wp:1},conversion:"AM44BDLG AM52BDLG",comment:"Attachable to 'Istina Bullet LG' only"}
-{id:101,name:"Expiation @1",main:{tec:100,pwr:25,shl:250,rng:450,spd:520,itv:800},type:"a",size:"M",cost:80,slot:0,conversion:"BDAM44WP BDAM52WP",comment:"Attachable to 'Expiation/Expiation II' only"}
-{id:102,name:"Expiation @2",main:{tec:100,pwr:45,shl:30,rng:450,spd:520,itv:500},type:"a",size:"M",cost:60,slot:0,conversion:"BDAM44WP BDAM52WP",comment:"Attachable to 'Expiation/Expiation II' only"}
+{id:100,name:"耀星之尾",main:{tec:100,pwr:7,shl:660,rng:275,spd:300,itv:500},tunable:{mwp:1},type:"a",size:"M",cost:60,fixedParts:{wp:{name:"耀星之尾@1",sub:{pwr:1,shl:60,spd:200,itv:1000},cost:50,slot:0}},joint:{wp:1},conversion:"AM44BDLG AM52BDLG",comment:"Attachable to 'Istina Bullet LG' only"}
+{id:101,name:"Expiation @1",main:{tec:100,pwr:26,shl:270,rng:450,spd:500,itv:800},type:"a",size:"M",cost:120,slot:0,conversion:"BDAM44WP BDAM52WP WPCS158",comment:"Attachable to 'Expiation/Expiation II' only"}
+{id:102,name:"Expiation @2",main:{tec:100,pwr:40,shl:60,rng:450,spd:420,itv:500},type:"a",size:"M",cost:0,slot:0,conversion:"BDAM44WP BDAM52WP WPCS158",comment:"Attachable to 'Expiation/Expiation II' only"}
 {id:103,name:"Expiation @3",main:{tec:100,pwr:17,shl:250,rng:450,spd:520,itv:200},type:"a",size:"M",cost:80,slot:0,conversion:"BDAM44WP BDAM52WP",comment:"Attachable to 'Expiation/Expiation II' only"}
 {id:104,name:"Expiation @4",main:{tec:100,pwr:35,shl:60,rng:450,spd:520,itv:500},type:"a",size:"M",cost:60,slot:0,conversion:"BDAM44WP BDAM52WP",comment:"Attachable to 'Expiation/Expiation II' only"}
 {id:105,name:"Nemlim BD@7",main:{pwr:5,shl:600,rng:270,spd:290,itv:500},cost:60,type:"a",size:"S",conversion:"BDAS80",comment:"Attachable to 'Nemlim BD7' only",tunable:{mwp:1}}
@@ -125,7 +125,7 @@
 {id:124,name:"Nemlim BD8@",main:{pwr:18,shl:300,rng:220,spd:340,itv:440},tunable:{mwp:1},joint:{wp:1},type:"l",size:"S",cost:70,conversion:"BDLS144",comment:"Attachable to 'Nemlim BD8' only"}
 {id:125,name:"Nemlim BD8@2",main:{pwr:30,shl:30,rng:300,spd:450,itv:500},type:"l",size:"S",slot:0,cost:60,conversion:"WPCM124",comment:"Attachable to 'Nemlim BD8@' only"}
 {id:126,name:"Tri-bazooka",main:{tec:100,pwr:24,shl:250,rng:230,spd:275,itv:500},tunable:{mwp:1},cost:80,type:"l",size:"M",conversion:"AMM159",comment:"Attachable to 'Growldian AM' only"}
-{id:127,name:"Talis Shooter",main:{pwr:19,shl:270,rng:230,spd:340,itv:440},tunable:{mwp:1},type:"l",size:"M",cost:95,conversion:"AMM159"}
+{id:127,name:"護符發射器",main:{pwr:10,shl:1050,rng:250,spd:400,itv:600},tunable:{mwp:1},type:"ls",size:"M",cost:70,slot:0,conversion:"AMM159"}
 {id:128,name:"Labyrinthammer",main:{pwr:6,shl:100,rng:290,spd:280,itv:1200,tec:100},sub:{tec:100,pwr:30,shl:50,rng:340,spd:210,itv:1000},type:"c",size:"M",cost:115,joint:{wp:1},conversion:"BDCS56AM BDCS69AM BDCS88AM",comment:"Attachable to 'Miruru Miu AM/AM3/AM4' only",tunable:{pwp:1}}
 {id:129,name:"Labyrinthammer@",main:{pwr:26,shl:150,rng:350,spd:320,itv:700,tec:100},sub:{tec:100,pwr:20,shl:20,rng:150,spd:130,itv:1000},type:"c",size:"S",cost:110,slot:0,conversion:"WPCM128"}
 {id:130,name:"Labyrinthaxe LJ@",main:{pwr:17,shl:400,rng:280,spd:240,itv:340,tec:100},type:"c",size:"S",cost:75,conversion:"WPCS51",comment:"Attachable to 'Labyrinthaxe LJ' only",tunable:{mwp:1}}
@@ -145,8 +145,8 @@
 {id:144,name:"Magnegun",main:{tec:100,pwr:8,shl:400,rng:300,spd:220,itv:1000},tunable:{mwp:1},type:"c",size:"S",cost:60,conversion:"BDCS76",comment:"Attachable to 'Fiona BD' only"}
 {id:145,name:"Jupitizer Rifle",main:{pwr:18,tec:100,shl:250,rng:330,spd:370,itv:700},tunable:{mwp:1},type:"a",size:"LL",cost:70,conversion:"BDAL51",comment:"Attachable to 'Thoarla BD11' only"}
 {id:146,name:"Jupitizer Buster",main:{tec:100,pwr:36,shl:15,rng:330,spd:400,itv:1000},type:"a",size:"LL",cost:50,slot:0,conversion:"BDAL51",comment:"Attachable to 'Thoarla BD11' only"}
-{id:147,name:"Fillnaught",type:"c",size:"S",main:{pwr:19,shl:300,rng:300,spd:300,itv:300},sub:{pwr:10,shl:50,rng:300,spd:150,itv:500},tunable:{mwp:1},cost:90,conversion:"AMS182",comment:"Attachable to 'Tristan AM2' only"}
-{id:148,name:"Harp Shield",type:"c",size:"S",main:{shl:30,spd:10,itv:1000},cost:40,conversion:"AMS181",comment:"Attachable to 'Tristan AM' only"}
+{id:147,name:"爆炎標記",type:"c",size:"SS",main:{pwr:14,shl:390,rng:350,spd:340,itv:300},sub:{pwr:10,shl:240,rng:300,spd:220,itv:1000},tunable:{mwp:1},cost:130,slot:0,conversion:"AMS182",comment:"Attachable to 'Tristan AM2' only"}
+{id:148,name:"樂器盾",type:"c",size:"SS",main:{shl:50,spd:10,itv:1000},cost:40,slot:0,conversion:"AMS181",comment:"Attachable to 'Tristan AM' only"}
 {id:149,name:"純水射手",main:{tec:100,pwr:19,shl:340,rng:250,spd:400,itv:500},tunable:{mwp:1},type:"l",size:"S",cost:70,conversion:"BDLS40AM BDLS40AM2 BDLS55AM BDLS55AM5 BDLS85AM3 BDLS85AM4 BDLS91AM6 BDLS118AM8 BDLS118AM7 BDLS126AM9 BDLS126AM7 BDLS156AM10",comment:"Attachable to 'Ion AM|2/3/4/5/6/7/8/9/10' only"}
 {id:150,name:"Water Flower Hy",main:{tec:100,pwr:6,shl:900,rng:200,spd:360,itv:200},sub:{tec:100,pwr:35,shl:50,rng:250,spd:400,itv:3000},tunable:{mwp:1},type:"l",size:"S",cost:100,conversion:"BDLS91 BDLS118 BDLS126 BDLS156",comment:"Attachable to 'Ion BD6/7/8/9/10/11' only"}
 {id:151,name:"Driver Cannon",main:{tec:100,pwr:13,shl:420,rng:330,spd:220,itv:340},tunable:{mwp:1,pwp:0},size:"M",type:"c",cost:100,conversion:"BDCS79 BDCS1067",comment:"Attachable to 'Asphe BD' only"}
@@ -204,7 +204,7 @@
 {id:203,name:"Pepen Twin Gun",main:{pwr:10,shl:400,rng:300,spd:220,itv:340},tunable:{mwp:1},type:"c",size:"M",cost:70,conversion:"BDCS1060AM AMS175"}
 {id:204,name:"企企女孩BD@",sub:{rng:300,itv:1000},type:"c",size:"M",slot:0,conversion:"BDCS70"}
 {id:205,name:"M1 Ignited",cost:40,type:"c",size:"S",main:{pwr:30,shl:60,rng:360,spd:250,itv:500},tunable:{mwp:1},conversion:"BSS1056"}
-{id:206,name:"D.N.G. Cannon",main:{pwr:25,shl:200,rng:340,spd:230,itv:800},type:"c",cost:70,conversion:"AMS120",comment:"Attachable to 'Anko AM2' only",size:"S"}
+{id:206,name:"D.N.G.加農",main:{pwr:28,shl:220,rng:330,spd:230,itv:700},type:"c",cost:70,conversion:"AMS120",comment:"Attachable to 'Anko AM2' only",size:"S"}
 {id:207,name:"Summer Parasol",type:"a",cost:45,slot:0,joint:{wp:1},sub:{pwr:25,shl:40,rng:10,spd:320,itv:500},conversion:"BDAS98AM BDAS1082AM"}
 {id:208,name:"Summer Parasol@",type:"a",cost:135,main:{pwr:3,shl:480,rng:320,spd:330,itv:300},sub:{tec:100,shl:15,rng:10,spd:110,itv:500},conversion:"WPCM153 WPCM207"}
 {id:209,name:"Denden Cam Pro II",type:"a",cost:80,slot:0,main:{pwr:27,shl:50,rng:320,spd:330,itv:300},conversion:"BDAS98 BDAS1082"}
@@ -251,6 +251,8 @@
 {id:250,name:"K・諾娜BS@",slot:0,main:{pwr:15,shl:450,rng:350,spd:500,itv:400},sub:{pwr:28,shl:100,rng:350,spd:500,itv:1000},cost:160,conversion:"BSS1075"}
 {id:251,name:"別西卜槍",tunable:{mwp:1},cost:60,type:"c",size:"S",main:{pwr:10,shl:540,rng:330,spd:220,itv:300},conversion:"WPCS56",comment:"Attachable to 'Greed Weapon/Greed Weapon II' only"}
 {id:252,name:"力量弓",main:{pwr:28,shl:230,rng:225,spd:480,itv:700},type:"l",size:"M",cost:30,conversion:"AMM151 AMM171",comment:"Attachable to 'Robin Hunter AM' only",slot:0}
+{id:253,name:"月輪[新月]",cost:20,type:"l",size:"S",conversion:"BDLS105",comment:["Attachable to 'Mikoto BD/BD2/BD3' only"],slot:0}
+{id:254,name:"獨角獸之杖",main:{pwr:38,shl:280,rng:330,spd:400,itv:800},sub:{pwr:9,shl:300,rng:300,spd:280,itv:1000},tunable:{mwp:1},type:"c",size:"S",cost:170,conversion:"BDCS67AM BDCS53AM AMS1003",comment:"Attachable to 'Lumiera AM/AM3' only"}
 
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
@@ -411,3 +413,4 @@
 {id:155,name:"感應砲架",conversion:"BDAS65",slot:0,joint:{wp:2}}
 {id:156,name:"藍巴尼爾LG@",sub:{rng:90,spd:200,itv:1000},slot:3,cost:70,hp:20,str:2,tec:-1,wlk:1,fly:2,tgh:1,conversion:"LGLL102"}
 {id:157,name:"冥神之槍",main:{pwr:32,shl:280,rng:330,spd:440,itv:700},sub:{itv:1000},tunable:{mwp:1},type:"c",size:"S",cost:100,conversion:"BDCS49AM AMS127 AMS144 BDCS54AM AMS161",comment:"Attachable to 'Chloe AM/AM3/AM5/AM7' only"}
+{id:158,name:"Ex Biashion",sub:{itv:500},joint:{wp:2},slot:0,conversion:"AM44BDAM",comment:"Attachable to 'Istina Bullet AM (Right)' only"}

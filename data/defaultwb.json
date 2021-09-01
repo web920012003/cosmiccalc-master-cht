@@ -46,12 +46,12 @@
 {id:44,name:"塞爾維亞巨盾裝置"}
 {id:45,name:"Magfrit"}
 {id:46,name:"Bouquet Bit"}
-{id:47,name:"Lunar Radiance"}
+{id:47,name:"寶具.五光月輪"}
 {id:48,name:"Persuit Bit Type.L"}
 {id:49,name:"Beam Burst Bit"}
 //{id:52,name:"Persuit Bit BETA"}
 {id:50,name:"Lakia Coffin"}
-{id:51,name:"Glow Shield"}
+{id:51,name:"成長之盾"}
 {id:52,name:"Agniblast"}
 {id:53,name:"Phantom Floor M"}
 {id:54,name:"Beam Pursuit Bit"}
@@ -152,3 +152,4 @@
 {id:1114,name:"克拉夫裝置"}
 {id:1115,name:"傑拉夫裝置"}
 {id:1116,name:"E.V.E解放"}
+{id:1117,name:"神雷解放"}
