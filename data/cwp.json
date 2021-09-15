@@ -16,7 +16,7 @@
 {id:15,name:"Ladle",main:{pwr:5,shl:200,rng:290,spd:280,itv:1500},sub:{shl:1,itv:1000},tunable:{mwp:1},type:"s",size:"M",cost:70,conversion:"BDSS1087AM BDSS87AM",comment:"Attachable to 'Resha AM5' only"}
 {id:16,name:"Remote",main:{shl:-1,rng:300,spd:300,itv:4500},joint:{wp:1},fixedParts:{wp:{name:"Remote@",sub:{pwr:15,shl:30,rng:40,spd:200,itv:1000},slot:0}},type:"s",cost:100,size:"S",conversion:"BDSS1088AM BDSS88AM",comment:"Attachable to 'Eris AM6' only"}
 {id:17,name:"小小櫻雷切 ",comment:"Attachable to 'Ouka Kamuro BD/BD2' only",size:"S",tunable:{mwp:1,pwp:1},main:{pwr:15,shl:220,rng:225,spd:400,itv:500,str:100},sub:{str:100,pwr:28,rng:81,spd:98,itv:500},cost:140,conversion:"BDSS33 BDSS89"}
-{id:18,name:"Banish Striker",comment:"Attachable to 'Vestia AM2' only",main:{pwr:1,shl:25,rng:260,spd:70,itv:1000},sub:{str:100,pwr:30,rng:65,spd:100,itv:2500},tunable:{pwp:1},type:"l",size:"S",cost:80,conversion:"BDLS100AM2"}
+{id:18,name:"消逝射擊者",comment:"Attachable to 'Vestia AM2' only",main:{pwr:20,shl:50,rng:200,spd:200,itv:1000,str:100},sub:{str:100,pwr:35,rng:90,spd:250,itv:2000},tunable:{pwp:1},size:"S",cost:80,conversion:"BDLS100AM2"}
 {id:19,name:"Trinity Saber",main:{pwr:27,shl:350,rng:290,spd:300,itv:700},sub:{str:100,pwr:32,rng:60,spd:80,itv:2000},tunable:{pwp:1,mwp:1},type:"l",size:"S",cost:150,conversion:"BDLS102AM",comment:"Attachable to 'Jace AM4' only"}
 {id:20,name:"E.V.E.Frontier",main:{pwr:22,shl:400,rng:250,spd:380,itv:300},size:"S",type:"la",cost:50,conversion:"BDLS101AM4 BDAS57AM4",comment:["EVE SHOT","Attachable to Eve AM4 only"]}
 {id:21,name:"E.V.E.Frontier Type (Air)",main:{pwr:30,shl:10,rng:60,spd:250,itv:1000},size:"S",type:"a",cost:130,sub:{pwr:26,shl:140,tec:100,rng:320,spd:400,itv:1000},tunable:{mwp:1},conversion:"BDAS57AM3",comment:["CALAMITY BURST/RUIN CANNON","Attachable to 'Eve AM3' only"]}
@@ -265,7 +265,7 @@
 {id:7,name:"Wok",sub:{str:100,pwr:15,rng:40,spd:60,itv:2000},tunable:{pwp:1},joint:{wp:2},fixedParts:{wp:[{name:"Wok",main:{shl:15,rng:300,spd:300,itv:1000},slot:0},{name:"Wok",sub:{itv:200},slot:0}]},type:"s",size:"M",cost:80,conversion:"BDSS1087AM",comment:"Attachable to 'Resha AM6' only"}
 {id:8,name:"Tray",sub:{pwr:10,shl:200,rng:260,spd:225,itv:500},type:"s",cost:50,size:"S",conversion:"BDSS1088AM",comment:"Attachable to 'Eris AM5' only"}
 {id:9,name:"Lyzer Brace",sub:{itv:500},size:"M",type:"l",cost:140,conversion:"BDLS99AM",comment:"Attachable to 'Astralyzer AM2' only",slot:0}
-{id:10,name:"Serpent Whip",sub:{pwr:25,rng:60,spd:60,itv:1500,str:100},tunable:{pwp:1},cost:40,type:"l",size:"S",conversion:"BDLS100AM",comment:"Attachable to 'Vestia AM' only"}
+{id:10,name:"毒蛇長鞭",sub:{pwr:32,rng:90,spd:110,itv:1000,str:100},tunable:{pwp:1},cost:90,size:"S",conversion:"BDLS100AM",comment:"Attachable to 'Vestia AM' only"}
 {id:11,name:"Mialy's Bouquet",main:{tec:100,pwr:29,shl:200,rng:340,spd:520,itv:800},sub:{rng:290,spd:140,itv:1000},tunable:{mwp:1},type:"c",size:"S",cost:130,conversion:"BDCS39AM BDCS48AM",comment:"Attachable to 'Mialy AM2' only"}
 {id:12,name:"Thoarla's Bouquet",size:"S",cost:110,conversion:"BDAS58AM",comment:"Attachable to 'Thoarla AM7' only"}
 {id:13,name:"Squidol Girl's Bouquet",size:"S",cost:110,conversion:"BDSS60AM BDSS90AM",comment:"Attachable to 'Squidol Girl AM3' only"}
