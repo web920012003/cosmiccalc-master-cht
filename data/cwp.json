@@ -53,9 +53,9 @@
 {id:52,name:"Galaxy Commando AM2@",main:{pwr:23,shl:50,rng:230,spd:290,itv:1200},auraStat:{main:{pwr:20,shl:50,rng:280,spd:190,itv:1000}},slot:0,cost:50,type:"c",size:"M",conversion:"AMM136",comment:"Attachable to 'Galaxy Commando AM2' only"}
 {id:53,name:"Trump Shield",main:{shl:30,spd:10,itv:1000},cost:45,size:"M",conversion:"AMS131",comment:"Attachable to 'Renny Lop AM6/AM7' only"}
 {id:54,name:"Trump Shooter",main:{pwr:13,shl:312,rng:260,spd:340,itv:440},type:"l",size:"M",cost:90,conversion:"AMS131",comment:"Attachable to 'Renny Lop AM6/AM7' only"}
-{id:55,name:"Blood Shooter",main:{pwr:18,shl:350,rng:350,spd:430,itv:300},type:"la",size:"S",conversion:"BDAS67AM2 BDAS79AM4 BDAS104AM6",comment:"Attachable to 'Amlim AM2/AM4/AM6' only",cost:100}
+{id:55,name:"血色十字",main:{pwr:14,shl:560,rng:275,spd:360,itv:300},type:"la",size:"S",conversion:"BDAS67AM2 BDAS79AM4 BDAS104AM6",comment:"Attachable to 'Amlim AM2/AM4/AM6' only",cost:100}
 {id:56,name:"Grave Shooter",main:{tec:100,pwr:33,shl:30,rng:350,spd:370,itv:500},tunable:{mwp:1},cost:130,size:"S",type:"la",conversion:"BDAS67AM BDAS79AM3 BDAS104AM5",comment:"Attachable to 'Amlim AM/AM3/AM5' only"}
-{id:57,name:"Amlim BD@",main:{pwr:10,shl:650,rng:350,spd:350,itv:500},tunable:{mwp:1},type:"a",size:"S",cost:70,conversion:"BSS116",comment:"Attachable to 'Amlim BS' only"}
+{id:57,name:"A亞姆莉姆BD@",main:{pwr:8,shl:630,rng:275,spd:380,itv:580},tunable:{mwp:1},type:"a",size:"S",cost:70,conversion:"BSS116",comment:"Attachable to 'Amlim BS' only"}
 {id:58,name:"Amlim BD2@",main:{pwr:6,shl:650,rng:320,spd:300,itv:500,tec:100},tunable:{mwp:1},type:"a",size:"S",cost:70,conversion:"BSS116",comment:"Attachable to 'Amlim BS' only"}
 {id:59,name:"Amlim BD3@",main:{pwr:6,shl:650,rng:230,spd:300,itv:500,tec:100},tunable:{mwp:1},type:"a",size:"S",cost:70,conversion:"BSS116",comment:"Attachable to 'Amlim BS' only"}
 {id:60,name:"Flame Cartridge",main:{pwr:7,shl:30,spd:10,itv:1000},type:"l",size:"S",cost:20,conversion:"AMS134",comment:"Attachable to 'Lilu AM' only"}
@@ -248,15 +248,16 @@
 {id:247,name:"Alba Cannon",main:{pwr:24,shl:200,rng:340,spd:480,itv:500},conversion:"BDAS1094WP"}
 {id:248,name:"Alba Missile",main:{pwr:12,shl:400,rng:300,spd:350,itv:500},conversion:"BDAS1094WP"}
 {id:249,name:"Love Ball",cost:60,main:{pwr:0,shl:50,rng:300,spd:300,itv:1000},conversion:"BDSS133 BDSS134 BDSS135 BDSS136 BDSS137 BDSS138 BDSS139 BDSS140 BDSS141 BDSS142 BDSS156 BDSS157"}
-{id:250,name:"K・諾娜BS@",slot:0,main:{pwr:15,shl:450,rng:350,spd:500,itv:400},sub:{pwr:28,shl:100,rng:350,spd:500,itv:1000},cost:160,conversion:"BSS1075"}
+{id:250,name:"K・諾娜BS@",slot:0,main:{pwr:15,shl:450,rng:350,spd:500,itv:400},sub:{pwr:28,shl:100,rng:350,spd:500,itv:3000},cost:160,conversion:"BSS1075"}
 {id:251,name:"別西卜槍",tunable:{mwp:1},cost:60,type:"c",size:"S",main:{pwr:10,shl:540,rng:330,spd:220,itv:300},conversion:"WPCS56",comment:"Attachable to 'Greed Weapon/Greed Weapon II' only"}
 {id:252,name:"力量弓",main:{pwr:28,shl:230,rng:225,spd:480,itv:700},type:"l",size:"M",cost:30,conversion:"AMM151 AMM171",comment:"Attachable to 'Robin Hunter AM' only",slot:0}
 {id:253,name:"月輪[新月]",cost:20,type:"l",size:"S",conversion:"BDLS105",comment:["Attachable to 'Mikoto BD/BD2/BD3' only"],slot:0}
 {id:254,name:"獨角獸之杖",main:{pwr:38,shl:280,rng:330,spd:400,itv:800},sub:{pwr:9,shl:300,rng:300,spd:280,itv:1000},tunable:{mwp:1},type:"c",size:"S",cost:170,conversion:"BDCS67AM BDCS53AM AMS1003",comment:"Attachable to 'Lumiera AM/AM3' only"}
+{id:255,name:"閃光爆破者AM@",main:{tec:100,pwr:11,shl:570,rng:350,spd:480,itv:340},type:"c",size:"L",cost:60,conversion:"AMLL25"}
 
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
-{id:1,name:"General Blade",main:{pwr:22,shl:30,rng:285,spd:325,itv:1000},sub:{str:100,pwr:28,rng:80,spd:70,itv:500},tunable:{mwp:1},size:"L",type:"l",cost:120,conversion:"AML1138",comment:"Attachable to 'Generaldo AM2' only"}
+{id:1,name:"拉爾多之劍",main:{pwr:19,shl:180,rng:225,spd:440,itv:600,str:100},sub:{str:100,pwr:32,rng:77,spd:94,itv:1000},tunable:{mwp:1},size:"L",type:"l",cost:200,conversion:"AML1138",comment:"Attachable to 'Generaldo AM2' only"}
 {id:2,name:"Dragoon Sword",sub:{tec:100,pwr:13,shl:270,rng:350,spd:280,itv:500},joint:{wp:1},type:"c",size:"S",conversion:"BDCS80AM",comment:"Attachable to 'Pia AM2' only",cost:40,slot:0}
 {id:3,name:"Dragoon Sword@",type:"c",size:"S",cost:90,main:{tec:100,pwr:20,shl:400,rng:320,spd:420,itv:700},tunable:{mwp:1},conversion:"WPCS2",comment:"Attachable to 'Dragoon Sword' only"}
 {id:4,name:"英勇之劍",sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{pwp:1},cost:100,type:"l",size:"M",conversion:"WPCS126",comment:"Attachable to 'Brave Arts' only"}
@@ -414,3 +415,6 @@
 {id:156,name:"藍巴尼爾LG@",sub:{rng:90,spd:200,itv:1000},slot:3,cost:70,hp:20,str:2,tec:-1,wlk:1,fly:2,tgh:1,conversion:"LGLL102"}
 {id:157,name:"冥神之槍",main:{pwr:32,shl:280,rng:330,spd:440,itv:700},sub:{itv:1000},tunable:{mwp:1},type:"c",size:"S",cost:100,conversion:"BDCS49AM AMS127 AMS144 BDCS54AM AMS161",comment:"Attachable to 'Chloe AM/AM3/AM5/AM7' only"}
 {id:158,name:"Ex Biashion",sub:{itv:500},joint:{wp:2},slot:0,conversion:"AM44BDAM",comment:"Attachable to 'Istina Bullet AM (Right)' only"}
+{id:159,name:"拉爾多之盾",slot:0,size:"L",type:"l",cost:40,conversion:"AML154"}
+{id:160,name:"培波‧記憶體插槽",slot:3,size:"M",cost:0,conversion:"BDCS47WP1 BDCS47WP2"}
+{id:161,name:"涅姆莉姆‧記憶體插槽",slot:3,size:"M",cost:0,conversion:"BDLS205AM1 BDLS205AM2 BDLS205"}

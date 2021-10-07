@@ -311,4 +311,7 @@
 {id:221,name:"大型斧槍",sub:{str:100,pwr:31,rng:70,spd:85,itv:1000},size:"M",type:"l",cost:130}
 {id:222,name:"風神劍",sub:{str:100,pwr:30,rng:70,spd:85,itv:1000},size:"M",type:"a",cost:120}
 {id:223,name:"虎咆拳",sub:{str:100,pwr:30,rng:100,spd:350,itv:1500},size:"M",type:"l",cost:100}
-//last:223
+{id:224,name:"解放之光",sub:{str:100,pwr:33,rng:77,spd:94,itv:500},size:"M",type:"l",cost:120}
+{id:225,name:"光束刃斧",sub:{tec:100,pwr:34,rng:100,spd:180,itv:1000},size:"L",type:"a",cost:100}
+{id:226,name:"騎士長槍 ",comment:"(騎士加亞附贈武器)",sub:{str:100,pwr:28,rng:150,spd:80,itv:1000},size:"S",type:"l",cost:130}
+//last:226
