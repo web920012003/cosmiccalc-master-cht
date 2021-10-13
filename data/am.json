@@ -134,7 +134,7 @@
 //{id:99,name:"Illumis AM2",cost:35,hp:20,str:1,tec:3,wlk:1,fly:1,tgh:-1}
 //{id:133,name:"Illumis AM3",cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
 {id:100,name:"熾熱波魯卡之翼AM",cost:35,hp:20,tec:1,wlk:1,fly:2,tgh:1}
-//{id:98,name:"Nuttz Bombrisu AM",cost:30,hp:15,str:1,tec:2,wlk:2,tgh:-1}
+{id:98,name:"堅果・波姆利斯AM",cost:35,hp:20,str:1,tec:2,wlk:2}
 {id:105,name:"A.L.E.克莉姆蘿潔AM",cost:35,hp:20,str:1,tec:3,wlk:-1,tgh:2}
 {id:1002,name:"A.L.E.溫貝兒AM",cost:75,hp:20,tec:3,wlk:1,fly:-1,tgh:2,main:{pwr:5,shl:300,rng:250,spd:480,itv:300},tunable:{mwp:1},type:"s"}
 {id:107,name:"A.L.E.莉莉蓮AM",cost:35,hp:20,str:1,tec:3,fly:1}
@@ -242,7 +242,7 @@
 {id:14,name:"電子領主AM",cost:40,hp:25,str:1,tec:1,wlk:1,fly:1,tgh:1}
 {id:22,name:"菲沙利巴AM",cost:35,hp:20,str:2,wlk:1,tgh:2}
 //{id:65,name:"Air Raider AM",cost:25,hp:15,str:-1,tec:2,fly:1,tgh:1}
-//{id:11,name:"Scorpton AM",cost:30,hp:15,str:1,tec:1,wlk:1,tgh:1}
+{id:11,name:"史哥坦AM",cost:35,hp:20,str:1,tec:2,wlk:1,tgh:1}
 //{id:23,name:"Priestol AM",cost:30,hp:15,str:1,tec:2,tgh:1}
 {id:17,name:"高級祭司AM",cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
 //{id:124,name:"High Priestol G AM",cost:40,hp:20,str:2,tec:2,tgh:1}

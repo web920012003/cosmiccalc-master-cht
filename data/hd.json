@@ -53,7 +53,8 @@
 //{id:107,name:"Medicarest HD2",cost:40,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
 {id:108,name:"艾希HD",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1}
 {id:109,name:"Wonders HD4",sub:{shl:5,itv:1000},type:"s",cost:135,hp:20,str:1,tec:2,wlk:1,fly:2,tgh:-1}
-//last:109
+{id:110,name:"波恩HD",cost:25,hp:15,tec:1,tgh:2}
+//last:110
 //
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 //{id:1,name:"Steel Rider HD",cost:15,hp:5,str:1,wlk:1,tgh:1}
@@ -75,7 +76,7 @@
 {id:8,name:"馬赫騎士HD",cost:40,hp:25,str:1,tec:1,wlk:2,tgh:1}
 //{id:9,name:"Mach Knight HD2",cost:30,hp:20,tec:1,wlk:1,fly:2}
 //{id:142,name:"Mach Knight Ace HD",cost:40,hp:20,str:2,tec:2,wlk:1,fly:1,tgh:-1}
-//{id:10,name:"Scorpton HD",cost:25,hp:15,str:1,tec:1,tgh:1}
+{id:10,name:"史哥坦HD",cost:35,hp:20,str:1,tec:1,wlk:1,tgh:2}
 {id:11,name:"神帝瑪克斯HD",cost:40,hp:25,tec:2,wlk:1,tgh:2}
 //{id:97,name:"Date Max HD",cost:35,hp:20,str:2,wlk:1,fly:-1,tgh:3}
 //{id:12,name:"Ettion HD",cost:30,hp:15,str:2,wlk:1,tgh:1}
@@ -264,7 +265,7 @@
 {id:181,name:"超流體雷姆斯HD",cost:40,hp:25,str:1,tec:2,wlk:2,fly:1,tgh:-1}
 {id:183,name:"吉克HD",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
 {id:184,name:"深紅鬥士HD",cost:40,hp:25,tec:2,wlk:1,fly:1,tgh:1}
-//{id:186,name:"Nuttz Bombrisu HD",cost:35,hp:15,str:1,tec:-1,wlk:2,tgh:2}
+{id:186,name:"堅果・波姆利斯HD",cost:35,hp:20,str:2,tec:-1,wlk:2,tgh:2}
 {id:188,name:"艾斯迪斯HD",cost:40,hp:25,str:1,tec:3,wlk:-1,fly:1,tgh:1}
 //{id:322,name:"Estes HD2",cost:35,hp:20,str:1,tec:3,wlk:-1,tgh:2}
 //{id:189,name:"Vishra HD",cost:35,hp:30,str:2,tec:1,fly:-1,tgh:3}

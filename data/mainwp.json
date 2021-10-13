@@ -472,3 +472,4 @@
 {id:1070,name:"穿刺破壞槍",type:"c",size:"M",cost:170,main:{pwr:38,shl:140,rng:350,spd:480,itv:1000}}
 {id:1071,name:"六連導彈發射器",type:"c",size:"M",cost:160,main:{pwr:15,shl:300,rng:330,spd:290,itv:500}}
 {id:1072,name:"騎士盾",type:"l",size:"S",cost:50,main:{pwr:12,shl:150,rng:200,spd:480,itv:300,str:100}}
+{id:1073,name:"南瓜燃燒器B",type:"l",size:"M",cost:150,main:{pwr:7,shl:800,rng:120,spd:480,itv:100}}

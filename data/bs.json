@@ -124,7 +124,7 @@
 //{id:83,name:"Mizuha BS",type:"s",cost:25,hp:15,str:-1,tec:1,wlk:1,fly:2}
 //{id:84,name:"Ravi Chronom BS",type:"s",cost:35,hp:15,tec:2,wlk:-1,fly:3,tgh:1}
 {id:85,name:"零式劍士女孩BS",type:"l",cost:40,hp:20,str:1,tec:1,fly:1,tgh:2}
-//{id:86,name:"Nuttz Bombrisu BS",type:"s",cost:70,hp:15,str:-1,tec:2,fly:2,tgh:1,sub:{pwr:10,shl:50,rng:100,spd:200,itv:500}}
+{id:86,name:"堅果・波姆利斯BS",type:"s",cost:105,hp:20,str:-1,tec:2,fly:3,tgh:1,sub:{pwr:20,shl:180,rng:275,spd:290,itv:2000}}
 {id:87,name:"機甲傑達女孩BS",cost:40,hp:20,str:1,wlk:1,fly:2,tgh:1,type:"a"}
 {id:89,name:"A.L.E.溫貝兒BS",cost:40,hp:25,str:-1,wlk:1,fly:3,tgh:2,type:"s"}
 {id:90,name:"A.L.E.莉莉蓮BS",cost:40,hp:25,str:-1,wlk:1,fly:3,tgh:2,type:"c"}
@@ -235,7 +235,8 @@
 {id:1075,name:"K・諾娜BS",type:"c",cost:35,hp:20,str:-1,tec:3,fly:3,joint:{wp:1}}
 {id:1076,name:"A.米拉爾BS2",joint:{bs:1},type:"lc",size:"S",cost:35,hp:20,str:-1,tec:3,fly:2,tgh:1}
 {id:1077,name:"A.米拉爾BS2@",type:"lc",size:"S",tunable:{mwp:1},main:{tec:100,pwr:7,shl:660,rng:275,spd:280,itv:900},sub:{pwr:13,shl:150,rng:225,spd:360,itv:1000},slot:0,cost:160,conversion:"BSS1076",comment:"Attachable to 'A. Miral BS' only"}
-//last:1077
+{id:1078,name:"波恩BS",type:"l",cost:20,hp:10,str:1,fly:2,tgh:-1}
+//last:1078
 //
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"菲沙利巴BS",type:"l",cost:40,hp:25,wlk:1,fly:3,tgh:1}
