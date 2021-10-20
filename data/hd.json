@@ -54,7 +54,8 @@
 {id:108,name:"艾希HD",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1}
 {id:109,name:"Wonders HD4",sub:{shl:5,itv:1000},type:"s",cost:135,hp:20,str:1,tec:2,wlk:1,fly:2,tgh:-1}
 {id:110,name:"波恩HD",cost:25,hp:15,tec:1,tgh:2}
-//last:110
+{id:111,name:"惡劣蝙蝠HD",cost:30,hp:15,str:1,tec:1,wlk:1,fly:1}
+//last:111
 //
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 //{id:1,name:"Steel Rider HD",cost:15,hp:5,str:1,wlk:1,tgh:1}
@@ -90,7 +91,7 @@
 {id:17,name:"波巴利歐HD",cost:30,hp:15,str:1,tec:2,tgh:1}
 {id:165,name:"超能巴利歐HD",cost:40,hp:25,str:2,tec:3,fly:1,tgh:-1}
 {id:61,name:"波巴利歐‧麥格農HD",cost:40,hp:25,tec:2,wlk:1,fly:1,tgh:1}
-//{id:18,name:"Big Mountaiz HD",cost:30,hp:20,str:1,tec:1,tgh:2}
+{id:18,name:"巨漢馬汀斯HD",cost:40,hp:25,str:1,tec:1,fly:1,tgh:2}
 {id:19,name:"十字追擊者HD",cost:40,hp:25,str:-1,tec:2,fly:2,tgh:2}
 {id:20,name:"十字追擊者HD2",cost:40,hp:25,str:2,tec:-1,fly:2,tgh:2}
 {id:21,name:"鋼鐵鬥士HD",cost:35,hp:20,str:1,wlk:1,tgh:3}
@@ -358,7 +359,7 @@
 {id:273,name:"結晶達斯HD",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:2,tgh:1}
 //{id:275,name:"Crimrose HD",size:"M",slot:0} WHEN WAS THIS DETACHABLE
 {id:276,name:"涅克特補給者HD",cost:35,hp:20,tec:1,wlk:1,tgh:3}
-//{id:278,name:"Armada HD",cost:35,hp:20,str:1,tec:3,wlk:1,fly:1,tgh:-1}
+{id:278,name:"阿爾曼達HD",cost:40,hp:25,str:1,tec:3,wlk:1,fly:1,tgh:-1}
 //{id:279,name:"Yunessa HD",cost:40,hp:25,str:-1,tec:1,wlk:2,tgh:3}
 {id:281,name:"索爾佛斯特HD",cost:35,hp:20,str:1,tec:1,wlk:1,fly:3,tgh:-1}
 //{id:283,name:"K Nana HD",cost:40,hp:25,tec:2,wlk:-1,fly:2,tgh:2}
@@ -410,7 +411,7 @@
 //{id:1269,name:"Gigant Arms HD",cost:45,hp:30,str:3,tec:1,fly:-1,tgh:2}
 //{id:1271,name:"Katto Baldo HD",cost:40,hp:20,tec:-1,wlk:2,fly:1,tgh:3}
 {id:1272,name:"布利克HD",cost:40,hp:25,str:1,tec:3,fly:-1,tgh:2}
-//{id:1274,name:"P. Mona HD",cost:25,hp:15,str:1,tec:2,wlk:-1,fly:2}
+{id:1274,name:"P.莫娜HD",cost:35,hp:20,tec:2,wlk:1,fly:2}
 //{id:1277,name:"Hard Bomber HD",cost:45,hp:25,str:1,tec:1,wlk:2,fly:-1,tgh:2}
 {id:1279,name:"海洋龜甲迪斯HD",cost:40,hp:20,tec:1,fly:2,tgh:2}
 //{id:1283,name:"Reversunder HD",cost:45,hp:25,str:1,tec:2,fly:2,tgh:1}
@@ -443,7 +444,10 @@
 {id:1311,name:"A.米拉爾HD2",type:"l",size:"M",cost:80,hp:20,tec:2,wlk:1,fly:1,tgh:1,main:{tec:100,pwr:6,shl:440,rng:225,spd:440,itv:260},tunable:{mwp:1}}
 {id:1312,name:"瘋狂小丑HD4",cost:70,hp:25,str:2,tec:1,fly:-1,tgh:3,sub:{shl:5,itv:3000}}
 {id:1313,name:"萊涅奇襲者HD3",cost:35,hp:20,str:2,wlk:1,tgh:2}
-//last:1313
+{id:1314,name:"提燈傑克HD",cost:35,hp:20,str:2,tec:2,tgh:1}
+{id:1315,name:"數位騎士RF HD",cost:40,hp:25,str:-1,tec:2,wlk:2,fly:2,type:"a"}
+{id:1316,name:"數位騎士PF HD",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2,type:"a"}
+//last:1316
 //
 //
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
@@ -466,6 +470,7 @@
 {id:17,name:"哈庫曼斯庫那HD",cost:40,hp:25,str:2,wlk:1,tgh:2}
 {id:18,name:"多拉肯HD",cost:35,hp:20,str:2,tec:-1,wlk:1,fly:1,tgh:2}
 {id:19,name:"大和武尊HD",cost:35,hp:20,str:2,tec:-1,wlk:2,tgh:2,type:"l"}
+{id:20,name:"數位騎士HF HD",cost:40,hp:25,tec:2,wlk:1,tgh:2,type:"c"}
 //
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 //{id:1,name:"Joste Gunder HD",type:"l",cost:75,hp:20,str:3,tec:-1,wlk:2,fly:0,tgh:1,sub:{str:100,pwr:30,shl:20,rng:150,spd:350,itv:500}}

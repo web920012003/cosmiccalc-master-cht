@@ -214,7 +214,7 @@
 //{id:1003,name:"Lumiera AM3",cost:40,hp:25,str:1,tec:3,sub:{shl:3,itv:500},fly:1,type:"c"}
 //{id:1004,name:"Lumiera AM4",tunable:{mwp:1},cost:40,hp:25,str:1,tec:3,fly:1,main:{spd:10,shl:50,itv:700},type:"c"}
 {id:1006,name:"朧丸AM",type:"a",joint:{am:1},fixedParts:{am:{name:"朧丸AM@",main:{pwr:11,shl:540,rng:275,spd:280,itv:500},joint:{wp:0},slot:0,cost:50}},cost:35,hp:20,str:-1,tec:2,fly:2,tgh:2}
-//{id:1008,name:"P. Mona AM",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:2,tgh:1}
+{id:1008,name:"P.莫娜AM",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:2,tgh:1}
 //{id:1009,name:"Vermelho AM",cost:35,hp:20,str:2,wlk:1,tgh:2,conversion:"BDLS184 BDLS195 BDCS1066",joint:{wp:1,am:1}}
 //{id:1010,name:"M.Arch AM",cost:55,hp:20,str:1,tec:2,fly:1,tgh:1,main:{pwr:6,shl:100,rng:330,spd:320,itv:500},tunable:{mwp:1}}
 //{id:1011,name:"Cyan AM",cost:35,hp:20,tec:2,fly:1,tgh:2,conversion:"BDLS184 BDLS195 BDCS1066",joint:{wp:1,am:1}}
@@ -231,7 +231,8 @@
 //{id:1038,name:"Azoth Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",cost:105,joint:{wp:0},main:{str:100,pwr:11,shl:300,rng:225,spd:420,itv:400},sub:{str:100,pwr:0,shl:15,rng:10,spd:10,itv:500}}
 {id:1040,name:"K・諾娜AM",cost:35,hp:20,tec:2,wlk:2,fly:1}
 {id:1041,name:"Wonders AM4",main:{pwr:13,shl:180,rng:225,spd:440,itv:320},tunable:{mwp:1},type:"ls",cost:35,hp:20,tec:3,wlk:1,fly:2,tgh:-1}
-//last:1040
+{id:1042,name:"波恩AM",cost:25,hp:15,tec:2,tgh:1}
+//last:1042
 //
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 //{id:21,name:"Victory AM",cost:20,hp:15,str:1,fly:1}
@@ -367,7 +368,7 @@
 //{id:116,name:"CAPTAIN X AM",cost:35,hp:20,str:2,tec:2,wlk:1,fly:-1}
 //{id:1009,name:"CAPTAIN X AM2",joint:{wp:0},type:"l",sub:{str:100,pwr:23,rng:60,spd:80,itv:200},tunable:{pwp:1},cost:120,hp:20,str:3,tec:-1,wlk:2,fly:1}
 //{id:1011,name:"CAPTAIN X AM3",joint:{wp:0},type:"l",main:{pwr:10,shl:5,rng:130,spd:140,itv:1000},tunable:{mwp:1},cost:75,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1}
-//{id:117,name:"Cinbydion AM",main:{pwr:14,shl:150,rng:250,spd:150,itv:1200},tunable:{mwp:1},type:"a",cost:90,hp:20,tec:3,fly:1,tgh:1}
+{id:117,name:"劍蘭沃姆AM",main:{pwr:15,shl:210,rng:275,spd:290,itv:900},tunable:{mwp:1},type:"a",cost:65,hp:20,tec:2,fly:2,tgh:1}
 {id:144,name:"劍蘭沃姆AM2",main:{pwr:10,shl:240,rng:275,spd:290,itv:900},tunable:{mwp:1},type:"a",cost:65,hp:20,tec:3,fly:1,tgh:1}
 //{id:118,name:"Antlion AM",main:{pwr:8,shl:200,rng:150,spd:300,itv:200},tunable:{mwp:1},joint:{wp:0},type:"c",cost:55,hp:20,wlk:2,fly:2,tgh:1}
 {id:137,name:"安多利歐AM3",main:{pwr:5,shl:640,rng:150,spd:400,itv:200},tunable:{mwp:1},type:"c",cost:85,hp:20,tec:2,wlk:2,tgh:1}
@@ -417,8 +418,8 @@
 //{id:169,name:"Spada AM",joint:{wp:2},type:"l",cost:30,hp:15,str:2,wlk:1,fly:-1,tgh:2}
 //{id:170,name:"Crys Horn AM",type:"l",main:{pwr:13,shl:290,rng:225,spd:380,itv:300},tunable:{mwp:1},cost:140,hp:20,str:1,tec:2,wlk:2}
 {id:172,name:"布拉迪斯塔AM",type:"c",joint:{wp:2},cost:40,hp:25,tec:2,wlk:1,fly:1,tgh:1}
-//{id:1013,name:"Bloody Star AM2",tyoe:"c",cost:35,hp:20,str:1,tec:2,wlk:2,joint:{wp:2}}
-//{id:1014,name:"Bloody Star AM3",tyoe:"c",cost:25,hp:15,str:1,tec:2,fly:-1,tgh:2,joint:{wp:2},fixedParts:{wp:{name:"Bloody Star AM3@",cost:50,slot:0,main:{pwr:10,shl:300,rng:320,spd:420,itv:200}}}}
+//{id:1013,name:"Bloody Star AM2",type:"c",cost:35,hp:20,str:1,tec:2,wlk:2,joint:{wp:2}}
+//{id:1014,name:"Bloody Star AM3",type:"c",cost:25,hp:15,str:1,tec:2,fly:-1,tgh:2,joint:{wp:2},fixedParts:{wp:{name:"Bloody Star AM3@",cost:50,slot:0,main:{pwr:10,shl:300,rng:320,spd:420,itv:200}}}}
 //{id:173,name:"Dark Revenant AM",joint:{wp:3},type:"l",size:"M",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:2}
 {id:176,name:"威沙梅爾AM",type:"a",main:{pwr:8,shl:400,rng:275,spd:440,itv:300},tunable:{mwp:1},cost:65,hp:20,str:-1,tec:2,fly:2,tgh:2}
 {id:177,name:"靈魂布雷沙AM",cost:40,hp:25,str:2,tec:-1,wlk:2,tgh:2}
@@ -450,7 +451,9 @@
 {id:1028,name:"高級祭司AM2",cost:135,hp:20,wlk:2,fly:1,tgh:2,sub:{shl:230,itv:800},joint:{wp:0}}
 {id:1029,name:"斯波亞・馬修AM",cost:45,hp:20,tec:3,tgh:2,main:{pwr:6,shl:500,rng:250,spd:400,itv:300},tunable:{mwp:1},joint:{wp:0}}
 {id:1030,name:"萊涅奇襲者AM3",type:"c",main:{pwr:11,shl:500,rng:330,spd:400,itv:300},joint:{wp:0},cost:105,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2,tunable:{mwp:1}}
-//last:1030
+{id:1031,name:"數位騎士RF AM",cost:35,hp:20,str:1,tec:2,fly:1,tgh:1,type:"a"}
+{id:1032,name:"數位騎士PF AM",cost:35,hp:20,str:1,tec:2,fly:1,tgh:1,type:"a"}
+//last:1032
 //
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 //{id:2,name:"Ettion AM",cost:25,hp:25,str:1,tec:1,tgh:1}
@@ -474,7 +477,7 @@
 {id:51,name:"黃昏傭兵AM4",str:-1,tec:2,wlk:2,tgh:2,cost:40,hp:25}
 //{id:67,name:"Scaregent AM6",str:1,tec:2,wlk:2,fly:1,tgh:-1,cost:35,hp:20}
 {id:62,name:"矢量AM",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:1,tgh:2}
-//{id:14,name:"Big Mountaiz AM",cost:40,hp:35,str:2,tec:1,wlk:1,tgh:1}
+{id:14,name:"巨漢馬汀斯AM",cost:35,hp:20,str:2,tec:1,tgh:2}
 {id:15,name:"巨漢馬汀斯AM2",type:"a",cost:135,hp:20,str:-1,tec:3,tgh:3,main:{pwr:7,shl:1000,rng:275,spd:350,itv:900},tunable:{mwp:1},joint:{wp:0}}
 {id:1,name:"荒鷲阿葵亞AM",cost:35,hp:20,str:2,tec:1,fly:1,tgh:1}
 //{id:66,name:"Aquila Airs AM",cost:40,hp:30,str:2,tec:2,fly:1,tgh:1,wlk:-1}
@@ -608,7 +611,7 @@
 {id:154,name:"將軍拉爾多AM",comment:"Use AM2 instead if you do not use the shield",joint:{wp:2},type:"l",cost:35,hp:20,str:2,wlk:1,fly:-1,tgh:3}
 {id:1138,name:"將軍拉爾多AM2",type:"l",cost:35,hp:20,str:3,tec:-1,wlk:2,tgh:1}
 {id:136,name:"結晶達斯AM",main:{pwr:5,shl:720,rng:275,spd:400,itv:600},type:"a",cost:115,hp:20,tec:3,wlk:1,fly:1,tunable:{mwp:1},comment:"Same stats as AM2"}
-//{id:137,name:"Armada AM",main:{tec:100,pwr:13,shl:210,rng:300,spd:220,itv:340},tunable:{mwp:1},joint:{wp:0},type:"a",cost:95,hp:20,tec:3,wlk:-1,fly:1,tgh:2}
+{id:137,name:"阿爾曼達AM",main:{tec:100,pwr:13,shl:400,rng:275,spd:255,itv:360},tunable:{mwp:1},joint:{wp:0},type:"a",cost:100,hp:25,tec:3,wlk:-1,fly:1,tgh:2}
 //{id:143,name:"Armada AM2",main:{tec:100,pwr:15,shl:150,rng:320,spd:320,itv:340},tunable:{mwp:1},joint:{wp:0},type:"a",cost:95,hp:20,str:1,tec:3,wlk:-1,fly:1,tgh:1}
 {id:159,name:"藍巴尼爾AM",type:"l",cost:55,hp:20,str:2,wlk:1,fly:-1,tgh:3}
 //{id:2105,name:"Falx AM",type:"l",sub:{pwr:25,rng:50,spd:70,itv:1500,str:100},tunable:{pwp:1},cost:130,hp:20,str:3,tec:1,fly:-1,tgh:2}
@@ -658,7 +661,8 @@
 {id:2140,name:"多拉肯AM",cost:40,hp:25,str:3,wlk:1,fly:-1,tgh:2}
 {id:2141,name:"瘋狂小丑AM6",cost:40,hp:25,str:2,wlk:1,tgh:2}
 {id:2142,name:"瘋狂小丑AM7",type:"l",cost:200,hp:25,str:3,tec:-1,wlk:3,main:{pwr:8,shl:750,rng:225,spd:200,itv:600,str:100},sub:{str:100,pwr:25,rng:0,spd:150,itv:1000},tunable:{mwp:1,pwp:1},joint:{wp:0}}
-//last:2142
+{id:2143,name:"數位騎士HF AM",cost:40,hp:25,str:-1,tec:3,wlk:1,tgh:2,type:"c",joint:{wp:2}}
+//last:2143
 //
 {group:"LL Size",prefixID:"LL",commonStat:{size:"LL"}}
 {id:11,name:"巨盾巴隆AM",cost:40,hp:25,str:2,tec:-1,wlk:1,tgh:3}
