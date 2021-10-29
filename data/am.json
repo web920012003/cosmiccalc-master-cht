@@ -453,7 +453,8 @@
 {id:1030,name:"萊涅奇襲者AM3",type:"c",main:{pwr:11,shl:500,rng:330,spd:400,itv:300},joint:{wp:0},cost:105,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2,tunable:{mwp:1}}
 {id:1031,name:"數位騎士RF AM",cost:35,hp:20,str:1,tec:2,fly:1,tgh:1,type:"a"}
 {id:1032,name:"數位騎士PF AM",cost:35,hp:20,str:1,tec:2,fly:1,tgh:1,type:"a"}
-//last:1032
+{id:1033,name:"提燈傑克AM",cost:35,hp:20,wlk:2,fly:2,tgh:1}
+//last:1033
 //
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 //{id:2,name:"Ettion AM",cost:25,hp:25,str:1,tec:1,tgh:1}

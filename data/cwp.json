@@ -256,6 +256,7 @@
 {id:255,name:"閃光爆破者AM@",main:{tec:100,pwr:11,shl:570,rng:350,spd:480,itv:340},type:"c",size:"L",cost:60,conversion:"AMLL25"}
 {id:256,name:"封魔劍「天翔舞刃」BS@",main:{tec:100,pwr:29,shl:240,rng:250,spd:360,itv:700},sub:{tec:100,pwr:26,rng:70,spd:94,itv:1000},type:"l",size:"M",cost:110,slot:0,conversion:"BSM2156"}
 {id:257,name:"戰艦.DNAM",main:{tec:100,pwr:6,shl:840,rng:330,spd:480,itv:740},type:"c",size:"LL",cost:45,slot:0,conversion:"AML2143"}
+{id:258,name:"小血色十字",main:{tec:100,pwr:3,shl:180,rng:200,spd:360,itv:300},type:"s",size:"SS",cost:40,slot:3,conversion:"BDSS165"}
 
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}

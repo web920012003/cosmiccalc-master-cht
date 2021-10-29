@@ -315,4 +315,6 @@
 {id:225,name:"光束刃斧",sub:{tec:100,pwr:34,rng:100,spd:180,itv:1000},size:"L",type:"a",cost:100}
 {id:226,name:"騎士長槍 ",comment:"(騎士加亞附贈武器)",sub:{str:100,pwr:28,rng:150,spd:80,itv:1000},size:"S",type:"l",cost:130}
 {id:227,name:"烈風鐮刀",sub:{str:100,pwr:26,rng:70,spd:85,itv:1000},size:"M",type:"la",cost:160}
-//last:227
+{id:228,name:"變幻軍刀",sub:{pwr:29,str:100,shl:200,rng:70,spd:85,itv:2000},auraStat:{sub:{str:100,pwr:32}},type:"a",size:"M",cost:80,comment:"AURA System"}
+{id:229,name:"傑克鐮刀",sub:{str:100,pwr:32,rng:31,spd:44,itv:1000},size:"M",cost:40	}
+//last:229
