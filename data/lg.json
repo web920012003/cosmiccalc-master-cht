@@ -128,7 +128,8 @@
 {id:1107,name:"艾希LG",cost:45,hp:25,tec:2,wlk:3,fly:2,tgh:-1}
 {id:1108,name:"K・諾娜LG",cost:40,hp:20,wlk:2,fly:2,tgh:1,type:"c"}
 {id:1110,name:"波恩LG",cost:30,hp:20,str:2,wlk:2}
-//last:1110
+{id:1111,name:"G・莉莫亞LG",type:"c",cost:75,hp:25,tec:1,wlk:3,tgh:2,sub:{shl:30,spd:150,itv:500}}
+//last:1111
 //
 //
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
@@ -144,7 +145,7 @@
 {id:7,name:"史哥坦LG",cost:45,hp:25,str:1,tec:1,wlk:3}
 //{id:8,name:"Priestol LG",cost:35,hp:20,str:1,tec:-1,wlk:3,tgh:1}
 {id:23,name:"高級祭司LG",cost:45,hp:25,wlk:3,fly:1,tgh:2}
-//{id:89,name:"High Priestol G LG",cost:40,hp:20,str:2,wlk:3,tgh:1,fly:-1}
+{id:89,name:"高能祭司GLG",cost:45,hp:25,str:2,wlk:3,fly:-1,tgh:2}
 {id:9,name:"莉莉蓮αLG",cost:45,hp:25,tec:1,wlk:2,fly:1,tgh:1}
 {id:10,name:"鋼鐵鬥士LG",cost:45,hp:25,str:1,wlk:3,fly:-1,tgh:2}
 {id:11,name:"神帝瑪克斯LG",cost:45,hp:25,tec:1,wlk:3,fly:1}
@@ -192,7 +193,7 @@
 //{id:63,name:"Suzeku LG2",sub:{shl:30,rng:70,spd:160,itv:1000},tunable:{pwp:1},auraStat:{sub:{pwr:15,shl:30,rng:70,spd:160,itv:1000,str:100},str:1,tec:2,wlk:3,fly:3,tgh:-1},type:"a",cost:75,hp:25,tec:1,wlk:3,fly:1,tgh:-1,comment:"※AURA system"}
 {id:49,name:"玄武LG",str:1,tec:2,wlk:3,fly:-1,tgh:1,cost:45,hp:25}
 {id:50,name:"白虎LG",str:1,wlk:4,tgh:1,cost:45,hp:25,comment:"AURA system"}
-//{id:59,name:"Byakkou LG2",auraStat:{tec:2,wlk:2,tgh:2,str:2},str:-1,tec:1,wlk:2,tgh:2,cost:50,hp:25,comment:"AURA system"}
+{id:59,name:"白虎LG2",auraStat:{sub:{str:100,pwr:32,rng:150,spd:350,itv:1000}},str:2,tec:-1,wlk:4,fly:1,cost:80,hp:25,comment:"AURA system"}
 //{id:51,name:"Dugdriver LG",str:1,tec:2,wlk:3,fly:-1,cost:40,hp:25}
 //{id:54,name:"DX Robo LG",cost:40,hp:20,str:-1,tec:2,wlk:2,tgh:1}
 {id:58,name:"神聖主教LG",cost:40,hp:20,str:1,wlk:2,fly:-1,tgh:3}
@@ -267,13 +268,13 @@
 {id:1103,name:"朧丸LG",cost:45,hp:25,str:2,tec:2,wlk:2}
 {id:1104,name:"剛特拉LG",sub:{rng:120,spd:200,itv:1000},type:"l",cost:65,hp:25,str:1,tec:-1,wlk:3,fly:2,tgh:1}
 {id:1107,name:"布利克LG",type:"c",cost:45,hp:25,tec:2,wlk:3,fly:1}
-//{id:1108,name:"Hard Bomber LG",cost:45,hp:25,str:-1,wlk:3,fly:1,tgh:2}
+{id:1108,name:"哈特爆破者LG",cost:45,hp:25,str:-1,tec:1,wlk:3,fly:1,tgh:2}
 //{id:1111,name:"Reversunder LG",sub:{shl:10,itv:500},type:"c",cost:80,hp:30,str:-1,wlk:2,fly:3,tgh:1}
 {id:1113,name:"傑諾希翁LG",type:"a",cost:65,hp:25,str:-1,tec:1,wlk:2,fly:3,tgh:1,sub:{tec:100,pwr:10,shl:20,spd:220,itv:1000}}
 //{id:1114,name:"Shroomash LG",cost:50,hp:30,str:2,tec:1,wlk:2,fly:1,tgh:-1}
 //{id:1115,name:"Mirage Raid LG2",cost:85,hp:20,str:3,tec:-1,wlk:2,fly:1,sub:{str:100,pwr:20,rng:65,spd:95,itv:500},tunable:{pwp:1}}
 //{id:1116,name:"Toukimaru LG",cost:35,hp:20,str:1,tec:1,wlk:3,fly:-1,tgh:1}
-//{id:1117,name:"Dreiblitz LG",type:"c",cost:40,hp:25,str:0,tec:1,wlk:3,fly:2,tgh:-1}
+{id:1117,name:"電擊布利茲LG",type:"c",cost:45,hp:25,str:0,tec:2,wlk:3,fly:2,tgh:-1}
 {id:1118,name:"勝利號-1LG",cost:40,hp:20,str:1,wlk:3,tgh:1}
 {id:1119,name:"黑暗電鑽LG",type:"l",cost:175,hp:25,str:2,tec:-1,wlk:3,tgh:2,sub:{str:100,pwr:35,rng:100,spd:150,itv:2000},tunable:{pwp:1}}
 {id:1120,name:"斯波亞・馬修LG",cost:45,hp:25,str:2,tec:1,wlk:2,fly:1}
@@ -349,7 +350,7 @@
 //{id:58,name:"Brigand Baron LG",cost:50,hp:25,str:1,tec:-1,wlk:3,tgh:3}
 {id:59,name:"零式破壞者LG",cost:45,hp:30,tec:-1,wlk:4,fly:1,tgh:2}
 {id:60,name:"超流體雷姆斯LG",cost:45,hp:25,str:2,tec:2,wlk:2,fly:-1}
-//{id:61,name:"Griest LG",cost:30,hp:20,str:-1,tec:1,wlk:3,fly:1}
+{id:61,name:"克利斯多LG",cost:45,hp:50,tec:1,wlk:3,fly:1,tgh:1}
 //{id:111,name:"Griest LG2",sub:{pwr:20,rng:80,spd:100,itv:1400},tunable:{pwp:1},cost:60,hp:10,str:2,tec:-1,wlk:1}
 {id:62,name:"氣墊達哥LG",cost:45,hp:25,wlk:4,fly:-1,tgh:2}
 {id:63,name:"發煙者LG",cost:45,hp:25,wlk:3,fly:-1,tgh:3}
@@ -360,8 +361,8 @@
 //{id:68,name:"Artilus LG",type:"c",sub:{pwr:13,rng:50,spd:150,itv:1500,str:100},tunable:{pwp:1},cost:85,hp:25,str:-1,tec:2,wlk:2,fly:2,tgh:1}
 //{id:91,name:"Artilus LG2",sub:{str:100,pwr:5,rng:350,spd:300,itv:1500,shl:120},cost:45,hp:15,str:-1,tec:1,wlk:2,fly:1,type:"c"}
 {id:70,name:"克修爾普LG",sub:{str:100,pwr:28,rng:84,spd:102,itv:1000},tunable:{pwp:1},type:"l",cost:145,hp:50,str:1,wlk:4,fly:-1,tgh:1}
-//{id:86,name:"Kuschelb LG2",sub:{pwr:30,rng:60,spd:80,itv:4800,str:100},tunable:{pwp:1},type:"l",cost:145,hp:55,str:3,wlk:2,fly:1,tgh:-1}
-//{id:71,name:"Tierouge LG",sub:{pwr:25,rng:100,spd:100,itv:3500,tec:100},tunable:{pwp:1},joint:{bs:1},fixedParts:{bs:{name:"Tierouge LG@",sub:{spd:150,itv:500},slot:0}},cost:40,hp:30,wlk:3,fly:1,tgh:1}
+{id:86,name:"克修爾普LG2",sub:{pwr:28,rng:70,spd:85,itv:2000,str:100},tunable:{pwp:1},type:"l",cost:115,hp:50,str:3,tec:-1,wlk:2,tgh:2}
+{id:71,name:"嫣蘭魅影LG",auraStat:{sub:{pwr:25,rng:100,spd:100,itv:3500,tec:100}},tunable:{pwp:1},joint:{wp:1},cost:50,hp:60,tec:1,wlk:3,fly:1,tgh:1}
 //{id:72,name:"Antlion LG",type:"lc",cost:55,hp:70,tec:1,wlk:4,fly:-1,tgh:3}
 {id:88,name:"安多利歐LG2",sub:{str:100,pwr:20,rng:100,spd:100,itv:1000},type:"lc",cost:95,hp:60,str:-1,wlk:4,fly:1,tgh:1}
 //{id:73,name:"Trizelion LG",auraStat:{hp:75,str:1,wlk:5,tgh:1},type:"l",cost:45,hp:35,str:1,wlk:5,tgh:1}
@@ -400,12 +401,12 @@
 //{id:114,name:"Digaius LG",cost:50,hp:70,str:1,wlk:2,tgh:2}
 //{id:109,name:"Falx LG",cost:45,hp:50,tec:-1,wlk:2,fly:1,tgh:3}
 {id:1000,name:"結晶達斯LG",sub:{tec:100,pwr:2,shl:420,rng:275,spd:570,itv:1000},type:"a",cost:75,hp:25,str:-1,tec:2,wlk:2,fly:2,tgh:1}
-//{id:1001,name:"Transonic LG",type:"a",cost:45,hp:25,tec:-1,wlk:2,fly:2,tgh:2}
+{id:1001,name:"極限音速LG",type:"a",cost:45,hp:25,str:-1,tec:1,wlk:2,fly:2,tgh:2}
 {id:1004,name:"黑影吉涅希斯LG",cost:45,hp:25,str:2,tec:1,wlk:2,fly:-1,tgh:2}
 //{id:1006,name:"C. Barossa LG",type:"a",sub:{str:100,pwr:19,rng:65,spd:95,itv:500},tunable:{pwp:1},cost:125,hp:40,str:-1,tec:2,wlk:3,tgh:1}
 //{id:117,name:"Hadelos LG",type:"l",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:1,tgh:1}
 //{id:118,name:"Aresis LG",type:"l",cost:85,hp:70,str:2,tec:-1,wlk:3,fly:1,tgh:1,sub:{rng:110,spd:200,itv:500}}
-//{id:119,name:"Crugis LG",type:"a",sub:{pwr:1,shl:15,rng:150,spd:150,itv:1000},cost:65,hp:70,str:-1,wlk:1,fly:3,tgh:2,joint:{bs:1}}
+{id:119,name:"克爾基斯LG",type:"a",sub:{shl:40,rng:150,spd:150,itv:1000},cost:65,hp:70,str:-1,wlk:2,fly:3,tgh:2,joint:{bs:1}}
 //{id:120,name:"Cordyceps LG2",type:"c",cost:65,hp:25,str:1,tec:2,wlk:3,fly:-1,sub:{shl:10,rng:100,spd:200,itv:600}}
 //{id:121,name:"Liozen LG",type:"l",cost:110,hp:75,str:3,tec:-1,wlk:2,tgh:2,sub:{str:100,pwr:32,rng:150,spd:200,itv:500},tunable:{pwp:1}}
 //{id:122,name:"Gozu LG",cost:50,hp:40,str:1,tec:-1,wlk:3,tgh:2}
