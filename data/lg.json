@@ -311,7 +311,7 @@
 {id:20,name:"巴爾薩迪歐LG",cost:50,hp:60,tec:1,wlk:2,fly:1,tgh:2}
 {id:21,name:"荒鷲阿葵亞LG",type:"a",cost:50,hp:60,tec:1,wlk:2,fly:1,tgh:1,joint:{bs:1}}
 //{id:52,name:"Aquila Airs LG",type:"a",cost:55,hp:70,tec:2,wlk:2,fly:1,tgh:-1,joint:{bs:1},str:2}
-//{id:22,name:"Red Squealer LG",cost:40,hp:60,str:1,tec:-1,wlk:3,tgh:2}
+{id:22,name:"火紅斯克拉LG",cost:45,hp:50,str:1,tec:-1,wlk:3,fly:1,tgh:2}
 {id:23,name:"閃焰巴洛LG",cost:45,hp:65,str:1,tec:1,wlk:3,fly:1}
 {id:24,name:"泰達利歐LG",cost:50,hp:35,str:2,tec:-1,wlk:3,fly:1,tgh:1}
 {id:25,name:"波魯迪克LG",cost:45,hp:25,str:2,wlk:3,fly:1}

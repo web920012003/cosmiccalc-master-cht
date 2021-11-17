@@ -540,7 +540,7 @@
 {id:49,name:"騎士領主AM5",type:"l",cost:200,hp:25,str:3,tec:-1,wlk:2,tgh:1,sub:{str:100,pwr:48,rng:100,spd:150,itv:2000},tunable:{pwp:1},joint:{am:0,wp:0}}
 //{id:128,name:"Lancerlot AM6",type:"l",main:{tec:100,pwr:14,shl:170,rng:230,spd:360,itv:440},sub:{str:100,pwr:30,shl:20,rng:130,spd:200,itv:2500},tunable:{mwp:1,pwp:1},joint:{wp:0},cost:160,hp:25,str:3,tec:1,wlk:2,fly:-1}
 //{id:1126,name:"Lancerlot AM7",type:"l",sub:{str:100,rng:100,spd:50,itv:500},tunable:{pwp:1},joint:{wp:0},cost:120,hp:25,str:1,tec:1,wlk:1,fly:-1,tgh:3}
-//{id:25,name:"Red Squealer AM",type:"l",cost:95,hp:35,str:3,tgh:2,sub:{str:100,pwr:32,rng:110,spd:120,itv:1200},tunable:{pwp:1}}
+{id:25,name:"火紅斯克拉AM",type:"l",cost:105,hp:20,str:3,tec:-1,wlk:1,tgh:2,sub:{str:100,pwr:30,rng:84,spd:102,itv:1000},tunable:{pwp:1}}
 {id:10,name:"索亞.拉AM",cost:40,hp:25,str:2,tec:1,fly:2}
 //{id:97,name:"Thoarla AM5",cost:40,hp:25,str:1,tec:2,wlk:1,fly:2,tgh:-1}
 //{id:96,name:"Thoarla AM6",main:{pwr:15,shl:150,rng:300,spd:385,itv:300},sub:{str:100,pwr:35,rng:70,spd:90,itv:1500},tunable:{mwp:1,pwp:1},joint:{wp:0},type:"l",cost:200,hp:25,str:3,wlk:2,fly:-1,tgh:1}
@@ -679,7 +679,7 @@
 //{id:13,name:"Thoarla AM4",type:"a",cost:195,hp:15,tec:1,fly:1,main:{pwr:35,shl:140,rng:335,spd:400,itv:800},tunable:{mwp:1},joint:{wp:0}}
 {id:9,name:"修汀AM2",main:{tec:100,pwr:20,shl:330,rng:275,spd:520,itv:240},tunable:{mwp:1},type:"a",cost:205,hp:25,str:-1,tec:3,fly:1,tgh:2,joint:{wp:0}}
 {id:4,name:"泰達利歐AM2",type:"l",cost:205,hp:25,str:4,tec:-1,fly:-1,tgh:3,sub:{str:100,pwr:34,rng:70,spd:85,itv:1000},tunable:{pwp:1},joint:{wp:0}}
-//{id:6,name:"Red Squealer AM2",type:"l",cost:220,hp:40,str:3,tgh:2,sub:{str:100,pwr:32,rng:60,spd:40,itv:1500},tunable:{pwp:1},joint:{wp:0},wlk:1}
+{id:6,name:"火紅斯克拉AM2",type:"l",cost:170,hp:25,str:4,tec:-1,tgh:2,sub:{str:100,pwr:34,rng:75,spd:150,itv:2000},tunable:{pwp:1},joint:{wp:0}}
 {id:5,name:"翔空威伊AM2",type:"a",cost:185,hp:25,str:-1,tec:3,fly:1,tgh:2,tunable:{mwp:1},main:{pwr:7,shl:1040,rng:275,spd:480,itv:140},joint:{wp:0}}
 {id:2,name:"千兆托爾AM2",type:"c",cost:200,hp:25,str:-1,tec:4,fly:-1,tgh:3,main:{pwr:37,shl:220,rng:330,spd:360,itv:800},sub:{pwr:30,shl:90,rng:350,spd:240,itv:1000},tunable:{mwp:1},joint:{wp:0}}
 {id:14,name:"要塞洛加AM",type:"c",cost:100,hp:25,str:-1,tec:3,wlk:-1,fly:1,tgh:3,main:{pwr:36,shl:180,rng:300,spd:320,itv:1000},tunable:{mwp:1},joint:{wp:0}}

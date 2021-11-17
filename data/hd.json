@@ -241,7 +241,7 @@
 //{id:43,name:"Vulture HD",type:"a",cost:50,hp:15,str:2,fly:1,main:{pwr:9,shl:300,rng:190,spd:260,itv:500},tunable:{mwp:1}}
 //{id:44,name:"Cacpetus HD",type:"c",cost:50,hp:15,tec:2,wlk:1,tgh:2,main:{pwr:9,shl:400,rng:165,spd:270,itv:380},tunable:{mwp:1}}
 //{id:45,name:"Pterano HD",type:"las",cost:65,hp:15,str:2,tec:2,fly:1,main:{pwr:15,shl:140,rng:320,spd:270,itv:1000},tunable:{mwp:1}}
-//{id:50,name:"Red Squealer HD",cost:35,hp:20,str:2,tec:2,wlk:1}
+{id:50,name:"火紅斯克拉HD",cost:35,hp:20,str:2,tec:2,wlk:1}
 {id:166,name:"賽多洛HD",cost:40,hp:25,str:2,wlk:-1,fly:2,tgh:2}
 {id:305,name:"賽多洛HD2",cost:40,hp:25,str:1,tec:-1,wlk:3,tgh:2}
 {id:167,name:"風馳利司HD",cost:35,hp:20,str:1,tec:2,wlk:2,fly:1,tgh:-1}
