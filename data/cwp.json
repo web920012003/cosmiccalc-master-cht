@@ -140,7 +140,7 @@
 //139
 {id:140,name:"Sonic Claw",main:{pwr:15,shl:30,rng:300,spd:570,itv:500,str:100},tunable:{mwp:1},type:"l",size:"S",cost:30,conversion:"BDLS149AM",comment:"Attachable to 'Kal Valentine AM2' only"}
 {id:141,name:"Cannon Pack",main:{tec:100,pwr:40,shl:40,rng:250,spd:570,itv:300},tunable:{mwp:1},type:"c",size:"S",cost:120,conversion:"BDCM42WP",comment:"Attachable to 'Toybox Girl BD4@' only"}
-{id:142,name:"Stigma Shield",main:{shl:30,spd:10,itv:1000},type:"l",size:"S",cost:20,conversion:"BDLS150AM BDLS193AM",comment:"Attachable to 'Gisele Noire AM' only",slot:0}
+{id:142,name:"聖痕護盾",main:{shl:50,spd:10,itv:1000},type:"l",size:"S",cost:20,conversion:"BDLS150AM BDLS193AM",comment:"Attachable to 'Gisele Noire AM' only",slot:0}
 {id:143,name:"Machinegun (Lunastasia)",main:{pwr:10,shl:240,rng:250,spd:390,itv:240,str:100},tunable:{mwp:1},type:"l",size:"S",cost:50,conversion:"BDLS153",comment:"Attachable to 'Lunastasia BD' only"}
 {id:144,name:"Magnegun",main:{tec:100,pwr:8,shl:400,rng:300,spd:220,itv:1000},tunable:{mwp:1},type:"c",size:"S",cost:60,conversion:"BDCS76",comment:"Attachable to 'Fiona BD' only"}
 {id:145,name:"Jupitizer Rifle",main:{pwr:18,tec:100,shl:250,rng:330,spd:370,itv:700},tunable:{mwp:1},type:"a",size:"LL",cost:70,conversion:"BDAL51",comment:"Attachable to 'Thoarla BD11' only"}
@@ -232,7 +232,7 @@
 {id:231,name:"Lightning Buster PT",cost:100,main:{pwr:25,shl:220,rng:330,spd:350,itv:400},sub:{itv:500},conversion:"BDAS1092AM"}
 {id:232,name:"Vice Cannon HD@",cost:80,main:{pwr:8,shl:450,rng:320,spd:300,itv:500},conversion:"HDL14"}
 {id:233,name:"ECM Lightning Buster",main:{tec:100,pwr:17,shl:220,rng:330,spd:350,itv:440},sub:{itv:500},conversion:"BDAS1092AM",cost:100}
-{id:234,name:"Bouclier Cannon",cost:100,main:{pwr:30,shl:260,rng:350,spd:400,itv:600},sub:{itv:500},conversion:"BDCS74AM",joint:{wp:2},fixedParts:{wp:{name:"Bouclier Cannon@",slot:0,cost:60,main:{pwr:30,shl:450,rng:430,spd:370,itv:200}}}}
+{id:234,name:"布克利耶加農",cost:100,main:{pwr:28,shl:300,rng:330,spd:400,itv:600},sub:{itv:500},conversion:"BDCS74AM",joint:{wp:2},fixedParts:{wp:{name:"布克利耶加農@",slot:0,cost:60,main:{pwr:33,shl:600,rng:400,spd:350,itv:200}}}}
 {id:235,name:"Apollion HD@",cost:40,main:{str:100,pwr:10,shl:200,rng:340,spd:330,itv:500},conversion:"BDAL61"}
 {id:236,name:"Stun Ball",cost:60,main:{pwr:20,shl:80,rng:250,spd:400,itv:500},conversion:"BDSS133 BDSS134 BDSS135 BDSS136 BDSS137 BDSS138 BDSS139 BDSS140 BDSS141 BDSS142 BDSS156 BDSS157"}
 {id:237,name:"Slow Ball",cost:60,main:{pwr:10,shl:100,rng:150,spd:400,itv:500},conversion:"BDSS133 BDSS134 BDSS135 BDSS136 BDSS137 BDSS138 BDSS139 BDSS140 BDSS141 BDSS142 BDSS156 BDSS157"}
@@ -358,9 +358,9 @@
 {id:94,name:"Wheel Tackle",sub:{pwr:32,rng:70,spd:160,itv:1000,str:100},tunable:{pwp:1},type:"l",size:"S",cost:70,conversion:"BDLS149LG",comment:"Attachable to 'Kal Valentine BD' only"}
 {id:95,name:"Aries Tail",sub:{str:100,pwr:32,shl:15,rng:200,spd:350,itv:1000},joint:{wp:1},fixedParts:{wp:"Aries Tail@"},cost:30,size:"S",type:"a",conversion:"BDAS60LG BDAS73LG BDAS90LG",comment:"Attachable to 'Litia LG/LG2/LG3' only"}
 {id:96,name:"Aries Scythe",sub:{str:100,pwr:32,rng:90,spd:80,itv:500},tunable:{pwp:1},type:"a",size:"S",cost:100,conversion:"BDAS60AM BDAS72AM BDAS90AM",comment:"Attachable to 'Litia AM2/AM4' only"}
-{id:97,name:"Diable Cacher",sub:{pwr:15,shl:300,rng:350,spd:280,itv:500},type:"c",size:"S",cost:50,slot:0,conversion:"WPCM234",comment:"Attachable to 'Bouclier Cannon' only"}
+{id:97,name:"邪神的封印",sub:{pwr:11,shl:300,rng:350,spd:280,itv:1000},type:"c",size:"S",cost:50,slot:0,conversion:"WPCM234",comment:"Attachable to 'Bouclier Cannon' only"}
 {id:98,name:"Angel Injector",main:{pwr:12,shl:400,rng:240,spd:320,itv:500},sub:{shl:8,rng:100,spd:70,itv:1000},tunable:{mwp:1,pwp:0},type:"s",size:"S",cost:150,conversion:"BDSS121AM",comment:"Attachable to 'Medi Aide AM5' only"}
-{id:99,name:"Serment Noire",sub:{pwr:32,rng:65,spd:85,itv:1000,str:100},tunable:{pwp:1,mwp:0},type:"l",size:"S",cost:170,conversion:"BDLS150AM",comment:"Attachable to 'Gisele Noire AM2' only"}
+{id:99,name:"黑之誓言",sub:{pwr:32,rng:70,spd:85,itv:1000,str:100},tunable:{pwp:1,mwp:0},type:"l",size:"S",cost:190,conversion:"BDLS150AM2",comment:"Attachable to 'Gisele Noire AM2' only"}
 {id:100,name:"Jager Shield",main:{shl:30,spd:10,itv:700},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{pwp:1},cost:160,type:"l",size:"S",joint:{wp:1},fixedParts:{wp:{name:"Jager Shield@",main:{pwr:15,shl:25,rng:200,spd:260,itv:500,str:100},slot:0}},conversion:"BDLS130AM BDLS152AM",comment:"Attachable to 'Corona AM' only"}
 {id:101,name:"Mirage Raid AM@",sub:{str:100,pwr:30,rng:70,spd:70,itv:500},tunable:{pwp:1},type:"a",size:"M",cost:60,conversion:"AMM167",comment:"Attachable to 'Mirage Raid AM' only"}
 {id:102,name:"Spada BD@",type:"l",size:"M",sub:{str:100,pwr:20,shl:20,rng:120,spd:220,itv:500},auraStat:{sub:{pwr:27,shl:20,rng:120,spd:220,itv:500,str:100}},cost:60,slot:0,conversion:"BDLM49",comment:"Attachable to 'Spada BD' only"}
@@ -426,3 +426,5 @@
 {id:162,name:"漢娜・記憶體插槽",slot:3,size:"M",cost:0,conversion:"BDLS132AM2",tunable:{pwp:0}}
 {id:163,name:"赫爾・記憶體插槽",slot:3,size:"M",cost:0,conversion:"BDLS139LG BDLS139AM BDLS139AM2",tunable:{pwp:0}}
 {id:164,name:"嫣蘭魅影LG@",sub:{itv:3000},slot:3,tunable:{pwp:0},conversion:"LGL71"}
+{id:165,name:"賽琉・記憶體插槽",slot:3,size:"M",cost:0,conversion:"BDCS74AM BDCS74AM2",tunable:{pwp:0}}
+{id:166,name:"吉賽爾・記憶體插槽",slot:3,size:"M",cost:0,conversion:"BDLS150AM2 BDLS150AM BDLS150",tunable:{pwp:0}}

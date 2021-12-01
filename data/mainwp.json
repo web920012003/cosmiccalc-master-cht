@@ -321,7 +321,7 @@
 {id:62,name:"Steam Cannon Mod",main:{tec:100,pwr:28,shl:110,rng:200,spd:260,itv:2500},tunable:{mwp:1},cost:140,wlk:-2,size:"L",type:"c",tgh:-1}
 {id:38,name:"雷射發射器",main:{tec:100,pwr:27,shl:180,rng:275,spd:280,itv:1000},size:"L",type:"a",cost:100}
 {id:44,name:"Beam Launcher Mod",main:{tec:100,pwr:28,shl:140,rng:300,spd:270,itv:1000},size:"L",type:"a",cost:100}
-{id:58,name:"破壞導彈槍",main:{tec:100,pwr:10,shl:180,rng:330,spd:290,itv:900},type:"c",size:"M",cost:130}
+{id:58,name:"破壞導彈槍",main:{tec:100,pwr:11,shl:180,rng:330,spd:290,itv:900},type:"c",size:"M",cost:130}
 {id:66,name:"Burst Missile Gun Mod",main:{pwr:16,shl:100,rng:320,spd:260,itv:1200},type:"lc",size:"M",cost:130}
 {id:1200,name:"墨魚火箭砲",main:{tec:100,pwr:12,shl:220,rng:275,spd:290,itv:700},tunable:{mwp:1},size:"M",type:"s",cost:70}
 {id:49,name:"網狀彈幕發射器",main:{pwr:24,shl:200,rng:330,spd:290,itv:800},type:"c",size:"L",cost:140}
@@ -344,7 +344,7 @@
 {id:80,name:"狂暴火箭砲",main:{pwr:24,shl:340,rng:330,spd:400,itv:500},type:"c",size:"M",cost:160}
 {id:85,name:"Might Bazooka Mod",main:{pwr:25,shl:200,rng:290,spd:320,itv:500},type:"c",size:"M",cost:165}
 {id:94,name:"迷你狂暴火箭砲",main:{tec:100,pwr:19,shl:340,rng:330,spd:400,itv:500},type:"c",size:"M",cost:90}
-{id:81,name:"聚集式導彈",main:{pwr:8,shl:210,rng:330,spd:290,itv:1200},type:"c",size:"M",cost:160}
+{id:81,name:"聚集式導彈",main:{pwr:9,shl:320,rng:330,spd:290,itv:1200},type:"c",size:"M",cost:160}
 {id:89,name:"Missile Cluster Mod",main:{pwr:9,shl:150,rng:320,spd:260,itv:1000},type:"c",size:"M",cost:100}
 {id:82,name:"BT火箭砲",main:{pwr:20,shl:200,rng:275,spd:360,itv:500},type:"cs",size:"M",cost:100}
 {id:1088,name:"BT Bazooka Mod",main:{pwr:19,shl:150,rng:290,spd:360,itv:500},type:"cs",size:"M",cost:100}
@@ -446,7 +446,7 @@
 {id:1044,name:"M72 Bazoofa",cost:90,size:"S",type:"l",main:{str:100,pwr:20,shl:30,rng:200,spd:300,itv:500},sub:{str:100,pwr:25,rng:90,spd:90,itv:500},tunable:{pwp:1}}
 //
 {id:1046,name:"Shield Machinegun",cost:180,size:"M",type:"lc",main:{pwr:14,shl:450,rng:110,spd:330,itv:200}}
-{id:1047,name:"微型導彈槍",cost:80,size:"SS",type:"c",main:{pwr:8,shl:180,rng:330,spd:290,itv:800}}
+{id:1047,name:"微型導彈槍",cost:50,size:"SS",type:"c",main:{pwr:8,shl:180,rng:330,spd:290,itv:800}}
 {id:1048,name:"Shock Stungun",cost:100,size:"S",type:"s",main:{pwr:14,shl:250,rng:220,spd:400,itv:500},sub:{pwr:30,shl:20,rng:70,spd:85,itv:1000},tunable:{pwp:1}}
 {id:1049,name:"X Beam Rifle",type:"acs",size:"M",cost:70,hp:10,fly:1,main:{pwr:15,shl:300,rng:300,spd:380,itv:500}}
 {id:1050,name:"V-2 Way Missile Mod",type:"c",size:"L",cost:140,tec:1,wlk:1,fly:1,main:{pwr:25,shl:250,rng:300,spd:280,itv:800}}
@@ -479,3 +479,5 @@
 {id:1077,name:"鬼魂射手",type:"s",size:"M",cost:100,main:{pwr:6,shl:540,rng:250,spd:150,itv:300}}
 {id:1078,name:"棺材蝙蝠槍",type:"l",size:"M",cost:100,main:{pwr:20,shl:300,rng:225,spd:360,itv:400}}
 {id:1079,name:"南瓜槍",size:"M",cost:15,main:{pwr:6,shl:500,rng:225,spd:570,itv:300}}
+{id:1080,name:"戰士電磁砲",size:"M",cost:160,main:{pwr:33,shl:270,rng:330,spd:480,itv:520}}
+{id:1081,name:"巴利歐斯之槍",type:"a",size:"M",cost:200,main:{pwr:13,shl:390,rng:275,spd:400,itv:300},sub:{pwr:30,shl:130,rng:120,spd:220,itv:2000},tunable:{pwp:1}}
