@@ -347,7 +347,7 @@
 {id:51,name:"馬特爆破者LG",builtin:{bs:1},cost:45,hp:25,str:2,tec:1,wlk:2,fly:1,tgh:-1,type:"a"}
 //{id:55,name:"Felchas LG",cost:45,hp:50,tec:-1,wlk:2,fly:1,tgh:3}
 //{id:56,name:"Galsteel LG",cost:45,hp:70,wlk:4,fly:-1,tgh:2}
-{id:57,name:"比克托爾LG",cost:45,hp:25,str:-1,tec:2,wlk:3,tgh:1}
+{id:57,name:"比克托爾LG",cost:45,hp:25,str:-1,tec:3,wlk:3,tgh:1}
 //{id:58,name:"Brigand Baron LG",cost:50,hp:25,str:1,tec:-1,wlk:3,tgh:3}
 {id:59,name:"零式破壞者LG",cost:45,hp:30,tec:-1,wlk:4,fly:1,tgh:2}
 {id:60,name:"超流體雷姆斯LG",cost:45,hp:25,str:2,tec:2,wlk:2,fly:-1}

@@ -303,7 +303,7 @@
 {id:46,name:"精神集結者BS",type:"a",str:1,tec:2,fly:3,tgh:-1,cost:40,hp:25}
 {id:47,name:"青龍BS",str:1,tec:1,fly:3,cost:40,hp:25,type:"a",comment:"AURA system"}
 {id:67,name:"青龍BS2",cost:40,hp:25,tec:2,fly:4,tgh:-1,type:"a",comment:"AURA system"}
-{id:48,name:"朱雀BS",cost:120,hp:25,str:2,wlk:-1,fly:4,type:"a",auraStat:{main:{pwr:5,shl:460,rng:270,spd:350,itv:900,str:100},sub:{pwr:26,rng:90,spd:200,itv:1500,str:100}},comment:"AURA system",tunable:{mwp:1}}
+{id:48,name:"朱雀BS",cost:150,hp:25,str:2,wlk:-1,fly:4,type:"a",auraStat:{main:{pwr:8,shl:160,rng:270,spd:350,itv:900,str:100},sub:{pwr:31,rng:90,spd:200,itv:1500,str:100}},comment:"AURA system",tunable:{mwp:1}}
 //{id:69,name:"Suzeku BS2",main:{pwr:8,shl:450,rng:250,spd:270,itv:1000},auraStat:{main:{pwr:8,shl:450,rng:250,spd:270,itv:400},sub:{pwr:29,rng:80,spd:100,itv:1500,str:100},str:2,tec:3,wlk:-1,fly:3},type:"a",cost:110,hp:20,str:1,tec:2,wlk:-1,fly:2,tunable:{mwp:1,pwp:1},comment:"AURA system"}
 //{id:57,name:"Katalina BS",type:"a",tec:1,wlk:1,fly:3,tgh:-1,cost:35,hp:15}
 //{id:61,name:"Tycoon Hogroid BS",cost:30,hp:20,fly:1,tgh:3}

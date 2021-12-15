@@ -166,9 +166,9 @@
 {id:30,name:"Double Gatling Mod",type:"lc",size:"LL",cost:210,tgh:3,main:{pwr:8,shl:700,rng:240,spd:380,itv:140}}
 {id:26,name:"LL尺寸格林機槍",type:"l",size:"LL",cost:220,main:{pwr:15,shl:1200,rng:225,spd:400,itv:140}}
 {id:32,name:"LL Bulk Gatling Mod",type:"l",size:"LL",cost:220,tgh:3,main:{pwr:10,shl:1200,rng:250,spd:420,itv:140}}
-{id:21,name:"光束格林機槍",main:{pwr:7,shl:1020,rng:250,spd:440,itv:140},type:"a",size:"LL",cost:140}
+{id:21,name:"光束格林機槍",main:{pwr:9,shl:1020,rng:250,spd:480,itv:140},type:"a",size:"L",cost:140}
 {id:35,name:"Beam Gatling Mod",main:{pwr:13,shl:700,rng:250,spd:410,itv:240},type:"a",size:"LL",cost:170,tec:2}
-{id:29,name:"雙管光束格林機槍",main:{pwr:6,shl:1620,rng:250,spd:440,itv:140},size:"LL",type:"a",cost:200	}
+{id:29,name:"雙管光束格林機槍",main:{pwr:6,shl:2400,rng:250,spd:480,itv:140},size:"LL",type:"a",cost:200	}
 {id:36,name:"Double Beam Gatling Mod",main:{pwr:10,shl:1000,rng:240,spd:380,itv:240},size:"LL",type:"a",cost:220,tec:2}
 {id:31,name:"Water Gatling",type:"lac",size:"S",main:{tec:100,pwr:5,shl:600,rng:200,spd:400,itv:140},sub:{itv:500},cost:90,comment:"Sub weapon refills 100 ammo and grants Hyper Shot"}
 {id:33,name:"灼熱格林機槍",type:"c",size:"M",main:{pwr:10,shl:1200,rng:330,spd:440,itv:140},cost:160}
@@ -195,7 +195,7 @@
 {id:13,name:"爆破狙擊槍",type:"c",size:"M",cost:90,main:{pwr:33,shl:150,rng:330,spd:480,itv:1000}}
 {id:14,name:"狙擊步槍",type:"c",size:"M",cost:140,main:{pwr:39,shl:150,rng:350,spd:480,itv:1000}}
 {id:15,name:"長彈步槍",type:"c",size:"M",cost:200,main:{pwr:50,shl:120,rng:350,spd:480,itv:1000}}
-{id:26,name:"破壞格林機槍",main:{pwr:123,shl:1000,rng:350,spd:480,itv:200},size:"L",type:"c",cost:210}
+{id:26,name:"破壞格林機槍",main:{pwr:14,shl:1400,rng:350,spd:480,itv:200},size:"L",type:"c",cost:210}
 {id:28,name:"Gatling Breaker Mod",main:{pwr:27,shl:550,rng:310,spd:420,itv:540},size:"L",type:"c",cost:210,wlk:2}
 {id:16,name:"光束步槍",type:"as",size:"M",cost:70,main:{pwr:25,shl:170,rng:275,spd:520,itv:800}}
 {id:18,name:"自動光束步槍",type:"a",size:"M",cost:120,main:{pwr:14,shl:450,rng:275,spd:520,itv:200}}

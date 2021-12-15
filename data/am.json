@@ -518,7 +518,7 @@
 {id:130,name:"火藥庫邦格AM2",type:"c",cost:100,hp:25,tec:3,wlk:1,fly:1,main:{pwr:17,shl:320,rng:330,spd:260,itv:500},tunable:{mwp:1}}
 {id:1132,name:"火藥庫邦格AM3",type:"c",cost:140,hp:25,str:-1,tec:4,fly:-1,tgh:3,main:{pwr:9,shl:1000,rng:330,spd:440,itv:200},tunable:{mwp:1},joint:{wp:0}}
 {id:131,name:"火藥庫邦格AM4",type:"c",cost:40,hp:25,tec:3,wlk:2,fly:1,tgh:-1}
-{id:30,name:"波魯迪克AM",type:"c",cost:95,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2,main:{pwr:7,shl:1050,rng:330,spd:440,itv:140},tunable:{mwp:1},joint:{wp:0}}
+{id:30,name:"波魯迪克AM",type:"c",cost:95,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2,main:{pwr:10,shl:720,rng:330,spd:440,itv:140},tunable:{mwp:1},joint:{wp:0}}
 {id:31,name:"波魯迪克AM2",type:"c",cost:95,hp:20,str:-1,tec:1,wlk:2,tgh:3,main:{pwr:9,shl:400,rng:160,spd:480,itv:100},tunable:{mwp:1}}
 {id:37,name:"瘋狂小丑AM",type:"l",cost:220,hp:25,str:4,tec:-1,wlk:1,tgh:1,main:{str:100,pwr:22,shl:150,rng:200,spd:400,itv:560},sub:{str:100,pwr:30,rng:70,spd:85,itv:2000},tunable:{mwp:1,pwp:1},joint:{wp:0}}
 {id:38,name:"瘋狂小丑AM2",cost:40,hp:25,tec:2,fly:1,tgh:2}
