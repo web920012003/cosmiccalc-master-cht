@@ -50,7 +50,7 @@
 {id:49,name:"Pursuit Frame",main:{pwr:[28,31,34],shl:[180,230,280],rng:[340,360,390],spd:520,itv:800},type:"c",size:"S",cost:80,slot:0,conversion:"BDCS48",comment:"Attachable to 'Mialy BD7' only"}
 {id:50,name:"艾亞莉迪‧感應砲α",main:{pwr:[4,6,7],shl:[840,420,580],rng:275,spd:440,itv:900},size:"S",type:"a",slot:0,cost:70,conversion:"WPCS155",comment:"Attachable to 'Bit Holder' only"}
 {id:51,name:"艾亞莉迪‧感應砲β",main:{pwr:[6,7],shl:[920,800,1000],rng:275,spd:400,itv:380},size:"S",type:"a",slot:0,cost:100,conversion:"WPCS155",comment:"Attachable to 'Bit Holder' only"}
-{id:52,name:"Galaxy Commando AM2@",main:{pwr:23,shl:50,rng:230,spd:290,itv:1200},auraStat:{main:{pwr:20,shl:50,rng:280,spd:190,itv:1000}},slot:0,cost:50,type:"c",size:"M",conversion:"AMM136",comment:"Attachable to 'Galaxy Commando AM2' only"}
+{id:52,name:"銀河司令官AM2@",main:{pwr:35,shl:220,rng:330,spd:400,itv:500},auraStat:{main:{pwr:25,shl:240,rng:380,spd:220,itv:600}},slot:0,cost:80,type:"c",size:"M",conversion:"AMM136",comment:"Attachable to '銀河司令官AM2' only"}
 {id:53,name:"Trump Shield",main:{shl:30,spd:10,itv:1000},cost:45,size:"M",conversion:"AMS131",comment:"Attachable to 'Renny Lop AM6/AM7' only"}
 {id:54,name:"Trump Shooter",main:{pwr:13,shl:312,rng:260,spd:340,itv:440},type:"l",size:"M",cost:90,conversion:"AMS131",comment:"Attachable to 'Renny Lop AM6/AM7' only"}
 {id:55,name:"血色十字",main:{pwr:14,shl:560,rng:275,spd:360,itv:300},type:"la",size:"S",conversion:"BDAS67AM2 BDAS79AM4 BDAS104AM6",comment:"Attachable to 'Amlim AM2/AM4/AM6' only",cost:100}
@@ -134,8 +134,8 @@
 {id:133,name:"Seraphim Buster@",main:{pwr:32,shl:30,rng:330,spd:480,itv:1000},type:"c",size:"S",cost:40,slot:0,conversion:"WPCM132",comment:"Attachable to 'Seraphim Buster' only"}
 {id:134,name:"Rhino Cannon",main:{tec:100,pwr:30,shl:30,rng:150,spd:380,itv:500},cost:70,slot:0,conversion:"BDLS148LG",comment:"Attachable to 'Aleixa Arl LG' only"}
 {id:135,name:"Ricochet Gatling",main:{tec:100,pwr:4,shl:800,rng:270,spd:360,itv:240},cost:70,conversion:"BDLS148LG",comment:"Attachable to 'Aleixa Arl LG' only"}
-{id:136,name:"Beam Missile Cassette",main:{pwr:15,shl:350,rng:250,spd:300,itv:540,tec:100},tunable:{mwp:1},cost:50,type:"a",size:"S",conversion:"WPCS55"}
-{id:137,name:"C. Delay Cassette II",main:{tec:100,pwr:40,shl:30,rng:320,spd:400,itv:1000},tunable:{mwp:0},slot:0,type:"a",size:"S",cost:90,conversion:"WPCS55"}
+{id:136,name:"光束導彈彈匣",main:{pwr:15,shl:480,rng:275,spd:300,itv:500,tec:100},tunable:{mwp:1},cost:70,type:"a",size:"S",conversion:"WPCS55"}
+{id:137,name:"衝能延遲彈匣",main:{tec:100,pwr:30,shl:80,rng:275,spd:480,itv:500},tunable:{mwp:0},slot:0,type:"a",size:"S",cost:30,conversion:"WPCS55"}
 //138
 //139
 {id:140,name:"Sonic Claw",main:{pwr:15,shl:30,rng:300,spd:570,itv:500,str:100},tunable:{mwp:1},type:"l",size:"S",cost:30,conversion:"BDLS149AM",comment:"Attachable to 'Kal Valentine AM2' only"}
@@ -154,7 +154,7 @@
 {id:153,name:"Weather Umbrella",sub:{tec:100,pwr:13,shl:40,rng:10,spd:320,itv:500},joint:{wp:1},cost:45,slot:0,conversion:"BDAS98AM BDAS1082AM",comment:"Attachable to 'Minaria AM2' only"}
 {id:154,name:"Weather Umbrella@",main:{tec:100,pwr:35,shl:30,rng:320,spd:400,itv:1000},sub:{tec:100,shl:15,rng:10,spd:110,itv:500},type:"a",size:"S",slot:0,cost:125,conversion:"WPCM153 WPCM207",comment:"Attachable to 'Weather Umbrella' only"}
 {id:155,name:"Dragon Talon",main:{pwr:16,shl:270,rng:250,spd:320,itv:500,str:100},type:"l",size:"S",tunable:{mwp:1},cost:130,conversion:"BDLS157AM",comment:"Attachable to 'Kuten Jikun Long AM7' only"}
-{id:156,name:"Fire Breath",main:{pwr:36,shl:30,rng:320,spd:400,itv:300},type:"c",size:"S",conversion:"BDCS80WP",comment:"Attachable to 'Gii-kun' only",cost:60,slot:0}
+{id:156,name:"火焰吐息",main:{pwr:35,shl:100,rng:350,spd:400,itv:1000},type:"c",size:"S",conversion:"WPCM260",comment:"Attachable to 'Gii-kun' only",cost:50,slot:0}
 {id:157,name:"Donner Musket",joint:{wp:1},fixedParts:{wp:{name:"Donner Musket@",main:{pwr:32,shl:40,rng:360,spd:400,itv:500},slot:0}},type:"a",size:"S",conversion:"BDAS99AM",comment:"Attachable to 'Nebel AM' only",cost:60}
 {id:158,name:"Blitz B Machinegun",main:{pwr:19,shl:700,rng:320,spd:410,itv:240},tunable:{mwp:1},joint:{wp:1},type:"a",size:"S",conversion:"BDAS99AM2",comment:"Attachable to 'Nebel AM2' only",cost:90}
 {id:159,name:"Connect Blast",main:{pwr:41,shl:160,rng:350,spd:450,itv:500},type:"a",size:"S",slot:0,conversion:"WPCM158",comment:"Attachable to 'Blitz B Machinegun' only",cost:60}
@@ -258,12 +258,13 @@
 {id:257,name:"戰艦.DNAM",main:{tec:100,pwr:6,shl:840,rng:330,spd:480,itv:740},type:"c",size:"LL",cost:45,slot:0,conversion:"AML2143"}
 {id:258,name:"小血色十字",main:{tec:100,pwr:3,shl:180,rng:200,spd:360,itv:300},type:"s",size:"SS",cost:40,slot:3,conversion:"BDSS165"}
 {id:259,name:"Storen・Gewehr",tunable:{mwp:1},type:"l",size:"S",cost:70,conversion:"BDLS140AM BDLS140AM2",comment:"Attachable to 'Nora Schneid BD' only",main:{pwr:17,shl:540,rng:250,spd:400,itv:340}}
+{id:260,name:"小嘟",type:"c",size:"S",slot:0,joint:{wp:1},conversion:"BDCS80"}
 
 
 
 {group:"Conversion-SWP",prefixID:"CS",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"拉爾多之劍",main:{pwr:19,shl:180,rng:225,spd:440,itv:600,str:100},sub:{str:100,pwr:32,rng:77,spd:94,itv:1000},tunable:{mwp:1},size:"L",type:"l",cost:200,conversion:"AML1138",comment:"Attachable to 'Generaldo AM2' only"}
-{id:2,name:"Dragoon Sword",sub:{tec:100,pwr:13,shl:270,rng:350,spd:280,itv:500},joint:{wp:1},type:"c",size:"S",conversion:"BDCS80AM",comment:"Attachable to 'Pia AM2' only",cost:40,slot:0}
+//{id:2,name:"Dragoon Sword",sub:{tec:100,pwr:13,shl:270,rng:350,spd:280,itv:500},joint:{wp:1},type:"c",size:"S",conversion:"BDCS80AM",comment:"Attachable to 'Pia AM2' only",cost:40,slot:0}
 {id:3,name:"Dragoon Sword@",type:"c",size:"S",cost:90,main:{tec:100,pwr:20,shl:400,rng:320,spd:420,itv:700},tunable:{mwp:1},conversion:"WPCS2",comment:"Attachable to 'Dragoon Sword' only"}
 {id:4,name:"英勇之劍",sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{pwp:1},cost:100,type:"l",size:"M",conversion:"WPCS126",comment:"Attachable to 'Brave Arts' only"}
 {id:5,name:"英勇之槍",sub:{str:100,pwr:28,rng:120,spd:250,itv:500},type:"l",size:"M",cost:50,slot:0,conversion:"WPCS126",comment:"Attachable to 'Brave Arts' only"}
@@ -369,8 +370,8 @@
 {id:105,name:"Weather Cube",main:{pwr:27,shl:60,rng:360,spd:400,itv:500,tec:100},joint:{wp:1},size:"M",type:"c",cost:60,conversion:"BDCS79 BDCS1067",comment:"Attachable to 'Asphe BD' only",slot:0}
 {id:106,name:"Weather Cube@",sub:{pwr:14,shl:280,rng:370,spd:360,itv:500,tec:100},type:"c",size:"M",cost:40,slot:0,conversion:"WPCS105",comment:"Attachable 'Weather Cube' only"}
 {id:107,name:"菲亞莉絲BS@",sub:{str:100,shl:40,spd:160,itv:1000},slot:0,type:"a",size:"M",cost:20,conversion:"BSM172",comment:"Attachable to 'Fairys BS' only"}
-{id:108,name:"Minute Rapier",main:{shl:30,spd:10,itv:700},sub:{pwr:28,rng:70,spd:85,itv:500,str:100},tunable:{pwp:1},type:"l",size:"S",cost:110,conversion:"BDLS158AM",comment:"Attachable to 'Lafiel AM' only"}
-{id:109,name:"Hour Dagger",main:{pwr:15,shl:30,rng:200,spd:570,itv:500,str:100},sub:{pwr:30,shl:110,spd:200,itv:500,str:100},type:"l",size:"S",cost:90,slot:0,conversion:"BDLS158AM2",comment:"Attachable to 'Lafiel AM2' only"}
+{id:108,name:"分針刺刃",main:{shl:50,spd:10,itv:1000},sub:{pwr:31,rng:84,spd:102,itv:500,str:100},tunable:{pwp:1},type:"l",size:"S",cost:120,conversion:"BDLS158AM",comment:"Attachable to 'Lafiel AM' only"}
+{id:109,name:"時刻尖刃",main:{pwr:20,shl:50,rng:200,spd:570,itv:500,str:100},sub:{rng:150,spd:350,itv:1000,str:100},type:"l",size:"S",cost:80,slot:0,conversion:"BDLS158AM2",comment:"Attachable to 'Lafiel AM2' only"}
 {id:110,name:"Needle Star",main:{tec:100,pwr:17,shl:30,rng:260,spd:570,itv:300},sub:{str:100,pwr:34,rng:80,spd:50,itv:500},tunable:{mwp:1,pwp:1},type:"l",size:"S",cost:150,conversion:"BDLS168AM",comment:"Attachable to 'Mercurio AM2' only"}
 {id:111,name:"Revenant Sword",sub:{str:100,pwr:32,rng:70,spd:70,itv:500},type:"l",size:"M",cost:100,conversion:"AMM173",comment:"Attachable to 'Dark Revenant AM' only"}
 {id:112,name:"Trike Tackle",cost:30,sub:{str:100,pwr:23,rng:60,spd:75,itv:500},type:"s",size:"S",conversion:"Tricyclaser",comment:"Attachable to 'Tricyclaser' parts only"}
@@ -428,3 +429,8 @@
 {id:164,name:"嫣蘭魅影LG@",sub:{itv:3000},slot:3,tunable:{pwp:0},conversion:"LGL71"}
 {id:165,name:"賽琉・記憶體插槽",slot:3,size:"M",cost:0,conversion:"BDCS74AM BDCS74AM2",tunable:{pwp:0}}
 {id:166,name:"吉賽爾・記憶體插槽",slot:3,size:"M",cost:0,conversion:"BDLS150AM2 BDLS150AM BDLS150",tunable:{pwp:0}}
+{id:168,name:"菲莉雅・記憶體插槽",slot:3,size:"M",cost:0,conversion:"BDCS80AM BDCS80AM2",tunable:{pwp:0}}
+{id:169,name:"龍魔法劍",slot:0,size:"S",type:"c",cost:90,conversion:"BDCS80",comment:"Attachable to 'Pia AM2' only",sub:{pwr:18,shl:300,rng:350,spd:280,itv:1000},joint:{wp:1}}
+{id:170,name:"龍魔法劍@",slot:3,size:"M",cost:90,conversion:"WPCS169",main:{pwr:28,shl:400,rng:330,spd:440,itv:700}}
+{id:171,name:"拉斐爾・記憶體插槽",slot:3,size:"M",cost:0,conversion:"BDLS158AM BDLS158AM2",tunable:{pwp:0}}
+

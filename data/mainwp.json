@@ -332,7 +332,7 @@
 {id:68,name:"充能光束加農",main:{pwr:32,shl:150,rng:275,spd:440,itv:1000},type:"a",size:"L",cost:120}
 {id:77,name:"Charge Beam Cannon Mod",main:{pwr:31,shl:140,rng:300,spd:370,itv:1500},type:"a",size:"L",cost:140,str:-1,fly:1}
 {id:71,name:"Jack-O-Launcher",main:{pwr:7,shl:400,rng:320,spd:240,itv:140},size:"L",type:"c",cost:100,str:-1,fly:-2,wlk:-2}
-{id:72,name:"Gigantic Cannon",main:{pwr:29,shl:120,rng:245,spd:265,itv:1200},size:"L",type:"c",cost:160,wlk:-1}
+{id:72,name:"超巨型加農",main:{pwr:50,shl:200,rng:350,spd:320,itv:1400},size:"LL",type:"c",cost:200}
 {id:73,name:"Gigantic Cannon Mod",main:{pwr:29,shl:100,rng:275,spd:265,itv:1200},size:"L",type:"c",cost:160,wlk:-1}
 {id:74,name:"Bamboo Launcher",main:{pwr:15,shl:300,rng:300,spd:170,itv:1000},type:"c",size:"M",cost:60}
 {id:84,name:"Bamboo Launcher Mod",main:{pwr:17,shl:230,rng:300,spd:170,itv:1000},type:"c",size:"M",cost:60}
@@ -481,3 +481,5 @@
 {id:1079,name:"南瓜槍",size:"M",cost:15,main:{pwr:6,shl:500,rng:225,spd:570,itv:300}}
 {id:1080,name:"戰士電磁砲",size:"M",cost:160,main:{pwr:33,shl:270,rng:330,spd:480,itv:520}}
 {id:1081,name:"巴利歐斯之槍",type:"a",size:"M",cost:200,main:{pwr:13,shl:390,rng:275,spd:400,itv:300},sub:{pwr:30,shl:130,rng:120,spd:220,itv:2000},tunable:{pwp:1}}
+{id:1082,name:"光束爆彈發射器",size:"M",cost:80,type:"a",main:{pwr:30,shl:360,rng:100,spd:300,itv:1000}}
+{id:1083,name:"粒子射手",size:"M",cost:160,main:{pwr:12,shl:1180,rng:180,spd:480,itv:100},type:"lc"}

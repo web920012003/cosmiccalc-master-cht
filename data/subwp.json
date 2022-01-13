@@ -78,7 +78,7 @@
 {id:3,name:"維京斧",type:"l",size:"L",cost:100,sub:{str:100,pwr:34,rng:56,spd:68,itv:1000},tunable:{pwp:1}}
 {id:4,name:"托洛夫之斧",type:"l",size:"LL",cost:160,sub:{str:100,pwr:37,rng:56,spd:68,itv:1000},tunable:{pwp:1}}
 {id:5,name:"圓盤戰斧",type:"l",size:"L",cost:120,sub:{str:100,pwr:33,rng:72,spd:85,itv:500},tunable:{pwp:1}}
-{id:10,name:"Old Slicer",sub:{str:100,pwr:38,rng:30,spd:65,itv:1200},tunable:{pwp:1},type:"l",size:"L",cost:150,wlk:-1,fly:-2,tgh:1}
+{id:10,name:"高速迴轉鋸斧",sub:{str:100,pwr:25,rng:70,spd:85,itv:2000},tunable:{pwp:1},type:"l",size:"L",cost:160}
 {id:11,name:"Brigand Axe",sub:{str:100,pwr:40,rng:75,spd:90,itv:1200},type:"l",size:"LL",cost:180,tunable:{pwp:1}}
 {id:6,name:"Boomerang Axe",type:"las",size:"M",cost:50,wlk:-1,sub:{pwr:26,rng:130,spd:160,itv:1000}}
 {id:7,name:"Shadow Axe",size:"M",cost:140,wlk:-1,fly:-1,sub:{pwr:27,rng:150,spd:190,itv:1600,str:100}}
@@ -178,6 +178,7 @@
 {id:24,name:"維晶塵之盾α",size:"M",cost:35}
 {id:25,name:"維晶塵之盾β",size:"M",cost:35}
 {id:26,name:"小盾",size:"SS",cost:40}
+{id:27,name:"大型盾",size:"M",cost:40}
 
 {group:"Others",prefixID:"SO",commonStat:{tunable:{pwp:1}}}
 {id:1,name:"應援彩球",size:"M",cost:10,wlk:1,sub:{str:100,pwr:1,rng:51,spd:80,itv:400},tunable:{pwp:1}}
