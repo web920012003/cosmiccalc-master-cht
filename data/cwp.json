@@ -259,6 +259,7 @@
 {id:258,name:"小血色十字",main:{tec:100,pwr:3,shl:180,rng:200,spd:360,itv:300},type:"s",size:"SS",cost:40,slot:3,conversion:"BDSS165"}
 {id:259,name:"Storen・Gewehr",tunable:{mwp:1},type:"l",size:"S",cost:70,conversion:"BDLS140AM BDLS140AM2",comment:"Attachable to 'Nora Schneid BD' only",main:{pwr:17,shl:540,rng:250,spd:400,itv:340}}
 {id:260,name:"小嘟",type:"c",size:"S",slot:0,joint:{wp:1},conversion:"BDCS80"}
+{id:261,name:"黏黏火箭",type:"c",size:"S",main:{pwr:24,shl:520,rng:330,spd:400,itv:500,tec:100},conversion:"BDCS22AM",cost:160}
 
 
 
