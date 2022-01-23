@@ -485,7 +485,7 @@
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1}}
 //{id:1,name:"Big Head HDJ",size:"M",cost:5,hp:5,slot:1}
 //{id:2,name:"Magic Neck HDJ",size:"M",cost:5,hp:5,slot:1}
-//{id:3,name:"Hero Scarf HDJ",size:"M",cost:5,hp:5,slot:1}
+{id:3,name:"英雄圍巾HDJ",size:"M",slot:1}
 //{id:4,name:"Big Head Cape HDJ",size:"M",cost:5,hp:5,slot:1}
 //{id:5,name:"Wild Big Head HDJ",size:"M",cost:5,hp:5,slot:1}
 // {id:4,name:"Dummy HDJ",comment:"FOR WHAT?",size:"M",slot:1}
