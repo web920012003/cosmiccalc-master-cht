@@ -42,8 +42,8 @@
 {id:41,name:"Battle Frame I BETA (Ivis)",main:{shl:15,spd:10,itv:1000},type:"l",size:"S",cost:20,conversion:"BDLS111LG",comment:"Attachable to 'Bikini Ivis LG' only"}
 {id:42,name:"Battle Frame E BETA",main:{pwr:8,shl:800,rng:280,spd:370,itv:500},sub:{pwr:15,shl:30,rng:320,spd:300,itv:500},type:"a",size:"S",cost:140,conversion:"BDAS62LG",comment:"Attachable to 'Bikini Eve LG' only"}
 {id:43,name:"Shinuchi Ranouraikiri",main:{shl:30,spd:10,itv:1000},sub:{pwr:27,shl:20,rng:120,spd:220,itv:500,str:100},type:"l",size:"S",cost:70,slot:0,conversion:"BDLS112AM2",comment:"Attachable to 'Bikini Ouka AM2' only"}
-{id:44,name:"騎士加農",main:{pwr:17,shl:350,rng:330,spd:290,itv:600},joint:{wp:1},fixedParts:{wp:{name:"騎士加農",main:{pwr:40,shl:30,rng:300,spd:400,itv:500},cost:50,slot:0}},type:"c",size:"S",cost:110,conversion:"BDCS46AM",comment:"Attachable to 'Natascha AM' only"}
-{id:45,name:"Chivalry Cannon II",main:{pwr:13,shl:840,rng:320,spd:260,itv:300},joint:{wp:2},fixedParts:{wp:[{name:"Chivalry Cannon II",main:{shl:5,rng:10,spd:200,itv:1000,pwr:32},slot:0},{name:"Chivalry Cannon II＠",main:{shl:5,rng:10,spd:200,itv:1000},slot:0,cost:30}]},tunable:{mwp:1},cost:140,type:"c",size:"S",conversion:"BDCS46AM BDCS83AM5",comment:"Attachable to 'Natascha AM/AM3/AM5' only"}
+{id:44,name:"騎士加農",main:{pwr:18,shl:400,rng:330,spd:290,itv:600},joint:{wp:1},fixedParts:{wp:{name:"騎士加農",main:{pwr:40,shl:30,rng:330,spd:400,itv:500},cost:50,slot:0}},type:"c",size:"S",cost:110,conversion:"BDCS46AM BDCS83AM5",comment:"Attachable to 'Natascha AM' only"}
+{id:45,name:"騎士加農II",main:{pwr:10,shl:730,rng:330,spd:320,itv:300},joint:{wp:1},fixedParts:{wp:[{name:"騎士加農II",main:{pwr:32,shl:40,rng:330,spd:400,itv:1000},slot:0,cost:50}]},tunable:{mwp:1},cost:110,type:"c",size:"S",conversion:"BDCS46AM BDCS83AM5",comment:"Attachable to 'Natascha AM/AM3/AM5' only"}
 {id:46,name:"合金手杖",main:{pwr:9,shl:540,rng:275,spd:440,itv:300,tec:100},sub:{pwr:26,shl:40,spd:150,itv:1000,tec:100},tunable:{mwp:1},type:"a",size:"M",cost:100,conversion:"BDAS63AM BDAS81AM BDAS103AM BDAS1090AM",comment:"Attachable to 'Malca AM/AM3/AM5' only"}
 {id:47,name:"Gale Rod",main:{pwr:22,shl:250,rng:300,spd:370,itv:600,tec:100},sub:{pwr:10,shl:5,spd:130,itv:1000,tec:100},tunable:{mwp:1},type:"a",size:"M",cost:120,conversion:"BDAS63AM BDAS81AM BDAS103AM BDAS1090AM",comment:"Attachable to 'Malca AM/AM3/AM5' only"}
 {id:48,name:"Hand Blast Railgun",main:{pwr:22,shl:140,rng:340,spd:520,itv:800},sub:{pwr:20,shl:20,rng:10,spd:100,itv:500},type:"c",size:"S",cost:75,conversion:"BDCS39AM BDCS48AM",comment:"Attachable to 'Mialy AM2' only"}
@@ -155,14 +155,14 @@
 {id:154,name:"Weather Umbrella@",main:{tec:100,pwr:35,shl:30,rng:320,spd:400,itv:1000},sub:{tec:100,shl:15,rng:10,spd:110,itv:500},type:"a",size:"S",slot:0,cost:125,conversion:"WPCM153 WPCM207",comment:"Attachable to 'Weather Umbrella' only"}
 {id:155,name:"Dragon Talon",main:{pwr:16,shl:270,rng:250,spd:320,itv:500,str:100},type:"l",size:"S",tunable:{mwp:1},cost:130,conversion:"BDLS157AM",comment:"Attachable to 'Kuten Jikun Long AM7' only"}
 {id:156,name:"火焰吐息",main:{pwr:35,shl:100,rng:350,spd:400,itv:1000},type:"c",size:"S",conversion:"WPCM260",comment:"Attachable to 'Gii-kun' only",cost:50,slot:0}
-{id:157,name:"Donner Musket",joint:{wp:1},fixedParts:{wp:{name:"Donner Musket@",main:{pwr:32,shl:40,rng:360,spd:400,itv:500},slot:0}},type:"a",size:"S",conversion:"BDAS99AM",comment:"Attachable to 'Nebel AM' only",cost:60}
-{id:158,name:"Blitz B Machinegun",main:{pwr:19,shl:700,rng:320,spd:410,itv:240},tunable:{mwp:1},joint:{wp:1},type:"a",size:"S",conversion:"BDAS99AM2",comment:"Attachable to 'Nebel AM2' only",cost:90}
+{id:157,name:"雷神魔工銃",joint:{wp:1},fixedParts:{wp:{name:"雷神魔工銃@",main:{pwr:25,shl:50,rng:275,spd:400,itv:1000},slot:0}},type:"a",size:"S",conversion:"BDAS99AM",comment:"Attachable to 'Nebel AM' only",cost:30}
+{id:158,name:"閃擊B機關槍",main:{pwr:14,shl:720,rng:275,spd:440,itv:240},tunable:{mwp:1},joint:{wp:1},type:"a",size:"S",fixedParts:{wp:{name:"連結衝擊波",main:{pwr:20,shl:430,rng:350,spd:400,itv:500},slot:0}},conversion:"BDAS99AM2",comment:"Attachable to 'Nebel AM2' only",cost:120}
 {id:159,name:"Connect Blast",main:{pwr:41,shl:160,rng:350,spd:450,itv:500},type:"a",size:"S",slot:0,conversion:"WPCM158",comment:"Attachable to 'Blitz B Machinegun' only",cost:60}
-{id:160,name:"Fin Musket",cost:90,type:"c",size:"S",main:{pwr:17,shl:300,rng:360,spd:420,itv:500},conversion:"BDCS81AM BDCS1064AM",comment:"Attachable to 'Colleti AM' only"}
-{id:161,name:"Fin Cannon SS",cost:90,type:"c",size:"S",slot:0,main:{pwr:9,shl:200,rng:320,spd:260,itv:1400},sub:{pwr:25,shl:15,rng:10,spd:110,itv:500},conversion:"BDCS81 BDCS1064",comment:"Attachable to 'Colleti BD' only"}
-{id:162,name:"Fin Cannon HE",cost:120,type:"c",size:"S",slot:0,main:{pwr:20,shl:80,rng:320,spd:400,itv:800},sub:{pwr:10,shl:300,rng:320,spd:280,itv:500},conversion:"BDCS81 BDCS1064",comment:"Attachable to 'Colleti BD' only"}
+{id:160,name:"Fin・魔工銃",cost:80,type:"c",size:"S",main:{pwr:24,shl:350,rng:350,spd:440,itv:600},conversion:"BDCS81AM BDCS1064AM",comment:"Attachable to 'Colleti AM' only"}
+{id:161,name:"Fin加農SS",cost:70,type:"c",size:"S",main:{pwr:5,shl:210,rng:330,spd:280,itv:900},sub:{pwr:30,spd:100,itv:1000},conversion:"BDCS81 BDCS1064",comment:"Attachable to 'Colleti BD' only"}
+{id:162,name:"Fin加農HE",cost:80,type:"c",size:"S",main:{pwr:17,shl:540,rng:330,spd:400,itv:700},sub:{pwr:10,shl:320,rng:350,spd:280,itv:1000},conversion:"BDCS81 BDCS1064",comment:"Attachable to 'Colleti BD' only"}
 {id:163,name:"布拉迪斯塔AM@",main:{tec:100,pwr:17,shl:50,rng:250,spd:400,itv:500},type:"c",size:"M",cost:25,slot:0,conversion:"AMM172 AMM1013"}
-{id:164,name:"Blood Star AM2@",type:"c",size:"M",slot:0,cost:25,main:{pwr:2,shl:360,rng:280,spd:380,itv:500},conversion:"AMM172 AMM1013"}
+{id:164,name:"布拉迪斯塔AM2@",type:"c",size:"M",slot:0,cost:30,main:{pwr:9,shl:420,rng:350,spd:440,itv:960},conversion:"AMM172 AMM1013"}
 {id:165,name:"Revenant Shield",main:{shl:30,rng:10,spd:10,itv:1000},type:"l",size:"M",slot:0,cost:30,conversion:"AMM173",comment:"Attachable to 'Dark Revenant AM' only"}
 {id:166,name:"Revenant Dart",main:{str:100,pwr:30,shl:30,rng:320,spd:270,itv:1000},tunable:{mwp:1},cost:60,type:"l",size:"M",conversion:"AMM173",comment:"Attachable to 'Dark Revenant AM' only"}
 {id:167,name:"Gadget Box",main:{pwr:21,shl:400,rng:230,spd:340,itv:400},tunable:{mwp:1},type:"lacs",size:"S",conversion:"AMS189",comment:"Attachable to 'Patty Lop AM7' only",cost:110}
@@ -174,7 +174,7 @@
 {id:173,name:"Guardian Bishop",main:{pwr:5,shl:300,rng:320,spd:260,itv:600,tec:100},sub:{tec:100,pwr:10,shl:1000,rng:320,spd:320,itv:500},type:"c",size:"S",cost:150,slot:0,conversion:"BDCS85 BDCS1063",comment:"Attachable to 'Eleanore BD' only"}
 {id:174,name:"Eisen Faust",main:{shl:10,spd:10,itv:1000},type:"l",size:"S",cost:25,slot:0,conversion:"BDLS132AM BDLS167AM",comment:"Attachable to 'Hanna Fritz AM' only"}
 {id:175,name:"Lise Flak",main:{tec:100,pwr:22,shl:80,rng:300,spd:420,itv:1300},type:"c",size:"S",cost:60,conversion:"BDCS62WP BDCS86WP",comment:"Attachable to 'Lise Launcher' only"}
-{id:176,name:"Polaris",main:{tec:100,pwr:10,shl:30,rng:220,spd:280,itv:500},type:"l",size:"S",cost:40,conversion:"BDLS168WP",comment:"Attachable to 'Mercurio BD@' only",slot:0}
+{id:176,name:"北極星",main:{str:100,pwr:20,shl:30,rng:200,spd:280,itv:1000},type:"l",size:"S",cost:50,conversion:"BDLS168WP",comment:"Attachable to 'Mercurio BD@' only",slot:0}
 {id:177,name:"Yurino Style Cloth",main:{tec:100,pwr:15,shl:510,rng:280,spd:280,itv:1000},tunable:{mwp:1},type:"c",size:"M",conversion:"BDCS87AM",comment:"Attachable to 'Yukata Homura AM' only",cost:180}
 {id:178,name:"Sonic Cannon",main:{tec:100,pwr:30,shl:30,rng:150,spd:380,itv:500},cost:70,type:"l",size:"S",slot:0,conversion:"BDLS170LG",comment:"Attachable to 'Sonic Star' only"}
 {id:179,name:"Box Gatling",main:{tec:100,pwr:4,shl:800,rng:270,spd:360,itv:240},cost:70,type:"l",size:"S",conversion:"BDLS170LG",comment:"Attachable to 'Sonic Star' only"}
@@ -294,7 +294,7 @@
 {id:28,name:"Shinuchi Ranouraikiri ",sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{pwp:1},type:"l",size:"S",cost:100,conversion:"BDLS112AM",comment:"Attachable to 'Bikini Ouka AM' only"}
 {id:29,name:"Battle Frame O GAMMA",type:"l",slot:0,size:"S",cost:10,conversion:"BDLS112",comment:"Attachable to 'Bikini Ouka BD' only"}
 {id:30,name:"騎士防禦",sub:{pwr:0,rng:10,itv:500},type:"c",size:"S",cost:50,conversion:"BDCS46AM2 BDCS83AM6",comment:"Attachable to 'Natascha AM2/AM4/AM6' only"}
-{id:31,name:"Chivalry Guard II",sub:{pwr:30,itv:500},type:"c",size:"S",joint:{wp:1},fixedParts:{wp:{name:"Chivalry Guard II@",sub:{pwr:30,shl:15,rng:10,spd:200,itv:500},slot:0,cost:30}},cost:50,conversion:"BDCS46AM2 BDCS83AM6",comment:"Attachable to 'Natascha AM2/AM4/AM6' only"}
+{id:31,name:"騎士防禦II",sub:{rng:10,itv:500},slot:0,type:"c",size:"S",joint:{wp:1},fixedParts:{wp:{name:"騎士防禦II@",sub:{shl:30,rng:0,spd:170,itv:1000},slot:0,cost:20}},cost:50,conversion:"BDCS46AM2 BDCS83AM6",comment:"Attachable to 'Natascha AM2/AM4/AM6' only"}
 {id:32,name:"Sting Grenade",sub:{pwr:20,shl:30,rng:100,spd:120,itv:2000,tec:100},type:"c",size:"S",cost:30,conversion:"BDCS47AM4",comment:"Attachable to 'Rinka Lynx AM4' only"}
 {id:33,name:"獄卒的勾玉",slot:0,type:"l",size:"S",joint:{wp:4},fixedParts:{wp:[]},conversion:"BDLS114AM",comment:"Attachable to 'Sakura AM2' only"}
 {id:34,name:"四神的勾玉",slot:0,type:"l",size:"S",joint:{wp:2},fixedParts:{wp:[{name:"三眼的勾玉"},{name:"三眼的勾玉"}]},conversion:"BDLS114AM",comment:"Attachable to 'Sakura AM2' only"}
@@ -373,7 +373,7 @@
 {id:107,name:"菲亞莉絲BS@",sub:{str:100,shl:40,spd:160,itv:1000},slot:0,type:"a",size:"M",cost:20,conversion:"BSM172",comment:"Attachable to 'Fairys BS' only"}
 {id:108,name:"分針刺刃",main:{shl:50,spd:10,itv:1000},sub:{pwr:31,rng:84,spd:102,itv:500,str:100},tunable:{pwp:1},type:"l",size:"S",cost:120,conversion:"BDLS158AM",comment:"Attachable to 'Lafiel AM' only"}
 {id:109,name:"時刻尖刃",main:{pwr:20,shl:50,rng:200,spd:570,itv:500,str:100},sub:{rng:150,spd:350,itv:1000,str:100},type:"l",size:"S",cost:80,slot:0,conversion:"BDLS158AM2",comment:"Attachable to 'Lafiel AM2' only"}
-{id:110,name:"Needle Star",main:{tec:100,pwr:17,shl:30,rng:260,spd:570,itv:300},sub:{str:100,pwr:34,rng:80,spd:50,itv:500},tunable:{mwp:1,pwp:1},type:"l",size:"S",cost:150,conversion:"BDLS168AM",comment:"Attachable to 'Mercurio AM2' only"}
+{id:110,name:"針刺之星",main:{str:100,pwr:20,shl:50,rng:200,spd:500,itv:500},sub:{str:100,pwr:32,rng:56,spd:68,itv:1500},tunable:{mwp:1,pwp:1},type:"l",size:"S",cost:130,conversion:"BDLS168AM2",comment:"Attachable to 'Mercurio AM2' only"}
 {id:111,name:"Revenant Sword",sub:{str:100,pwr:32,rng:70,spd:70,itv:500},type:"l",size:"M",cost:100,conversion:"AMM173",comment:"Attachable to 'Dark Revenant AM' only"}
 {id:112,name:"Trike Tackle",cost:30,sub:{str:100,pwr:23,rng:60,spd:75,itv:500},type:"s",size:"S",conversion:"Tricyclaser",comment:"Attachable to 'Tricyclaser' parts only"}
 {id:113,name:"Blitz Eisen",sub:{str:100,pwr:25,shl:20,rng:120,spd:220,itv:500},type:"l",size:"S",cost:60,slot:0,conversion:"BDLS132 BDLS167",comment:"Attachable to 'Hanna Fritz BD/BD2' only"}
@@ -434,4 +434,6 @@
 {id:169,name:"龍魔法劍",slot:0,size:"S",type:"c",cost:90,conversion:"BDCS80",comment:"Attachable to 'Pia AM2' only",sub:{pwr:18,shl:300,rng:350,spd:280,itv:1000},joint:{wp:1}}
 {id:170,name:"龍魔法劍@",slot:3,size:"M",cost:90,conversion:"WPCS169",main:{pwr:28,shl:400,rng:330,spd:440,itv:700}}
 {id:171,name:"拉斐爾・記憶體插槽",slot:3,size:"M",cost:0,conversion:"BDLS158AM BDLS158AM2",tunable:{pwp:0}}
+{id:172,name:"梅爾克利歐・記憶體插槽 ",slot:3,size:"M",cost:0,conversion:"BDLS168AM BDLS168AM2 BDLS168WP",tunable:{pwp:0}}
+{id:173,name:"克雷蒂・記憶體插槽 ",slot:3,size:"M",cost:0,conversion:"BDCS81AM",tunable:{pwp:0}}
 

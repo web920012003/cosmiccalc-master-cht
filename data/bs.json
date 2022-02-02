@@ -1,4 +1,8 @@
-﻿{group:"SS Size",prefixID:"SS",commonStat:{size:"SS"}}
+﻿{group:"USB",prefixID:"U",commonStat:{size:"M"}}
+{id:1,name:"梅爾克利歐・記憶體插槽",slot:3,size:"M",cost:0,conversion:"BDLS168AM BDLS168AM2 BDLS168WP",tunable:{pwp:0}}
+{id:2,name:"克雷蒂・記憶體插槽",slot:3,size:"M",cost:0,conversion:"BDCS81",tunable:{pwp:0}}
+
+{group:"SS Size",prefixID:"SS",commonStat:{size:"SS"}}
 //{id:1,name:"Elme S. BS",type:"s",cost:15,hp:10,tec:1,wlk:1,fly:1,tgh:-1}
 //{id:2,name:"A. Maid BS",type:"s",cost:20,hp:10,str:-1,wlk:2,fly:1}
 {id:3,name:"莉莉蓮αBS",type:"c",cost:40,hp:25,wlk:2,fly:2,tgh:1}
@@ -170,7 +174,7 @@
 //{id:135,name:"K Nana BS",joint:{bs:1},type:"c",cost:20,hp:10,str:-1,tec:2,fly:2}
 //{id:149,name:"K Nana BS@",main:{pwr:18,shl:360,rng:320,spd:320,itv:400,tec:100},sub:{pwr:40,shl:60,rng:360,spd:500,itv:500,tec:100},tunable:{mwp:1},type:"c",cost:160,hp:20,conversion:"BSS135",comment:"Attachable to 'K Nana BS' only"}
 {id:136,name:"莉潔爾BS",cost:35,hp:20,tec:2,fly:3,type:"c"}
-//{id:137,name:"Yunessa BS",type:"s",cost:40,hp:25,tec:-1,wlk:1,fly:3,tgh:2}
+{id:137,name:"尤妮莎BS",type:"s",cost:35,hp:20,tec:-1,wlk:1,fly:3,tgh:2}
 {id:140,name:"布魯梅BS",type:"s",cost:40,hp:25,tec:1,wlk:1,fly:3}
 //{id:141,name:"Celestial Robe BS",joint:{bs:1},cost:35,hp:15,wlk:2,fly:3}
 //{id:142,name:"Celestial Robe BS@",sub:{shl:15,rng:80,spd:200,itv:1200},cost:25,slot:0}
@@ -196,7 +200,7 @@
 //{id:172,name:"Magnell BS",type:"s",cost:35,hp:20,wlk:2,fly:3,tgh:-1}
 {id:173,name:"拉斐爾BS",type:"l",cost:35,hp:20,str:2,tec:-1,wlk:2,fly:2}
 {id:174,name:"菲莉雅BS",type:"c",size:"S",cost:35,hp:20,tec:1,wlk:2,fly:2}
-//{id:175,name:"Nebel BS",type:"a",cost:35,hp:25,str:1,wlk:1,fly:2,tgh:1}
+{id:175,name:"諾貝爾BS",type:"a",cost:35,hp:20,str:-1,tec:1,fly:4,tgh:1}
 {id:185,name:"A.米拉爾BS",sub:{shl:60,rng:100,spd:150,itv:1000},joint:{bs:1},type:"lc",size:"S",cost:65,hp:20,str:-1,tec:2,wlk:1,fly:3}
 {id:186,name:"A.米拉爾BS@",type:"lc",size:"S",tunable:{mwp:1},main:{tec:100,pwr:8,shl:500,rng:250,spd:360,itv:440},cost:100,conversion:"BSS185",comment:"Attachable to 'A. Miral BS' only"}
 //{id:187,name:"Maisie BS",type:"l",size:"S",cost:40,hp:20,str:2,tec:-1,fly:2,tgh:2}
@@ -237,8 +241,9 @@
 {id:1077,name:"A.米拉爾BS2@",type:"lc",size:"S",tunable:{mwp:1},main:{tec:100,pwr:7,shl:660,rng:275,spd:280,itv:900},sub:{pwr:13,shl:150,rng:225,spd:360,itv:1000},slot:0,cost:160,conversion:"BSS1076",comment:"Attachable to 'A. Miral BS' only"}
 {id:1078,name:"波恩BS",type:"l",cost:20,hp:10,str:1,fly:2,tgh:-1}
 {id:1079,name:"G・莉莫亞BS",type:"c",cost:35,hp:20,tec:2,fly:3}
-{id:1070,name:"希希娜BS",type:"l",cost:35,hp:20,str:1,tec:1,wlk:2,fly:2,tgh:-1}
-//last:1080
+{id:1080,name:"希希娜BS",type:"l",cost:35,hp:20,str:1,tec:1,wlk:2,fly:2,tgh:-1}
+{id:1081,name:"影子弗洛BS",type:"l",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
+//last:1081
 //
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"菲沙利巴BS",type:"l",cost:40,hp:25,wlk:1,fly:3,tgh:1}
@@ -281,7 +286,7 @@
 {id:56,name:"四足砲擊手BS",type:"c",cost:40,hp:25,str:2,tec:1,wlk:1,fly:2,tgh:-1}
 {id:68,name:"基爾梅斯BS",cost:35,hp:20,str:1,tec:1,wlk:-1,fly:3,tgh:1,type:"c"}
 {id:12,name:"史哥坦BS",type:"s",cost:35,hp:20,tec:2,fly:3}
-//{id:13,name:"Paraboroid BS",type:"s",cost:20,hp:10,str:1,tec:1,fly:1}
+{id:13,name:"電子巴拉波BS",type:"s",cost:35,hp:20,str:1,tec:1,fly:3}
 {id:14,name:"電子領主BS",type:"s",cost:40,hp:25,tec:2,fly:3}
 {id:26,name:"悠久西格瑪BS",type:"s",cost:40,hp:25,str:2,tec:1,fly:2}
 {id:66,name:"神聖主教BS",cost:40,hp:25,type:"s",str:1,fly:3,tgh:1}
@@ -338,7 +343,7 @@
 //{id:86,name:"Griest BS",type:"a",sub:{pwr:21,shl:50,rng:85,spd:60,itv:1700,tec:100},tunable:{pwp:1},cost:85,hp:20,tec:1,wlk:2,fly:3,tgh:-1}
 {id:109,name:"克利斯多BS2",sub:{pwr:15,shl:300,rng:275,spd:350,itv:1000},type:"a",cost:135,hp:20,str:-1,tec:1,wlk:1,fly:3,tgh:1}
 {id:87,name:"吉克BS",type:"c",cost:35,hp:20,tec:1,wlk:-1,fly:3,tgh:2}
-{id:88,name:"艾斯迪斯BS",type:"l",cost:95,hp:25,wlk:-1,tec:3,wlk:2,fly:1}
+{id:88,name:"艾斯迪斯BS",type:"l",cost:40,hp:25,tec:2,wlk:2,fly:2,tgh:-1}
 {id:89,name:"修羅V BS",type:"l",cost:40,hp:25,str:-1,tec:1,wlk:1,fly:2,tgh:2}
 //{id:94,name:"Vishra BS2",comment:"WTF IS WITH YOU CS?",type:"l",cost:45,hp:25,str:2,wlk:1,fly:2,tgh:2}
 {id:90,name:"萊涅奇襲者BS",type:"c",cost:35,hp:20,tec:2,wlk:-1,fly:3,tgh:1}
@@ -527,7 +532,7 @@
 {id:21,name:"巴爾薩迪歐BS",type:"s",cost:40,hp:25,wlk:2,fly:2,tgh:1}
 {id:22,name:"新葛藍斯BS",type:"l",cost:40,hp:25,str:1,wlk:1,fly:3}
 {id:23,name:"翔空威伊BS",type:"a",cost:40,hp:25,tec:2,wlk:-1,fly:3,tgh:1}
-//{id:85,name:"Gwyain Absol BS",type:"a",cost:45,hp:30,str:-1,wlk:1,fly:3,tgh:2}
+{id:85,name:"翔空威伊・亞姆BS",type:"a",cost:35,hp:20,fly:3,tgh:2}
 {id:24,name:"神鳥卡魯拉BS",type:"a",cost:40,hp:25,wlk:1,fly:2,tgh:2}
 //{id:75,name:"Garulabird BS2",type:"a",cost:45,hp:30,str:1,tec:1,wlk:1,fly:3}
 {id:25,name:"瘋狂小丑BS",type:"l",cost:35,hp:20,str:2,tec:-1,fly:3,tgh:1}

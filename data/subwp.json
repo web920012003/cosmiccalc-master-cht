@@ -317,5 +317,7 @@
 {id:226,name:"騎士長槍 ",comment:"(騎士加亞附贈武器)",sub:{str:100,pwr:28,rng:150,spd:80,itv:1000},size:"S",type:"l",cost:130}
 {id:227,name:"烈風鐮刀",sub:{str:100,pwr:26,rng:70,spd:85,itv:1000},size:"M",type:"la",cost:160}
 {id:228,name:"變幻軍刀",sub:{pwr:29,str:100,shl:200,rng:70,spd:85,itv:2000},auraStat:{sub:{str:100,pwr:32}},type:"a",size:"M",cost:80,comment:"AURA System"}
-{id:229,name:"傑克鐮刀",sub:{str:100,pwr:32,rng:31,spd:44,itv:1000},size:"M",cost:40	}
-//last:229
+{id:229,name:"傑克鐮刀",sub:{str:100,pwr:32,rng:31,spd:44,itv:1000},size:"M",cost:40}
+{id:230,name:"聖劍卡拉丁(STR)",sub:{pwr:31,str:100,rng:70,spd:85,itv:1600},auraStat:{sub:{str:100,pwr:34}},type:"a",size:"L",cost:120,comment:"AURA System"}
+{id:231,name:"聖劍卡拉丁(TEC)",sub:{pwr:31,tec:100,rng:70,spd:85,itv:1600},auraStat:{sub:{tec:100,pwr:34}},type:"a",size:"L",cost:120,comment:"AURA System"}
+//last:231
