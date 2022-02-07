@@ -162,7 +162,7 @@
 {id:46,name:"巴爾薩迪歐HD",cost:40,hp:25,tec:3,wlk:1,tgh:1}
 {id:47,name:"巴爾薩迪歐HD2",cost:40,hp:25,tec:1,wlk:1,fly:1,tgh:2}
 {id:53,name:"悠久西格瑪HD",cost:40,hp:25,wlk:1,fly:1,tgh:3}
-{id:54,name:"火藥庫邦格HD",cost:45,hp:25,str:2,tec:-1,fly:1,tgh:3}
+{id:54,name:"火藥庫邦格HD",cost:40,hp:25,str:2,tec:-1,fly:1,tgh:3}
 {id:265,name:"火藥庫邦格HD2",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2}
 {id:55,name:"火藥庫邦格HD3",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2}
 {id:277,name:"火藥庫邦格HD4",cost:40,hp:25,str:3,tec:-1,fly:1,tgh:2}
