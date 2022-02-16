@@ -127,7 +127,7 @@
 //{id:1106,name:"Vermelho LG2",cost:35,hp:20,str:1,tec:0,wlk:2,fly:0,tgh:2}
 {id:1107,name:"艾希LG",cost:45,hp:25,tec:2,wlk:3,fly:2,tgh:-1}
 {id:1108,name:"K・諾娜LG",cost:40,hp:20,wlk:2,fly:2,tgh:1,type:"c"}
-{id:1110,name:"波恩LG",cost:30,hp:20,str:2,wlk:2}
+{id:1110,name:"波恩LG",cost:40,hp:20,str:2,wlk:3}
 {id:1111,name:"G・莉莫亞LG",type:"c",cost:75,hp:25,tec:1,wlk:3,tgh:2,sub:{shl:30,spd:150,itv:500}}
 {id:1112,name:"加爾涅夫LG",sub:{pwr:38,shl:30,rng:70,spd:85,itv:2000,str:100},tunable:{pwp:1},type:"l",cost:95,hp:25,str:2,tec:-1,wlk:3,tgh:2}
 {id:1113,name:"希希娜LG",cost:45,hp:25,str:1,tec:1,wlk:3,tgh:1}
@@ -453,7 +453,7 @@
 //{id:14,name:"Crystas LG",sub:{tec:100,pwr:5,shl:360,rng:270,spd:290,itv:1500},type:"a",cost:60,hp:25,str:-1,tec:1,wlk:2,fly:2,tgh:1}
 //{id:100,name:"Jet Falcon LG",sub:{pwr:9,shl:40,rng:350,spd:320,itv:400},type:"a",cost:55,hp:15,str:1,tec:1,wlk:1,fly:1}
 {id:101,name:"巨盾巴隆LG",cost:50,hp:70,str:1,tec:-1,wlk:3,tgh:3}
-{id:102,name:"藍巴尼爾LG",type:"l",sub:{pwr:32,rng:90,spd:85,itv:1000,str:100},tunable:{pwp:1},joint:{wp:1},builtin:{bs:1},cost:160,hp:70,str:2,tec:-1,wlk:3,tgh:2}
+{id:102,name:"藍巴尼爾LG",type:"l",sub:{pwr:32,rng:90,spd:85,itv:1000,str:100},tunable:{pwp:1},joint:{wp:1},builtin:{bs:1},cost:160,hp:40,str:2,tec:-1,wlk:3,tgh:2}
 {id:103,name:"迪塔羅德斯LG",type:"c",cost:105,hp:70,str:-1,tec:2,wlk:2,tgh:3,sub:{pwr:8,shl:400,rng:350,spd:350,itv:1000}}
 //
 {group:"Joint",prefixID:"J",commonStat:{jointPart:1}}

@@ -90,10 +90,10 @@
 {id:34,name:"震盪槍",type:"a",size:"M",cost:90,main:{pwr:15,shl:240,rng:275,spd:480,itv:500}}
 {id:36,name:"Multi Curve Gun",type:"as",size:"M",cost:100,wlk:-1,main:{pwr:9,shl:460,rng:240,spd:270,itv:940}}
 {id:69,name:"Multi Curve Gun Mod",main:{pwr:7,shl:640,rng:240,spd:270,itv:940},type:"as",size:"M",cost:100,wlk:-1}
-{id:46,name:"十字射手",type:"las",size:"S",cost:60,main:{pwr:14,shl:430,rng:250,spd:440,itv:400}}
+{id:46,name:"十字射手",size:"S",cost:60,main:{pwr:14,shl:430,rng:250,spd:440,itv:400}}
 {id:47,name:"Cross Shooter Mod",type:"las",size:"S",cost:60,str:-1,tec:1,main:{pwr:10,shl:300,rng:285,spd:400,itv:400}}
 {id:73,name:"散彈射手",main:{pwr:10,shl:660,rng:250,spd:320,itv:800},type:"l",size:"M",cost:150}
-{id:48,name:"古代強弩",type:"la",size:"M",cost:140,main:{pwr:36,shl:230,rng:250,spd:400,itv:760}}
+{id:48,name:"古代強弩",type:"l",size:"M",cost:140,main:{pwr:36,shl:230,rng:250,spd:400,itv:760}}
 {id:273,name:"Power Shooter Mod",type:"a",size:"M",cost:140,str:-1,main:{pwr:15,shl:250,rng:350,spd:430,itv:640}}
 {id:49,name:"巨漢射擊者",size:"M",cost:180,main:{pwr:29,shl:310,rng:250,spd:400,itv:540},type:"la"}
 {id:68,name:"Ballista Shooter Mod",main:{pwr:23,shl:350,rng:250,spd:380,itv:540},type:"la",size:"M",cost:180,str:-1,wlk:-1}

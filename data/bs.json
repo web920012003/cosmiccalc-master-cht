@@ -239,7 +239,7 @@
 {id:1075,name:"K・諾娜BS",type:"c",cost:35,hp:20,str:-1,tec:3,fly:3,joint:{wp:1}}
 {id:1076,name:"A.米拉爾BS2",joint:{bs:1},type:"lc",size:"S",cost:35,hp:20,str:-1,tec:3,fly:2,tgh:1}
 {id:1077,name:"A.米拉爾BS2@",type:"lc",size:"S",tunable:{mwp:1},main:{tec:100,pwr:7,shl:660,rng:275,spd:280,itv:900},sub:{pwr:13,shl:150,rng:225,spd:360,itv:1000},slot:0,cost:160,conversion:"BSS1076",comment:"Attachable to 'A. Miral BS' only"}
-{id:1078,name:"波恩BS",type:"l",cost:20,hp:10,str:1,fly:2,tgh:-1}
+{id:1078,name:"波恩BS",type:"l",cost:35,hp:20,str:2,wlk:1,fly:3,tgh:-1}
 {id:1079,name:"G・莉莫亞BS",type:"c",cost:35,hp:20,tec:2,fly:3}
 {id:1080,name:"希希娜BS",type:"l",cost:35,hp:20,str:1,tec:1,wlk:2,fly:2,tgh:-1}
 {id:1081,name:"影子弗洛BS",type:"l",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
@@ -500,7 +500,8 @@
 {id:2159,name:"祈願板BS",cost:35,hp:20,wlk:1,fly:3,tgh:1,sub:{itv:1000}}
 {id:2160,name:"巴波BS",cost:135,hp:20,wlk:1,fly:3,tgh:1,sub:{shl:20,itv:13000},type:"s"}
 {id:2161,name:"斯奇隆BS",type:"c",cost:95,hp:20,tec:2,wlk:1,fly:2,main:{pwr:15,shl:250,rng:330,spd:290,itv:1000},tunable:{mwp:1}}
-//last:2161
+{id:2162,name:"鏡面金屬推進器BS",cost:35,hp:20,tec:2,wlk:-1,fly:4,joint:{wp:1}}
+//last:2162
 //
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"鐵血騎士BS",type:"l",cost:40,hp:25,tec:1,wlk:1,fly:3}

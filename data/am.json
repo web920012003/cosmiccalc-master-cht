@@ -165,7 +165,7 @@
 //{id:160,name:"Chloe AM8",sub:{pwr:1,shl:10,rng:250,spd:500,itv:500},type:"c",cost:35,hp:20,tec:2,wlk:1,fly:1,conversion:"BDCS49 BDCS51 BDCS64",comment:"Attachable to 'Chloe BD/BD2/BD4' only"}
 {id:129,name:"艾亞莉迪AM",cost:35,hp:20,tec:2,fly:2,tgh:1}
 {id:130,name:"Wonders AM",cost:35,hp:20,str:1,tec:1,wlk:2,fly:-1,tgh:2}
-{id:1005,name:"Wonders AM2",main:{pwr:7,shl:300,rng:250,spd:250,itv:300},tunable:{mwp:1},type:"s",cost:85,hp:20,tec:2,wlk:1,tgh:2}
+{id:1005,name:"Wonders AM2",main:{pwr:7,shl:300,rng:275,spd:250,itv:300},tunable:{mwp:1},type:"s",cost:85,hp:20,tec:2,wlk:1,tgh:2}
 //{id:185,name:"Wanders AM3",main:{pwr:8,shl:250,rng:300,spd:210,itv:600},tunable:{mwp:1},type:"s",cost:65,hp:10,str:1,tec:1}
 //{id:134,name:"Lilu AM",sub:{str:100,pwr:32,shl:3,rng:70,spd:80,itv:500},tunable:{pwp:1},type:"l",cost:100,hp:15,str:3,tgh:1}
 //{id:135,name:"Lilu AM2",joint:{wp:2},type:"l",cost:30,hp:15,str:1,tec:2,wlk:2,fly:-1,comment:"Second weapon slot is for conversion part"}
@@ -232,7 +232,7 @@
 //{id:1038,name:"Azoth Module",conversion:"AMS1009 AMS1011 AMS1013",type:"l",cost:105,joint:{wp:0},main:{str:100,pwr:11,shl:300,rng:225,spd:420,itv:400},sub:{str:100,pwr:0,shl:15,rng:10,spd:10,itv:500}}
 {id:1040,name:"K・諾娜AM",cost:35,hp:20,tec:2,wlk:2,fly:1}
 {id:1041,name:"Wonders AM4",main:{pwr:13,shl:180,rng:225,spd:440,itv:320},tunable:{mwp:1},type:"ls",cost:35,hp:20,tec:3,wlk:1,fly:2,tgh:-1}
-{id:1042,name:"波恩AM",cost:25,hp:15,tec:2,tgh:1}
+{id:1042,name:"波恩AM",cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
 {id:1043,name:"希希娜AM",type:"l",cost:155,hp:20,str:-1,tec:3,wlk:2,tgh:1,main:{pwr:19,shl:630,rng:250,spd:440,itv:140},tunable:{mwp:1},joint:{wp:0}}
 {id:1044,name:"希希娜AM2",type:"l",cost:145,hp:20,str:3,tec:-1,wlk:2,tgh:1,main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:200},sub:{str:100,pwr:30,shl:50,rng:90,spd:140,itv:1000},joint:{wp:0},tunable:{mwp:1,pwp:1}}
 //last:1044
@@ -357,7 +357,7 @@
 //{id:106,name:"Persenachia AM2",cost:45,hp:20,tec:3,wlk:-1,fly:1,tgh:2}
 //{id:150,name:"Persenachia AM4",cost:35,hp:20,str:2,tec:-1,fly:2,tgh:2}
 //{id:182,name:"Persenachia AM6",cost:35,hp:20,str:2,tec:3,wlk:-1,fly:1}
-{id:107,name:"艾斯迪斯AM",main:{tec:100,pwr:20,shl:220,rng:225,spd:440,itv:440},type:"l",cost:140,hp:25,tec:3,fly:-1,tgh:3,tunable:{mwp:1}}
+{id:107,name:"艾斯迪斯AM",main:{tec:100,pwr:22,shl:400,rng:225,spd:440,itv:440},type:"l",cost:140,hp:25,tec:3,fly:-1,tgh:3,tunable:{mwp:1}}
 {id:108,name:"艾斯迪斯AM2",sub:{tec:100,pwr:12,shl:270,rng:250,spd:400,itv:1000},type:"l",cost:95,hp:25,str:-1,tec:3,wlk:2,fly:1}
 {id:183,name:"艾斯迪斯AM3",main:{tec:100,pwr:13,shl:800,rng:225,spd:440,itv:200},tunable:{mwp:1},type:"l",cost:195,hp:20,str:-1,tec:3,wlk:2,fly:1}
 //{id:184,name:"Estes RAM",sub:{tec:100,pwr:15,shl:10,rng:100,spd:150,itv:500},type:"l",cost:55,hp:20,str:1,tec:3,fly:-1,tgh:2,slot:0,conversion:"BDLM22 BDLM55",comment:"Attachable to 'Estes BD/BD2' only"}
@@ -505,7 +505,7 @@
 {id:59,name:"修汀AM3",cost:40,hp:25,str:2,wlk:1,fly:1,tgh:1}
 {id:13,name:"巴爾薩迪歐AM",cost:40,hp:25,str:2,wlk:1,tgh:2}
 {id:26,name:"閃焰巴洛AM",cost:40,hp:25,str:2,tec:2,wlk:1,fly:1,tgh:-1}
-{id:27,name:"閃焰巴洛AM2",type:"l",cost:140,hp:25,str:3,tec:-1,wlk:1,tgh:2,sub:{str:100,pwr:32,rng:70,spd:85,itv:600},tunable:{pwp:1},joint:{wp:0}}
+{id:27,name:"閃焰巴洛AM2",type:"l",cost:180,hp:25,str:3,tec:-1,wlk:1,tgh:2,sub:{str:100,pwr:32,rng:70,spd:85,itv:600},tunable:{pwp:1},joint:{wp:0}}
 {id:28,name:"閃焰巴洛AM3",type:"l",cost:170,hp:25,str:-1,tec:3,wlk:1,fly:1,tgh:1,sub:{tec:100,pwr:32,rng:150,spd:10,itv:1000},tunable:{pwp:1},joint:{wp:0}}
 {id:44,name:"閃焰巴洛AM4",type:"l",cost:210,hp:25,str:3,tec:-1,tgh:3,main:{pwr:23,shl:250,rng:200,spd:400,itv:700,str:100},sub:{str:100,pwr:30,rng:120,spd:250,itv:2000},tunable:{mwp:1,pwp:1},joint:{wp:0}}
 {id:29,name:"泰達利歐AM",type:"l",cost:40,hp:25,str:3,tec:-1,wlk:1,tgh:2}

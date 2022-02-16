@@ -53,7 +53,7 @@
 //{id:107,name:"Medicarest HD2",cost:40,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
 {id:108,name:"艾希HD",cost:35,hp:20,str:-1,tec:3,wlk:1,fly:1,tgh:1}
 {id:109,name:"Wonders HD4",sub:{shl:5,itv:1000},type:"s",cost:135,hp:20,str:1,tec:2,wlk:1,fly:2,tgh:-1}
-{id:110,name:"波恩HD",cost:25,hp:15,tec:1,tgh:2}
+{id:110,name:"波恩HD",cost:35,hp:20,tec:2,wlk:1,tgh:2}
 {id:111,name:"惡劣蝙蝠HD",cost:30,hp:15,str:1,tec:1,wlk:1,fly:1}
 {id:112,name:"G・莉莫亞HD",cost:35,hp:20,str:-1,tec:3,wlk:2,tgh:1}
 {id:113,name:"希希娜HD",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:1,tgh:2}

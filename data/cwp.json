@@ -73,8 +73,8 @@
 {id:72,name:"Snow Flower",main:{pwr:[28,30,32],shl:[200,250,300],rng:300,spd:[300,315,330],itv:800},sub:{shl:1,rng:60,spd:60,itv:2000},type:"l",size:"S",cost:70,slot:0,conversion:"BDLS91 BDLS118 BDLS126",comment:"Attachable to 'Ion BD6/BD7/BD8/BD8#2/BD9/BD10' only"}
 {id:73,name:"Aqua Pot",main:{tec:100,pwr:1,shl:100,rng:300,spd:220,itv:1100},tunable:{mwp:1},type:"l",size:"S",cost:30,conversion:"BDLS126AM9",comment:"Attachable to 'Ion AM9' only"}
 {id:74,name:"Blue Wing@",main:{tec:100,pwr:6,shl:60,rng:300,spd:280,itv:300},sub:{str:100,pwr:20,shl:10,itv:1000},tunable:{mwp:1},conversion:"BSS1052 BSS126 BSS1053",comment:"Attachable to 'Kaltos Wing'/'Blue Wing' only",cost:90}
-{id:75,name:"光束射擊彈匣",main:{pwr:18,shl:420,rng:275,spd:440,itv:300},type:"a",size:"S",cost:70,tunable:{mwp:1},conversion:"WPCS55",comment:"Attachable to 'Aurora Cannon' only"}
-{id:76,name:"自動充能裝置",main:{pwr:28,shl:60,rng:300,spd:480,itv:500},type:"a",size:"S",cost:30,slot:0,conversion:"WPCS55",comment:"Attachable to 'Aurora Cannon' only"}
+{id:75,name:"光束射擊彈匣",main:{pwr:18,shl:510,rng:275,spd:440,itv:300},type:"a",size:"S",cost:70,tunable:{mwp:1},conversion:"WPCS55",comment:"Attachable to 'Aurora Cannon' only"}
+{id:76,name:"自動充能裝置",main:{pwr:32,shl:100,rng:300,spd:480,itv:500},type:"a",size:"S",cost:30,slot:0,conversion:"WPCS55",comment:"Attachable to 'Aurora Cannon' only"}
 {id:77,name:"結晶光束",main:{pwr:11,shl:500,rng:275,spd:440,itv:700},tunable:{mwp:1},type:"a",size:"S",cost:70,conversion:"BDAS77LG BDAS106LG",comment:"Attachable to 'Fractulus Girl LG/LG2' only"}
 {id:78,name:"結晶之牆",main:{pwr:2,shl:1740,rng:275,spd:340,itv:200},tunable:{mwp:1},type:"a",size:"M",cost:90,slot:0,conversion:"BDAS77 BDAS106",comment:"Attachable to 'Fractulus Girl BD/BD2/BD3/BD4' only"}
 {id:79,name:"巴力火箭砲",tunable:{mwp:1},cost:90,type:"c",size:"S",main:{pwr:19,shl:420,rng:330,spd:400,itv:400},conversion:"WPCS56",comment:"Attachable to 'Greed Weapon/Greed Weapon II' only"}
@@ -197,7 +197,7 @@
 {id:196,name:"Gathima Missile",main:{tec:100,pwr:24,shl:300,rng:350,spd:220,itv:300},type:"c",size:"S",cost:100,conversion:"BDCS92AM BDCS1068AM",comment:"Attachable to 'Gathima Girl AM' only"}
 {id:197,name:"Gathima Breaker",main:{tec:100,pwr:30,shl:120,rng:350,spd:500,itv:500},type:"c",size:"S",cost:80,conversion:"BDCS92AM BDCS1068AM",comment:"Attachable to 'Gathima Girl AM' only"}
 {id:198,name:"Announcer's Mic",main:{pwr:30,shl:50,rng:250,spd:350,itv:800},tunable:{mwp:1},conversion:"BDSS128AM2",comment:"Attachable to 'Anna AM2' only",cost:40,type:"s",size:"S"}
-{id:199,name:"企企雙發槍",conversion:"BDCS1060AM AMS175",cost:70,joint:{wp:1},type:"c",size:"M",main:{pwr:8,shl:700,rng:330,spd:220,itv:360},tunable:{mwp:1}}
+{id:199,name:"企企雙發槍",conversion:"BDCS1060AM AMS175",cost:70,joint:{wp:1},type:"c",size:"M",main:{pwr:8,shl:980,rng:330,spd:220,itv:360},tunable:{mwp:1}}
 {id:200,name:"Pepen Twin Gun II@",conversion:"WPCM199",cost:50,type:"c",size:"M",main:{pwr:24,shl:225,rng:330,spd:320,itv:340},tunable:{mwp:1}}
 {id:201,name:"企企雙槍手",conversion:"BDCS1060 BDCS70",cost:100,type:"c",size:"M",main:{pwr:9,shl:600,rng:330,spd:350,itv:500},tunable:{mwp:1}}
 {id:202,name:"Maid Pepen Girl BD@",conversion:"BDCS1060",type:"c",size:"M",cost:20,sub:{shl:14,rng:300,itv:1000},slot:0}
@@ -259,7 +259,8 @@
 {id:258,name:"小血色十字",main:{tec:100,pwr:3,shl:180,rng:200,spd:360,itv:300},type:"s",size:"SS",cost:40,slot:3,conversion:"BDSS165"}
 {id:259,name:"Storen・Gewehr",tunable:{mwp:1},type:"l",size:"S",cost:70,conversion:"BDLS140AM BDLS140AM2",comment:"Attachable to 'Nora Schneid BD' only",main:{pwr:17,shl:540,rng:250,spd:400,itv:340}}
 {id:260,name:"小嘟",type:"c",size:"S",slot:0,joint:{wp:1},conversion:"BDCS80"}
-{id:261,name:"黏黏火箭",type:"c",size:"S",main:{pwr:24,shl:520,rng:330,spd:400,itv:500,tec:100},conversion:"BDCS22AM",cost:160}
+{id:261,name:"黏黏火箭",type:"c",size:"S",main:{pwr:23,shl:520,rng:330,spd:400,itv:500,tec:100},conversion:"BDCS22AM",cost:160}
+{id:262,name:"鏡面金屬推進器BS@",type:"a",size:"M",main:{pwr:7,shl:500,rng:275,spd:220,itv:800,tec:100},sub:{tec:100,pwr:25,rng:100,spd:200,itv:1000},slot:0,conversion:"BSM2162",cost:80}
 
 
 
@@ -313,7 +314,7 @@
 {id:47,name:"靈葬雙槳",sub:{str:100,pwr:32,rng:77,spd:94,itv:500},tunable:{pwp:1},cost:100,type:"l",size:"S",conversion:"BDLS124AM",comment:"Attachable to 'Kaede AM' only"}
 {id:48,name:"Blue Tail",sub:{str:100,pwr:32,shl:15,rng:200,spd:350,itv:1000},joint:{wp:1},jointPart:1,cost:30,size:"S",type:"a",conversion:"BDAS60LG BDAS73LG BDAS90LG",comment:"Attachable to 'Litia LG/LG2/LG3' only"}
 {id:49,name:"Blue Sarissa",sub:{str:100,pwr:32,rng:90,spd:90,itv:500},tunable:{pwp:1},type:"a",size:"S",cost:100,conversion:"BDAS60AM BDAS72AM BDAS90AM",comment:"Attachable to 'Litia AM2' only"}
-{id:50,name:"戰牛斧",main:{pwr:13,shl:320,rng:330,spd:330,itv:340,tec:100},sub:{tec:100,pwr:30,shl:120,rng:350,spd:290,itv:1000},type:"c",size:"M",cost:225,conversion:"BDCS56AM BDCS69AM BDCS88AM",comment:"Attachable to 'Miruru Miu AM/AM3/AM4' only",tunable:{mwp:1}}
+{id:50,name:"戰牛斧",main:{pwr:14,shl:600,rng:350,spd:330,itv:340,tec:100},sub:{tec:100,pwr:30,shl:120,rng:350,spd:290,itv:1000},type:"c",size:"M",cost:225,conversion:"BDCS56AM BDCS69AM BDCS88AM",comment:"Attachable to 'Miruru Miu AM/AM3/AM4' only",tunable:{mwp:1}}
 {id:51,name:"Labyrinthaxe LJ",main:{pwr:23,shl:100,rng:340,spd:210,itv:400,tec:100},sub:{tec:100,pwr:20,shl:200,rng:340,spd:210,itv:1000},joint:{wp:1},type:"c",size:"S",cost:180,conversion:"BDCS56AM BDCS69AM BDCS88AM",comment:"Attachable to 'Miruru Miu AM/AM3/AM4' only",slot:0}
 {id:52,name:"Wing Attachment ALPHA",size:"M",cost:40,slot:0,sub:{shl:7,rng:100,spd:150,itv:2000},conversion:"BSM132",comment:"Attachable to 'Multiwing BS' only"}
 {id:53,name:"Wing Attachment BETA",sub:{shl:12,spd:150,itv:1000},size:"M",slot:0,conversion:"BSM132",comment:"Attachable to 'Multiwing BS' only",cost:40}
