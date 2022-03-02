@@ -57,7 +57,8 @@
 {id:111,name:"惡劣蝙蝠HD",cost:30,hp:15,str:1,tec:1,wlk:1,fly:1}
 {id:112,name:"G・莉莫亞HD",cost:35,hp:20,str:-1,tec:3,wlk:2,tgh:1}
 {id:113,name:"希希娜HD",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:1,tgh:2}
-//last:113
+{id:114,name:"皮耶塔HD",cost:35,hp:20,str:-1,tec:3,fly:1,tgh:2}
+//last:114
 //
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"鐵血騎士HD",cost:40,hp:25,str:1,wlk:2,tgh:2}
@@ -310,7 +311,7 @@
 {id:220,name:"青狼萊耶HD",cost:40,hp:20,str:1,tec:2,wlk:1,fly:2,tgh:-1}
 //{id:221,name:"Combat Freed HD",cost:40,hp:35,tec:3,wlk:-1,fly:1,tgh:2}
 {id:325,name:"戰鬥佛利德HD2",main:{pwr:10,shl:100,rng:200,spd:570,itv:500},tunable:{mwp:1},cost:65,hp:20,str:2,tec:-1,wlk:2,fly:1,tgh:1}
-//{id:222,name:"Protos HD",cost:35,hp:25,tec:3,tgh:1}
+{id:222,name:"遠古HD",cost:35,hp:20,tec:3,wlk:1,tgh:1}
 //{id:223,name:"Pelena HD",sub:{shl:10,spd:63,itv:30000,rng:43},cost:75,hp:20,tec:2,wlk:1,fly:1,type:"s"}
 {id:224,name:"波魯卡尼克斯	HD",main:{pwr:5,shl:800,rng:110,spd:480,itv:100},tunable:{mwp:1},cost:120,hp:20,tec:2,fly:2,tgh:1}
 {id:226,name:"利刃戰鍬瑞斯HD",main:{pwr:6,shl:900,rng:275,spd:350,itv:1000},type:"a",cost:180,hp:25,str:-1,tec:3,fly:1,tgh:2,tunable:{mwp:1}}
@@ -320,7 +321,7 @@
 //{id:230,name:"Sledge Heim HD",main:{pwr:5,shl:30,rng:80,spd:350,itv:2000},tunable:{mwp:1},type:"cs",cost:60,hp:25,str:-1,tec:3,fly:1,tgh:1,wlk:1}
 {id:231,name:"沃塔斯HD2",cost:40,hp:25,tec:3,wlk:1,fly:-1,tgh:2}
 {id:232,name:"惡炮拜茲HD",cost:40,hp:20,str:1,tec:2,tgh:2}
-//{id:1264,name:"Predatobytez HD2",cost:30,hp:15,str:1,tec:3,fly:-1,tgh:2}
+{id:1264,name:"惡炮拜茲HD2",cost:35,hp:20,tec:3,wlk:1,fly:-1,tgh:2}
 //{id:235,name:"Dieranarcam HD",cost:45,hp:25,str:2,tec:1,fly:-1,tgh:3}
 {id:236,name:"舞龍者HD",cost:40,hp:25,str:2,fly:1,tgh:2}
 {id:260,name:"舞龍者HD2",cost:40,hp:25,str:2,tec:-1,wlk:2,fly:1,tgh:1}
@@ -372,7 +373,7 @@
 {id:287,name:"蘭姆潛行者HD",cost:40,hp:20,str:1,tec:2,wlk:-1,fly:1,tgh:2}
 {id:288,name:"瓦利安特HD",cost:35,hp:20,str:1,tec:2,fly:2}
 {id:290,name:"螺旋槳恩特HD",cost:35,hp:20,tec:1,wlk:-1,fly:2,tgh:3}
-//{id:1278,name:"Recipro HD2",main:{pwr:3,shl:30,rng:110,spd:570,itv:200},cost:50,hp:15,wlk:1,fly:1,tgh:2}
+{id:1278,name:"螺旋槳恩特HD2",main:{pwr:5,shl:720,rng:200,spd:400,itv:140},cost:115,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
 //{id:291,name:"Aeolius HD",cost:30,hp:15,str:1,tec:1,fly:2}
 {id:292,name:"猛毒羅索HD",cost:40,hp:25,str:-1,tec:1,wlk:2,fly:1,tgh:2,size:"M"}
 //{id:293,name:"Windlynx HD",cost:45,hp:25,str:2,tec:-1,fly:2,tgh:3}
@@ -391,7 +392,7 @@
 {id:309,name:"黑影吉涅希斯HD",cost:40,hp:25,tec:3,wlk:1,fly:1}
 {id:310,name:"零式騎士HD",cost:40,hp:25,str:-1,tec:1,wlk:1,fly:3,tgh:1}
 //{id:312,name:"Mirage Raid HD",cost:35,hp:20,str:1,wlk:-1,fly:2,tgh:3}
-//{id:314,name:"Spada HD",cost:35,hp:25,str:3,tec:-1,wlk:2,tgh:1}
+{id:314,name:"斯巴達HD",cost:35,hp:20,str:3,tec:-1,wlk:2,tgh:1}
 //{id:315,name:"Crys Horn HD",sub:{pwr:10,shl:10,rng:70,spd:120,itv:500,str:100},tunable:{pwp:1},type:"l",cost:65,hp:20,tec:1,wlk:1,tgh:2}
 {id:318,name:"布拉迪斯塔HD",cost:40,hp:25,tec:2,wlk:1,fly:1,tgh:1}
 {id:1284,name:"布拉迪斯塔HD2",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
@@ -404,7 +405,7 @@
 {id:327,name:"威沙梅爾HD",cost:35,hp:20,tec:2,wlk:2,fly:2,tgh:-1}
 {id:328,name:"鱷齒龜甲迪斯HD",cost:40,hp:20,str:-1,tec:2,wlk:1,fly:1,tgh:2}
 {id:329,name:"阿克西翁HD",cost:40,hp:25,tec:1,wlk:1,tgh:3}
-//{id:330,name:"Brisgandr Pawn HD",cost:35,hp:15,str:2,tec:1,wlk:1,tgh:1}
+{id:330,name:"布里斯坎托・士兵HD",cost:40,hp:25,str:1,tec:2,wlk:2,fly:1,tgh:-1}
 //{id:331,name:"Brisgandr Pawn HD2",cost:35,hp:15,str:1,tec:2,wlk:1,tgh:1}
 //{id:1262,name:"Magnell HD",cost:40,hp:20,str:2,tec:2,wlk:2,fly:-1}
 {id:1265,name:"迪卡洛斯‧NOVAHD",cost:35,hp:20,str:-1,tec:3,wlk:2,fly:1}
@@ -455,7 +456,9 @@
 {id:1320,name:"斯奇隆HD",type:"c",cost:35,hp:20,str:1,wlk:1,fly:1,tgh:2}
 {id:1321,name:"猛毒羅索HD2",cost:40,hp:25,str:-1,tec:2,wlk:1,fly:1,tgh:2,size:"M"}
 {id:1322,name:"影子弗洛HD",cost:35,hp:20,str:2,wlk:1,fly:1,tgh:1}
-//last:1322
+{id:1323,name:"S・亞克迪那G HD",cost:35,hp:20,str:2,wlk:2,fly:-1,tgh:2}
+{id:1324,name:"薩特HD3",cost:40,hp:25,str:2,wlk:1,tgh:2}
+//last:1324
 //
 //
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}

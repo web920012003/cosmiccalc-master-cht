@@ -486,3 +486,5 @@
 {id:1084,name:"雪人彈跳槍",size:"M",cost:150,main:{pwr:15,shl:330,rng:275,spd:100,itv:600},type:"a"}
 {id:1085,name:"白雪發射器",size:"M",cost:150,main:{pwr:7,shl:800,rng:120,spd:480,itv:100},type:"l"}
 {id:1086,name:"BXXXXXX(馬赫騎士・ACE附帶武器)",size:"M",cost:160,main:{pwr:10,shl:760,rng:275,spd:480,itv:800},type:"a"}
+{id:1087,name:"極點光束槍",size:"S",cost:110,main:{pwr:15,shl:360,rng:275,spd:320,itv:500},type:"a"}
+{id:1088,name:"攻城射手",size:"M",cost:110,main:{pwr:21,shl:400,rng:250,spd:400,itv:500},type:"l"}

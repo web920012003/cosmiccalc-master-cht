@@ -131,7 +131,8 @@
 {id:1111,name:"G・莉莫亞LG",type:"c",cost:75,hp:25,tec:1,wlk:3,tgh:2,sub:{shl:30,spd:150,itv:500}}
 {id:1112,name:"加爾涅夫LG",sub:{pwr:38,shl:30,rng:70,spd:85,itv:2000,str:100},tunable:{pwp:1},type:"l",cost:95,hp:25,str:2,tec:-1,wlk:3,tgh:2}
 {id:1113,name:"希希娜LG",cost:45,hp:25,str:1,tec:1,wlk:3,tgh:1}
-//last:1113
+{id:1114,name:"皮耶塔LG",cost:90,hp:20,tec:1,wlk:2,fly:2,sub:{shl:40,rng:100,spd:160,itv:1000}}
+//last:1114
 //
 //
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
@@ -250,13 +251,13 @@
 {id:108,name:"瓦利安特LG",sub:{str:100,shl:50,spd:150,itv:1000},type:"a",cost:65,hp:25,tec:2,wlk:3,fly:2,tgh:-1}
 {id:109,name:"驅力者LG",cost:45,hp:25,str:1,tec:-1,wlk:3,fly:2}
 //{id:110,name:"Windlynx LG",cost:45,hp:25,tec:2,wlk:1,fly:3,tgh:-1}
-//{id:111,name:"Gotrun LG2",type:"l",cost:45,hp:30,str:2,tec:-1,wlk:3,fly:1}
+{id:111,name:"剛特拉LG2",type:"l",cost:45,hp:25,str:1,tec:-1,wlk:3,fly:2,tgh:1}
 //{id:112,name:"Growldian LG",cost:15,hp:15,wlk:1,fly:2}
 {id:113,name:"守護者LG2",cost:45,hp:25,tec:2,wlk:3,tgh:1}
 // {id:115,name:"シャドウキネシスLG",cost:50,hp:25,str:2,tec:1,wlk:1,fly:-1,size:"M",tgh:2,type:"lacs"}
 {id:116,name:"零式騎士LG",cost:45,hp:25,str:1,wlk:2,fly:2,tgh:1}
 //{id:117,name:"Mirage Raid LG",cost:40,hp:20,str:3,wlk:2}
-//{id:118,name:"Spada LG",type:"l",cost:40,hp:20,str:3,tec:-1,wlk:2,tgh:1}
+{id:118,name:"斯巴達LG",type:"l",cost:45,hp:25,str:3,tec:-1,wlk:3,tgh:1}
 //{id:119,name:"Crys Horn LG",type:"l",sub:{pwr:4,shl:60,rng:250,spd:280,itv:2000},cost:65,hp:20,str:1,tec:1,wlk:2}
 {id:1106,name:"威沙梅爾LG",cost:45,hp:25,tec:1,wlk:2,fly:2,tgh:1}
 {id:120,name:"布拉迪斯塔LG",sub:{shl:25,rng:100,spd:200,itv:600},type:"lc",cost:70,hp:25,tec:2,wlk:2,fly:1,tgh:1}
@@ -287,7 +288,9 @@
 {id:1125,name:"巴波LG",cost:45,hp:25,str:-1,tec:2,wlk:3,tgh:2}
 {id:1126,name:"斯奇隆LG",type:"c",cost:45,hp:25,str:1,tec:2,wlk:2,tgh:1,joint:{lg:1},fixedParts:{lg:{name:"斯奇隆LG@",cost:90,slot:0,sub:{pwr:30,shl:5,rng:10,itv:1000}}}}
 {id:1127,name:"影子弗洛LG",cost:45,hp:25,tec:2,wlk:2,tgh:2}
-//last:1126
+{id:1128,name:"S・亞克迪那G LG",cost:45,hp:25,str:-1,tec:1,wlk:3,fly:2,tgh:1}
+{id:1129,name:"布里斯坎托・士兵LG",cost:45,hp:25,str:3,wlk:3,fly:-1,tgh:1}
+//last:1129
 //
 //
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
@@ -375,7 +378,7 @@
 //{id:73,name:"Trizelion LG",auraStat:{hp:75,str:1,wlk:5,tgh:1},type:"l",cost:45,hp:35,str:1,wlk:5,tgh:1}
 {id:74,name:"青狼萊耶LG",cost:45,hp:45,str:1,tec:-1,wlk:3,fly:1,tgh:2}
 {id:75,name:"戰鬥佛利德LG",type:"l",builtin:{bs:1},cost:45,hp:35,str:2,wlk:3,fly:-1,tgh:2}
-//{id:76,name:"Protos LG",cost:45,hp:25,tec:2,wlk:-1,fly:2,tgh:3}
+{id:76,name:"遠古LG",cost:45,hp:50,str:-1,tec:1,wlk:2,fly:1,tgh:3}
 //{id:95,name:"Protos LG2",builtin:{bs:1},type:"c",cost:45,hp:25,tec:2,wlk:-1,fly:3,tgh:2}
 {id:77,name:"薩特LG",cost:45,hp:50,wlk:4,fly:-1,tgh:3,type:"l"}
 {id:78,name:"卡塔羅斯LG",sub:{shl:30,itv:1000},type:"a",cost:75,hp:70,wlk:2,fly:2,tgh:2}
@@ -481,4 +484,5 @@
 //{id:22,name:"Swim Ring LGJ",size:"M",cost:5,hp:5,wlk:1,slot:1}
 {id:23,name:"結晶LGJ",size:"M",slot:1}
 {id:24,name:"希希娜LGJ",size:"S",slot:1}
+{id:25,name:"皮耶塔LGJ",size:"S",slot:1}
 //

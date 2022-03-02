@@ -44,8 +44,8 @@
 {id:43,name:"Shinuchi Ranouraikiri",main:{shl:30,spd:10,itv:1000},sub:{pwr:27,shl:20,rng:120,spd:220,itv:500,str:100},type:"l",size:"S",cost:70,slot:0,conversion:"BDLS112AM2",comment:"Attachable to 'Bikini Ouka AM2' only"}
 {id:44,name:"騎士加農",main:{pwr:18,shl:400,rng:330,spd:290,itv:600},joint:{wp:1},fixedParts:{wp:{name:"騎士加農",main:{pwr:40,shl:30,rng:330,spd:400,itv:500},cost:50,slot:0}},type:"c",size:"S",cost:110,conversion:"BDCS46AM BDCS83AM5",comment:"Attachable to 'Natascha AM' only"}
 {id:45,name:"騎士加農II",main:{pwr:10,shl:730,rng:330,spd:320,itv:300},joint:{wp:1},fixedParts:{wp:[{name:"騎士加農II",main:{pwr:32,shl:40,rng:330,spd:400,itv:1000},slot:0,cost:50}]},tunable:{mwp:1},cost:110,type:"c",size:"S",conversion:"BDCS46AM BDCS83AM5",comment:"Attachable to 'Natascha AM/AM3/AM5' only"}
-{id:46,name:"合金手杖",main:{pwr:9,shl:540,rng:275,spd:440,itv:300,tec:100},sub:{pwr:26,shl:40,spd:150,itv:1000,tec:100},tunable:{mwp:1},type:"a",size:"M",cost:100,conversion:"BDAS63AM BDAS81AM BDAS103AM BDAS1090AM",comment:"Attachable to 'Malca AM/AM3/AM5' only"}
-{id:47,name:"Gale Rod",main:{pwr:22,shl:250,rng:300,spd:370,itv:600,tec:100},sub:{pwr:10,shl:5,spd:130,itv:1000,tec:100},tunable:{mwp:1},type:"a",size:"M",cost:120,conversion:"BDAS63AM BDAS81AM BDAS103AM BDAS1090AM",comment:"Attachable to 'Malca AM/AM3/AM5' only"}
+{id:46,name:"合金手杖",main:{pwr:9,shl:540,rng:275,spd:440,itv:300,tec:100},sub:{pwr:26,shl:60,spd:150,itv:1000,tec:100},tunable:{mwp:1},type:"a",size:"M",cost:100,conversion:"BDAS63AM BDAS81AM BDAS103AM BDAS1090AM",comment:"Attachable to 'Malca AM/AM3/AM5' only"}
+{id:47,name:"風馳手杖",main:{pwr:24,shl:340,rng:275,spd:400,itv:500,tec:100},sub:{pwr:10,shl:60,spd:150,itv:1000,tec:100},tunable:{mwp:1},type:"a",size:"M",cost:120,conversion:"BDAS63AM BDAS81AM BDAS103AM BDAS1090AM",comment:"Attachable to 'Malca AM/AM3/AM5' only"}
 {id:48,name:"Hand Blast Railgun",main:{pwr:22,shl:140,rng:340,spd:520,itv:800},sub:{pwr:20,shl:20,rng:10,spd:100,itv:500},type:"c",size:"S",cost:75,conversion:"BDCS39AM BDCS48AM",comment:"Attachable to 'Mialy AM2' only"}
 {id:49,name:"Pursuit Frame",main:{pwr:[28,31,34],shl:[180,230,280],rng:[340,360,390],spd:520,itv:800},type:"c",size:"S",cost:80,slot:0,conversion:"BDCS48",comment:"Attachable to 'Mialy BD7' only"}
 {id:50,name:"艾亞莉迪‧感應砲α",main:{pwr:[4,6,7],shl:[840,420,580],rng:275,spd:440,itv:900},size:"S",type:"a",slot:0,cost:70,conversion:"WPCS155",comment:"Attachable to 'Bit Holder' only"}
@@ -166,12 +166,12 @@
 {id:165,name:"Revenant Shield",main:{shl:30,rng:10,spd:10,itv:1000},type:"l",size:"M",slot:0,cost:30,conversion:"AMM173",comment:"Attachable to 'Dark Revenant AM' only"}
 {id:166,name:"Revenant Dart",main:{str:100,pwr:30,shl:30,rng:320,spd:270,itv:1000},tunable:{mwp:1},cost:60,type:"l",size:"M",conversion:"AMM173",comment:"Attachable to 'Dark Revenant AM' only"}
 {id:167,name:"Gadget Box",main:{pwr:21,shl:400,rng:230,spd:340,itv:400},tunable:{mwp:1},type:"lacs",size:"S",conversion:"AMS189",comment:"Attachable to 'Patty Lop AM7' only",cost:110}
-{id:168,name:"Guardian Rook",main:{pwr:9,shl:350,rng:300,spd:330,itv:300},tunable:{mwp:1},type:"a",size:"S",conversion:"BDAS102",comment:"Attachable to 'Henrierre BD' only",cost:50}
-{id:169,name:"Mega Rook Cannon",main:{pwr:35,shl:30,rng:400,spd:330,itv:500},type:"a",size:"S",cost:70,slot:0,conversion:"BDAS102",comment:"Attachable to 'Henrierre BD' only"}
+{id:168,name:"守衛城堡L/R",main:{pwr:10,shl:700,rng:275,spd:330,itv:300},tunable:{mwp:1},type:"a",size:"S",conversion:"BDAS102",comment:"Attachable to 'Henrierre BD' only",cost:60}
+{id:169,name:"超級城衛加農",main:{pwr:35,shl:100,rng:300,spd:440,itv:1000},type:"a",size:"S",cost:30,slot:0,conversion:"BDAS102",comment:"Attachable to 'Henrierre BD' only"}
 {id:170,name:"Ignis Rod",main:{pwr:20,shl:200,rng:300,spd:320,itv:600,tec:100},sub:{pwr:5,shl:20,rng:300,spd:130,itv:1000,tec:100},type:"a",cost:120,conversion:"BDAS63AM BDAS81AM BDAS103AM BDAS1090AM",comment:"Attachable to 'Malca AM/AM3/AM5/AM7' only"}
 {id:171,name:"英勇之斧",main:{str:100,pwr:20,shl:50,rng:200,spd:570,itv:500},type:"l",size:"M",cost:30,conversion:"WPCS126",comment:"Attachable to 'Brave Arts' only",slot:0}
-{id:172,name:"Guardian Knight",sub:{pwr:50,shl:30,rng:370,spd:520,itv:500,tec:100},type:"c",size:"S",slot:0,cost:50,conversion:"BDCS85 BDCS1063",comment:"Attachable to 'Eleanore BD' only"}
-{id:173,name:"Guardian Bishop",main:{pwr:5,shl:300,rng:320,spd:260,itv:600,tec:100},sub:{tec:100,pwr:10,shl:1000,rng:320,spd:320,itv:500},type:"c",size:"S",cost:150,slot:0,conversion:"BDCS85 BDCS1063",comment:"Attachable to 'Eleanore BD' only"}
+{id:172,name:"守衛騎士",sub:{pwr:30,shl:30,spd:100,itv:1000,tec:100},type:"c",size:"S",cost:30,conversion:"BDCS85 BDCS1063",comment:"Attachable to 'Eleanore BD' only"}
+{id:173,name:"守衛主教",main:{pwr:7,shl:450,rng:300,spd:260,itv:1200,tec:100},sub:{tec:100,pwr:8,shl:1020,rng:350,spd:320,itv:1000},type:"c",size:"S",cost:190,conversion:"BDCS85 BDCS1063",comment:"Attachable to 'Eleanore BD' only"}
 {id:174,name:"Eisen Faust",main:{shl:10,spd:10,itv:1000},type:"l",size:"S",cost:25,slot:0,conversion:"BDLS132AM BDLS167AM",comment:"Attachable to 'Hanna Fritz AM' only"}
 {id:175,name:"Lise Flak",main:{tec:100,pwr:22,shl:80,rng:300,spd:420,itv:1300},type:"c",size:"S",cost:60,conversion:"BDCS62WP BDCS86WP",comment:"Attachable to 'Lise Launcher' only"}
 {id:176,name:"北極星",main:{str:100,pwr:20,shl:30,rng:200,spd:280,itv:1000},type:"l",size:"S",cost:50,conversion:"BDLS168WP",comment:"Attachable to 'Mercurio BD@' only",slot:0}
@@ -261,6 +261,7 @@
 {id:260,name:"小嘟",type:"c",size:"S",slot:0,joint:{wp:1},conversion:"BDCS80"}
 {id:261,name:"黏黏火箭",type:"c",size:"S",main:{pwr:23,shl:520,rng:330,spd:400,itv:500,tec:100},conversion:"BDCS22AM",cost:160}
 {id:262,name:"鏡面金屬推進器BS@",type:"a",size:"M",main:{pwr:7,shl:500,rng:275,spd:220,itv:800,tec:100},sub:{tec:100,pwr:25,rng:100,spd:200,itv:1000},slot:0,conversion:"BSM2162",cost:80}
+{id:263,name:"惡炮拜茲AM2@",type:"c",size:"L",main:{pwr:13,shl:360,rng:350,spd:500,itv:500,tec:100},slot:0,conversion:"AML155",cost:30}
 
 
 
@@ -366,7 +367,7 @@
 {id:99,name:"黑之誓言",sub:{pwr:32,rng:70,spd:85,itv:1000,str:100},tunable:{pwp:1,mwp:0},type:"l",size:"S",cost:190,conversion:"BDLS150AM2",comment:"Attachable to 'Gisele Noire AM2' only"}
 {id:100,name:"Jager Shield",main:{shl:30,spd:10,itv:700},sub:{str:100,pwr:32,rng:70,spd:85,itv:500},tunable:{pwp:1},cost:160,type:"l",size:"S",joint:{wp:1},fixedParts:{wp:{name:"Jager Shield@",main:{pwr:15,shl:25,rng:200,spd:260,itv:500,str:100},slot:0}},conversion:"BDLS130AM BDLS152AM",comment:"Attachable to 'Corona AM' only"}
 {id:101,name:"Mirage Raid AM@",sub:{str:100,pwr:30,rng:70,spd:70,itv:500},tunable:{pwp:1},type:"a",size:"M",cost:60,conversion:"AMM167",comment:"Attachable to 'Mirage Raid AM' only"}
-{id:102,name:"Spada BD@",type:"l",size:"M",sub:{str:100,pwr:20,shl:20,rng:120,spd:220,itv:500},auraStat:{sub:{pwr:27,shl:20,rng:120,spd:220,itv:500,str:100}},cost:60,slot:0,conversion:"BDLM49",comment:"Attachable to 'Spada BD' only"}
+{id:102,name:"斯巴達BD@",type:"l",size:"M",sub:{str:100,pwr:30,rng:100,spd:150,itv:2000},cost:20,slot:0,conversion:"BDLM49",comment:"Attachable to 'Spada BD' only"}
 {id:103,name:"Relic: Gattenmaru",sub:{str:100,pwr:32,rng:70,spd:70,itv:500},joint:{wp:2},type:"l",size:"S",cost:90,tunable:{pwp:1},conversion:"BDLS155AM",comment:"Attachable to 'Kanna AM' only"}
 {id:104,name:"Ougi: Lunar Drive",sub:{str:100,pwr:35,shl:30,rng:80,spd:50,itv:500},type:"l",size:"S",cost:70,slot:0,conversion:"WPCS103",comment:"Attachable to 'Relic: Gattenmaru' only"}
 {id:105,name:"Weather Cube",main:{pwr:27,shl:60,rng:360,spd:400,itv:500,tec:100},joint:{wp:1},size:"M",type:"c",cost:60,conversion:"BDCS79 BDCS1067",comment:"Attachable to 'Asphe BD' only",slot:0}
@@ -437,4 +438,6 @@
 {id:171,name:"拉斐爾・記憶體插槽",slot:3,size:"M",cost:0,conversion:"BDLS158AM BDLS158AM2",tunable:{pwp:0}}
 {id:172,name:"梅爾克利歐・記憶體插槽 ",slot:3,size:"M",cost:0,conversion:"BDLS168AM BDLS168AM2 BDLS168WP",tunable:{pwp:0}}
 {id:173,name:"克雷蒂・記憶體插槽 ",slot:3,size:"M",cost:0,conversion:"BDCS81AM",tunable:{pwp:0}}
+{id:174,name:"圓香・記憶體插槽 ",slot:3,size:"M",cost:0,conversion:"BDAS63AM BDAS63AM2 BDAS81AM BDAS81AM2",tunable:{pwp:0}}
+{id:175,name:"艾莉耶兒・記憶體插槽 ",slot:3,size:"M",cost:0,conversion:"BDAS102AM",tunable:{pwp:0}}
 

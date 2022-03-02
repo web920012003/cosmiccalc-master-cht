@@ -1,6 +1,11 @@
 ﻿{group:"USB",prefixID:"U",commonStat:{size:"M"}}
 {id:1,name:"梅爾克利歐・記憶體插槽",slot:3,size:"M",cost:0,conversion:"BDLS168AM BDLS168AM2 BDLS168WP",tunable:{pwp:0}}
 {id:2,name:"克雷蒂・記憶體插槽",slot:3,size:"M",cost:0,conversion:"BDCS81",tunable:{pwp:0}}
+{id:3,name:"圓香・記憶體插槽",slot:3,size:"M",cost:0,conversion:"BDAS63 BDAS81",tunable:{pwp:0}}
+{id:4,name:"拉斯克・記憶體插槽",slot:3,size:"M",cost:0,conversion:"BDLS164",tunable:{pwp:0}}
+{id:5,name:"艾莉耶兒・記憶體插槽",slot:3,size:"M",cost:0,conversion:"BDAS102BS",tunable:{pwp:0}}
+{id:6,name:"艾萊歐諾爾・記憶體插槽",slot:3,size:"M",cost:0,conversion:"BDCS85",tunable:{pwp:0}}
+{id:7,name:"愛麗莎蘿蒂Saber・記憶體插槽",slot:3,size:"M",cost:0,conversion:"BDLS166",tunable:{pwp:0}}
 
 {group:"SS Size",prefixID:"SS",commonStat:{size:"SS"}}
 //{id:1,name:"Elme S. BS",type:"s",cost:15,hp:10,tec:1,wlk:1,fly:1,tgh:-1}
@@ -84,7 +89,7 @@
 //{id:48,name:"Elisalotte BS",auraStat:{str:1,tec:2,wlk:1,fly:2},type:"l",cost:45,hp:25,str:1,tec:2,fly:2,tgh:-1}
 //{id:88,name:"Elisalotte BS4",auraStat:{str:1,tec:2,wlk:1,fly:2,tgh:0},type:"l",cost:45,hp:25,str:1,tec:2,fly:2,tgh:-1}
 //{id:1125,name:"Elisalotte BS5",auraStat:{str:1,tec:2,wlk:1,fly:2,tgh:0},type:"l",cost:45,hp:25,str:1,tec:2,fly:2,tgh:-1}
-//{id:182,name:"Saber Elisalotte BS",cost:40,hp:20,str:3,tec:-1,wlk:1,fly:2,type:"l",size:"S"}
+{id:182,name:"愛麗莎蘿蒂SaberBS",cost:40,hp:25,str:3,tec:-1,wlk:1,fly:2,type:"l",size:"S"}
 {id:78,name:"梅爾菲BS",type:"s",cost:40,hp:25,str:1,tec:2,wlk:-1,fly:3}
 //{id:181,name:"Melfi BS2 (Sup)",type:"s",size:"S",cost:30,hp:15,str:1,tec:1,wlk:-1,fly:3}
 //{id:95,name:"Melfi BS2 (Land)",type:"l",cost:35,hp:20,str:2,wlk:1,fly:2,tgh:-1}
@@ -243,7 +248,8 @@
 {id:1079,name:"G・莉莫亞BS",type:"c",cost:35,hp:20,tec:2,fly:3}
 {id:1080,name:"希希娜BS",type:"l",cost:35,hp:20,str:1,tec:1,wlk:2,fly:2,tgh:-1}
 {id:1081,name:"影子弗洛BS",type:"l",cost:35,hp:20,str:-1,tec:2,wlk:1,fly:2,tgh:1}
-//last:1081
+{id:1082,name:"皮耶塔BS",type:"a",cost:95,hp:20,str:-1,tec:2,fly:3,tgh:1,joint:{wp:1},fixedParts:{wp:{name:"莎緹拉・ST",main:{pwr:5,shl:1120,rng:275,spd:280,itv:1300},slot:0}}}
+//last:1082
 //
 {group:"M Size",prefixID:"M",commonStat:{size:"M"}}
 {id:1,name:"菲沙利巴BS",type:"l",cost:40,hp:25,wlk:1,fly:3,tgh:1}
@@ -407,7 +413,7 @@
 //{id:147,name:"Milky Way BS",joint:{wp:1},cost:35,hp:15,wlk:3,fly:2}
 //{id:148,name:"Autumn Cape BS",joint:{wp:1},cost:25,hp:15,str:1,wlk:1,fly:2}
 //{id:150,name:"Fairy Wing BS ALPHA",size:"M",cost:30,hp:15,tec:2,fly:2}
-//{id:151,name:"Gotrun BS2",type:"l",cost:40,hp:20,tec:1,wlk:3,fly:3,tgh:-1}
+{id:151,name:"剛特拉BS2",type:"l",cost:40,hp:25,tec:1,wlk:2,fly:3,tgh:-1}
 //{id:152,name:"Shiny Wing BS",cost:30,hp:15,wlk:1,fly:3}
 //{id:153,name:"Growldian BS",main:{tec:100,pwr:4,shl:100,rng:200,spd:150,itv:1000},sub:{tec:100,pwr:26,shl:40,rng:180,spd:300,itv:5000},tunable:{mwp:1,pwp:0},type:"l",cost:120,hp:20,str:1,fly:2,tgh:1,size:"M"}
 {id:156,name:"守護者BS2",main:{tec:100,shl:20,rng:300,spd:500,itv:1000},sub:{str:100,shl:10,rng:43,spd:63,itv:1000},tunable:{mwp:1,pwp:0},type:"s",cost:115,hp:20,tec:2,wlk:1,fly:2,size:"M"}
@@ -428,7 +434,7 @@
 //{id:170,name:"Liquid Snail BS",type:"lcs",sub:{shl:20,rng:100,spd:120,itv:100},cost:80,hp:25,tec:1,wlk:1,fly:3}
 //{id:171,name:"S.U. Barrier Dome BS",main:{shl:30,spd:10,itv:1000},tunable:{mwp:1},type:"cs",size:"M",cost:75,hp:25,str:1,tec:2,wlk:-1,tgh:3,comment:"S.U. Barrier Dome Mod BS has the same stats"}
 {id:172,name:"菲亞莉絲BS",type:"a",joint:{wp:1},cost:40,hp:25,wlk:2,fly:3}
-//{id:173,name:"Spada BS",type:"l",cost:45,hp:25,str:1,wlk:-1,fly:2,tgh:3}
+{id:173,name:"斯巴達BS",type:"l",cost:35,hp:20,tec:2,wlk:-1,fly:2,tgh:2}
 //{id:174,name:"Crys Horn BS",type:"l",cost:25,hp:15,tec:1,fly:2,tgh:1}
 {id:175,name:"威沙梅爾BS",type:"a",sub:{pwr:1,shl:35,rng:150,spd:180,itv:1000,str:100},cost:65,hp:20,tec:2,wlk:1,fly:3,tgh:-1}
 //{id:176,name:"Rayminous BS2",main:{pwr:24,shl:15,rng:250,spd:570,itv:1300},tunable:{mwp:1},type:"c",cost:115,hp:10,tec:1,fly:1}
@@ -501,7 +507,9 @@
 {id:2160,name:"巴波BS",cost:135,hp:20,wlk:1,fly:3,tgh:1,sub:{shl:20,itv:13000},type:"s"}
 {id:2161,name:"斯奇隆BS",type:"c",cost:95,hp:20,tec:2,wlk:1,fly:2,main:{pwr:15,shl:250,rng:330,spd:290,itv:1000},tunable:{mwp:1}}
 {id:2162,name:"鏡面金屬推進器BS",cost:35,hp:20,tec:2,wlk:-1,fly:4,joint:{wp:1}}
-//last:2162
+{id:2163,name:"S・亞克迪那G BS",cost:65,hp:20,tec:1,wlk:2,fly:3,tgh:-1,sub:{shl:30,spd:220,itv:1000}}
+{id:2164,name:"布里斯坎托・士兵BS",type:"l",cost:40,hp:25,str:-1,tec:1,wlk:1,fly:3,tgh:1}
+//last:2164
 //
 {group:"L Size",prefixID:"L",commonStat:{size:"L"}}
 {id:1,name:"鐵血騎士BS",type:"l",cost:40,hp:25,tec:1,wlk:1,fly:3}
@@ -577,7 +585,7 @@
 {id:63,name:"青狼萊耶BS",joint:{bs:1},fixedParts:{bs:{name:"青狼萊耶BS@",main:{pwr:6,shl:600,rng:275,spd:350,itv:1000},sub:{shl:30,rng:100,spd:120,itv:1000},cost:120,slot:0}},type:"a",cost:40,hp:25,tec:2,fly:4,tgh:-1}
 {id:90,name:"青狼萊耶BS2",joint:{bs:1},fixedParts:{bs:{name:"青狼萊耶BS2@",main:{pwr:8,shl:500,rng:275,spd:320,itv:700},sub:{pwr:1,shl:15,rng:10,spd:150,itv:1000},slot:0,cost:45}},type:"a",cost:40,hp:25,str:-1,tec:1,fly:4,tgh:1}
 {id:64,name:"戰鬥佛利德BS",cost:35,hp:20,str:-1,tec:1,wlk:2,fly:3,type:"l"}
-//{id:65,name:"Protos BS",type:"c",cost:65,hp:25,str:-1,fly:3,tgh:3}
+{id:65,name:"遠古BS",type:"c",cost:50,hp:15,str:-1,tec:1,fly:2,tgh:2}
 //{id:66,name:"Lucca Decho BS",type:"l",size:"M",cost:35,hp:20,str:1,tec:1,wlk:1,fly:3,tgh:-1}
 {id:69,name:"薩特BS",type:"l",cost:40,hp:25,tec:2,wlk:-1,fly:3,tgh:1}
 {id:71,name:"卡塔羅斯BS",cost:40,hp:25,str:1,tec:1,wlk:-1,fly:3,tgh:1,type:"a"}
