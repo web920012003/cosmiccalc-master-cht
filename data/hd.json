@@ -44,7 +44,7 @@
 {id:35,name:"F・琉兒HD",cost:35,hp:20,tec:1,fly:3,tgh:1}
 //{id:39,name:"F Ruhl HD2",type:"a",main:{pwr:4,shl:500,rng:200,spd:400,itv:220},tunable:{mwp:1},cost:65,hp:10,fly:2,tgh:1}
 {id:36,name:"特莉絲汀HD",cost:30,hp:15,tec:2,tgh:2}
-//{id:101,name:"Dark Revenant HD",type:"l",cost:40,hp:25,tec:-1,wlk:1,fly:2,tgh:3}
+{id:101,name:"暗闇影襲HD",type:"l",cost:40,hp:25,str:1,tec:-1,wlk:1,fly:1,tgh:3}
 //{id:102,name:"Vermelho HD",cost:35,hp:20,str:1,tec:-1,wlk:2,fly:1,tgh:2}
 {id:103,name:"M・安琪HD",cost:35,hp:20,tec:2,wlk:1,fly:1,tgh:1}
 //{id:104,name:"Cyan HD",cost:35,hp:20,str:1,tec:1,wlk:2,fly:-1,tgh:2}

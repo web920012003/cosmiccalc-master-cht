@@ -163,8 +163,8 @@
 {id:162,name:"Fin加農HE",cost:80,type:"c",size:"S",main:{pwr:17,shl:540,rng:330,spd:400,itv:700},sub:{pwr:10,shl:320,rng:350,spd:280,itv:1000},conversion:"BDCS81 BDCS1064",comment:"Attachable to 'Colleti BD' only"}
 {id:163,name:"布拉迪斯塔AM@",main:{tec:100,pwr:17,shl:50,rng:250,spd:400,itv:500},type:"c",size:"M",cost:25,slot:0,conversion:"AMM172 AMM1013"}
 {id:164,name:"布拉迪斯塔AM2@",type:"c",size:"M",slot:0,cost:30,main:{pwr:9,shl:420,rng:350,spd:440,itv:960},conversion:"AMM172 AMM1013"}
-{id:165,name:"Revenant Shield",main:{shl:30,rng:10,spd:10,itv:1000},type:"l",size:"M",slot:0,cost:30,conversion:"AMM173",comment:"Attachable to 'Dark Revenant AM' only"}
-{id:166,name:"Revenant Dart",main:{str:100,pwr:30,shl:30,rng:320,spd:270,itv:1000},tunable:{mwp:1},cost:60,type:"l",size:"M",conversion:"AMM173",comment:"Attachable to 'Dark Revenant AM' only"}
+{id:165,name:"影襲盾",main:{shl:50,spd:10,itv:1000},type:"l",size:"M",slot:0,cost:20,conversion:"AMM173",comment:"Attachable to 'Dark Revenant AM' only"}
+{id:166,name:"影襲飛鏢",main:{str:100,pwr:15,shl:50,rng:200,spd:500,itv:1000},tunable:{mwp:1},cost:30,type:"l",size:"M",conversion:"AMM173",comment:"Attachable to 'Dark Revenant AM' only"}
 {id:167,name:"Gadget Box",main:{pwr:21,shl:400,rng:230,spd:340,itv:400},tunable:{mwp:1},type:"lacs",size:"S",conversion:"AMS189",comment:"Attachable to 'Patty Lop AM7' only",cost:110}
 {id:168,name:"守衛城堡L/R",main:{pwr:10,shl:700,rng:275,spd:330,itv:300},tunable:{mwp:1},type:"a",size:"S",conversion:"BDAS102",comment:"Attachable to 'Henrierre BD' only",cost:60}
 {id:169,name:"超級城衛加農",main:{pwr:35,shl:100,rng:300,spd:440,itv:1000},type:"a",size:"S",cost:30,slot:0,conversion:"BDAS102",comment:"Attachable to 'Henrierre BD' only"}
@@ -376,7 +376,7 @@
 {id:108,name:"分針刺刃",main:{shl:50,spd:10,itv:1000},sub:{pwr:31,rng:84,spd:102,itv:500,str:100},tunable:{pwp:1},type:"l",size:"S",cost:120,conversion:"BDLS158AM",comment:"Attachable to 'Lafiel AM' only"}
 {id:109,name:"時刻尖刃",main:{pwr:20,shl:50,rng:200,spd:570,itv:500,str:100},sub:{rng:150,spd:350,itv:1000,str:100},type:"l",size:"S",cost:80,slot:0,conversion:"BDLS158AM2",comment:"Attachable to 'Lafiel AM2' only"}
 {id:110,name:"針刺之星",main:{str:100,pwr:20,shl:50,rng:200,spd:500,itv:500},sub:{str:100,pwr:32,rng:56,spd:68,itv:1500},tunable:{mwp:1,pwp:1},type:"l",size:"S",cost:130,conversion:"BDLS168AM2",comment:"Attachable to 'Mercurio AM2' only"}
-{id:111,name:"Revenant Sword",sub:{str:100,pwr:32,rng:70,spd:70,itv:500},type:"l",size:"M",cost:100,conversion:"AMM173",comment:"Attachable to 'Dark Revenant AM' only"}
+{id:111,name:"影襲刃",sub:{str:100,pwr:32,rng:70,spd:85,itv:1000},type:"l",size:"M",cost:120,conversion:"AMM173",comment:"Attachable to 'Dark Revenant AM' only"}
 {id:112,name:"Trike Tackle",cost:30,sub:{str:100,pwr:23,rng:60,spd:75,itv:500},type:"s",size:"S",conversion:"Tricyclaser",comment:"Attachable to 'Tricyclaser' parts only"}
 {id:113,name:"Blitz Eisen",sub:{str:100,pwr:25,shl:20,rng:120,spd:220,itv:500},type:"l",size:"S",cost:60,slot:0,conversion:"BDLS132 BDLS167",comment:"Attachable to 'Hanna Fritz BD/BD2' only"}
 {id:114,name:"Demon Fox Haku Soul",main:{shl:30,spd:10,itv:1000},sub:{str:100,pwr:32,rng:85,spd:70,itv:500},tunable:{pwp:1},joint:{wp:1},fixedParts:{wp:{name:"Demon Fox Haku Soul@",main:{pwr:15,shl:30,rng:200,spd:500,itv:500,str:100},sub:{str:100,pwr:20,shl:15,rng:150,spd:350,itv:1000},slot:0}},conversion:"BDSS126WP",comment:"Attachable to 'Magical Mic Rod' only"}

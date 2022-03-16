@@ -263,7 +263,7 @@
 {id:120,name:"布拉迪斯塔LG",sub:{shl:25,rng:100,spd:200,itv:600},type:"lc",cost:70,hp:25,tec:2,wlk:2,fly:1,tgh:1}
 //{id:1112,name:"Bloody Star LG2",sub:{pwr:0,shl:10,rng:100,spd:200,itv:600},type:"lc",cost:60,hp:20,str:-1,tec:2,wlk:2,tgh:2}
 {id:122,name:"靈魂布雷沙LG",cost:45,hp:25,str:2,wlk:3,fly:2,tgh:-1}
-//{id:123,name:"Dark Revenant LG",type:"l",cost:45,hp:25,str:2,tec:-1,wlk:3,fly:1}
+{id:123,name:"暗闇影襲LG",type:"l",cost:45,hp:45,str:2,tec:-1,wlk:3,fly:1,tgh:1}
 {id:126,name:"海洋龜甲迪斯LG",type:"a",cost:45,hp:25,str:2,tec:1,wlk:3,fly:1,tgh:-1}
 {id:125,name:"鱷齒龜甲迪斯LG",type:"lacs",cost:45,hp:25,str:-1,tec:1,wlk:3,fly:1,tgh:2}
 {id:127,name:"阿克西翁LG",type:"l",cost:45,hp:25,str:1,tec:1,wlk:3,fly:2,tgh:-1}

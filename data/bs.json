@@ -444,7 +444,7 @@
 //{id:179,name:"Dark Mist BS",sub:{pwr:15,shl:10,rng:80,spd:160,itv:1200},type:"lcs",cost:65}
 {id:180,name:"靈魂布雷沙BS",type:"l",cost:40,hp:25,str:1,tec:1,wlk:1,fly:2}
 //{id:181,name:"Chronos Machina Wing ALPHA",size:"M",cost:30,wlk:2,fly:2,hp:15}
-//{id:182,name:"Dark Revenant BS",type:"l",cost:45,hp:25,str:2,tec:-1,fly:3,tgh:1}
+{id:182,name:"暗闇影襲BS",type:"l",cost:40,hp:25,str:2,tec:-1,fly:3,tgh:1}
 {id:183,name:"哈特爆破者BS",main:{pwr:8,shl:740,rng:330,spd:280,itv:1000},tunable:{mwp:1},type:"c",cost:135,hp:20,str:-1,tec:3,fly:2,tgh:1}
 //{id:184,name:"Wired Magnegun BS",main:{pwr:10,shl:300,rng:300,spd:220,itv:700},tunable:{mwp:1},type:"c",cost:85,hp:10,tec:1,fly:2}
 //{id:185,name:"SB Beam Missile BS",sub:{tec:100,pwr:3,shl:30,rng:250,spd:330,itv:100},type:"a",size:"M",cost:85,hp:25,str:1,tec:2,wlk:-1,fly:2,tgh:1}
